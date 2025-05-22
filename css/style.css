@@ -224,10 +224,15 @@ p { margin-bottom: 1rem; }
 
 .dropdown-content a {
     color: var(--text-color-dark);
-    padding: 10px 20px 10px 30px;
+    padding: 10px 20px 10px 30px; /* Đã tăng padding-left */
     display: block;
     white-space: nowrap;
     text-align: left;
+    /* !important; */ /* Mình tạm thời không dùng !important vì nó không tốt */
+}
+/* Thêm quy tắc cụ thể hơn để đảm bảo ghi đè */
+.main-nav .nav-links .dropdown .dropdown-content a {
+    padding: 10px 20px 10px 30px; /* Áp dụng padding cụ thể cho các link trong dropdown */
 }
 
 .dropdown-content a:hover {
@@ -640,9 +645,13 @@ p { margin-bottom: 1rem; }
 }
 
 @media (max-width: 768px) {
-    .main-header {
-        padding: 10px 0;
+    /* ... */
+    /* Sửa lại cho .dropdown-content a trong mobile */
+    .main-nav .nav-links .dropdown .dropdown-content a {
+        padding: 8px 10px 8px 30px; /* Áp dụng padding cụ thể cho các link trong dropdown trên mobile */
     }
+    /* ... */
+}
     .main-nav {
         position: absolute;
         top: 100%;
