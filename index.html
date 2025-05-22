@@ -2,83 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DTCar | Dịch vụ xe tại Philippines</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DT Car - Trusted Car Dealer</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
-    header { background: #004d99; color: white; padding: 1.5rem 1rem; text-align: center; }
-    nav { margin-top: 1rem; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    .container { max-width: 1000px; margin: auto; padding: 2rem 1rem; background: white; }
-    h2 { color: #004d99; margin-bottom: 1rem; }
-    ul { padding-left: 1.5rem; }
-    footer { background: #004d99; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
-    .gallery img { width: 100%; max-width: 300px; margin: 10px; border-radius: 8px; }
-    .feedback { background: #e6f2ff; padding: 1rem; margin-top: 1rem; border-left: 5px solid #004d99; }
-    @media (max-width: 600px) {
-      nav a { display: block; margin: 10px 0; }
-      .gallery { display: block; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #1d1d1f;
     }
-    .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      padding: 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .car-gallery img, .feedback img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 10px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .feedback blockquote {
+      background-color: #fff;
+      padding: 15px;
+      border-left: 4px solid #007aff;
+      margin: 20px 0;
+      font-style: italic;
+    }
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .contact, .pricing, .map {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>DTCar</h1>
-    <p>Dịch vụ xe uy tín tại Philippines</p>
-    <nav>
-      <a href="#about">Giới thiệu</a>
-      <a href="#services">Dịch vụ</a>
-      <a href="#gallery">Hình ảnh</a>
-      <a href="#feedback">Phản hồi</a>
-      <a href="#contact">Liên hệ</a>
-    </nav>
+    <h1>DT Car - Trusted Car Dealer in the Philippines</h1>
   </header>
-
   <div class="container">
-    <section id="about">
-      <h2>Giới thiệu</h2>
-      <p>DTCar cung cấp các dịch vụ xe, tài xế, và hỗ trợ giấy tờ cho cộng đồng Việt & Hoa tại Philippines.</p>
+    <section class="section car-gallery">
+      <h2>Our Vehicles</h2>
+      <img src="https://i.imgur.com/BYHRZ2d.jpeg" alt="Car 1">
+      <img src="https://i.imgur.com/LKrLkn1.jpeg" alt="Car 2">
     </section>
 
-    <section id="services">
-      <h2>Dịch vụ</h2>
-      <ul>
-        <li>Thuê xe có tài</li>
-        <li>Hướng dẫn thi bằng lái</li>
-        <li>Hỗ trợ đăng ký xe, gia hạn CR/OR</li>
-      </ul>
+    <section class="section feedback">
+      <h2>Customer Feedback</h2>
+      <blockquote>“Dịch vụ chuyên nghiệp, xe giao đúng hẹn, rất hài lòng.” – Anh Tùng, Makati</blockquote>
+      <blockquote>“Mua xe cũ nhưng chất lượng như xe mới, cảm ơn DT Car!” – Chị Mai, Quezon City</blockquote>
     </section>
 
-    <section id="gallery">
-      <h2>Hình ảnh xe</h2>
-      <div class="gallery">
-        <img src="https://source.unsplash.com/300x200/?car,sedan" alt="Xe sedan">
-        <img src="https://source.unsplash.com/300x200/?car,suv" alt="Xe SUV">
-        <img src="https://source.unsplash.com/300x200/?car,van" alt="Xe Van">
-      </div>
+    <section class="section pricing">
+      <h2>Pricing</h2>
+      <p>Xe số: từ ₱30,000</p>
+      <p>Xe tay ga: từ ₱45,000</p>
+      <p>Xe phân khối lớn: từ ₱80,000</p>
     </section>
 
-    <section id="feedback">
-      <h2>Phản hồi của khách</h2>
-      <div class="feedback">
-        <p><strong>Minh T. (Manila):</strong> "Xe sạch, tài xế chuyên nghiệp, rất đúng giờ!"</p>
-      </div>
-      <div class="feedback">
-        <p><strong>Liu H. (Quezon):</strong> "Cảm ơn DTCar đã giúp tôi thi bằng lái dễ dàng và nhanh chóng."</p>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Liên hệ</h2>
-      <p>Liên hệ Zalo/WeChat: 0912 345 678</p>
+    <section class="section contact">
+      <h2>Contact Us</h2>
+      <p>Địa chỉ: 123 EDSA, Quezon City</p>
+      <p>Hotline: 0912-345-678</p>
       <p>Email: support@dtcar.ph</p>
     </section>
-  </div>
 
+    <section class="section map">
+      <h2>Find Us</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.042554134798!2d121.03619811482358!3d14.648892789777955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7d740000001%3A0x4b7b0e9f4a79c6c0!2sQuezon%20City!5e0!3m2!1sen!2sph!4v1684761221251!5m2!1sen!2sph"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </section>
+  </div>
   <footer>
-    <p>&copy; 2025 DTCar. All rights reserved.</p>
+    © 2025 DT Car. All rights reserved.
   </footer>
 </body>
 </html>
