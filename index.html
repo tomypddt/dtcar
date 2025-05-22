@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>DTCar</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DTCar | Dịch vụ xe tại Philippines</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+    header { background: #004d99; color: white; padding: 1.5rem 1rem; text-align: center; }
+    nav { margin-top: 1rem; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .container { max-width: 1000px; margin: auto; padding: 2rem 1rem; background: white; }
+    h2 { color: #004d99; margin-bottom: 1rem; }
+    footer { background: #004d99; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Chào mừng đến với DTCar!</h1>
-  <p>Đây là trang web đang chạy từ GitHub Pages.</p>
+  <header>
+    <h1>DTCar</h1>
+    <p>Dịch vụ xe uy tín tại Philippines</p>
+    <nav>
+      <a href="#about">Giới thiệu</a>
+      <a href="#services">Dịch vụ</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>Giới thiệu</h2>
+      <p>DTCar cung cấp các dịch vụ xe, tài xế, và hỗ trợ giấy tờ cho cộng đồng Việt & Hoa tại Philippines.</p>
+    </section>
+
+    <section id="services">
+      <h2>Dịch vụ</h2>
+      <ul>
+        <li>Thuê xe có tài</li>
+        <li>Hướng dẫn thi bằng lái</li>
+        <li>Hỗ trợ đăng ký xe, gia hạn CR/OR</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Liên hệ</h2>
+      <p>Liên hệ Zalo/WeChat: 0912 345 678</p>
+      <p>Email: support@dtcar.ph</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 DTCar. All rights reserved.</p>
+  </footer>
 </body>
 </html>
