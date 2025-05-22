@@ -1,0 +1,121 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTCar - Giới thiệu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+        .smooth-scroll { scroll-behavior: smooth; }
+        .section-bg { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+        .lang-toggle, .nav-link { transition: all 0.3s ease; }
+        .lang-toggle:hover, .nav-link:hover { transform: scale(1.1); }
+        .feedback-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 smooth-scroll">
+    <nav class="bg-gray-900 text-white fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">DTCar</h1>
+            <div class="space-x-4">
+                <a href="index.html" class="nav-link" data-en="Home" data-vi="Trang chủ">Trang chủ</a>
+                <a href="about.html" class="nav-link" data-en="About" data-vi="Giới thiệu">Giới thiệu</a>
+                <a href="services.html" class="nav-link" data-en="Services" data-vi="Dịch vụ">Dịch vụ</a>
+                <a href="products.html" class="nav-link" data-en="Products" data-vi="Sản phẩm">Sản phẩm</a>
+                <a href="team.html" class="nav-link" data-en="Team" data-vi="Đội ngũ">Đội ngũ</a>
+                <a href="contact.html" class="nav-link" data-en="Contact" data-vi="Liên hệ">Liên hệ</a>
+                <a href="blog.html" class="nav-link" data-en="Blog" data-vi="Blog">Blog</a>
+            </div>
+            <button id="langToggle" class="lang-toggle bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium">English</button>
+        </div>
+    </nav>
+
+    <section class="py-20 section-bg mt-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12" data-en="About DTCar" data-vi="Giới thiệu DTCar">Giới thiệu DTCar</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto mb-8" data-en="DTCar is a leading automotive and travel service provider in the Philippines, specializing in premium used cars, VinFast electric vehicles, driver's license services, driving lessons, and curated tours. Established in 2020, we aim to deliver exceptional quality and customer satisfaction." data-vi="DTCar là nhà cung cấp dịch vụ ô tô và du lịch hàng đầu tại Philippines, chuyên về xe cũ chất lượng, xe điện VinFast, dịch vụ làm/đổi bằng lái, dạy lái xe, và tour du lịch được thiết kế riêng. Thành lập năm 2020, chúng tôi hướng đến mang lại chất lượng vượt trội và sự hài lòng cho khách hàng.">DTCar là nhà cung cấp dịch vụ ô tô và du lịch hàng đầu tại Philippines, chuyên về xe cũ chất lượng, xe điện VinFast, dịch vụ làm/đổi bằng lái, dạy lái xe, và tour du lịch được thiết kế riêng. Thành lập năm 2020, chúng tôi hướng đến mang lại chất lượng vượt trội và sự hài lòng cho khách hàng.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80" alt="DTCar Office" class="w-full h-48 object-cover rounded-lg">
+                <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80" alt="DTCar Team" class="w-full h-48 object-cover rounded-lg">
+            </div>
+            <h3 class="text-2xl font-semibold mb-4" data-en="Our Mission" data-vi="Sứ mệnh của chúng tôi">Sứ mệnh của chúng tôi</h3>
+            <p class="text-lg mb-6" data-en="To redefine mobility and travel experiences with innovative, reliable, and customer-centric services." data-vi="Định nghĩa lại trải nghiệm di chuyển và du lịch với các dịch vụ sáng tạo, đáng tin cậy và lấy khách hàng làm trung tâm.">Định nghĩa lại trải nghiệm di chuyển và du lịch với các dịch vụ sáng tạo, đáng tin cậy và lấy khách hàng làm trung tâm.</p>
+            <h3 class="text-2xl font-semibold mb-4" data-en="Our Vision" data-vi="Tầm nhìn của chúng tôi">Tầm nhìn của chúng tôi</h3>
+            <p class="text-lg mb-6" data-en="To be the leading provider of automotive and travel solutions in the Philippines and beyond." data-vi="Trở thành nhà cung cấp hàng đầu các giải pháp ô tô và du lịch tại Philippines và hơn thế nữa.">Trở thành nhà cung cấp hàng đầu các giải pháp ô tô và du lịch tại Philippines và hơn thế nữa.</p>
+            <div class="mt-8">
+                <h4 class="text-xl font-semibold mb-4" data-en="Partner Feedback" data-vi="Đánh giá từ đối tác">Đánh giá từ đối tác</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="feedback-card">
+                        <p data-en="DTCar is a reliable partner for our VinFast dealership network. Their commitment to quality is unmatched." data-vi="DTCar là đối tác đáng tin cậy cho mạng lưới đại lý VinFast của chúng tôi. Cam kết chất lượng của họ là không ai sánh kịp.">DTCar là đối tác đáng tin cậy cho mạng lưới đại lý VinFast của chúng tôi. Cam kết chất lượng của họ là không ai sánh kịp.</p>
+                        <p class="text-sm text-gray-600 mt-2" data-en="- VinFast Team" data-vi="- Đội ngũ VinFast">Đội ngũ VinFast</p>
+                    </div>
+                    <div class="feedback-card">
+                        <p data-en="Their tour services are exceptional. A pleasure to collaborate with DTCar!" data-vi="Dịch vụ tour của họ rất xuất sắc. Thật tuyệt khi hợp tác với DTCar!">Dịch vụ tour của họ rất xuất sắc. Thật tuyệt khi hợp tác với DTCar!</p>
+                        <p class="text-sm text-gray-600 mt-2" data-en="- Palawan Travel Agency" data-vi="- Công ty du lịch Palawan">Công ty du lịch Palawan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-4 text-center">
+            <p data-en="© 2025 DTCar. All rights reserved." data-vi="© 2025 DTCar. Mọi quyền được bảo lưu.">© 2025 DTCar. Mọi quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <!-- Language Toggle Script -->
+    <script>
+        const langToggle = document.getElementById('langToggle');
+        let currentLang = 'vi';
+        langToggle.addEventListener('click', () => {
+            currentLang = currentLang === 'vi' ? 'en' : 'vi';
+            langToggle.textContent = currentLang === 'vi' ? 'English' : 'Tiếng Việt';
+            document.querySelectorAll('[data-en][data-vi]').forEach(element => {
+                element.textContent = element.getAttribute(`data-${currentLang}`);
+            });
+        });
+    </script>
+</body>
+</html>
