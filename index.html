@@ -1,103 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DT Car - Trusted Car Dealer</title>
+  <title>DT Car - Chuyên Xe Tốt</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       background-color: #f9f9f9;
-      color: #1d1d1f;
+      color: #333;
     }
     header {
       background-color: #ffffff;
-      padding: 20px;
+      padding: 1rem;
       text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
+    h1 {
+      font-size: 1.75rem;
+      color: #000;
     }
     .container {
-      padding: 20px;
       max-width: 960px;
-      margin: auto;
+      margin: 0 auto;
+      padding: 1rem;
     }
-    .section {
-      margin-bottom: 40px;
+    .car-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
     }
-    .car-gallery img, .feedback img {
-      max-width: 100%;
-      border-radius: 12px;
-      margin: 10px 0;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    .car-item {
+      background-color: white;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+    }
+    .car-item:hover {
+      transform: translateY(-5px);
+    }
+    .car-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .car-info {
+      padding: 0.75rem 1rem;
+    }
+    .feedback {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      margin-top: 2rem;
     }
     .feedback blockquote {
-      background-color: #fff;
-      padding: 15px;
-      border-left: 4px solid #007aff;
-      margin: 20px 0;
+      margin: 0;
       font-style: italic;
-    }
-    footer {
-      background-color: #f2f2f2;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
       color: #555;
     }
-    .contact, .pricing, .map {
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.4rem;
+      }
     }
   </style>
 </head>
+
 <body>
   <header>
-    <h1>DT Car - Trusted Car Dealer in the Philippines</h1>
+    <h1>DT Car - Xe tốt, dịch vụ uy tín</h1>
   </header>
-  <div class="container">
-    <section class="section car-gallery">
-      <h2>Our Vehicles</h2>
-      <img src="https://i.imgur.com/BYHRZ2d.jpeg" alt="Car 1">
-      <img src="https://i.imgur.com/LKrLkn1.jpeg" alt="Car 2">
+  <main class="container">
+    <section class="car-gallery">
+      <div class="car-item">
+        <img src="https://images.unsplash.com/photo-1583267746144-2af1a9e50b27?auto=format&fit=crop&w=800&q=80" alt="Xe 1">
+        <div class="car-info">
+          <strong>Honda City 2020</strong><br>
+          Màu trắng, số tự động, máy êm, xe mới 90%
+        </div>
+      </div>
+      <div class="car-item">
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="Xe 2">
+        <div class="car-info">
+          <strong>Toyota Vios 2019</strong><br>
+          Màu bạc, tiết kiệm xăng, nội thất sạch đẹp
+        </div>
+      </div>
+      <div class="car-item">
+        <img src="https://images.unsplash.com/photo-1597007815208-91b85ca5ec8a?auto=format&fit=crop&w=800&q=80" alt="Xe 3">
+        <div class="car-info">
+          <strong>Ford Ranger 2021</strong><br>
+          Bán tải, máy dầu, mạnh mẽ, đầy đủ tiện nghi
+        </div>
+      </div>
     </section>
 
-    <section class="section feedback">
-      <h2>Customer Feedback</h2>
-      <blockquote>“Dịch vụ chuyên nghiệp, xe giao đúng hẹn, rất hài lòng.” – Anh Tùng, Makati</blockquote>
-      <blockquote>“Mua xe cũ nhưng chất lượng như xe mới, cảm ơn DT Car!” – Chị Mai, Quezon City</blockquote>
+    <section class="feedback">
+      <h2>Khách hàng nói gì?</h2>
+      <blockquote>
+        “Mua xe tại DT Car rất hài lòng. Anh chủ tư vấn tận tình, xe như mới luôn!” – Trung, Biên Hòa
+      </blockquote>
+      <blockquote>
+        “Xe chất, giá hợp lý, thủ tục nhanh gọn. Sẽ giới thiệu bạn bè tới ủng hộ.” – Loan, Gò Vấp
+      </blockquote>
     </section>
-
-    <section class="section pricing">
-      <h2>Pricing</h2>
-      <p>Xe số: từ ₱30,000</p>
-      <p>Xe tay ga: từ ₱45,000</p>
-      <p>Xe phân khối lớn: từ ₱80,000</p>
-    </section>
-
-    <section class="section contact">
-      <h2>Contact Us</h2>
-      <p>Địa chỉ: 123 EDSA, Quezon City</p>
-      <p>Hotline: 0912-345-678</p>
-      <p>Email: support@dtcar.ph</p>
-    </section>
-
-    <section class="section map">
-      <h2>Find Us</h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.042554134798!2d121.03619811482358!3d14.648892789777955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7d740000001%3A0x4b7b0e9f4a79c6c0!2sQuezon%20City!5e0!3m2!1sen!2sph!4v1684761221251!5m2!1sen!2sph"
-        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
-    </section>
-  </div>
+  </main>
   <footer>
-    © 2025 DT Car. All rights reserved.
+    © 2025 DT Car. Thiết kế bởi Tomy.
   </footer>
 </body>
+
 </html>
