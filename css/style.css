@@ -171,7 +171,7 @@ p { margin-bottom: 1rem; }
 .main-nav .nav-links a {
     color: var(--text-color-dark);
     font-weight: 500;
-    padding: 5px 0;
+    padding: 5px 20px 5px 30px;
     position: relative;
     transition: color var(--transition-speed);
 }
@@ -224,11 +224,10 @@ p { margin-bottom: 1rem; }
 
 .dropdown-content a {
     color: var(--text-color-dark);
-    padding: 10px 20px 10px 30px; /* Đã tăng padding-left */
+    padding: 10px 20px 10px 30px; /* Cái này mình đã sửa */
     display: block;
     white-space: nowrap;
     text-align: left;
-    /* !important; */ /* Mình tạm thời không dùng !important vì nó không tốt */
 }
 /* Thêm quy tắc cụ thể hơn để đảm bảo ghi đè */
 .main-nav .nav-links .dropdown .dropdown-content a {
@@ -645,10 +644,9 @@ p { margin-bottom: 1rem; }
 }
 
 @media (max-width: 768px) {
-    /* ... */
-    /* Sửa lại cho .dropdown-content a trong mobile */
-    .main-nav .nav-links .dropdown .dropdown-content a {
-        padding: 8px 10px 8px 30px; /* Áp dụng padding cụ thể cho các link trong dropdown trên mobile */
+     /* ... */
+    .dropdown-content a {
+        padding: 8px 10px 8px 30px; /* Cái này mình đã sửa */
     }
     /* ... */
 }
