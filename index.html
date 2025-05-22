@@ -3,93 +3,133 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DT Car Philippines</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>DT Car - Uy tín là hàng đầu</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f7;
+      color: #1d1d1f;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header img {
+      max-height: 60px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+    }
+    .intro {
+      text-align: center;
+      padding: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .feedback-section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .feedback {
+      background-color: #fff;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    #more-feedback {
+      display: none;
+    }
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #0071e3;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
+    @media (max-width: 600px) {
+      .gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <header class="bg-white shadow p-4">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mercedes-Benz_logo_2010.svg" alt="Logo" class="h-10">
-      <h1 class="text-2xl font-bold">DT Car Philippines</h1>
-    </div>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="DT Car Logo">
+    <h1>DT Car</h1>
+    <p>Uy tín tạo nên thương hiệu - Bán xe tại Philippines</p>
   </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-6">
-    <section class="mb-10">
-      <h2 class="text-xl font-semibold mb-4">Giới thiệu</h2>
-      <p>Chúng tôi chuyên cung cấp xe ô tô đã qua sử dụng chất lượng cao tại Philippines, phục vụ khách Trung Quốc, Việt Nam và người địa phương. Xe được kiểm định kỹ lưỡng, giấy tờ rõ ràng và hỗ trợ tư vấn tận tình.</p>
-    </section>
+  <section class="intro">
+    <p>Chuyên bán các dòng xe chất lượng tại Philippines. Giao dịch nhanh chóng, uy tín, bảo hành rõ ràng. Được nhiều khách hàng tin tưởng và ủng hộ.</p>
+  </section>
 
-    <section class="mb-10">
-      <h2 class="text-xl font-semibold mb-4">Xe nổi bật</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="bg-white p-4 shadow rounded-xl">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2018_Honda_City_RS_%28GM6_MY18%29_sedan_%282018-09-30%29_01.jpg/640px-2018_Honda_City_RS_%28GM6_MY18%29_sedan_%282018-09-30%29_01.jpg" alt="Honda City" class="rounded mb-2">
-          <h3 class="font-bold">Honda City 2018</h3>
-          <p>Giá: ₱420,000</p>
-        </div>
-        <div class="bg-white p-4 shadow rounded-xl">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2023_Ford_Ranger_Wildtrak_Bi-Turbo_2.0.jpg/640px-2023_Ford_Ranger_Wildtrak_Bi-Turbo_2.0.jpg" alt="Ford Ranger" class="rounded mb-2">
-          <h3 class="font-bold">Ford Ranger 2023</h3>
-          <p>Giá: ₱1,250,000</p>
-        </div>
-        <div class="bg-white p-4 shadow rounded-xl">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2018_Toyota_Wigo_G_1.0_Front.jpg/640px-2018_Toyota_Wigo_G_1.0_Front.jpg" alt="Toyota Wigo" class="rounded mb-2">
-          <h3 class="font-bold">Toyota Wigo 2019</h3>
-          <p>Giá: ₱330,000</p>
-        </div>
-      </div>
-    </section>
+  <section class="gallery">
+    <img src="https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_1280.jpg" alt="Car 1">
+    <img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/ford-1375536_1280.jpg" alt="Car 2">
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/04/17/auto-1868726_1280.jpg" alt="Car 3">
+    <img src="https://cdn.pixabay.com/photo/2020/04/26/22/51/honda-5101146_1280.jpg" alt="Honda City">
+    <img src="https://cdn.pixabay.com/photo/2020/05/28/13/26/ford-ranger-5232777_1280.jpg" alt="Ford Ranger">
+  </section>
 
-    <section class="max-w-4xl mx-auto mt-10 p-4 bg-white shadow-xl rounded-2xl">
-      <h2 class="text-2xl font-semibold mb-4">Phản hồi khách hàng</h2>
-      <div class="space-y-2">
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Anh Miguel – Quezon City</summary>
-          <p class="mt-2 text-gray-600">Mua xe lần đầu hơi lo, nhưng bên dtcar.ph hỗ trợ cực kỳ nhiệt tình, xe đẹp như mới!</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Chị Maria – Cebu City</summary>
-          <p class="mt-2 text-gray-600">Xe giao nhanh, giấy tờ đầy đủ, nhân viên nói tiếng Anh tốt, dễ trao đổi.</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Anh Chen – khách người Hoa ở Manila</summary>
-          <p class="mt-2 text-gray-600">服务很周到，车的状况很好，我推荐给朋友了。</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Mr. John – Makati</summary>
-          <p class="mt-2 text-gray-600">Smooth process from test drive to handover. Highly recommended.</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Ms. Carla – Taguig</summary>
-          <p class="mt-2 text-gray-600">Dịch vụ đáng tin cậy, nhân viên tư vấn rất có tâm và rõ ràng.</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Anh Quang – khách Việt ở Cavite</summary>
-          <p class="mt-2 text-gray-600">Tưởng xa mà giao xe rất nhanh, xe mới tinh, giá hợp lý.</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Ms. Jenny – Davao City</summary>
-          <p class="mt-2 text-gray-600">So glad I found dtcar.ph – friendly staff, quality cars!</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Anh Rico – Iloilo</summary>
-          <p class="mt-2 text-gray-600">Thấy web uy tín nên thử đặt, không ngờ dịch vụ quá ổn luôn.</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Chị Lệ – người Việt tại Pampanga</summary>
-          <p class="mt-2 text-gray-600">Xe giao tận nơi, kỹ lưỡng từng chi tiết, quá hài lòng!</p>
-        </details>
-        <details class="border rounded-lg p-3 cursor-pointer">
-          <summary class="font-medium">Mr. Sam – Baguio City</summary>
-          <p class="mt-2 text-gray-600">Cold weather, hot deals. This site is gold!</p>
-        </details>
-      </div>
-    </section>
-  </main>
+  <section class="feedback-section">
+    <h2>Phản hồi của khách hàng</h2>
 
-  <footer class="bg-white text-center py-4 mt-10 shadow-inner">
-    <p class="text-sm text-gray-500">© 2025 DT Car Philippines. All rights reserved.</p>
-  </footer>
+    <div class="feedback">“Xe đẹp như mới, giao nhanh đúng hẹn. Rất hài lòng!” – Minh (Makati)</div>
+    <div class="feedback">“Lần đầu mua xe mà được tư vấn tận tình như vậy. Sẽ giới thiệu bạn bè.” – Hải (Quezon City)</div>
+    <div class="feedback">“Đăng ký giấy tờ nhanh gọn, xe chạy êm, không một vết trầy.” – Lan (Cebu)</div>
+
+    <div id="more-feedback">
+      <div class="feedback">“Tưởng bán ở VN, ai ngờ ở Philippines. Quá tiện lợi cho người Việt bên này!” – Dũng (Davao)</div>
+      <div class="feedback">“Tư vấn cực kỳ có tâm, giúp chọn được chiếc xe hợp túi tiền.” – Thảo (Taguig)</div>
+      <div class="feedback">“Xe sạch đẹp như showroom, giá tốt hơn thị trường.” – Phát (Pasig)</div>
+      <div class="feedback">“Rất ấn tượng với cách làm việc chuyên nghiệp.” – Vy (Mandaluyong)</div>
+      <div class="feedback">“Hỗ trợ từ A-Z, không phải lo lắng gì luôn.” – Lâm (Caloocan)</div>
+      <div class="feedback">“Chuyển khoản xong là giao tận nhà, tiện cực.” – Quyên (Baguio)</div>
+      <div class="feedback">“Không ngờ người Việt bán xe ở đây lại có tâm như vậy!” – Tài (Laguna)</div>
+    </div>
+
+    <button onclick="toggleFeedback()">Xem thêm</button>
+  </section>
+
+  <script>
+    function toggleFeedback() {
+      const more = document.getElementById("more-feedback");
+      const btn = document.querySelector("button");
+      if (more.style.display === "none") {
+        more.style.display = "block";
+        btn.textContent = "Thu gọn";
+      } else {
+        more.style.display = "none";
+        btn.textContent = "Xem thêm";
+      }
+    }
+  </script>
 </body>
 </html>
