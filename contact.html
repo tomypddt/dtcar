@@ -1,150 +1,126 @@
-<script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
-
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
-
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
-
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-        </script><!DOCTYPE html>
-<html lang="vi">
-<head>
+<!DOCTYPE html>
+<html lang="en"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTCar - Liên hệ</title>
-    <link rel="stylesheet" href="css/tailwind.css">
-    <style>
-        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
-        .smooth-scroll { scroll-behavior: smooth; }
-        .section-bg { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
-        .lang-toggle, .nav-link { transition: all 0.3s ease; }
-        .lang-toggle:hover, .nav-link:hover { transform: scale(1.1); }
-        .feedback-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
-    </style>
+    <title data-lang-key="page-title-default">DTCar - Xe Chất Philippines</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/dtcar-favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-900 smooth-scroll">
-    <!-- Navigation -->
-    <nav class="bg-gray-900 text-white fixed w-full top-0 z-50">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">DTCar</h1>
-            <div class="space-x-4">
-                <a href="index.html" class="nav-link" data-en="Home" data-vi="Trang chủ">Trang chủ</a>
-                <a href="about.html" class="nav-link" data-en="About" data-vi="Giới thiệu">Giới thiệu</a>
-                <a href="services.html" class="nav-link" data-en="Services" data-vi="Dịch vụ">Dịch vụ</a>
-                <a href="products.html" class="nav-link" data-en="Products" data-vi="Sản phẩm">Sản phẩm</a>
-                <a href="team.html" class="nav-link" data-en="Team" data-vi="Đội ngũ">Đội ngũ</a>
-                <a href="contact.html" class="nav-link" data-en="Contact" data-vi="Liên hệ">Liên hệ</a>
-                <a href="blog.html" class="nav-link" data-en="Blog" data-vi="Blog">Blog</a>
+<body>
+    <header id="header" class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="DTCar Logo"></a>
             </div>
-            <button id="langToggle" class="lang-toggle bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium">English</button>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="about.html" data-lang-key="nav-about">Giới thiệu</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" data-lang-key="nav-services">Dịch vụ</a>
+                        <div class="dropdown-content">
+                            <a href="services.html#used-cars" data-lang-key="service-used-cars">Bán xe cũ</a>
+                            <a href="services.html#vinfast-ev" data-lang-key="service-vinfast-ev">Bán xe điện VinFast</a>
+                            <a href="services.html#driving-license" data-lang-key="service-driving-license">Làm/Đổi bằng lái</a>
+                            <a href="services.html#driving-lessons" data-lang-key="service-driving-lessons">Dạy lái xe</a>
+                            <a href="services.html#tours" data-lang-key="service-tours">Tour du lịch</a>
+                        </div>
+                    </li>
+                    <li><a href="team.html" data-lang-key="nav-team">Đội ngũ</a></li>
+                    <li><a href="contact.html" data-lang-key="nav-contact">Liên hệ</a></li>
+                </ul>
+                <div class="lang-switcher">
+                    <button id="lang-en" data-lang="en">EN</button>
+                    <button id="lang-vi" data-lang="vi">VN</button>
+                    <button id="lang-zh" data-lang="zh">中文</button>
+                </div>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         </div>
-    </nav>
-
-    <!-- Contact Section -->
-    <section class="py-20 section-bg mt-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center mb-12" data-en="Contact Us" data-vi="Liên hệ với chúng tôi">Liên hệ với chúng tôi</h2>
-            <p class="text-lg text-center max-w-3xl mx-auto mb-8" data-en="Reach out to us for inquiries about our services, vehicles, or tours. We're here to help!" data-vi="Liên hệ với chúng tôi để được tư vấn về dịch vụ, xe cộ hoặc tour du lịch. Chúng tôi luôn sẵn sàng hỗ trợ!">Liên hệ với chúng tôi để được tư vấn về dịch vụ, xe cộ hoặc tour du lịch. Chúng tôi luôn sẵn sàng hỗ trợ!</p>
-            
-            <div class="flex flex-col md:flex-row justify-center gap-8 mb-12">
-                <!-- Contact Form -->
-                <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
-                    <h3 class="text-xl font-semibold mb-4" data-en="Send Us a Message" data-vi="Gửi tin nhắn cho chúng tôi">Gửi tin nhắn cho chúng tôi</h3>
-                    <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-4">
-                        <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700" data-en="Name" data-vi="Tên">Tên</label>
-                            <input type="text" id="name" name="name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
+    </header>
+    <section id="contact-full" class="section-padding dark-bg text-center scroll-animation">
+        <div class="container">
+            <h1 data-lang-key="contact-heading">Liên hệ chúng tôi</h1>
+            <p data-lang-key="contact-intro-desc">Chúng tôi rất mong nhận được phản hồi từ bạn! Hãy liên hệ với chúng tôi để được tư vấn, hỗ trợ hoặc đặt lịch hẹn.</p>
+            <div class="contact-grid" style="margin-top: 50px;">
+                <div class="contact-info">
+                    <p data-lang-key="contact-address"><strong>Địa chỉ:</strong> 123 Đường Quezon, Thành phố Makati, Philippines</p>
+                    <p data-lang-key="contact-phone"><strong>Điện thoại:</strong> +63 917 123 4567</p>
+                    <p data-lang-key="contact-email"><strong>Email:</strong> info@dtcar.ph</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/dtcar" target="_blank" aria-label="Facebook"><img src="images/icon-facebook.png" alt="Facebook"></a>
+                        <a href="https://instagram.com/dtcar" target="_blank" aria-label="Instagram"><img src="images/icon-instagram.png" alt="Instagram"></a>
+                        <a href="https://wa.me/639171234567" target="_blank" aria-label="WhatsApp"><img src="images/icon-whatsapp.png" alt="WhatsApp"></a>
+                    </div>
+                    <h3 style="margin-top: 40px; color: var(--text-color-light);" data-lang-key="contact-map-title">Tìm chúng tôi trên bản đồ</h3>
+                    <div style="height: 400px; width: 100%; border-radius: var(--border-radius); overflow: hidden; margin-top: 20px; box-shadow: var(--shadow-light);">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.8598444005886!2d121.03450977609823!3d14.547600877960307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c5b7367c30e5%3A0x67a3064e7b8f9e68!2sMakati%20Medical%20Center!5e0!3m2!1sen!2sph!4v1716442656926!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper scroll-animation">
+                    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-lang-key="form-name-label">Họ và tên:</label>
+                            <input type="text" id="name" name="name" required placeholder="Nhập tên của bạn">
                         </div>
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700" data-en="Email" data-vi="Email">Email</label>
-                            <input type="email" id="email" name="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
+                        <div class="form-group">
+                            <label for="email" data-lang-key="form-email-label">Email:</label>
+                            <input type="email" id="email" name="email" required placeholder="Nhập email của bạn">
                         </div>
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700" data-en="Message" data-vi="Tin nhắn">Tin nhắn</label>
-                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required></textarea>
+                        <div class="form-group">
+                            <label for="phone" data-lang-key="form-phone-label">Số điện thoại:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại của bạn">
                         </div>
-                        <button type="submit" class="bg-gray-900 text-white px-4 py-2 rounded-full w-full font-medium hover:bg-gray-700 transition" data-en="Send Message" data-vi="Gửi tin nhắn">Gửi tin nhắn</button>
+                        <div class="form-group">
+                            <label for="service" data-lang-key="form-service-label">Dịch vụ quan tâm:</label>
+                            <select id="service" name="service">
+                                <option value="" data-lang-key="form-select-service">Chọn dịch vụ</option>
+                                <option value="used-cars" data-lang-key="service-used-cars">Bán xe cũ</option>
+                                <option value="vinfast-ev" data-lang-key="service-vinfast-ev">Bán xe điện VinFast</option>
+                                <option value="driving-license" data-lang-key="service-driving-license">Làm/Đổi bằng lái</option>
+                                <option value="driving-lessons" data-lang-key="service-driving-lessons">Dạy lái xe</option>
+                                <option value="tours" data-lang-key="service-tours">Tour du lịch</option>
+                                <option value="other" data-lang-key="form-other">Khác</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-lang-key="form-message-label">Tin nhắn:</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Nhập tin nhắn của bạn"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-lang-key="form-submit">Gửi tin nhắn</button>
                     </form>
-                </div>
-                
-                <!-- Contact Details -->
-                <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
-                    <h3 class="text-xl font-semibold mb-4" data-en="Our Contact Details" data-vi="Thông tin liên hệ">Thông tin liên hệ</h3>
-                    <p class="mb-2" data-en="Email: contact@dtcar.ph" data-vi="Email: contact@dtcar.ph">Email: contact@dtcar.ph</p>
-                    <p class="mb-2" data-en="Phone: +63 917 123 4567" data-vi="Điện thoại: +63 917 123 4567">Điện thoại: +63 917 123 4567</p>
-                    <p class="mb-2" data-en="Address: 123 Rizal Avenue, Manila, Philippines" data-vi="Địa chỉ: 123 Đại lộ Rizal, Manila, Philippines">Địa chỉ: 123 Đại lộ Rizal, Manila, Philippines</p>
-                    <div class="mt-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.209200466071!2d120.97514861483947!3d14.599494989805024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03571e8f5b%3A0x69d1d5751069c11f!2sRizal%20Avenue%2C%20Manila%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2s!4v1697051234567!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Feedback Section -->
-            <div class="mt-8">
-                <h3 class="text-2xl font-semibold mb-4 text-center" data-en="Customer Feedback" data-vi="Đánh giá khách hàng">Đánh giá khách hàng</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="feedback-card">
-                        <p data-en="DTCar's team responded to my inquiry within hours. Amazing service!" data-vi="Đội ngũ DTCar trả lời thắc mắc của tôi trong vài giờ. Dịch vụ tuyệt vời!">Đội ngũ DTCar trả lời thắc mắc của tôi trong vài giờ. Dịch vụ tuyệt vời!</p>
-                        <p class="text-sm text-gray-600 mt-2" data-en="- Sofia, Manila" data-vi="- Sofia, Manila">Sofia, Manila</p>
-                    </div>
-                    <div class="feedback-card">
-                        <p data-en="The staff was super helpful in answering all my questions about VinFast EVs." data-vi="Nhân viên rất nhiệt tình giải đáp mọi thắc mắc của tôi về xe điện VinFast.">Nhân viên rất nhiệt tình giải đáp mọi thắc mắc của tôi về xe điện VinFast.</p>
-                        <p class="text-sm text-gray-600 mt-2" data-en="- Quang, Ho Chi Minh City" data-vi="- Quang, TP. Hồ Chí Minh">Quang, TP. Hồ Chí Minh</p>
-                    </div>
+                    <p style="font-size: 0.9em; color: #999; margin-top: 20px; text-align: center;">Để form hoạt động, bạn cần đăng ký Formspree.io và thay thế "your-form-id" trong action của form.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-10">
-        <div class="container mx-auto px-4 text-center">
-            <p data-en="© 2025 DTCar. All rights reserved." data-vi="© 2025 DTCar. Mọi quyền được bảo lưu.">© 2025 DTCar. Mọi quyền được bảo lưu.</p>
+    <footer class="main-footer">
+        <div class="container">
+            <p data-lang-key="footer-copyright">© 2025 DTCar - Xe Chất Philippines. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#" data-lang-key="footer-privacy">Chính sách bảo mật</a></li>
+                <li><a href="#" data-lang-key="footer-terms">Điều khoản sử dụng</a></li>
+            </ul>
         </div>
     </footer>
 
-    <!-- Language Toggle Script -->
+    <script src="js/script.js"></script>
     <script>
-        const langToggle = document.getElementById('langToggle');
-        let currentLang = 'vi';
-        langToggle.addEventListener('click', () => {
-            currentLang = currentLang === 'vi' ? 'en' : 'vi';
-            langToggle.textContent = currentLang === 'vi' ? 'English' : 'Tiếng Việt';
-            document.querySelectorAll('[data-en][data-vi]').forEach(element => {
-                element.textContent = element.getAttribute(`data-${currentLang}`);
-            });
+        document.addEventListener('DOMContentLoaded', () => {
+            // Không có carousel cụ thể trên trang này, nên không cần gọi setupFeedbackCarousel()
         });
     </script>
+    <footer class="main-footer">
+        <div class="container">
+            <p data-lang-key="footer-copyright">© 2025 DTCar - Xe Chất Philippines. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#" data-lang-key="footer-privacy">Chính sách bảo mật</a></li>
+                <li><a href="#" data-lang-key="footer-terms">Điều khoản sử dụng</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

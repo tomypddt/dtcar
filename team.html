@@ -1,140 +1,119 @@
-<script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
-
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
-
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
-
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-        </script><!DOCTYPE html>
-<html lang="vi">
-<head>
+<!DOCTYPE html>
+<html lang="en"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTCar - Đội ngũ</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
-        .smooth-scroll { scroll-behavior: smooth; }
-        .section-bg { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
-        .lang-toggle, .nav-link { transition: all 0.3s ease; }
-        .lang-toggle:hover, .nav-link:hover { transform: scale(1.1); }
-        .feedback-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
-    </style>
-</	head>
-<body class="bg-gray-100 text-gray-900 smooth-scroll">
-    <nav class="bg-gray-900 text-white fixed w-full top-0 z-50">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">DTCar</h1>
-            <div class="space-x-4">
-                <a href="index.html" class="nav-link" data-en="Home" data-vi="Trang chủ">Trang chủ</a>
-                <a href="about.html" class="nav-link" data-en="About" data-vi="Giới thiệu">Giới thiệu</a>
-                <a href="services.html" class="nav-link" data-en="Services" data-vi="Dịch vụ">Dịch vụ</a>
-                <a href="products.html" class="nav-link" data-en="Products" data-vi="Sản phẩm">Sản phẩm</a>
-                <a href="team.html" class="nav-link" data-en="Team" data-vi="Đội ngũ">Đội ngũ</a>
-                <a href="contact.html" class="nav-link" data-en="Contact" data-vi="Liên hệ">Liên hệ</a>
-                <a href="blog.html" class="nav-link" data-en="Blog" data-vi="Blog">Blog</a>
+    <title data-lang-key="page-title-default">DTCar - Xe Chất Philippines</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/dtcar-favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="DTCar Logo"></a>
             </div>
-            <button id="langToggle" class="lang-toggle bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium">English</button>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="about.html" data-lang-key="nav-about">Giới thiệu</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" data-lang-key="nav-services">Dịch vụ</a>
+                        <div class="dropdown-content">
+                            <a href="services.html#used-cars" data-lang-key="service-used-cars">Bán xe cũ</a>
+                            <a href="services.html#vinfast-ev" data-lang-key="service-vinfast-ev">Bán xe điện VinFast</a>
+                            <a href="services.html#driving-license" data-lang-key="service-driving-license">Làm/Đổi bằng lái</a>
+                            <a href="services.html#driving-lessons" data-lang-key="service-driving-lessons">Dạy lái xe</a>
+                            <a href="services.html#tours" data-lang-key="service-tours">Tour du lịch</a>
+                        </div>
+                    </li>
+                    <li><a href="team.html" data-lang-key="nav-team">Đội ngũ</a></li>
+                    <li><a href="contact.html" data-lang-key="nav-contact">Liên hệ</a></li>
+                </ul>
+                <div class="lang-switcher">
+                    <button id="lang-en" data-lang="en">EN</button>
+                    <button id="lang-vi" data-lang="vi">VN</button>
+                    <button id="lang-zh" data-lang="zh">中文</button>
+                </div>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         </div>
-    </nav>
+    </header>
+    <section id="team-intro" class="section-padding dark-bg text-center scroll-animation">
+        <div class="container">
+            <h1 data-lang-key="team-heading">Đội ngũ tận tâm của chúng tôi</h1>
+            <p data-lang-key="team-intro-desc">Gặp gỡ những chuyên gia tận tâm đã giúp DTCar trở thành người dẫn đầu trong ngành, cam kết mang lại sự xuất sắc và xây dựng mối quan hệ lâu dài với khách hàng của chúng tôi.</p>
+        </div>
+    </section>
 
-    <section class="py-20 section-bg mt-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center mb-12" data-en="Our Team" data-vi="Đội ngũ của chúng tôi">Đội ngũ của chúng tôi</h2>
-            <p class="text-lg text-center max-w-3xl mx-auto mb-8" data-en="Meet the dedicated professionals behind DTCar's success, committed to delivering top-notch automotive and travel services." data-vi="Gặp gỡ đội ngũ chuyên nghiệp đứng sau thành công của DTCar, cam kết mang đến các dịch vụ ô tô và du lịch hàng đầu.">Gặp gỡ đội ngũ chuyên nghiệp đứng sau thành công của DTCar, cam kết mang đến các dịch vụ ô tô và du lịch hàng đầu.</p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="text-center">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80" alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4">
-                    <h3 class="text-xl font-semibold" data-en="James Santos" data-vi="James Santos">James Santos</h3>
-                    <p data-en="CEO & Founder" data-vi="Giám đốc điều hành & Nhà sáng lập">Giám đốc điều hành & Nhà sáng lập</p>
+    <section id="team-members" class="section-padding light-bg scroll-animation">
+        <div class="container">
+            <div class="team-grid">
+                <div class="team-member scroll-animation">
+                    <img src="images/member-1.jpg" alt="Team Member 1">
+                    <h3 data-lang-key="team-member-1-name">Nguyễn Văn Hiếu</h3>
+                    <p data-lang-key="team-member-1-title">CEO & Người sáng lập</p>
+                    <p data-lang-key="team-member-1-desc">Lãnh đạo có tầm nhìn với hơn 15 năm kinh nghiệm trong ngành ô tô, thúc đẩy sự đổi mới và tăng trưởng của DTCar.</p>
                 </div>
-                <div class="text-center">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80" alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4">
-                    <h3 class="text-xl font-semibold" data-en="Linh Nguyen" data-vi="Linh Nguyễn">Linh Nguyễn</h3>
-                    <p data-en="Head of Sales" data-vi="Trưởng phòng Kinh doanh">Trưởng phòng Kinh doanh</p>
+                <div class="team-member scroll-animation">
+                    <img src="images/member-2.jpg" alt="Team Member 2">
+                    <h3 data-lang-key="team-member-2-name">Maria Lopez</h3>
+                    <p data-lang-key="team-member-2-title">Trưởng phòng Kinh doanh</p>
+                    <p data-lang-key="team-member-2-desc">Chuyên gia tư vấn ô tô với kiến thức thị trường sâu rộng và niềm đam mê kết nối khách hàng với chiếc xe hoàn hảo của họ.</p>
                 </div>
-                <div class="text-center">
-                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80" alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4">
-                    <h3 class="text-xl font-semibold" data-en="Maria Cruz" data-vi="Maria Cruz">Maria Cruz</h3>
-                    <p data-en="Tour Operations Manager" data-vi="Quản lý vận hành tour">Quản lý vận hành tour</p>
+                <div class="team-member scroll-animation">
+                    <img src="images/member-3.jpg" alt="Team Member 3">
+                    <h3 data-lang-key="team-member-3-name">Lý Gia Thành</h3>
+                    <p data-lang-key="team-member-3-title">Trưởng phòng Dịch vụ</p>
+                    <p data-lang-key="team-member-3-desc">Đảm bảo tất cả các quy trình dịch vụ diễn ra suôn sẻ và hiệu quả, duy trì các tiêu chuẩn cao về sự hài lòng của khách hàng của DTCar.</p>
                 </div>
-                <div class="text-center">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4">
-                    <h3 class="text-xl font-semibold" data-en="Tuan Pham" data-vi="Tuấn Phạm">Tuấn Phạm</h3>
-                    <p data-en="Driving Instructor" data-vi="Giáo viên dạy lái xe">Giáo viên dạy lái xe</p>
+                <div class="team-member scroll-animation">
+                    <img src="images/member-4.jpg" alt="Team Member 4">
+                    <h3 data-lang-key="team-member-4-name">Samantha Cruz</h3>
+                    <p data-lang-key="team-member-4-title">Chuyên gia Tour & Du lịch</p>
+                    <p data-lang-key="team-member-4-desc">Thiết kế những trải nghiệm du lịch khó quên, giới thiệu vẻ đẹp và văn hóa Philippines đến khách hàng của chúng tôi.</p>
                 </div>
-                <div class="text-center">
-                    <img src="https://images.unsplash.com/photo-1517365830460-955ce3f5b1f7?auto=format&fit=crop&w=800&q=80" alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4">
-                    <h3 class="text-xl font-semibold" data-en="Anna Reyes" data-vi="Anna Reyes">Anna Reyes</h3>
-                    <p data-en="Customer Service Manager" data-vi="Quản lý dịch vụ khách hàng">Quản lý dịch vụ khách hàng</p>
+                <div class="team-member scroll-animation">
+                    <img src="images/member-5.jpg" alt="Team Member 5">
+                    <h3 data-lang-key="team-member-5-name">David Chen</h3>
+                    <p data-lang-key="team-member-5-title">Chuyên viên Marketing</p>
+                    <p data-lang-key="team-member-5-desc">Phát triển các chiến dịch truyền thông sáng tạo, đưa DTCar đến gần hơn với khách hàng.</p>
                 </div>
-            </div>
-            <div class="mt-8">
-                <h4 class="text-xl font-semibold mb-4" data-en="Customer Feedback" data-vi="Đánh giá khách hàng">Đánh giá khách hàng</h4>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="feedback-card">
-                        <p data-en="The team at DTCar is professional and friendly. They made my experience amazing!" data-vi="Đội ngũ tại DTCar rất chuyên nghiệp và thân thiện. Họ đã mang đến trải nghiệm tuyệt vời!">Đội ngũ tại DTCar rất chuyên nghiệp và thân thiện. Họ đã mang đến trải nghiệm tuyệt vời!</p>
-                        <p class="text-sm text-gray-600 mt-2" data-en="- Sofia, Manila" data-vi="- Sofia, Manila">Sofia, Manila</p>
-                    </div>
-                    <div class="feedback-card">
-                        <p data-en="Linh was incredibly helpful in guiding me through the car purchase process." data-vi="Linh rất hữu ích trong việc hướng dẫn tôi qua quy trình mua xe.">Linh rất hữu ích trong việc hướng dẫn tôi qua quy trình mua xe.</p>
-                        <p class="text-sm text-gray-600 mt-2" data-en="- Quang, Ho Chi Minh City" data-vi="- Quang, TP. Hồ Chí Minh">Quang, TP. Hồ Chí Minh</p>
-                    </div>
+                <div class="team-member scroll-animation">
+                    <img src="images/member-6.jpg" alt="Team Member 6">
+                    <h3 data-lang-key="team-member-6-name">Jessica Lim</h3>
+                    <p data-lang-key="team-member-6-title">Trưởng phòng Hỗ trợ khách hàng</p>
+                    <p data-lang-key="team-member-6-desc">Luôn lắng nghe và giải quyết mọi thắc mắc của khách hàng với sự tận tâm cao nhất.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-10">
-        <div class="container mx-auto px-4 text-center">
-            <p data-en="© 2025 DTCar. All rights reserved." data-vi="© 2025 DTCar. Mọi quyền được bảo lưu.">© 2025 DTCar. Mọi quyền được bảo lưu.</p>
+    <footer class="main-footer">
+        <div class="container">
+            <p data-lang-key="footer-copyright">© 2025 DTCar - Xe Chất Philippines. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#" data-lang-key="footer-privacy">Chính sách bảo mật</a></li>
+                <li><a href="#" data-lang-key="footer-terms">Điều khoản sử dụng</a></li>
+            </ul>
         </div>
     </footer>
 
-    <!-- Language Toggle Script -->
+    <script src="js/script.js"></script>
     <script>
-        const langToggle = document.getElementById('langToggle');
-        let currentLang = 'vi';
-        langToggle.addEventListener('click', () => {
-            currentLang = currentLang === 'vi' ? 'en' : 'vi';
-            langToggle.textContent = currentLang === 'vi' ? 'English' : 'Tiếng Việt';
-            document.querySelectorAll('[data-en][data-vi]').forEach(element => {
-                element.textContent = element.getAttribute(`data-${currentLang}`);
-            });
+        document.addEventListener('DOMContentLoaded', () => {
+            // Không có carousel cụ thể trên trang này, nên không cần gọi setupFeedbackCarousel()
         });
     </script>
+    <footer class="main-footer">
+        <div class="container">
+            <p data-lang-key="footer-copyright">© 2025 DTCar - Xe Chất Philippines. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#" data-lang-key="footer-privacy">Chính sách bảo mật</a></li>
+                <li><a href="#" data-lang-key="footer-terms">Điều khoản sử dụng</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

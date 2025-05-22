@@ -1,275 +1,192 @@
-<script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
-
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
-
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
-
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-        </script><!DOCTYPE html>
-<html lang="vi">
-<head>
+<!DOCTYPE html>
+<html lang="en"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTCar - Dịch vụ</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-        .smooth-scroll {
-            scroll-behavior: smooth;
-        }
-        .section-bg {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        }
-        .lang-toggle, .nav-link {
-            transition: all 0.3s ease;
-        }
-        .lang-toggle:hover, .nav-link:hover {
-            transform: scale(1.1);
-        }
-        .feedback-card {
-            background: white;
-            border-radius: 10px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <title data-lang-key="page-title-default">DTCar - Xe Chất Philippines</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/dtcar-favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-900 smooth-scroll">
-    <!-- Navigation -->
-    <nav class="bg-gray-900 text-white fixed w-full top-0 z-50">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">DTCar</h1>
-            <div class="space-x-4">
-                <a href="index.html" class="nav-link" data-en="Home" data-vi="Trang chủ">Trang chủ</a>
-                <a href="about.html" class="nav-link" data-en="About" data-vi="Giới thiệu">Giới thiệu</a>
-                <a href="services.html" class="nav-link" data-en="Services" data-vi="Dịch vụ">Dịch vụ</a>
-                <a href="products.html" class="nav-link" data-en="Products" data-vi="Sản phẩm">Sản phẩm</a>
-                <a href="team.html" class="nav-link" data-en="Team" data-vi="Đội ngũ">Đội ngũ</a>
-                <a href="contact.html" class="nav-link" data-en="Contact" data-vi="Liên hệ">Liên hệ</a>
-                <a href="blog.html" class="nav-link" data-en="Blog" data-vi="Blog">Blog</a>
+<body>
+    <header id="header" class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="DTCar Logo"></a>
             </div>
-            <button id="langToggle" class="lang-toggle bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium">English</button>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="about.html" data-lang-key="nav-about">Giới thiệu</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" data-lang-key="nav-services">Dịch vụ</a>
+                        <div class="dropdown-content">
+                            <a href="services.html#used-cars" data-lang-key="service-used-cars">Bán xe cũ</a>
+                            <a href="services.html#vinfast-ev" data-lang-key="service-vinfast-ev">Bán xe điện VinFast</a>
+                            <a href="services.html#driving-license" data-lang-key="service-driving-license">Làm/Đổi bằng lái</a>
+                            <a href="services.html#driving-lessons" data-lang-key="service-driving-lessons">Dạy lái xe</a>
+                            <a href="services.html#tours" data-lang-key="service-tours">Tour du lịch</a>
+                        </div>
+                    </li>
+                    <li><a href="team.html" data-lang-key="nav-team">Đội ngũ</a></li>
+                    <li><a href="contact.html" data-lang-key="nav-contact">Liên hệ</a></li>
+                </ul>
+                <div class="lang-switcher">
+                    <button id="lang-en" data-lang="en">EN</button>
+                    <button id="lang-vi" data-lang="vi">VN</button>
+                    <button id="lang-zh" data-lang="zh">中文</button>
+                </div>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         </div>
-    </nav>
+    </header>
+    <section id="services-intro" class="section-padding dark-bg text-center scroll-animation">
+        <div class="container">
+            <h1 data-lang-key="services-heading">Các Dịch vụ Toàn diện của Chúng tôi</h1>
+            <p data-lang-key="services-intro-desc">Khám phá đầy đủ các giải pháp di chuyển và du lịch do DTCar cung cấp, được thiết kế để đáp ứng mọi nhu cầu của bạn với chất lượng và sự tiện lợi.</p>
+        </div>
+    </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-20 section-bg mt-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center mb-12" data-en="Our Services" data-vi="Dịch vụ của chúng tôi">Dịch vụ của chúng tôi</h2>
-
-            <!-- Used Cars -->
-            <div class="mb-16">
-                <h3 class="text-2xl font-semibold mb-4" data-en="Premium Used Cars" data-vi="Xe cũ chất lượng">Xe cũ chất lượng</h3>
-                <p class="text-lg mb-6" data-en="We offer a wide range of high-quality pre-owned vehicles, thoroughly inspected to ensure performance and reliability. From sedans to SUVs, find your perfect match with DTCar." data-vi="Chúng tôi cung cấp đa dạng xe đã qua sử dụng chất lượng cao, được kiểm tra kỹ lưỡng để đảm bảo hiệu suất và độ tin cậy. Từ sedan đến SUV, hãy tìm chiếc xe hoàn hảo với DTCar.">Chúng tôi cung cấp đa dạng xe đã qua sử dụng chất lượng cao, được kiểm tra kỹ lưỡng để đảm bảo hiệu suất và độ tin cậy. Từ sedan đến SUV, hãy tìm chiếc xe hoàn hảo với DTCar.</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Used Car" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1494976383938-29755c2b1350?auto=format&fit=crop&w=800&q=80" alt="Used Car" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687b?auto=format&fit=crop&w=800&q=80" alt="Used Car" class="w-full h-48 object-cover rounded-lg">
+    <section id="used-cars" class="section-padding light-bg scroll-animation">
+        <div class="container">
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="images/used-cars.jpg" alt="Used Cars">
                 </div>
-                <div class="mt-8">
-                    <h4 class="text-xl font-semibold mb-4" data-en="Customer Feedback" data-vi="Đánh giá khách hàng">Đánh giá khách hàng</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="feedback-card">
-                            <p data-en="Bought a used SUV from DTCar. The car was in excellent condition, and the process was smooth!" data-vi="Mua một chiếc SUV cũ từ DTCar. Xe trong tình trạng tuyệt vời và quy trình rất mượt mà!">Mua một chiếc SUV cũ từ DTCar. Xe trong tình trạng tuyệt vời và quy trình rất mượt mà!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- John, Manila" data-vi="- John, Manila">John, Manila</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Great selection and honest pricing. Highly recommend DTCar for used cars!" data-vi="Lựa chọn đa dạng và giá cả minh bạch. Rất khuyến nghị DTCar cho xe cũ!">Lựa chọn đa dạng và giá cả minh bạch. Rất khuyến nghị DTCar cho xe cũ!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Linh, Ho Chi Minh City" data-vi="- Linh, TP. Hồ Chí Minh">Linh, TP. Hồ Chí Minh</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="The car looked brand new! DTCar's inspection process is top-notch." data-vi="Chiếc xe trông như mới! Quy trình kiểm tra của DTCar rất xuất sắc.">Chiếc xe trông như mới! Quy trình kiểm tra của DTCar rất xuất sắc.</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Pedro, Cebu" data-vi="- Pedro, Cebu">Pedro, Cebu</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Best place to buy used cars in the Philippines. Amazing customer service!" data-vi="Nơi tốt nhất để mua xe cũ ở Philippines. Dịch vụ khách hàng tuyệt vời!">Nơi tốt nhất để mua xe cũ ở Philippines. Dịch vụ khách hàng tuyệt vời!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Mai, Hanoi" data-vi="- Mai, Hà Nội">Mai, Hà Nội</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- VinFast Electric Cars -->
-            <div class="mb-16">
-                <h3 class="text-2xl font-semibold mb-4" data-en="VinFast Electric Vehicles" data-vi="Xe điện VinFast">Xe điện VinFast</h3>
-                <p class="text-lg mb-6" data-en="As an authorized dealer, we provide the latest VinFast electric vehicles, combining cutting-edge technology and eco-friendly design." data-vi="Là đại lý ủy quyền, chúng tôi cung cấp các mẫu xe điện VinFast mới nhất, kết hợp công nghệ tiên tiến và thiết kế thân thiện môi trường.">Là đại lý ủy quyền, chúng tôi cung cấp các mẫu xe điện VinFast mới nhất, kết hợp công nghệ tiên tiến và thiết kế thân thiện môi trường.</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <img src="https://images.unsplash.com/photo-1605557626938-0c4f8e6f1500?auto=format&fit=crop&w=800&q=80" alt="VinFast Car" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1626668893617-7f03f40a56b5?auto=format&fit=crop&w=800&q=80" alt="VinFast Car" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1605557626867-6cf9e6c51da1?auto=format&fit=crop&w=800&q=80" alt="VinFast Car" class="w-full h-48 object-cover rounded-lg">
-                </div>
-                <div class="mt-8">
-                    <h4 class="text-xl font-semibold mb-4" data-en="Customer Feedback" data-vi="Đánh giá khách hàng">Đánh giá khách hàng</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="feedback-card">
-                            <p data-en="The VinFast VF e34 is a game-changer! Smooth ride and excellent support from DTCar." data-vi="VinFast VF e34 thực sự đột phá! Lái êm và hỗ trợ tuyệt vời từ DTCar.">VinFast VF e34 thực sự đột phá! Lái êm và hỗ trợ tuyệt vời từ DTCar.</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Maria, Cebu" data-vi="- Maria, Cebu">Maria, Cebu</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Eco-friendly and stylish. DTCar made the purchase process so easy!" data-vi="Thân thiện môi trường và phong cách. DTCar làm quy trình mua xe thật dễ dàng!">Thân thiện môi trường và phong cách. DTCar làm quy trình mua xe thật dễ dàng!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Minh, Hanoi" data-vi="- Minh, Hà Nội">Minh, Hà Nội</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Love the technology in VinFast cars. DTCar's team was very knowledgeable." data-vi="Thích công nghệ trong xe VinFast. Đội ngũ DTCar rất am hiểu.">Thích công nghệ trong xe VinFast. Đội ngũ DTCar rất am hiểu.</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Jose, Manila" data-vi="- Jose, Manila">Jose, Manila</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Best EV purchase experience ever. Thank you, DTCar!" data-vi="Trải nghiệm mua xe điện tốt nhất từ trước đến nay. Cảm ơn DTCar!">Trải nghiệm mua xe điện tốt nhất từ trước đến nay. Cảm ơn DTCar!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Anh, Ho Chi Minh City" data-vi="- Anh, TP. Hồ Chí Minh">Anh, TP. Hồ Chí Minh</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Driver's License Services -->
-            <div class="mb-16">
-                <h3 class="text-2xl font-semibold mb-4" data-en="Driver's License Services" data-vi="Dịch vụ làm/đổi bằng lái">Dịch vụ làm/đổi bằng lái</h3>
-                <p class="text-lg mb-6" data-en="We assist with obtaining and renewing driver's licenses for Philippines and Vietnam, ensuring a hassle-free process." data-vi="Chúng tôi hỗ trợ làm mới và đổi bằng lái xe cho Philippines và Việt Nam, đảm bảo quy trình không rắc rối.">Chúng tôi hỗ trợ làm mới và đổi bằng lái xe cho Philippines và Việt Nam, đảm bảo quy trình không rắc rối.</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <img src="https://images.unsplash.com/photo-1517524206127-48f04a51d5d8?auto=format&fit=crop&w=800&q=80" alt="License Service" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="License Service" class="w-full h-48 object-cover rounded-lg">
-                </div>
-                <div class="mt-8">
-                    <h4 class="text-xl font-semibold mb-4" data-en="Customer Feedback" data-vi="Đánh giá khách hàng">Đánh giá khách hàng</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="feedback-card">
-                            <p data-en="Got my Philippines driver's license in just a week. DTCar was super efficient!" data-vi="Nhận bằng lái Philippines chỉ trong một tuần. DTCar cực kỳ hiệu quả!">Nhận bằng lái Philippines chỉ trong một tuần. DTCar cực kỳ hiệu quả!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Carlos, Davao" data-vi="- Carlos, Davao">Carlos, Davao</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Helped me convert my Vietnam license to Philippines. Very professional service!" data-vi="Hỗ trợ tôi đổi bằng lái Việt Nam sang Philippines. Dịch vụ rất chuyên nghiệp!">Hỗ trợ tôi đổi bằng lái Việt Nam sang Philippines. Dịch vụ rất chuyên nghiệp!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Hương, Manila" data-vi="- Hương, Manila">Hương, Manila</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="The process was so smooth and quick. Highly recommend DTCar!" data-vi="Quy trình rất mượt mà và nhanh chóng. Rất khuyến nghị DTCar!">Quy trình rất mượt mà và nhanh chóng. Rất khuyến nghị DTCar!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Tuan, Cebu" data-vi="- Tuấn, Cebu">Tuấn, Cebu</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Fantastic support for license renewal. DTCar is the best!" data-vi="Hỗ trợ tuyệt vời cho việc gia hạn bằng lái. DTCar là số một!">Hỗ trợ tuyệt vời cho việc gia hạn bằng lái. DTCar là số một!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Linh, Hanoi" data-vi="- Linh, Hà Nội">Linh, Hà Nội</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Driving Lessons -->
-            <div class="mb-16">
-                <h3 class="text-2xl font-semibold mb-4" data-en="Driving Lessons (Chinese/Vietnamese)" data-vi="Dạy lái xe (Trung/Việt)">Dạy lái xe (Trung/Việt)</h3>
-                <p class="text-lg mb-6" data-en="Our professional instructors offer driving lessons in Chinese and Vietnamese, tailored to your needs for a confident driving experience." data-vi="Các giáo viên chuyên nghiệp của chúng tôi cung cấp bài học lái xe bằng tiếng Trung và tiếng Việt, tùy chỉnh theo nhu cầu để mang lại trải nghiệm lái xe tự tin.">Các giáo viên chuyên nghiệp của chúng tôi cung cấp bài học lái xe bằng tiếng Trung và tiếng Việt, tùy chỉnh theo nhu cầu để mang lại trải nghiệm lái xe tự tin.</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687b?auto=format&fit=crop&w=800&q=80" alt="Driving Lesson" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Driving Lesson" class="w-full h-48 object-cover rounded-lg">
-                </div>
-                <div class="mt-8">
-                    <h4 class="text-xl font-semibold mb-4" data-en="Customer Feedback" data-vi="Đánh giá khách hàng">Đánh giá khách hàng</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="feedback-card">
-                            <p data-en="The Chinese-speaking instructor was patient and clear. I passed my test on the first try!" data-vi="Giáo viên nói tiếng Trung rất kiên nhẫn và rõ ràng. Tôi đã thi đậu ngay lần đầu!">Giáo viên nói tiếng Trung rất kiên nhẫn và rõ ràng. Tôi đã thi đậu ngay lần đầu!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Li Wei, Manila" data-vi="- Li Wei, Manila">Li Wei, Manila</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Learned to drive in Vietnamese. The lessons were fun and effective!" data-vi="Học lái xe bằng tiếng Việt. Các bài học thú vị và hiệu quả!">Học lái xe bằng tiếng Việt. Các bài học thú vị và hiệu quả!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Nam, Cebu" data-vi="- Nam, Cebu">Nam, Cebu</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="DTCar's instructors are amazing. I felt so confident after just a few lessons!" data-vi="Giáo viên của DTCar rất tuyệt. Tôi cảm thấy tự tin chỉ sau vài buổi học!">Giáo viên của DTCar rất tuyệt. Tôi cảm thấy tự tin chỉ sau vài buổi học!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Mei, Davao" data-vi="- Mei, Davao">Mei, Davao</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Highly professional driving lessons. Worth every penny!" data-vi="Bài học lái xe rất chuyên nghiệp. Đáng giá từng đồng!">Bài học lái xe rất chuyên nghiệp. Đáng giá từng đồng!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Huy, Ho Chi Minh City" data-vi="- Huy, TP. Hồ Chí Minh">Huy, TP. Hồ Chí Minh</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Philippines Tours -->
-            <div class="mb-16">
-                <h3 class="text-2xl font-semibold mb-4" data-en="Philippines Tours" data-vi="Tour du lịch Philippines">Tour du lịch Philippines</h3>
-                <p class="text-lg mb-6" data-en="Explore the beauty of the Philippines with our curated tours, from pristine beaches to cultural landmarks, tailored to your preferences." data-vi="Khám phá vẻ đẹp của Philippines với các tour được thiết kế riêng, từ bãi biển nguyên sơ đến di tích văn hóa, tùy chỉnh theo sở thích của bạn.">Khám phá vẻ đẹp của Philippines với các tour được thiết kế riêng, từ bãi biển nguyên sơ đến di tích văn hóa, tùy chỉnh theo sở thích của bạn.</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <img src="https://images.unsplash.com/photo-1528164344738-733fc25a53c1?auto=format&fit=crop&w=800&q=80" alt="Tour" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Tour" class="w-full h-48 object-cover rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Tour" class="w-full h-48 object-cover rounded-lg">
-                </div>
-                <div class="mt-8">
-                    <h4 class="text-xl font-semibold mb-4" data-en="Customer Feedback" data-vi="Đánh giá khách hàng">Đánh giá khách hàng</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="feedback-card">
-                            <p data-en="The Palawan tour was breathtaking! DTCar organized everything perfectly." data-vi="Tour Palawan thật ngoạn mục! DTCar tổ chức mọi thứ hoàn hảo.">Tour Palawan thật ngoạn mục! DTCar tổ chức mọi thứ hoàn hảo.</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Anna, Singapore" data-vi="- Anna, Singapore">Anna, Singapore</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Loved the cultural tour in Manila. Highly recommend DTCar's tour services!" data-vi="Thích tour văn hóa ở Manila. Rất khuyến nghị dịch vụ tour của DTCar!">Thích tour văn hóa ở Manila. Rất khuyến nghị dịch vụ tour của DTCar!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Tuan, Hanoi" data-vi="- Tuấn, Hà Nội">Tuấn, Hà Nội</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="The Bohol tour was a dream come true. DTCar's guides were fantastic!" data-vi="Tour Bohol như một giấc mơ thành hiện thực. Hướng dẫn viên của DTCar rất tuyệt!">Tour Bohol như một giấc mơ thành hiện thực. Hướng dẫn viên của DTCar rất tuyệt!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Sofia, Manila" data-vi="- Sofia, Manila">Sofia, Manila</p>
-                        </div>
-                        <div class="feedback-card">
-                            <p data-en="Best tour experience in the Philippines. DTCar exceeded my expectations!" data-vi="Trải nghiệm tour tốt nhất ở Philippines. DTCar vượt xa kỳ vọng của tôi!">Trải nghiệm tour tốt nhất ở Philippines. DTCar vượt xa kỳ vọng của tôi!</p>
-                            <p class="text-sm text-gray-600 mt-2" data-en="- Quang, Ho Chi Minh City" data-vi="- Quang, TP. Hồ Chí Minh">Quang, TP. Hồ Chí Minh</p>
-                        </div>
+                <div class="service-content">
+                    <h3 data-lang-key="service-used-cars-heading">Bán xe cũ</h3>
+                    <p data-lang-key="service-used-cars-desc-1">Cung cấp đa dạng các dòng xe cũ chất lượng cao, đã qua kiểm định nghiêm ngặt về an toàn và hiệu suất. Chúng tôi đảm bảo nguồn gốc rõ ràng, giá cả cạnh tranh và dịch vụ hậu mãi chu đáo để bạn yên tâm.</p>
+                    <p data-lang-key="service-used-cars-desc-2">Kho xe của chúng tôi luôn được cập nhật với các mẫu xe phổ biến và xe hạng sang. Mỗi chiếc xe đều đi kèm báo cáo lịch sử chi tiết và các lựa chọn tài chính linh hoạt phù hợp với ngân sách của bạn.</p>
+                    <a href="contact.html" class="btn btn-secondary" data-lang-key="learn-more">Xem kho xe và tư vấn</a>
+                    <div class="feedback-carousel" id="used-cars-feedback">
+                        <h4 data-lang-key="feedback-heading">Phản hồi khách hàng:</h4>
+                        <div class="feedback-item"><p data-lang-key="feedback-used-car-1"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-used-car-2"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-used-car-3"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-used-car-4"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-used-car-5"></p></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-10">
-        <div class="container mx-auto px-4 text-center">
-            <p data-en="© 2025 DTCar. All rights reserved." data-vi="© 2025 DTCar. Mọi quyền được bảo lưu.">© 2025 DTCar. Mọi quyền được bảo lưu.</p>
+    <section id="vinfast-ev" class="section-padding dark-bg scroll-animation">
+        <div class="container">
+            <div class="service-block reverse">
+                <div class="service-image">
+                    <img src="images/vinfast-ev.jpg" alt="VinFast EV">
+                </div>
+                <div class="service-content">
+                    <h3 data-lang-key="service-vinfast-ev-heading">Bán xe điện VinFast</h3>
+                    <p data-lang-key="service-vinfast-ev-desc-1">Là đại lý chính thức phân phối các dòng xe điện VinFast tiên tiến, thân thiện môi trường tại Philippines, chúng tôi mang đến cho bạn tương lai của giao thông. Trải nghiệm công nghệ tiên phong, hiệu suất vượt trội và không khí thải với nhiều ưu đãi hấp dẫn và chính sách hỗ trợ từ chính phủ.</p>
+                    <p data-lang-key="service-vinfast-ev-desc-2">Xe điện VinFast kết hợp thiết kế tinh tế với pin mạnh mẽ và các tính năng thông minh, mang đến trải nghiệm lái xe thực sự hiện đại. Hãy ghé thăm chúng tôi để lái thử và tìm hiểu về các gói độc quyền của chúng tôi.</p>
+                    <a href="contact.html" class="btn btn-secondary" data-lang-key="learn-more">Tìm hiểu về VinFast EV</a>
+                    <div class="feedback-carousel" id="vinfast-ev-feedback">
+                        <h4 data-lang-key="feedback-heading">Phản hồi khách hàng:</h4>
+                        <div class="feedback-item"><p data-lang-key="feedback-vinfast-1"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-vinfast-2"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-vinfast-3"></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="driving-license" class="section-padding light-bg scroll-animation">
+        <div class="container">
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="images/driving-license.jpg" alt="Driving License">
+                </div>
+                <div class="service-content">
+                    <h3 data-lang-key="service-driving-license-heading">Làm/Đổi bằng lái</h3>
+                    <p data-lang-key="service-driving-license-desc-1">Hỗ trợ trọn gói thủ tục làm mới, đổi bằng lái xe quốc tế và bằng lái Philippines. Quy trình nhanh chóng, đơn giản, tiết kiệm thời gian cho bạn, chúng tôi sẽ lo tất cả các bước hành chính phức tạp.</p>
+                    <p data-lang-key="service-driving-license-desc-2">Dù bạn là người mới lái, người nước ngoài cần đổi bằng lái, hay chỉ đơn giản là gia hạn, đội ngũ chuyên gia của chúng tôi sẽ hướng dẫn từng bước, hỗ trợ giấy tờ và phối hợp trực tiếp với các cơ quan chính phủ.</p>
+                    <a href="contact.html" class="btn btn-secondary" data-lang-key="learn-more">Đăng ký ngay</a>
+                    <div class="feedback-carousel" id="driving-license-feedback">
+                        <h4 data-lang-key="feedback-heading">Phản hồi khách hàng:</h4>
+                        <div class="feedback-item"><p data-lang-key="feedback-license-1"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-license-2"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-license-3"></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="driving-lessons" class="section-padding dark-bg scroll-animation">
+        <div class="container">
+            <div class="service-block reverse">
+                <div class="service-image">
+                    <img src="images/driving-lessons.jpg" alt="Driving Lessons">
+                </div>
+                <div class="service-content">
+                    <h3 data-lang-key="service-driving-lessons-heading">Dạy lái xe</h3>
+                    <p data-lang-key="service-driving-lessons-desc-1">Khóa học lái xe chuyên nghiệp được thiết kế riêng cho mọi trình độ, từ người mới bắt đầu hoàn toàn đến những người cần ôn lại. Đội ngũ giáo viên giàu kinh nghiệm, tận tâm của chúng tôi sẽ cung cấp đào tạo cá nhân hóa, đảm bảo bạn vững tay lái, tự tin và an toàn trên mọi nẻo đường, sẵn sàng vượt qua bài kiểm tra lái xe.</p>
+                    <p data-lang-key="service-driving-lessons-desc-2">Chúng tôi cung cấp lịch học linh hoạt, xe đào tạo hiện đại và chương trình giảng dạy được thiết kế để bao gồm tất cả các kỹ thuật lái xe cần thiết và quy tắc giao thông đặc trưng của Philippines. Học lái xe phòng thủ và các kỹ năng xử lý tình huống khẩn cấp.</p>
+                    <a href="contact.html" class="btn btn-secondary" data-lang-key="learn-more">Tìm hiểu khóa học</a>
+                    <div class="feedback-carousel" id="driving-lessons-feedback">
+                        <h4 data-lang-key="feedback-heading">Phản hồi khách hàng:</h4>
+                        <div class="feedback-item"><p data-lang-key="feedback-lessons-1"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-lessons-2"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-lessons-3"></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours" class="section-padding light-bg scroll-animation">
+        <div class="container">
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="images/travel-tours.jpg" alt="Travel Tours">
+                </div>
+                <div class="service-content">
+                    <h3 data-lang-key="service-tours-heading">Tour du lịch</h3>
+                    <p data-lang-key="service-tours-desc-1">Khám phá vẻ đẹp ngoạn mục của Philippines với các tour du lịch độc đáo, được thiết kế riêng. Từ những bãi biển cát trắng tuyệt đẹp và hệ sinh thái biển đa dạng đến những ngọn núi xanh tươi và di sản văn hóa phong phú, chúng tôi sẽ đưa bạn đến những trải nghiệm khó quên được điều chỉnh theo sở thích của bạn.</p>
+                    <p data-lang-key="service-tours-desc-2">Các tour của chúng tôi bao gồm các điểm đến nổi tiếng như Palawan, Boracay và El Nido, cũng như những viên ngọc ẩn giấu. Chúng tôi lo tất cả logistics, từ vận chuyển và chỗ ở đến hướng dẫn viên địa phương và các hoạt động, đảm bảo một chuyến phiêu lưu liền mạch và đáng nhớ.</p>
+                    <a href="contact.html" class="btn btn-secondary" data-lang-key="learn-more">Xem các tour</a>
+                    <div class="feedback-carousel" id="tours-feedback">
+                        <h4 data-lang-key="feedback-heading">Phản hồi khách hàng:</h4>
+                        <div class="feedback-item"><p data-lang-key="feedback-tours-1"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-tours-2"></p></div>
+                        <div class="feedback-item"><p data-lang-key="feedback-tours-3"></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p data-lang-key="footer-copyright">© 2025 DTCar - Xe Chất Philippines. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#" data-lang-key="footer-privacy">Chính sách bảo mật</a></li>
+                <li><a href="#" data-lang-key="footer-terms">Điều khoản sử dụng</a></li>
+            </ul>
         </div>
     </footer>
 
-    <!-- Language Toggle Script -->
+    <script src="js/script.js"></script>
     <script>
-        const langToggle = document.getElementById('langToggle');
-        let currentLang = 'vi';
-
-        langToggle.addEventListener('click', () => {
-            currentLang = currentLang === 'vi' ? 'en' : 'vi';
-            langToggle.textContent = currentLang === 'vi' ? 'English' : 'Tiếng Việt';
-            document.querySelectorAll('[data-en][data-vi]').forEach(element => {
-                element.textContent = element.getAttribute(`data-${currentLang}`);
-            });
+        document.addEventListener('DOMContentLoaded', () => {
+            setupFeedbackCarousel('#used-cars-feedback');
+            setupFeedbackCarousel('#vinfast-ev-feedback');
+            setupFeedbackCarousel('#driving-license-feedback');
+            setupFeedbackCarousel('#driving-lessons-feedback');
+            setupFeedbackCarousel('#tours-feedback');
         });
     </script>
+    <footer class="main-footer">
+        <div class="container">
+            <p data-lang-key="footer-copyright">© 2025 DTCar - Xe Chất Philippines. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#" data-lang-key="footer-privacy">Chính sách bảo mật</a></li>
+                <li><a href="#" data-lang-key="footer-terms">Điều khoản sử dụng</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
