@@ -1,135 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DT Car - Uy tín là hàng đầu</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f7;
-      color: #1d1d1f;
-    }
-    header {
-      background-color: #ffffff;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    header img {
-      max-height: 60px;
-    }
-    h1 {
-      margin: 10px 0 5px;
-    }
-    .intro {
-      text-align: center;
-      padding: 20px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 16px;
-      padding: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .feedback-section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    .feedback {
-      background-color: #fff;
-      padding: 16px;
-      margin-bottom: 12px;
-      border-radius: 12px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    #more-feedback {
-      display: none;
-    }
-    button {
-      display: block;
-      margin: 20px auto;
-      padding: 10px 20px;
-      background-color: #0071e3;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #005bb5;
-    }
-    @media (max-width: 600px) {
-      .gallery {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
+  <title>DT Car - Uy tín tạo nên thương hiệu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="DT Car Logo">
-    <h1>DT Car</h1>
-    <p>Uy tín tạo nên thương hiệu - Bán xe tại Philippines</p>
+
+<body class="bg-white text-gray-800 font-inter">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img src="https://i.imgur.com/fU7sRBp.png" alt="DT Car Logo" class="h-10 w-auto">
+        <h1 class="text-xl font-bold text-gray-900">DT Car Philippines</h1>
+      </div>
+      <nav class="space-x-6 text-gray-700 hidden md:block">
+        <a href="#services" class="hover:text-blue-600">Dịch vụ</a>
+        <a href="#cars" class="hover:text-blue-600">Sản phẩm</a>
+        <a href="#feedback" class="hover:text-blue-600">Phản hồi</a>
+        <a href="#contact" class="hover:text-blue-600">Liên hệ</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="intro">
-    <p>Chuyên bán các dòng xe chất lượng tại Philippines. Giao dịch nhanh chóng, uy tín, bảo hành rõ ràng. Được nhiều khách hàng tin tưởng và ủng hộ.</p>
-  </section>
-
-  <section class="gallery">
-    <img src="https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_1280.jpg" alt="Car 1">
-    <img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/ford-1375536_1280.jpg" alt="Car 2">
-    <img src="https://cdn.pixabay.com/photo/2016/11/29/04/17/auto-1868726_1280.jpg" alt="Car 3">
-    <img src="https://cdn.pixabay.com/photo/2020/04/26/22/51/honda-5101146_1280.jpg" alt="Honda City">
-    <img src="https://cdn.pixabay.com/photo/2020/05/28/13/26/ford-ranger-5232777_1280.jpg" alt="Ford Ranger">
-  </section>
-
-  <section class="feedback-section">
-    <h2>Phản hồi của khách hàng</h2>
-
-    <div class="feedback">“Xe đẹp như mới, giao nhanh đúng hẹn. Rất hài lòng!” – Minh (Makati)</div>
-    <div class="feedback">“Lần đầu mua xe mà được tư vấn tận tình như vậy. Sẽ giới thiệu bạn bè.” – Hải (Quezon City)</div>
-    <div class="feedback">“Đăng ký giấy tờ nhanh gọn, xe chạy êm, không một vết trầy.” – Lan (Cebu)</div>
-
-    <div id="more-feedback">
-      <div class="feedback">“Tưởng bán ở VN, ai ngờ ở Philippines. Quá tiện lợi cho người Việt bên này!” – Dũng (Davao)</div>
-      <div class="feedback">“Tư vấn cực kỳ có tâm, giúp chọn được chiếc xe hợp túi tiền.” – Thảo (Taguig)</div>
-      <div class="feedback">“Xe sạch đẹp như showroom, giá tốt hơn thị trường.” – Phát (Pasig)</div>
-      <div class="feedback">“Rất ấn tượng với cách làm việc chuyên nghiệp.” – Vy (Mandaluyong)</div>
-      <div class="feedback">“Hỗ trợ từ A-Z, không phải lo lắng gì luôn.” – Lâm (Caloocan)</div>
-      <div class="feedback">“Chuyển khoản xong là giao tận nhà, tiện cực.” – Quyên (Baguio)</div>
-      <div class="feedback">“Không ngờ người Việt bán xe ở đây lại có tâm như vậy!” – Tài (Laguna)</div>
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-20 text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">Chuyên xe cũ chất lượng cao tại Philippines</h2>
+      <p class="text-lg text-gray-700">DT Car chuyên cung cấp các dòng ô tô đã qua sử dụng với chất lượng đảm bảo, giá cả hợp lý và thủ tục nhanh chóng. Phục vụ tận tâm - Hỗ trợ tận nhà.</p>
     </div>
-
-    <button onclick="toggleFeedback()">Xem thêm</button>
   </section>
 
-  <script>
-    function toggleFeedback() {
-      const more = document.getElementById("more-feedback");
-      const btn = document.querySelector("button");
-      if (more.style.display === "none") {
-        more.style.display = "block";
-        btn.textContent = "Thu gọn";
-      } else {
-        more.style.display = "none";
-        btn.textContent = "Xem thêm";
-      }
-    }
-  </script>
+  <!-- Services -->
+  <section id="services" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-10 text-center">Dịch vụ của chúng tôi</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Tư vấn mua xe</h4>
+          <p>Hỗ trợ khách hàng lựa chọn dòng xe phù hợp với nhu cầu và ngân sách. Cam kết rõ ràng, minh bạch, không chặt chém.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Xe kiểm định kỹ lưỡng</h4>
+          <p>Tất cả xe đều được kiểm tra máy móc, khung gầm, giấy tờ đầy đủ trước khi giao đến tay khách hàng.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Giao xe tận nơi</h4>
+          <p>Miễn phí giao xe trong khu vực Manila và các vùng lân cận. Hỗ trợ chi phí giao xe xa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Car Gallery -->
+  <section id="cars" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-10 text-center">Một số xe tiêu biểu</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <img src="https://source.unsplash.com/featured/?honda,car" class="rounded-xl shadow">
+        <img src="https://source.unsplash.com/featured/?toyota,car" class="rounded-xl shadow">
+        <img src="https://source.unsplash.com/featured/?ford,ranger" class="rounded-xl shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Feedback Section -->
+  <section id="feedback" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-10 text-center">Khách hàng nói gì về chúng tôi</h3>
+      <div class="space-y-4" id="feedback-list">
+        <div class="bg-gray-50 p-4 rounded-xl shadow">
+          <p><strong>Maria - Cebu:</strong> Xe cực kỳ sạch sẽ, máy êm, giao tận nhà như cam kết. Sẽ giới thiệu thêm bạn bè!</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-xl shadow">
+          <p><strong>Jose - Davao:</strong> Mình mua chiếc Vios ở đây, giá tốt hơn showroom nhiều, lại được bảo hành rõ ràng.</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-xl shadow">
+          <p><strong>Ana - Quezon City:</strong> Tư vấn dễ hiểu, xe đẹp như mới. Cảm ơn team DT Car!</p>
+        </div>
+        <div id="more-feedback" class="hidden space-y-4">
+          <div class="bg-gray-50 p-4 rounded-xl shadow">
+            <p><strong>Leo - Laguna:</strong> Xe ngon, giá hời. Mua về chạy grab êm ru!</p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded-xl shadow">
+            <p><strong>Carl - Taguig:</strong> Giao hàng đúng hẹn, giấy tờ chuẩn chỉnh. Hài lòng!</p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded-xl shadow">
+            <p><strong>Mika - Baguio:</strong> Ở xa vẫn được ship xe tận nơi. Dịch vụ quá ổn!</p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded-xl shadow">
+            <p><strong>Renzo - Cavite:</strong> Nhân viên nhiệt tình, kiểm xe cẩn thận trước khi giao.</p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded-xl shadow">
+            <p><strong>Sofia - Manila:</strong> Rất hài lòng, mình mua cho bố mẹ và họ khen dữ lắm.</p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded-xl shadow">
+            <p><strong>Jay - Pasig:</strong> Mới lấy chiếc Wigo, chạy siêu tiết kiệm. Thanks DT Car!</p>
+          </div>
+        </div>
+        <button onclick="document.getElementById('more-feedback').classList.toggle('hidden')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700">Xem thêm</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-4">Liên hệ với chúng tôi</h3>
+      <p class="mb-6">Đừng ngần ngại gửi tin nhắn nếu bạn có thắc mắc hoặc muốn được tư vấn xe phù hợp.</p>
+      <p class="text-lg">📞 0966 888 999</p>
+      <p class="text-lg">📩 contact@dtcar.ph</p>
+      <p class="text-lg">🏠 123 Ortigas Avenue, Pasig, Metro Manila</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-8 mt-10">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-8 text-sm text-gray-600">
+      <div>
+        <h4 class="font-semibold mb-2">Về chúng tôi</h4>
+        <p>DT Car là đơn vị chuyên cung cấp xe ô tô cũ chất lượng, uy tín tại Philippines. Với phương châm "Chất lượng là danh dự", chúng tôi không ngừng cải tiến dịch vụ để phục vụ khách hàng tốt nhất.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Liên kết nhanh</h4>
+        <ul class="space-y-1">
+          <li><a href="#services" class="hover:underline">Dịch vụ</a></li>
+          <li><a href="#cars" class="hover:underline">Sản phẩm</a></li>
+          <li><a href="#feedback" class="hover:underline">Phản hồi</a></li>
+          <li><a href="#contact" class="hover:underline">Liên hệ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Chính sách</h4>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:underline">Chính sách bảo hành</a></li>
+          <li><a href="#" class="hover:underline">Chính sách hoàn tiền</a></li>
+          <li><a href="#" class="hover:underline">Điều khoản sử dụng</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Mạng xã hội</h4>
+        <ul class="space-y-1">
+          <li>Facebook: <a href="#" class="text-blue-500 hover:underline">fb.com/dtcarphil</a></li>
+          <li>TikTok: <a href="#" class="text-blue-500 hover:underline">@dtcar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-400 mt-8">© 2025 DT Car Philippines. All rights reserved.</div>
+  </footer>
+
 </body>
 </html>
