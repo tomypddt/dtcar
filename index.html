@@ -12,10 +12,15 @@
     nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
     .container { max-width: 1000px; margin: auto; padding: 2rem 1rem; background: white; }
     h2 { color: #004d99; margin-bottom: 1rem; }
+    ul { padding-left: 1.5rem; }
     footer { background: #004d99; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    .gallery img { width: 100%; max-width: 300px; margin: 10px; border-radius: 8px; }
+    .feedback { background: #e6f2ff; padding: 1rem; margin-top: 1rem; border-left: 5px solid #004d99; }
     @media (max-width: 600px) {
       nav a { display: block; margin: 10px 0; }
+      .gallery { display: block; }
     }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
   </style>
 </head>
 <body>
@@ -25,6 +30,8 @@
     <nav>
       <a href="#about">Giới thiệu</a>
       <a href="#services">Dịch vụ</a>
+      <a href="#gallery">Hình ảnh</a>
+      <a href="#feedback">Phản hồi</a>
       <a href="#contact">Liên hệ</a>
     </nav>
   </header>
@@ -42,6 +49,25 @@
         <li>Hướng dẫn thi bằng lái</li>
         <li>Hỗ trợ đăng ký xe, gia hạn CR/OR</li>
       </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Hình ảnh xe</h2>
+      <div class="gallery">
+        <img src="https://source.unsplash.com/300x200/?car,sedan" alt="Xe sedan">
+        <img src="https://source.unsplash.com/300x200/?car,suv" alt="Xe SUV">
+        <img src="https://source.unsplash.com/300x200/?car,van" alt="Xe Van">
+      </div>
+    </section>
+
+    <section id="feedback">
+      <h2>Phản hồi của khách</h2>
+      <div class="feedback">
+        <p><strong>Minh T. (Manila):</strong> "Xe sạch, tài xế chuyên nghiệp, rất đúng giờ!"</p>
+      </div>
+      <div class="feedback">
+        <p><strong>Liu H. (Quezon):</strong> "Cảm ơn DTCar đã giúp tôi thi bằng lái dễ dàng và nhanh chóng."</p>
+      </div>
     </section>
 
     <section id="contact">
