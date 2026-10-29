@@ -8,8 +8,9 @@ export const metadata: Metadata = {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/dtcar-favicon.svg",
-    shortcut: "/dtcar-favicon.svg",
+    icon: { url: "/dtcar-favicon-official.png", type: "image/png" },
+    shortcut: "/dtcar-favicon-official.png",
+    apple: "/dtcar-apple-logo.jpeg",
   },
 };
 
