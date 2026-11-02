@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { articles } from "./data/stories";
 
 const projects = [
   { tag: "VINFAST", title: "Sales & aftersales ecosystem", text: "Vehicle sales support and a growing network of 12 service workshops across the Philippines.", image: "/images/vinfast-signing-primary.jpeg" },
@@ -9,12 +10,15 @@ const projects = [
   { tag: "XENTROMALL", title: "Mobility technology rollout", text: "Sticker installation, SIM-enabled dash cams and taxi meter deployment for operational fleets.", image: "/images/xentromall.jpeg" },
 ];
 
-const stories = [
-  { date: "WORKSHOP", title: "Building dependable after-sales support through 12 service workshops", image: "/images/235993FA-122C-4900-BD39-EAC455381A5A.jpeg", href: "/news/vinfast-authorized-workshop-network" },
-  { date: "SPECIAL DELIVERY", title: "VinFast handover for Miss Universe Philippines 2025 Emmanuelle Tiglao", image: "/images/0437D0EE-D496-4E39-AE62-FBBED4F4CC96.jpeg", href: "/news/vinfast-delivery-emmanuelle-tiglao" },
-  { date: "GSM PROJECT", title: "Inside a 10,000+ vehicle technology rollout", image: "/images/3C6CC438-ADE7-4E76-B073-117DB97C78A0.jpeg", href: "/news/gsm-10000-vehicle-technology-rollout" },
-  { date: "VINFAST OWNERS EVENT", title: "DT Car supports a community event for VinFast car owners", image: "/images/ADA2D56D-6A8A-41EE-AEE3-B741805613BB.jpeg", href: "/news/vinfast-car-owners-event" },
-];
+const stories = [...articles]
+  .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+  .slice(0, 4)
+  .map((article) => ({
+    date: article.category,
+    title: article.title,
+    image: article.hero,
+    href: `/news/${article.slug}`,
+  }));
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
