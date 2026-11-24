@@ -1,0 +1,174 @@
+type Link = { label: string; href: string };
+type Question = { question: string; answer: string };
+type Comparison = { caption: string; columns: string[]; rows: string[][]; source: Link };
+
+export type Service = {
+  slug: string;
+  name: string;
+  title: string;
+  summary: string;
+  image: string;
+  action: Link;
+  checklistTitle: string;
+  checklist: string[];
+  steps: { title: string; text: string }[];
+  questions: Question[];
+  references: Link[];
+  stories: string[];
+  related?: string;
+  comparison?: Comparison;
+  filipino?: string;
+};
+
+const messenger = "https://m.me/61550266324189";
+const priceList = { label: "VinFast Philippines price list", href: "https://vinfastauto.ph/en/price-list" };
+export const rentalRegistration = "https://platform.greengsm.ph/dat_coc_xe?model=HerioGreen&rental=true";
+
+export const services: Service[] = [
+  {
+    slug: "sell-my-car-manila",
+    name: "Sell a used car in Metro Manila",
+    title: "Sell My Car in Metro Manila | DT Car Appraisals",
+    summary: "Selling a car in Metro Manila? Send DT Car the model, year, mileage, photos and location. The used-car team can review the details and discuss an inspection before making an offer.",
+    image: "/images/web/used-car.webp",
+    action: { label: "Send my car for appraisal", href: messenger },
+    checklistTitle: "What to send for a first valuation",
+    checklist: [
+      "Make, model, variant, model year, transmission and current odometer reading.",
+      "Photos of each side, the dashboard with mileage visible, the cabin and any damage you would like the appraiser to see.",
+      "Your city, preferred inspection time and asking price if you have one.",
+      "Mention maintenance records, repairs, modifications or known faults. Keep registration documents available for the inspection.",
+    ],
+    steps: [
+      { title: "Send the vehicle details", text: "A photo of the exact variant badge and the odometer helps the team identify the car. Two cars of the same model year can have different equipment and mileage." },
+      { title: "Arrange an inspection", text: "Discuss the meeting place and time with the appraiser. Have the keys and available service records with the car so the team can compare its condition with the photos." },
+      { title: "Review the offer", text: "Ask for the offer for your specific vehicle and confirm payment and handover arrangements before agreeing to the sale." },
+    ],
+    questions: [
+      { question: "Can I start while the car is outside Makati?", answer: "Yes. Include the city or municipality where the car can be inspected. DT Car will confirm whether the team can cover that location before you travel." },
+      { question: "Is an estimate from photos the final price?", answer: "The photos support an initial assessment. The appraiser still needs to check the car’s condition and records before confirming an offer." },
+      { question: "Can I speak with the team in another language?", answer: "DT Car has English/Filipino, Vietnamese, Chinese and Korean vehicle channels. Use the contact directory below to reach your preferred team." },
+    ],
+    references: [{ label: "DT Car language and contact directory", href: "/contact/" }],
+    stories: ["pre-owned-cars-professional-inspection"],
+  },
+  {
+    slug: "vinfast-test-drive",
+    name: "VinFast prices and test drives",
+    title: "VinFast VF 3 and VF 5 Prices & Test Drives | DT Car Philippines",
+    summary: "Compare Philippine starting prices for the VinFast VF 3 and VF 5 Plus, then ask DT Car for a written quote or a test drive near you. Include your city and preferred model so the team can check availability.",
+    image: "/images/web/showroom.webp",
+    action: { label: "Request a VinFast test drive", href: messenger },
+    comparison: {
+      caption: "Philippine starting prices in pesos · checked 24 November 2026",
+      columns: ["Model", "With battery subscription", "Without battery subscription"],
+      rows: [["VF 3", "₱590,000", "₱745,000"], ["VF 5 Plus", "₱949,000", "₱1,099,000"]],
+      source: priceList,
+    },
+    checklistTitle: "What to include in your request",
+    checklist: ["Model or models you want to drive and your city.", "Preferred day, time and number of people attending.", "Whether you want a quote with or without a battery subscription, and any accessories you want priced separately."],
+    steps: [
+      { title: "Compare the two battery options", text: "The prices above come from VinFast’s Philippine list. For a subscription quote, ask for the recurring fee alongside the upfront vehicle price. Also ask for registration and other charges to be itemized." },
+      { title: "Confirm the demo appointment", text: "The team checks the location, model and time. Wait for the meeting details before going to a showroom, especially if you want to try both cars on one visit." },
+      { title: "Get a written quotation", text: "After the drive, request the specific variant, colour, availability, reservation terms and expected handover window in writing." },
+    ],
+    questions: [
+      { question: "Does the published price mean a unit is available today?", answer: "Stock and demo schedules are checked separately from the price list. Give the sales team your city and preferred colour for a current availability check." },
+      { question: "Can I request several vehicles for a company?", answer: "Yes. Include the model mix, estimated quantity, delivery city and target date in your enquiry so DT Car can coordinate a fleet quotation." },
+    ],
+    references: [{ label: "VinFast Philippines model range", href: "https://vinfastauto.ph/en" }],
+    stories: ["vinfast-sales-and-customer-handover", "vinfast-delivery-emmanuelle-tiglao", "vinfast-vf3-best-selling-bev-philippines-2026", "vinfast-car-owners-event"],
+    related: "vinfast-workshop-service",
+  },
+  {
+    slug: "green-gsm-driver-application",
+    name: "Green GSM driver application",
+    title: "Green GSM Driver Application in the Philippines | DT Car",
+    summary: "Want to drive a Green GSM electric taxi? DT Car assists applicants with the recruitment steps. Start with your city and Philippine professional driver’s licence status so the team can check the appropriate intake and depot.",
+    image: "/images/web/gsm-fleet.webp",
+    action: { label: "Talk to DT Car about applying", href: messenger },
+    filipino: "May professional driver’s license ka na? I-message ang DT Car at sabihin ang lungsod mo para makumpirma ang susunod na hakbang.",
+    checklistTitle: "Before contacting recruitment",
+    checklist: ["Your city or municipality and the area where you want to drive.", "Whether you currently hold a valid Philippine professional driver’s licence.", "Your driving experience and the days you can attend an interview or assessment."],
+    steps: [
+      { title: "Choose the driver application", text: "Use this route to apply to drive a Green GSM taxi. If you want to rent an EV for the platform, use the separate rental guide linked below." },
+      { title: "Check the intake and depot", text: "Ask DT Car which intake covers your location. Green GSM publishes the recruitment steps and depot information. Confirm your appointment and document list before making the trip." },
+      { title: "Prepare for assessment", text: "Green GSM lists an interview and driving test as part of recruitment. Keep the team’s confirmation so you know where to report and what to bring." },
+    ],
+    questions: [
+      { question: "What licence does Green GSM list?", answer: "Green GSM’s Philippine taxi-driver page specifies a valid Philippine professional driver’s licence. Check the official requirements below for your application." },
+      { question: "Who confirms my onboarding?", answer: "DT Car assists with recruitment coordination. Green GSM handles its assessment and confirms onboarding arrangements." },
+    ],
+    references: [{ label: "Green GSM Philippines driver requirements and depots", href: "https://www.greengsm.ph/en/driver-car" }],
+    stories: ["green-gsm-driver-recruitment"],
+    related: "green-gsm-rental-pasada",
+  },
+  {
+    slug: "green-gsm-rental-pasada",
+    name: "Green GSM EV rental for drivers",
+    title: "Green GSM Rental Pasada in the Philippines | DT Car",
+    summary: "Use Green GSM’s Philippine rental platform to register for a Herio Green EV through DT Car. Enter referral code PH5301 with your application. You can ask DT Car about parking, documents and available units before booking.",
+    image: "/images/web/limo-green.webp",
+    action: { label: "Open Herio Green rental registration", href: rentalRegistration },
+    filipino: "Gustong umupa ng EV para sa pasada? Ihanda ang detalye ng parking at ilagay ang referral code na PH5301 sa rental form ng Green GSM.",
+    checklistTitle: "Before opening the rental application",
+    checklist: ["Have your contact details, city and professional driving licence information ready.", "Prepare a clear photo of the parking space you intend to use.", "Ask for the current rental schedule, charging arrangements, booking amount and refund terms for the model you select."],
+    steps: [
+      { title: "Open the official rental form", text: "The registration button opens the Herio Green rental route on platform.greengsm.ph. Check the vehicle and rental option shown before entering your details." },
+      { title: "Add the DT Car referral", text: "Enter PH5301 in the referral field so the application identifies the DT Car referral. Review your contact details before continuing." },
+      { title: "Review the booking terms", text: "Check the amount and conditions displayed by Green GSM before paying through its platform. Save the reference and use it when asking about assessment or vehicle release." },
+    ],
+    questions: [
+      { question: "How do I check Limo Green rental options?", answer: "Open Green GSM’s Limo Green rental page below or tell DT Car which model you prefer. Availability and quoted terms depend on the selected vehicle." },
+      { question: "Where can I ask about my application?", answer: "Message DT Car with the model and booking reference. For payment status or release dates, use the confirmation issued by Green GSM." },
+    ],
+    references: [{ label: "Green GSM Limo Green rental options", href: "https://platform.greengsm.ph/limo_green?order-type=rent" }, { label: "Talk with the DT Car rental team", href: messenger }],
+    stories: [],
+    related: "green-gsm-driver-application",
+  },
+  {
+    slug: "vinfast-workshop-service",
+    name: "VinFast workshop and service enquiries",
+    title: "VinFast Workshop and Service Enquiries | DT Car Philippines",
+    summary: "Ask DT Car to coordinate a VinFast workshop visit. Send the model, mileage, your city and the work needed so the service team can check a suitable workshop and appointment.",
+    image: "/images/web/workshop.webp",
+    action: { label: "Ask for a workshop appointment", href: messenger },
+    checklistTitle: "What the service team needs",
+    checklist: ["Vehicle model, model year and current mileage.", "Your city and whether the vehicle can be brought to a workshop.", "The maintenance item or symptom, when it started, and a photo of any dashboard message taken while parked."],
+    steps: [
+      { title: "Describe the job", text: "For scheduled maintenance, give the last service date and mileage. For a repair, describe what you observed and any previous work on the same issue." },
+      { title: "Confirm the workshop and time", text: "DT Car checks a location suited to the model and requested work. Ask for the workshop address, contact person, appointment time and records to bring." },
+      { title: "Review the work order", text: "Ask the receiving workshop for the proposed scope, estimate and timing. If parts are needed, ask which work can proceed on the visit and which items require a follow-up." },
+    ],
+    questions: [
+      { question: "Can DT Car check warranty coverage by message?", answer: "The team can direct your enquiry. The receiving workshop needs the vehicle details, history and diagnosis to assess a specific warranty claim." },
+      { question: "Can I request service for several fleet vehicles?", answer: "Send the model mix, number of units, operating location and available downtime. These details let the team discuss workshop capacity and a practical schedule." },
+    ],
+    references: [{ label: "DT Car contact and language channels", href: "/contact/" }],
+    stories: ["vinfast-authorized-workshop-network"],
+    related: "vinfast-test-drive",
+  },
+  {
+    slug: "vgreen-charging-site-proposal",
+    name: "Propose a V-Green charging site",
+    title: "Propose a V-Green EV Charging Site in the Philippines | DT Car",
+    summary: "Landowners and authorized agents can propose a Philippine property to DT Car for V-Green screening. Metro Manila is the first priority. Send a map pin, parking layout, current photos and an owner or agent contact.",
+    image: "/images/web/vgreen-site.webp",
+    action: { label: "Email DT Car about a site", href: "mailto:management@dtcar.ph?subject=V-Green%20site%20proposal" },
+    checklistTitle: "What to include in a site proposal",
+    checklist: ["Google Maps pin, city, property type, and the name of the owner or authorized contact.", "Available parking slots and dimensions, with photos showing entry, exit and vehicle circulation.", "Available electrical supply if known, site access hours and any history of flooding.", "Proposed rent, availability for handover and whether the proposal is for EV charging or motorcycle battery swapping."],
+    steps: [
+      { title: "Identify the use of the space", text: "DT Car’s published site brief gives preference to roughly 4–12 parking or charging slots for an EV site. A motorcycle battery-swapping proposal uses a different footprint. Describe which use the property can support." },
+      { title: "Request the submission form", text: "Send the location summary to DT Car and request the current form. The authorized contact can then provide the ownership and commercial details requested for screening." },
+      { title: "Coordinate an inspection", text: "If the initial review advances, the site team can examine access, power and layout with the owner or representative. Approval and commercial terms follow a separate review." },
+    ],
+    questions: [
+      { question: "Can a fuel station or mall submit a site?", answer: "Yes. DT Car’s site brief also considers parking facilities, roadside lots and other commercial properties. Show how vehicles can reach and leave the proposed bays." },
+      { question: "Can I submit several sites?", answer: "Prepare a separate map pin, photo set and slot count for each address. Make clear who can arrange access at each property." },
+    ],
+    references: [{ label: "DT Car and V-Green site selection brief", href: "/news/vgreen-land-space-charging-battery-swapping-philippines/" }],
+    stories: ["vgreen-land-space-charging-battery-swapping-philippines", "vgreen-charging-network-philippines"],
+  },
+];
+
+export const servicePath = (slug: string) => "/business/" + slug + "/";

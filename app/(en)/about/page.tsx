@@ -1,4 +1,13 @@
-import { PageHero, SubPage } from "../components/Subpage";
+import { PageHero, SubPage } from "@/app/components/Subpage";
+import { pageMetadata, profileLanguages } from "@/app/data/site";
+
+export const metadata = pageMetadata({
+  path: "/about/",
+  title: "About DT Car Philippines | Automotive and Mobility in Makati",
+  description: "Meet the Makati team behind DT Car’s VinFast sales, used-car business, Green GSM fleet projects, EV charging site work and Philippine travel services.",
+  languages: profileLanguages,
+});
+
 
 const areas = [
   ["VinFast partnership", "Official VinFast service workshop partner and vehicle sales representative in the Philippines. DT Car supports customer consultation, vehicle delivery, technical service and after-sales care through a network of 12 service workshops."],
@@ -16,8 +25,8 @@ const leaders = [
 ];
 
 export default function AboutPage() {
-  return <SubPage>
-    <PageHero label="ABOUT DT CAR" title="Drive Trust." text="A Philippine-based multi-service company connecting automotive, green mobility, infrastructure, project execution and travel." image="/images/vinfast-signing-primary.jpeg" />
+  return <SubPage profile>
+    <PageHero label="ABOUT DT CAR" title="About DT Car Philippines" text="A Philippine-based multi-service company connecting automotive, green mobility, infrastructure, project execution and travel." image="/images/vinfast-signing-primary.jpeg" />
     <section className="aboutOverview"><div><p className="eyebrow">OUR COMPANY</p><h2>A trusted local execution partner.</h2></div><div><p>DT Car is a multi-service company operating across the automotive and service industries in the Philippines. We buy and sell new and pre-owned vehicles, provide vehicle rental and chauffeur arrangements, maintenance and repair, automotive support solutions, travel services and project contracting.</p><p>Beyond serving individual customers, DT Car works with major Vietnamese and international corporations in the Philippines. We combine local market knowledge, partner networks and disciplined project control to turn agreements into practical, accountable field operations.</p></div></section>
     <section className="aboutVision"><article><span>VISION</span><h3>A trusted growth partner</h3><p>To become a leading multi-service automotive and services company in the Philippines and a trusted partner for the Vietnamese community, local customers and international corporations.</p></article><article><span>MISSION</span><h3>Comprehensive solutions</h3><p>To deliver integrated automotive, mobility, travel and project services guided by Trust, Quality and Dedication.</p></article><figure><img src="/images/3DD3712B-4470-467B-9924-8B588C36DFBE.jpeg" alt="Lisa Dong at the VinFast and DT Car signing ceremony" /><figcaption>Lisa Dong at the VinFast and DT Car signing ceremony</figcaption></figure></section>
     <section className="aboutAreas"><p className="eyebrow">BUSINESS AREAS</p><h2>One local team. Six connected capabilities.</h2><div>{areas.map(([title,text],index) => <article key={title}><span>{String(index + 1).padStart(2,"0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div></section>

@@ -1,8 +1,18 @@
 import { PageHero, SubPage } from "../components/Subpage";
+import { pageMetadata, profileLanguages } from "@/app/data/site";
+
+export const metadata = pageMetadata({
+  path: "/zh/",
+  title: "关于 DT Car 菲律宾 | 汽车买卖与车队服务",
+  description: "了解 DT Car 在菲律宾的汽车业务，包括 VinFast 新车、二手车评估、售后维修、Green GSM 车队项目与充电站选址。欢迎联系马卡蒂团队获取中文服务。",
+  locale: "zh_CN",
+  languages: profileLanguages,
+});
+
 const fields=[["VinFast 合作","在菲律宾提供汽车销售咨询、交付、技术服务和由 12 家服务中心组成的售后网络。"],["汽车服务","新车及二手车采购、检测、交易、维修、保养、租赁和司机服务。"],["Green GSM","参与超过 10,000 辆 Green GSM 及 LimoGreen 车辆项目，包括软件、SIM 行车记录仪、计价器、贴纸、司机招聘、租赁和车辆销售。"],["V-Green 基础设施","已寻找并评估超过 100 个充电站候选地点，并完成 4 座充电站。"],["项目实施","提供本地协调、现场安装、办公室装饰、质量控制和多地点项目实施。"],["DT Tour","为个人、家庭及团队提供灵活的菲律宾旅游、私人用车和本地支持。"]];
 const leaders=[["/images/profile-leader-john.jpg","John Nguyen","首席执行官"],["/images/profile-leader-lisa.jpg","Lisa Dong","市场与公共关系部总监"],["/images/profile-leader-tomy.jpg","Tomy Pham","项目控制经理"]];
-export default function ChinesePage(){return <SubPage>
-<PageHero label="DT CAR 菲律宾" title="Drive Trust." text="连接汽车、绿色出行、基础设施、项目执行与旅游的菲律宾本地合作伙伴。" image="/images/6677E51B-6A07-41EA-A0D6-81F5692DE7A6.jpeg"/>
+export default function ChinesePage(){return <SubPage profile>
+<PageHero label="DT CAR 菲律宾" title="关于 DT Car 菲律宾" text="连接汽车、绿色出行、基础设施、项目执行与旅游的菲律宾本地合作伙伴。" image="/images/6677E51B-6A07-41EA-A0D6-81F5692DE7A6.jpeg"/>
 <section className="aboutOverview"><div><p className="eyebrow">关于我们</p><h2>值得信赖的菲律宾本地执行伙伴。</h2></div><div><p>DT Car 是一家在菲律宾经营汽车和服务业务的多元化公司。业务包括新车及二手车交易、汽车租赁和司机服务、维修保养、项目承包以及旅游服务。</p><p>DT Car 与在菲律宾发展的越南及国际企业合作，结合本地市场经验、合作伙伴网络与专业项目管理，将合作协议转化为可衡量的现场成果。</p></div></section>
 <section className="aboutVision"><article><span>愿景</span><h3>值得信赖的增长伙伴</h3><p>成为菲律宾领先的多元汽车与服务企业。</p></article><article><span>使命</span><h3>综合解决方案</h3><p>以信任、质量和奉献为基础，提供综合服务。</p></article><figure><img src="/images/3DD3712B-4470-467B-9924-8B588C36DFBE.jpeg" alt="Lisa Dong 出席 VinFast 签约仪式"/><figcaption>Lisa Dong 出席 VinFast 与 DT Car 签约仪式</figcaption></figure></section>
 <section className="profileMetrics"><article><strong>12</strong><span>家服务中心</span></article><article><strong>10,000+</strong><span>辆 GSM 项目车辆</span></article><article><strong>100+</strong><span>个充电候选地点</span></article><article><strong>4</strong><span>座已建充电站</span></article></section>

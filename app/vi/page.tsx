@@ -1,8 +1,18 @@
 import { PageHero, SubPage } from "../components/Subpage";
+import { pageMetadata, profileLanguages } from "@/app/data/site";
+
+export const metadata = pageMetadata({
+  path: "/vi/",
+  title: "DT Car Philippines | Mua bán ô tô và dịch vụ xe tại Philippines",
+  description: "Tìm hiểu đội ngũ DT Car tại Makati, dịch vụ mua bán xe VinFast và xe cũ, hậu mãi, dự án Green GSM, trạm sạc và kênh liên hệ tiếng Việt.",
+  locale: "vi_VN",
+  languages: profileLanguages,
+});
+
 const fields=[["Hợp tác VinFast","Đại diện bán xe, tư vấn giao xe, dịch vụ kỹ thuật và hậu mãi qua mạng lưới 12 xưởng dịch vụ."],["Dịch vụ ô tô","Mua bán xe mới và xe đã qua sử dụng, kiểm tra, bảo dưỡng, sửa chữa, thuê xe và tài xế."],["Green GSM","Hỗ trợ hơn 10.000 xe Green GSM và LimoGreen: phần mềm, SIM dash cam, taxi meter, sticker, tuyển tài xế, thuê và bán xe."],["Hạ tầng V-Green","Tìm kiếm và đánh giá hơn 100 địa điểm, gồm nhiều chuỗi cây xăng; đã hoàn thành 4 trạm sạc."],["Triển khai dự án","Điều phối địa phương, lắp đặt hiện trường, trang trí văn phòng, kiểm soát chất lượng và triển khai đa điểm."],["DT Tour","Tour Philippines linh hoạt, xe riêng và hỗ trợ tại địa phương cho cá nhân, gia đình và đoàn khách."]];
 const leaders=[["/images/profile-leader-john.jpg","John Nguyen","Giám đốc điều hành"],["/images/profile-leader-lisa.jpg","Lisa Dong","Giám đốc Phòng Marketing & PR"],["/images/profile-leader-tomy.jpg","Tomy Pham","Quản lý kiểm soát dự án"]];
-export default function VietnamesePage(){return <SubPage>
-<PageHero label="DT CAR PHILIPPINES" title="Drive Trust." text="Đối tác triển khai tại Philippines trong các lĩnh vực ô tô, giao thông xanh, hạ tầng, dự án và du lịch." image="/images/6677E51B-6A07-41EA-A0D6-81F5692DE7A6.jpeg"/>
+export default function VietnamesePage(){return <SubPage profile>
+<PageHero label="DT CAR PHILIPPINES" title="DT Car tại Philippines" text="Đối tác triển khai tại Philippines trong các lĩnh vực ô tô, giao thông xanh, hạ tầng, dự án và du lịch." image="/images/6677E51B-6A07-41EA-A0D6-81F5692DE7A6.jpeg"/>
 <section className="aboutOverview"><div><p className="eyebrow">VỀ CHÚNG TÔI</p><h2>Đối tác triển khai đáng tin cậy.</h2></div><div><p>DT Car là công ty đa dịch vụ hoạt động trong ngành ô tô và dịch vụ tại Philippines. Chúng tôi mua bán xe mới và xe đã qua sử dụng, cho thuê xe và tài xế, bảo dưỡng–sửa chữa, triển khai dự án và cung cấp dịch vụ du lịch.</p><p>DT Car hợp tác cùng nhiều doanh nghiệp Việt Nam và quốc tế, kết hợp hiểu biết thị trường địa phương, mạng lưới đối tác và quản trị dự án để biến thỏa thuận thành kết quả thực tế.</p></div></section>
 <section className="aboutVision"><article><span>TẦM NHÌN</span><h3>Đối tác tăng trưởng đáng tin cậy</h3><p>Trở thành công ty ô tô và dịch vụ đa ngành hàng đầu tại Philippines.</p></article><article><span>SỨ MỆNH</span><h3>Giải pháp toàn diện</h3><p>Cung cấp giải pháp tích hợp dựa trên Uy tín, Chất lượng và Tận tâm.</p></article><figure><img src="/images/3DD3712B-4470-467B-9924-8B588C36DFBE.jpeg" alt="Lisa Dong tại lễ ký kết VinFast"/><figcaption>Lisa Dong tại lễ ký kết hợp tác VinFast</figcaption></figure></section>
 <section className="profileMetrics"><article><strong>12</strong><span>xưởng dịch vụ</span></article><article><strong>10.000+</strong><span>xe GSM đã triển khai</span></article><article><strong>100+</strong><span>địa điểm trạm sạc</span></article><article><strong>4</strong><span>trạm sạc đã xây dựng</span></article></section>
