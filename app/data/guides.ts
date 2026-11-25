@@ -1,5 +1,8 @@
-export type Guide = { slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
+import fieldGuides from "./field-guides.json";
+
+export type Guide = { photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 export const guides: Guide[] = [
+  ...fieldGuides,
   {
     "slug": "vinfast-vf3-price-philippines",
     "title": "VinFast VF 3 Price in the Philippines: What to Compare",
