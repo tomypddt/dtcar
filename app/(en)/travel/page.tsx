@@ -1,3 +1,4 @@
+import {guides, guidePath} from "@/app/data/guides";
 import Link from "next/link";
 import { PageHero, SubPage } from "@/app/components/Subpage";
 import { pageMetadata } from "@/app/data/site";
@@ -24,6 +25,7 @@ export default function TravelPage(){return <SubPage>
     <p>State both the number of passengers and the luggage you need to carry. Four travellers with large cases can need more space than the same group on a day trip. Tell DT Tour about bulky items or access needs before the team confirms a vehicle.</p>
     <a className="primary darkPrimary" href="https://m.me/dulichphilippinesdttour">Request a transport quote</a>
   </div></section>
+  <section className="detailIntro"><p className="eyebrow">PLAN YOUR JOURNEY</p><div><h2>Manila transport guides</h2><ul>{guides.filter(guide => guide.service === "travel").map(guide => <li key={guide.slug}><Link lang={guide.lang} href={guidePath(guide.slug)}>{guide.title}</Link></li>)}</ul></div></section>
   <section className="tourGallery"><div><p className="eyebrow">REAL DT TOUR JOURNEYS</p><h2>Photographs from the places we take our guests.</h2></div><div className="tourMasonry">{photos.map((src,i)=><figure key={src}><img src={src} alt={`DT Tour Philippines journey ${i+1}`}/></figure>)}</div></section>
   <section className="travelStoryLink"><p className="eyebrow">DT TOUR JOURNAL</p><h2>Read the full travel story.</h2><p>Discover how DT Tour connects private transport, local coordination, nature, heritage and island experiences in one flexible journey.</p><Link prefetch={false} className="primary darkPrimary" href="/news/dt-tour-philippines-curated-journeys">Read the article →</Link></section>
   <section className="cta tourCta"><p className="eyebrow light">YOUR PHILIPPINES JOURNEY</p><h2>Tell us what you want to experience.</h2><p>We will help shape the route, transport and activities around your schedule.</p><a className="primary" target="_blank" rel="noreferrer" href="https://m.me/dulichphilippinesdttour">Message DT Tour</a></section>

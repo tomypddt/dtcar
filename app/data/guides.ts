@@ -1,7 +1,9 @@
+import practicalGuides from "./practical-guides.json";
 import fieldGuides from "./field-guides.json";
 
 export type Guide = { photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 export const guides: Guide[] = [
+  ...practicalGuides,
   ...fieldGuides,
   {
     "slug": "vinfast-vf3-price-philippines",
