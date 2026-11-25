@@ -8,12 +8,12 @@ import "./guides.css";
 export const metadata = pageMetadata({
   path:"/guides/",
   title:"Car, EV and Driver Guides in the Philippines | DT Car",
-  description:"Browse Philippine guides to VinFast, used cars, EV charging, Green GSM, fleet operations and Manila private transport in five languages."
+  description:"Find a used car, request an appraisal or a VinFast quote, book Philippine travel, or explore Vietnamese driving lessons and licence assistance."
 });
 
 export default function GuidesPage() {
-  const cards = guides.map(({slug,title,description,category,lang,photo})=>({
-    slug,title,description,category,lang,image:photo ?? "/images/guides/"+slug+".svg",read:guideLabels(lang).read
+  const cards = guides.map(({slug,title,description,category,service,lang,photo})=>({
+    slug,title,description,category,service,lang,image:photo ?? "/images/guides/"+slug+".svg",read:guideLabels(lang).read
   }));
   return <SubPage><section className="knowledgeHub">
     <header className="knowledgeHead"><p className="eyebrow">DT CAR FIELD GUIDE</p>

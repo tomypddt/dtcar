@@ -758,5 +758,505 @@
     "src": "/images/editorial/hoi-tu-van-bang-lai-philippines-khi-ten-tren-cac-giay-to-viet-khac-nhau-brief.webp",
     "alt": "Đối chiếu họ tên — Dạng khác biệt / Nơi tiếp nhận",
     "kind": "checklist"
+  },
+  "used-toyota-yaris-in-manila-for-a-narrow-gate": {
+    "src": "/images/editorial/used-toyota-yaris-in-manila-for-a-narrow-gate-brief.webp",
+    "kind": "checklist",
+    "alt": "Gate clearance — Mirror clearance / Turning space"
+  },
+  "used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch": {
+    "src": "/images/editorial/used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch-brief.webp",
+    "kind": "checklist",
+    "alt": "Towing history — Previous loads / Workshop findings"
+  },
+  "used-toyota-avanza-or-a-sedan-for-manila-carpools": {
+    "src": "/images/editorial/used-toyota-avanza-or-a-sedan-for-manila-carpools-brief.webp",
+    "kind": "checklist",
+    "alt": "Carpool seating — Daily riders / Weekly full load"
+  },
+  "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim": {
+    "src": "/images/editorial/used-ford-territory-in-manila-check-the-technology-on-the-actual-trim-brief.webp",
+    "kind": "checklist",
+    "alt": "Cabin controls — Phone pairing / Actual trim"
+  },
+  "used-kia-carnival-for-an-airport-pickup-business": {
+    "src": "/images/editorial/used-kia-carnival-for-an-airport-pickup-business-brief.webp",
+    "kind": "checklist",
+    "alt": "Van turnaround — Door clearance / Bag loading"
+  },
+  "used-hyundai-staria-for-a-hotel-shuttle-what-to-ask-before-viewing": {
+    "src": "/images/editorial/used-hyundai-staria-for-a-hotel-shuttle-what-to-ask-before-viewing-brief.webp",
+    "kind": "checklist",
+    "alt": "Hotel access — Entry height / Boarding step"
+  },
+  "used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims": {
+    "src": "/images/editorial/used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims-brief.webp",
+    "kind": "checklist",
+    "alt": "Trim evidence — Original equipment / Added equipment"
+  },
+  "used-honda-brio-for-a-first-apartment-parking-space": {
+    "src": "/images/editorial/used-honda-brio-for-a-first-apartment-parking-space-brief.webp",
+    "kind": "checklist",
+    "alt": "Parking fit — Ramp turn / Door opening"
+  },
+  "used-toyota-wigo-in-manila-for-deliveries-with-small-parcels": {
+    "src": "/images/editorial/used-toyota-wigo-in-manila-for-deliveries-with-small-parcels-brief.webp",
+    "kind": "checklist",
+    "alt": "Parcel layout — Box footprint / Daily stops"
+  },
+  "used-subaru-forester-reviewing-a-set-of-replacement-tyres": {
+    "src": "/images/editorial/used-subaru-forester-reviewing-a-set-of-replacement-tyres-brief.webp",
+    "kind": "checklist",
+    "alt": "Tyre history — Tyre markings / Service invoices"
+  },
+  "used-mazda-3-hatchback-or-sedan-for-a-folding-bicycle": {
+    "src": "/images/editorial/used-mazda-3-hatchback-or-sedan-for-a-folding-bicycle-brief.webp",
+    "kind": "checklist",
+    "alt": "Bike loading — Folded dimensions / Boot opening"
+  },
+  "used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila": {
+    "src": "/images/editorial/used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Rear cabin — Seat position / Entry angle"
+  },
+  "buying-a-used-diesel-suv-after-seeing-a-dashboard-warning-in-the-listing": {
+    "src": "/images/editorial/buying-a-used-diesel-suv-after-seeing-a-dashboard-warning-in-the-listing-brief.webp",
+    "kind": "checklist",
+    "alt": "Warning evidence — Warning symbol / Diagnostic result"
+  },
+  "buying-a-used-car-with-only-one-registered-key": {
+    "src": "/images/editorial/buying-a-used-car-with-only-one-registered-key-brief.webp",
+    "kind": "checklist",
+    "alt": "Replacement key — Working key / Written estimate"
+  },
+  "buying-a-used-car-with-a-changed-instrument-cluster": {
+    "src": "/images/editorial/buying-a-used-car-with-a-changed-instrument-cluster-brief.webp",
+    "kind": "checklist",
+    "alt": "Mileage trail — Last recorded mileage / Replacement date"
+  },
+  "used-cars-with-fresh-undercoating-what-should-the-inspection-cover": {
+    "src": "/images/editorial/used-cars-with-fresh-undercoating-what-should-the-inspection-cover-brief.webp",
+    "kind": "checklist",
+    "alt": "Underside condition — Treatment date / Inspection access"
+  },
+  "buying-a-pre-owned-car-after-a-long-distance-move-to-cebu": {
+    "src": "/images/editorial/buying-a-pre-owned-car-after-a-long-distance-move-to-cebu-brief.webp",
+    "kind": "checklist",
+    "alt": "Remote handover — Viewing city / Receiving city"
+  },
+  "which-used-car-works-for-a-wheelchair-that-folds-into-the-boot": {
+    "src": "/images/editorial/which-used-car-works-for-a-wheelchair-that-folds-into-the-boot-brief.webp",
+    "kind": "checklist",
+    "alt": "Mobility equipment — Folded chair size / Loading height"
+  },
+  "buying-a-second-hand-car-with-roof-rails-for-a-surfboard": {
+    "src": "/images/editorial/buying-a-second-hand-car-with-roof-rails-for-a-surfboard-brief.webp",
+    "kind": "checklist",
+    "alt": "Roof equipment — Rail type / Rack compatibility"
+  },
+  "used-car-in-manila-for-two-child-restraints-side-by-side": {
+    "src": "/images/editorial/used-car-in-manila-for-two-child-restraints-side-by-side-brief.webp",
+    "kind": "checklist",
+    "alt": "Seat layout — Restraint footprint / Buckle access"
+  },
+  "selling-a-car-with-a-lost-service-booklet-in-manila": {
+    "src": "/images/editorial/selling-a-car-with-a-lost-service-booklet-in-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Service trail — Workshop dates / Remaining records"
+  },
+  "selling-a-car-fitted-with-a-removable-roof-box": {
+    "src": "/images/editorial/selling-a-car-fitted-with-a-removable-roof-box-brief.webp",
+    "kind": "checklist",
+    "alt": "Roof accessories — Box included / Mounting kit"
+  },
+  "car-appraisal-after-switching-from-stock-to-larger-wheels": {
+    "src": "/images/editorial/car-appraisal-after-switching-from-stock-to-larger-wheels-brief.webp",
+    "kind": "checklist",
+    "alt": "Wheel change — Stock wheel size / Fitted wheel size"
+  },
+  "selling-a-used-van-with-removable-passenger-seats": {
+    "src": "/images/editorial/selling-a-used-van-with-removable-passenger-seats-brief.webp",
+    "kind": "checklist",
+    "alt": "Seat inventory — Seats fitted / Seats stored"
+  },
+  "selling-a-car-while-its-replacement-is-being-repaired": {
+    "src": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-brief.webp",
+    "kind": "checklist",
+    "alt": "Release window — Workshop update / Last use date"
+  },
+  "selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history": {
+    "src": "/images/editorial/selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history-brief.webp",
+    "kind": "checklist",
+    "alt": "Work history — Typical shift / Maintenance interval"
+  },
+  "selling-a-car-with-window-film-which-details-affect-inspection": {
+    "src": "/images/editorial/selling-a-car-with-window-film-which-details-affect-inspection-brief.webp",
+    "kind": "checklist",
+    "alt": "Window film — Film invoice / Glass condition"
+  },
+  "selling-a-used-delivery-van-with-shelves-installed": {
+    "src": "/images/editorial/selling-a-used-delivery-van-with-shelves-installed-brief.webp",
+    "kind": "checklist",
+    "alt": "Cargo shelving — Fixing points / Bare cargo floor"
+  },
+  "selling-your-car-after-the-windscreen-was-replaced": {
+    "src": "/images/editorial/selling-your-car-after-the-windscreen-was-replaced-brief.webp",
+    "kind": "checklist",
+    "alt": "Glass replacement — Repair invoice / Equipment checks"
+  },
+  "appraising-a-car-with-a-recently-repaired-air-conditioner": {
+    "src": "/images/editorial/appraising-a-car-with-a-recently-repaired-air-conditioner-brief.webp",
+    "kind": "checklist",
+    "alt": "Cooling repair — Parts replaced / Follow-up visit"
+  },
+  "selling-two-family-cars-registered-to-different-owners": {
+    "src": "/images/editorial/selling-two-family-cars-registered-to-different-owners-brief.webp",
+    "kind": "checklist",
+    "alt": "Ownership contacts — Inspection contact / Handover contact"
+  },
+  "selling-a-car-whose-finance-was-settled-recently": {
+    "src": "/images/editorial/selling-a-car-whose-finance-was-settled-recently-brief.webp",
+    "kind": "checklist",
+    "alt": "Release records — Settlement date / Document status"
+  },
+  "selling-an-inherited-vehicle-requesting-a-preliminary-appraisal": {
+    "src": "/images/editorial/selling-an-inherited-vehicle-requesting-a-preliminary-appraisal-brief.webp",
+    "kind": "checklist",
+    "alt": "Preliminary value — Vehicle condition / Authority to sell"
+  },
+  "selling-a-car-with-different-paint-shades-on-two-doors": {
+    "src": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-brief.webp",
+    "kind": "checklist",
+    "alt": "Paint history — Panel photos / Repair record"
+  },
+  "selling-a-company-vehicle-with-employee-belongings-and-installed-devices": {
+    "src": "/images/editorial/selling-a-company-vehicle-with-employee-belongings-and-installed-devices-brief.webp",
+    "kind": "checklist",
+    "alt": "Handover inventory — Company devices / Items to remove"
+  },
+  "selling-a-non-running-car-from-a-private-garage": {
+    "src": "/images/editorial/selling-a-non-running-car-from-a-private-garage-brief.webp",
+    "kind": "checklist",
+    "alt": "Recovery access — Garage clearance / Vehicle mobility"
+  },
+  "selling-a-car-when-the-spare-tyre-or-repair-kit-is-missing": {
+    "src": "/images/editorial/selling-a-car-when-the-spare-tyre-or-repair-kit-is-missing-brief.webp",
+    "kind": "checklist",
+    "alt": "Boot inventory — Factory equipment / Missing items"
+  },
+  "selling-a-car-previously-used-near-the-coast": {
+    "src": "/images/editorial/selling-a-car-previously-used-near-the-coast-brief.webp",
+    "kind": "checklist",
+    "alt": "Coastal use — Storage location / Underside inspection"
+  },
+  "selling-a-car-with-an-approaching-major-service": {
+    "src": "/images/editorial/selling-a-car-with-an-approaching-major-service-brief.webp",
+    "kind": "checklist",
+    "alt": "Upcoming service — Service due / Workshop quote"
+  },
+  "selling-an-suv-while-keeping-your-personalised-accessories": {
+    "src": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-brief.webp",
+    "kind": "checklist",
+    "alt": "Release inventory — Included fittings / Retained items"
+  },
+  "vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences": {
+    "src": "/images/editorial/vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences-brief.webp",
+    "kind": "checklist",
+    "alt": "Battery price gap — VF 3 gap / VF 5 Plus gap"
+  },
+  "vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost": {
+    "src": "/images/editorial/vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost-brief.webp",
+    "kind": "checklist",
+    "alt": "Eco comparison — Subscription quote / Battery-included quote"
+  },
+  "vf-6-plus-versus-vf-7-plus-compare-like-for-like-battery-terms": {
+    "src": "/images/editorial/vf-6-plus-versus-vf-7-plus-compare-like-for-like-battery-terms-brief.webp",
+    "kind": "checklist",
+    "alt": "Plus comparison — Upfront gap / Included equipment"
+  },
+  "vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist": {
+    "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-brief.webp",
+    "kind": "checklist",
+    "alt": "MPV comparison — Occupied rows / Price difference"
+  },
+  "herio-green-or-vf-5-plus-for-a-predictable-daily-route": {
+    "src": "/images/editorial/herio-green-or-vf-5-plus-for-a-predictable-daily-route-brief.webp",
+    "kind": "checklist",
+    "alt": "Route comparison — Daily mileage / Parking duration"
+  },
+  "vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods": {
+    "src": "/images/editorial/vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods-brief.webp",
+    "kind": "checklist",
+    "alt": "Ownership periods — Three-year costs / Five-year costs"
+  },
+  "vinfast-family-ev-for-a-household-with-two-parking-locations": {
+    "src": "/images/editorial/vinfast-family-ev-for-a-household-with-two-parking-locations-brief.webp",
+    "kind": "checklist",
+    "alt": "Two parking sites — Weekday parking / Weekend parking"
+  },
+  "buying-a-vinfast-ev-before-a-change-of-workplace": {
+    "src": "/images/editorial/buying-a-vinfast-ev-before-a-change-of-workplace-brief.webp",
+    "kind": "checklist",
+    "alt": "Commute change — Current distance / New distance"
+  },
+  "vinfast-test-drive-for-two-adults-who-share-one-phone-connection": {
+    "src": "/images/editorial/vinfast-test-drive-for-two-adults-who-share-one-phone-connection-brief.webp",
+    "kind": "checklist",
+    "alt": "Cabin setup — Driver profile / Phone setup"
+  },
+  "ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal": {
+    "src": "/images/editorial/ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal-brief.webp",
+    "kind": "checklist",
+    "alt": "Basement use — Signal coverage / Offline access"
+  },
+  "vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs": {
+    "src": "/images/editorial/vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs-brief.webp",
+    "kind": "checklist",
+    "alt": "Charger quote — Equipment price / Installation scope"
+  },
+  "vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger": {
+    "src": "/images/editorial/vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger-brief.webp",
+    "kind": "checklist",
+    "alt": "Existing charger — Connector details / Installer check"
+  },
+  "shopping-for-a-vinfast-for-an-island-based-business": {
+    "src": "/images/editorial/shopping-for-a-vinfast-for-an-island-based-business-brief.webp",
+    "kind": "checklist",
+    "alt": "Island handover — Receiving point / Service arrangements"
+  },
+  "vinfast-for-sales-representatives-visiting-several-branches": {
+    "src": "/images/editorial/vinfast-for-sales-representatives-visiting-several-branches-brief.webp",
+    "kind": "checklist",
+    "alt": "Branch route — Longest day / Depot dwell"
+  },
+  "comparing-two-vinfast-dealer-quotes-with-different-accessories": {
+    "src": "/images/editorial/comparing-two-vinfast-dealer-quotes-with-different-accessories-brief.webp",
+    "kind": "checklist",
+    "alt": "Accessory bundle — Mandatory items / Optional items"
+  },
+  "vinfast-ev-as-a-pool-car-handing-over-between-employees": {
+    "src": "/images/editorial/vinfast-ev-as-a-pool-car-handing-over-between-employees-brief.webp",
+    "kind": "checklist",
+    "alt": "Pool-car setup — Key control / Vehicle log"
+  },
+  "buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city": {
+    "src": "/images/editorial/buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city-brief.webp",
+    "kind": "checklist",
+    "alt": "Move timing — Delivery city / Future service city"
+  },
+  "ordering-two-vinfast-cars-for-family-members-in-different-cities": {
+    "src": "/images/editorial/ordering-two-vinfast-cars-for-family-members-in-different-cities-brief.webp",
+    "kind": "checklist",
+    "alt": "Two-city order — Separate owners / Separate handovers"
+  },
+  "choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim": {
+    "src": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-brief.webp",
+    "kind": "checklist",
+    "alt": "Stock versus wait — Delivery window / Must-have features"
+  },
+  "vinfast-for-a-business-with-seasonal-mileage-peaks": {
+    "src": "/images/editorial/vinfast-for-a-business-with-seasonal-mileage-peaks-brief.webp",
+    "kind": "checklist",
+    "alt": "Seasonal mileage — Quiet months / Peak months"
+  },
+  "lich-manila-cho-khach-viet-den-sau-nua-dem": {
+    "src": "/images/editorial/lich-manila-cho-khach-viet-den-sau-nua-dem-brief.webp",
+    "kind": "checklist",
+    "alt": "Đón đêm — Ngày hạ cánh / Ngày nhận phòng"
+  },
+  "xe-rieng-tu-manila-den-clark-cho-nhom-viet-co-chuyen-bay": {
+    "src": "/images/editorial/xe-rieng-tu-manila-den-clark-cho-nhom-viet-co-chuyen-bay-brief.webp",
+    "kind": "checklist",
+    "alt": "Đi Clark — Điểm đón / Giờ phải tới"
+  },
+  "dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila": {
+    "src": "/images/editorial/dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Đón tại Clark — Mã chuyến / Điểm trả"
+  },
+  "tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc": {
+    "src": "/images/editorial/tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc-brief.webp",
+    "kind": "checklist",
+    "alt": "Góc chụp kiến trúc — Điểm ưu tiên / Thời gian đi bộ"
+  },
+  "lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam": {
+    "src": "/images/editorial/lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam-brief.webp",
+    "kind": "checklist",
+    "alt": "Lịch ngày mưa — Điểm trong nhà / Giờ quyết định"
+  },
+  "di-bao-tang-o-manila-voi-tre-em-dat-lich-xe-rieng-the-nao": {
+    "src": "/images/editorial/di-bao-tang-o-manila-voi-tre-em-dat-lich-xe-rieng-the-nao-brief.webp",
+    "kind": "checklist",
+    "alt": "Buổi bảo tàng — Giờ vào cửa / Giờ trẻ cần nghỉ"
+  },
+  "tour-manila-cho-khach-viet-can-an-chay": {
+    "src": "/images/editorial/tour-manila-cho-khach-viet-can-an-chay-brief.webp",
+    "kind": "checklist",
+    "alt": "Bữa ăn chay — Kiểu ăn / Thời gian dùng bữa"
+  },
+  "dat-tour-manila-cho-doan-cong-ty-can-hoa-don-va-bao-gia": {
+    "src": "/images/editorial/dat-tour-manila-cho-doan-cong-ty-can-hoa-don-va-bao-gia-brief.webp",
+    "kind": "checklist",
+    "alt": "Hồ sơ công tác — Tên đơn vị / Hạn duyệt chi"
+  },
+  "thue-xe-rieng-cho-nhom-viet-di-khao-sat-nha-o-metro-manila": {
+    "src": "/images/editorial/thue-xe-rieng-cho-nhom-viet-di-khao-sat-nha-o-metro-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Xem căn hộ — Lịch từng toà / Cổng đón khách"
+  },
+  "xe-rieng-cho-phu-huynh-viet-di-tham-truong-tai-manila": {
+    "src": "/images/editorial/xe-rieng-cho-phu-huynh-viet-di-tham-truong-tai-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Thăm trường — Lịch tiếp phụ huynh / Điểm đón sau buổi"
+  },
+  "don-doan-viet-o-ben-cang-manila-cho-chuyen-tham-quan-ngan": {
+    "src": "/images/editorial/don-doan-viet-o-ben-cang-manila-cho-chuyen-tham-quan-ngan-brief.webp",
+    "kind": "checklist",
+    "alt": "Đón ở cảng — Cửa ra / Hạn trở lại tàu"
+  },
+  "di-cebu-roi-noi-chuyen-sang-bohol-nen-dat-xe-tung-chang-the-nao": {
+    "src": "/images/editorial/di-cebu-roi-noi-chuyen-sang-bohol-nen-dat-xe-tung-chang-the-nao-brief.webp",
+    "kind": "checklist",
+    "alt": "Nối Cebu – Bohol — Cảng khởi hành / Cảng đến"
+  },
+  "tour-bohol-cho-cap-doi-viet-chi-co-mot-ngay-ranh": {
+    "src": "/images/editorial/tour-bohol-cho-cap-doi-viet-chi-co-mot-ngay-ranh-brief.webp",
+    "kind": "checklist",
+    "alt": "Một ngày Bohol — Ưu tiên chính / Giờ về"
+  },
+  "dat-xe-o-philippines-cho-doan-viet-can-hai-xe-di-cung": {
+    "src": "/images/editorial/dat-xe-o-philippines-cho-doan-viet-can-hai-xe-di-cung-brief.webp",
+    "kind": "checklist",
+    "alt": "Điều phối hai xe — Danh sách từng xe / Điểm gặp lại"
+  },
+  "thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam": {
+    "src": "/images/editorial/thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam-brief.webp",
+    "kind": "checklist",
+    "alt": "Chọn gói xe — Khoảng nghỉ / Số lần lấy đồ"
+  },
+  "dat-xe-manila-cho-khach-viet-can-lam-viec-ngay-sau-khi-ha-canh": {
+    "src": "/images/editorial/dat-xe-manila-cho-khach-viet-can-lam-viec-ngay-sau-khi-ha-canh-brief.webp",
+    "kind": "checklist",
+    "alt": "Sân bay đến cuộc họp — Địa chỉ họp / Nơi gửi vali"
+  },
+  "du-lich-manila-dip-sinh-nhat-gia-dinh-gom-lich-an-toi-va-dua-don": {
+    "src": "/images/editorial/du-lich-manila-dip-sinh-nhat-gia-dinh-gom-lich-an-toi-va-dua-don-brief.webp",
+    "kind": "checklist",
+    "alt": "Tiệc sinh nhật — Giờ đặt bàn / Nhóm về sớm"
+  },
+  "thue-xe-cho-nhom-viet-mang-dung-cu-quay-phim-o-manila": {
+    "src": "/images/editorial/thue-xe-cho-nhom-viet-mang-dung-cu-quay-phim-o-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Chở thiết bị — Va-li cứng / Điểm bốc dỡ"
+  },
+  "tour-philippines-cho-nhom-ban-viet-muon-tach-mot-ngay-tu-do": {
+    "src": "/images/editorial/tour-philippines-cho-nhom-ban-viet-muon-tach-mot-ngay-tu-do-brief.webp",
+    "kind": "checklist",
+    "alt": "Ngày tự do — Chặng dùng chung / Điểm nhập lại"
+  },
+  "dat-xe-tour-manila-khi-khach-san-nam-o-pho-kho-dung-xe": {
+    "src": "/images/editorial/dat-xe-tour-manila-khi-khach-san-nam-o-pho-kho-dung-xe-brief.webp",
+    "kind": "checklist",
+    "alt": "Điểm hẹn thay thế — Sảnh thực tế / Chỗ dừng hợp lệ"
+  },
+  "hoc-lai-so-san-o-manila-khi-da-quen-xe-tu-dong": {
+    "src": "/images/editorial/hoc-lai-so-san-o-manila-khi-da-quen-xe-tu-dong-brief.webp",
+    "kind": "checklist",
+    "alt": "Chuyển sang số sàn — Loại xe tập / Kỹ năng cần luyện"
+  },
+  "tim-lop-lai-xe-o-manila-co-ho-tro-tieng-viet-cho-nguoi-it-tieng-anh": {
+    "src": "/images/editorial/tim-lop-lai-xe-o-manila-co-ho-tro-tieng-viet-cho-nguoi-it-tieng-anh-brief.webp",
+    "kind": "checklist",
+    "alt": "Ngôn ngữ buổi học — Giáo viên trực tiếp / Người hỗ trợ"
+  },
+  "hoc-lai-cuoi-tuan-o-manila-so-lop-sang-thu-bay-voi-chieu-chu-nhat": {
+    "src": "/images/editorial/hoc-lai-cuoi-tuan-o-manila-so-lop-sang-thu-bay-voi-chieu-chu-nhat-brief.webp",
+    "kind": "checklist",
+    "alt": "Hai ca cuối tuần — Thời gian đi lại / Phút thực hành"
+  },
+  "dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines": {
+    "src": "/images/editorial/dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines-brief.webp",
+    "kind": "checklist",
+    "alt": "Buổi trải nghiệm — Học phí từng buổi / Khoản trừ vào gói"
+  },
+  "hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong": {
+    "src": "/images/editorial/hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong-brief.webp",
+    "kind": "checklist",
+    "alt": "Nút giao khó — Mức kinh nghiệm / Mục tiêu buổi tập"
+  },
+  "hoc-lai-ban-ngay-hay-buoi-toi-tai-manila-cho-nguoi-da-biet-lai": {
+    "src": "/images/editorial/hoc-lai-ban-ngay-hay-buoi-toi-tai-manila-cho-nguoi-da-biet-lai-brief.webp",
+    "kind": "checklist",
+    "alt": "Chọn ca luyện — Tuyến đi làm / Điều kiện ánh sáng"
+  },
+  "tim-lop-lai-xe-thuc-hanh-gan-cho-lam-thay-vi-gan-nha-o-manila": {
+    "src": "/images/editorial/tim-lop-lai-xe-thuc-hanh-gan-cho-lam-thay-vi-gan-nha-o-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Chọn điểm tập — Điểm xuất phát / Giờ tan ca"
+  },
+  "hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien": {
+    "src": "/images/editorial/hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien-brief.webp",
+    "kind": "checklist",
+    "alt": "Tuyến đưa con — Điểm dừng / Chỗ quay đầu"
+  },
+  "chon-giua-giao-vien-co-dinh-va-hoc-nhieu-giao-vien-o-manila": {
+    "src": "/images/editorial/chon-giua-giao-vien-co-dinh-va-hoc-nhieu-giao-vien-o-manila-brief.webp",
+    "kind": "checklist",
+    "alt": "Theo dõi tiến bộ — Người phụ trách / Nhật ký buổi học"
+  },
+  "hoc-lai-xe-tai-philippines-khi-chi-ranh-trong-mot-dot-nghi-ngan": {
+    "src": "/images/editorial/hoc-lai-xe-tai-philippines-khi-chi-ranh-trong-mot-dot-nghi-ngan-brief.webp",
+    "kind": "checklist",
+    "alt": "Đợt học ngắn — Ngày có mặt / Lịch trường xác nhận"
+  },
+  "nguoi-viet-hoi-bang-lai-philippines-lan-dau-phan-biet-truong-tu-van-va-lto": {
+    "src": "/images/editorial/nguoi-viet-hoi-bang-lai-philippines-lan-dau-phan-biet-truong-tu-van-va-lto-brief.webp",
+    "kind": "checklist",
+    "alt": "Ba đầu mối — Đơn vị đào tạo / Cơ quan quyết định"
+  },
+  "dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao": {
+    "src": "/images/editorial/dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao-brief.webp",
+    "kind": "checklist",
+    "alt": "Giấy tờ đang chờ — Tình trạng hiện tại / Ngày dự kiến"
+  },
+  "muon-tu-van-bang-lai-tai-philippines-nhung-ho-chieu-sap-doi": {
+    "src": "/images/editorial/muon-tu-van-bang-lai-tai-philippines-nhung-ho-chieu-sap-doi-brief.webp",
+    "kind": "checklist",
+    "alt": "Đổi hộ chiếu — Lịch đổi giấy / Lịch nộp hồ sơ"
+  },
+  "nguoi-viet-co-bang-lai-het-han-muon-hoi-huong-xu-ly-tai-philippines": {
+    "src": "/images/editorial/nguoi-viet-co-bang-lai-het-han-muon-hoi-huong-xu-ly-tai-philippines-brief.webp",
+    "kind": "checklist",
+    "alt": "Bằng đã hết hạn — Nơi cấp / Giao dịch mong muốn"
+  },
+  "hoi-ho-so-lai-xe-o-philippines-khi-da-doi-ho-sau-ket-hon": {
+    "src": "/images/editorial/hoi-ho-so-lai-xe-o-philippines-khi-da-doi-ho-sau-ket-hon-brief.webp",
+    "kind": "checklist",
+    "alt": "Đổi họ — Tên trên bằng / Tên trên giấy tờ mới"
+  },
+  "nguoi-viet-muon-hoi-hang-bang-phu-hop-voi-loai-xe-tai-philippines": {
+    "src": "/images/editorial/nguoi-viet-muon-hoi-hang-bang-phu-hop-voi-loai-xe-tai-philippines-brief.webp",
+    "kind": "checklist",
+    "alt": "Loại xe dự kiến — Xe muốn lái / Tình trạng bằng"
+  },
+  "doi-noi-thi-hoac-noi-nop-ho-so-lai-xe-philippines-can-xac-minh-gi": {
+    "src": "/images/editorial/doi-noi-thi-hoac-noi-nop-ho-so-lai-xe-philippines-can-xac-minh-gi-brief.webp",
+    "kind": "checklist",
+    "alt": "Đổi địa điểm — Lịch đã đặt / Nơi muốn chuyển"
+  },
+  "muon-hoi-giay-to-lai-xe-bi-that-lac-tai-philippines-bang-tieng-viet": {
+    "src": "/images/editorial/muon-hoi-giay-to-lai-xe-bi-that-lac-tai-philippines-bang-tieng-viet-brief.webp",
+    "kind": "checklist",
+    "alt": "Giấy tờ thất lạc — Nơi cấp / Loại giấy mất"
+  },
+  "da-hoc-ly-thuyet-o-mot-truong-tai-philippines-hoi-buoc-thuc-hanh-o-dau": {
+    "src": "/images/editorial/da-hoc-ly-thuyet-o-mot-truong-tai-philippines-hoi-buoc-thuc-hanh-o-dau-brief.webp",
+    "kind": "checklist",
+    "alt": "Chuyển sang thực hành — Chứng nhận đã có / Khoá định học"
+  },
+  "hoi-tu-van-bang-lai-khi-sap-ve-viet-nam-mot-thoi-gian": {
+    "src": "/images/editorial/hoi-tu-van-bang-lai-khi-sap-ve-viet-nam-mot-thoi-gian-brief.webp",
+    "kind": "checklist",
+    "alt": "Lịch vắng mặt — Ngày rời Philippines / Ngày quay lại"
   }
 }

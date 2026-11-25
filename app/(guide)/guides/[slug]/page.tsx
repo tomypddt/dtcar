@@ -17,7 +17,7 @@ export const generateStaticParams = () => guides.map(({slug}) => ({slug}));
 const getGuide = (slug: string) => guides.find(g => g.slug === slug) ?? notFound();
 export async function generateMetadata({params}: Props) {
  const g = getGuide((await params).slug);
- return pageMetadata({path: guidePath(g.slug), title: guideSearchTitles[g.slug] ?? g.title + " | DT Car", description:g.description, languages:guideAlternates(g.slug), image:g.photo ?? `/images/guides/${g.slug}.png`, published:g.date, locale:guideLocale(g.lang)});
+ return pageMetadata({path: guidePath(g.slug), title: guideSearchTitles[g.slug] ?? g.title + " | DT Car", description:g.summary, languages:guideAlternates(g.slug), image:g.photo ?? `/images/guides/${g.slug}.png`, published:g.date, locale:guideLocale(g.lang)});
 }
 export default async function GuidePage({params}: Props) {
  const g=getGuide((await params).slug), service=services.find(s=>s.slug===g.service), url=origin+guidePath(g.slug);
@@ -37,8 +37,9 @@ export default async function GuidePage({params}: Props) {
  const salesLabel = g.lang === "vi" ? (isTravel ? "Nhắn DT Tour để nhận lịch và báo giá" : "Nhắn DT Car bằng tiếng Việt") : g.service === "sell-my-car-manila" ? "Ask for a vehicle appraisal" : g.service === "used-cars-manila" ? "Request available used cars" : "Request a VinFast quote";
  const enquiryLink = salesHref + "?ref=" + encodeURIComponent(g.slug);
  const actionText = g.lang === "en-PH" ? (isTravel ? "Send your route, travel date and group size to DT Tour." : isCalculator ? "Use your local rate and expected driving distance." : service?.summary) : undefined;
- const related = guides.filter(other => g.related.includes(other.slug) || other.related.includes(g.slug));
- return <SubPage><JsonLd data={{"@graph":[{"@type":"Article","@id":url+'#article',headline:g.title,description:g.description,mainEntityOfPage:url,url,datePublished:g.date,dateModified:g.date,inLanguage:g.lang,image:[origin+(g.photo ?? `/images/guides/${g.slug}.png`)],author:{"@type":"Organization",name:brand,url:origin+'/about/'},publisher:organization},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:'Home',item:origin+'/'},{"@type":"ListItem",position:2,name:'Guides',item:origin+'/guides/'},{"@type":"ListItem",position:3,name:g.title,item:url}]}]}}/>
+ const direct = g.related.map(slug => guides.find(other => other.slug === slug)).filter(other => other !== undefined);
+ const related = [...direct, ...guides.filter(other => other.related.includes(g.slug) && !g.related.includes(other.slug))].slice(0, 6);
+ return <SubPage><JsonLd data={{"@graph":[{"@type":"Article","@id":url+'#article',headline:g.title,description:g.description,abstract:g.summary,articleSection:g.category,mainEntityOfPage:url,url,datePublished:g.date,dateModified:g.date,inLanguage:g.lang,image:[origin+(g.photo ?? `/images/guides/${g.slug}.png`)],author:{"@type":"Organization",name:brand,url:origin+'/about/'},publisher:organization},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:'Home',item:origin+'/'},{"@type":"ListItem",position:2,name:'Guides',item:origin+'/guides/'},{"@type":"ListItem",position:3,name:g.title,item:url}]}]}}/>
  <article className="serviceGuide knowledgeArticle" lang={g.lang}>
  <nav className="guideCrumbs" aria-label="Breadcrumb"><Link href="/">{labels.home}</Link><span>/</span><Link href="/guides/">{labels.guides}</Link><span>/</span><span>{g.category}</span></nav>
  <header className="knowledgeHead"><p className="eyebrow">{g.category}</p><h1>{g.title}</h1><p>{g.description}</p><small>DT Car Philippines · <time dateTime={g.date}>{formattedDate}</time></small></header>

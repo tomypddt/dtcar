@@ -13,5 +13,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...services.map((service) => servicePath(service.slug)),
     ...articles.map((article) => "/news/" + article.slug + "/"),
   ];
-  return paths.map((path) => ({ url: origin + path, ...(guides.some(g => guidePath(g.slug) === path) ? {lastModified: "2026-11-25"} : {}) }));
+  const guideDates = new Map(guides.map(guide => [guidePath(guide.slug), guide.date]));
+  return paths.map(path => ({ url: origin + path, lastModified: guideDates.get(path) }));
 }
