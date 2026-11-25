@@ -357,52 +357,34 @@ const content: Guide[] = [
   },
   {
     "slug": "green-gsm-rental-guide-filipino",
-    "title": "Paano Mag-apply sa Green GSM EV Rental sa DT Car",
-    "description": "Gabay sa rental enquiry, opisyal na registration form at referral code PH5301 para sa mga interesadong driver.",
+    "title": "Green GSM EV rental: pansamantalang nakahinto",
+    "description": "Alamin ang status ng Green GSM rental at kung saan magtatanong tungkol sa dati nang booking.",
     "category": "GABAY SA RENTAL",
     "service": "green-gsm-rental-pasada",
-    "summary": "Para magtanong tungkol sa Green GSM EV rental, ihanda ang lungsod mo, impormasyon ng lisensya at detalye ng parking. Buksan ang opisyal na rental form at ilagay ang referral code PH5301 para matukoy ang referral mula sa DT Car.",
+    "summary": "Simula sa update ng 25 Nobyembre 2026, pansamantalang nakahinto ang Green GSM rental hanggang sa susunod na abiso. Walang bagong registration o deposito. Wala pang kumpirmadong petsa ng muling pagbubukas.",
     "sections": [
       {
-        "heading": "Rental ba o driver recruitment ang kailangan mo?",
+        "heading": "Kung balak mo pa lang mag-apply",
         "paragraphs": [
-          "Magkaiba ang aplikasyon para sa rental at aplikasyon para maging driver. Sabihin muna sa team kung alin ang gusto mong alamin para tama ang form at paliwanag na matatanggap mo.",
-          "Kung rental ang pakay, itanong ang sasakyan, kasalukuyang bayad at mga responsibilidad sa kontrata. Kung driver recruitment naman, gamitin ang hiwalay na pahina ng DT Car para sa aplikasyon ng driver."
+          "Hintayin ang opisyal na anunsyo bago magparehistro o magbayad. Magkaibang programa ang EV rental at ang pag-aaplay bilang taxi driver."
         ]
       },
       {
-        "heading": "Ihanda ang detalye bago mag-register",
+        "heading": "Kung may dati ka nang booking",
         "paragraphs": [
-          "Ihanda ang pangalan at contact details na ginagamit mo sa aplikasyon. Isama ang lungsod, impormasyon ng professional driver’s licence at malinaw na larawan ng parking space na balak gamitin.",
-          "Kumpirmahin sa team kung may kailangan pang dokumento para sa napiling unit. Huwag mag-post ng ID o lisensya sa public comments. Gamitin lamang ang angkop na private channel o opisyal na form para sa personal na dokumento."
-        ]
-      },
-      {
-        "heading": "Gamitin ang opisyal na form at referral code",
-        "paragraphs": [
-          "Ang button sa rental page ng DT Car ay papunta sa platform.greengsm.ph para sa Herio Green rental. Suriin ang model at rental option na nakikita sa form bago magpatuloy. Maaaring magbago ang itsura ng platform.",
-          "Ilagay ang PH5301 sa referral field at suriin ang contact details bago isumite. Kung hindi makita ang field o iba ang sasakyang ipinapakita, itanong muna sa DT Car. Ang referral code ay tumutukoy sa referral; hindi ito garantiya ng approval o petsa ng release."
-        ]
-      },
-      {
-        "heading": "Basahin ang bayarin at susunod na hakbang",
-        "paragraphs": [
-          "Bago magbayad, alamin ang booking amount, rental schedule, charging arrangement, refund conditions at inaasahang proseso ng assessment. Kumpirmahin ang opisyal na tatanggap ng bayad sa platform.",
-          "Itago ang confirmation at resibo. Mag-follow up gamit ang application reference sa tamang team. Ang pagsumite ng form o pagbabayad ng booking amount ay hindi awtomatikong kumpirmasyon na may unit nang nakalaan o handa nang kunin."
+          "Itago ang confirmation, resibo at booking reference. Sa pribadong channel, magtanong sa team na nakalagay sa confirmation tungkol sa status at mga tuntunin ng iyong booking. Huwag ilagay ang ID o detalye ng bayad sa public comments."
         ]
       }
     ],
     "checklist": [
-      "Lungsod at contact details.",
-      "Impormasyon ng professional licence.",
-      "Detalye at larawan ng parking.",
-      "Referral code PH5301.",
-      "Kumpirmadong terms at payment recipient."
+      "Itago ang confirmation at resibo.",
+      "Ihanda ang reference ng dati mong booking.",
+      "Hintayin ang opisyal na abiso."
     ],
     "references": [
       {
-        "label": "Official Green GSM rental registration",
-        "href": "https://platform.greengsm.ph/dat_coc_xe?model=HerioGreen&rental=true"
+        "label": "Status ng Green GSM rental sa DT Car",
+        "href": "/business/green-gsm-rental-pasada/"
       }
     ],
     "lang": "fil-PH",

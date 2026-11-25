@@ -32,7 +32,7 @@ export const guideSearchTitles:Record<string,string>={
 export const serviceSearchDescriptions:Record<string,string>={
 'fleet-installation':'Plan fleet dashcam, SIM, meter and sticker installation with DT Car. Send vehicle counts, model mix, approved scope and location for a project review.',
 'green-gsm-driver-application':'Ask DT Car about Green GSM driver applications in the Philippines. Prepare your professional licence and discuss the next recruitment steps.',
-'green-gsm-rental-pasada':'Explore Green GSM EV rental enquiries with DT Car. Review the official registration process, current terms and referral code PH5301.',
+'green-gsm-rental-pasada':'Green GSM rental is paused until further notice. See the status for new registrations and deposits, and where to follow up on an existing booking.',
 'sell-my-car-manila':'Sell your car in Metro Manila with DT Car. Send the model, year, mileage, photos and location for an initial review and inspection appointment.',
 'vgreen-charging-site-proposal':'Propose a Philippine property for V-Green screening through DT Car. Prepare location, access, parking and electrical-supply information.',
 'vinfast-test-drive':'Compare VinFast VF 3 and VF 5 Plus starting prices in the Philippines. Ask DT Car for a written quotation and test-drive appointment.',

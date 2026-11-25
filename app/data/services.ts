@@ -22,7 +22,6 @@ export type Service = {
 
 const messenger = "https://m.me/61550266324189";
 const priceList = { label: "VinFast Philippines price list", href: "https://vinfastauto.ph/en/price-list" };
-export const rentalRegistration = "https://platform.greengsm.ph/dat_coc_xe?model=HerioGreen&rental=true";
 
 export const services: Service[] = [
   {
@@ -221,25 +220,23 @@ export const services: Service[] = [
   },
   {
     slug: "green-gsm-rental-pasada",
-    name: "Green GSM EV rental for drivers",
-    title: "Green GSM Rental Pasada in the Philippines | DT Car",
-    summary: "Use Green GSM’s Philippine rental platform to register for a Herio Green EV through DT Car. Enter referral code PH5301 with your application. You can ask DT Car about parking, documents and available units before booking.",
+    name: "Green GSM rental programme status",
+    title: "Green GSM Rental Pasada Is Paused | DT Car Philippines",
+    summary: "Updated 25 November 2026. Green GSM has paused the rental programme until further notice. DT Car is not taking new rental registrations or deposits. A reopening date has not been confirmed.",
     image: "/images/web/limo-green.webp",
-    action: { label: "Open Herio Green rental registration", href: rentalRegistration },
-    filipino: "Gustong umupa ng EV para sa pasada? Ihanda ang detalye ng parking at ilagay ang referral code na PH5301 sa rental form ng Green GSM.",
-    checklistTitle: "Before opening the rental application",
-    checklist: ["Have your contact details, city and professional driving licence information ready.", "Prepare a clear photo of the parking space you intend to use.", "Ask for the current rental schedule, charging arrangements, booking amount and refund terms for the model you select."],
+    action: { label: "Ask about an existing rental enquiry", href: messenger },
+    filipino: "Pansamantalang nakahinto ang Green GSM rental. Huwag magsumite ng bagong aplikasyon o magbayad ng deposito. Wala pang kumpirmadong petsa ng pagbubukas.",
+    checklistTitle: "If you already applied or paid",
+    checklist: ["Keep your original booking confirmation and receipt.", "Contact the provider named on your confirmation about your individual booking.", "Use a private channel. Keep ID numbers and payment details out of public comments."],
     steps: [
-      { title: "Open the official rental form", text: "The registration button opens the Herio Green rental route on platform.greengsm.ph. Check the vehicle and rental option shown before entering your details." },
-      { title: "Add the DT Car referral", text: "Enter PH5301 in the referral field so the application identifies the DT Car referral. Review your contact details before continuing." },
-      { title: "Review the booking terms", text: "Check the amount and conditions displayed by Green GSM before paying through its platform. Save the reference and use it when asking about assessment or vehicle release." },
+      { title: "Find your reference", text: "Use the reference on your original confirmation so the team can identify the enquiry." },
+      { title: "Check with the team handling the booking", text: "Ask about your specific status and any applicable terms. Keep a copy of the reply." },
     ],
     questions: [
-      { question: "How do I check Limo Green rental options?", answer: "Open Green GSM’s Limo Green rental page below or tell DT Car which model you prefer. Availability and quoted terms depend on the selected vehicle." },
-      {question:"How should I compare daily rental and deposit payments?",answer:"Ask for two separate amounts in writing: the daily rental and any contribution towards a deposit. Multiply each by the number of payable days in the current contract. Ask what happens on days the vehicle cannot operate, who pays for charging and what happens to the accumulated deposit if you leave early. Keep the payment schedule with your booking confirmation."},
-      { question: "Where can I ask about my application?", answer: "Message DT Car with the model and booking reference. For payment status or release dates, use the confirmation issued by Green GSM." },
+      { question: "Can I reserve a rental vehicle now?", answer: "New rental registrations and deposits are paused. Wait for an official reopening announcement." },
+      { question: "Does this update cover taxi driver recruitment?", answer: "This update concerns the rental programme. The driver recruitment page has a separate contact for recruitment enquiries." },
     ],
-    references: [{label:"TNVS Car Rental programme updates",href:"https://www.facebook.com/profile.php?id=61595874147900"}, { label: "Green GSM Limo Green rental options", href: "https://platform.greengsm.ph/limo_green?order-type=rent" }, { label: "Talk with the DT Car rental team", href: messenger }],
+    references: [{ label: "DT Car rental programme updates", href: "https://www.facebook.com/profile.php?id=61595874147900" }],
     stories: [],
     related: "green-gsm-driver-application",
   },
