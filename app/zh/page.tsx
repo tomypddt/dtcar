@@ -4,7 +4,7 @@ import { pageMetadata, profileLanguages } from "@/app/data/site";
 export const metadata = pageMetadata({
   path: "/zh/",
   title: "关于 DT Car 菲律宾 | 汽车买卖与车队服务",
-  description: "了解 DT Car 在菲律宾的汽车业务，包括 VinFast 新车、二手车评估、售后维修、Green GSM 车队项目与充电站选址。欢迎联系马卡蒂团队获取中文服务。",
+  description: "了解 DT Car 在菲律宾的汽车业务，包括 VinFast 新车、二手车评估、售后维修、Green GSM 车队项目与充电站选址。可联系中文团队预约在帕赛会面。",
   locale: "zh_CN",
   languages: profileLanguages,
 });

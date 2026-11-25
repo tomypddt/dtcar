@@ -161,10 +161,11 @@ export const services: Service[] = [
     ],
     questions: [
       { question: "Can I enquire from outside Metro Manila?", answer: "Include the city or municipality where the car can be inspected. DT Car will confirm whether the team can cover that location before you travel." },
+      {question:"Can an agent introduce a seller to DT Car?",answer:"Yes. In November 2026 DT Car’s We Buy Cars page reported agent introductions for two Fortuner G vehicles and a Ford Territory. Ask the team to confirm the terms for your particular referral before introducing the owner, and get the owner’s permission before sharing contact details."},
       { question: "Is an estimate from photos the final price?", answer: "The photos support an initial assessment. The appraiser still needs to check the car’s condition and records before confirming an offer." },
       { question: "Can I speak with the team in another language?", answer: "DT Car has English/Filipino, Vietnamese, Chinese and Korean vehicle channels. Use the contact directory below to reach your preferred team." },
     ],
-    references: [{ label: "DT Car language and contact directory", href: "/contact/" }],
+    references: [{label:"DT Car – We Buy Cars seller and agent channel",href:"https://www.facebook.com/profile.php?id=61596445001029"}, { label: "DT Car language and contact directory", href: "/contact/" }],
     stories: ["selling-a-ford-everest-manila", "pre-owned-cars-professional-inspection"],
   },
   {
@@ -214,7 +215,7 @@ export const services: Service[] = [
       { question: "What licence does Green GSM list?", answer: "Green GSM’s Philippine taxi-driver page specifies a valid Philippine professional driver’s licence. Check the official requirements below for your application." },
       { question: "Who confirms my onboarding?", answer: "DT Car assists with recruitment coordination. Green GSM handles its assessment and confirms onboarding arrangements." },
     ],
-    references: [{ label: "Green GSM Philippines driver requirements and depots", href: "https://www.greengsm.ph/en/driver-car" }],
+    references: [{label:"DT Car driver recruitment enquiries",href:"https://www.facebook.com/profile.php?id=61591407076129"}, { label: "Green GSM Philippines driver requirements and depots", href: "https://www.greengsm.ph/en/driver-car" }],
     stories: ["green-gsm-driver-recruitment"],
     related: "green-gsm-rental-pasada",
   },
@@ -235,9 +236,10 @@ export const services: Service[] = [
     ],
     questions: [
       { question: "How do I check Limo Green rental options?", answer: "Open Green GSM’s Limo Green rental page below or tell DT Car which model you prefer. Availability and quoted terms depend on the selected vehicle." },
+      {question:"How should I compare daily rental and deposit payments?",answer:"Ask for two separate amounts in writing: the daily rental and any contribution towards a deposit. Multiply each by the number of payable days in the current contract. Ask what happens on days the vehicle cannot operate, who pays for charging and what happens to the accumulated deposit if you leave early. Keep the payment schedule with your booking confirmation."},
       { question: "Where can I ask about my application?", answer: "Message DT Car with the model and booking reference. For payment status or release dates, use the confirmation issued by Green GSM." },
     ],
-    references: [{ label: "Green GSM Limo Green rental options", href: "https://platform.greengsm.ph/limo_green?order-type=rent" }, { label: "Talk with the DT Car rental team", href: messenger }],
+    references: [{label:"TNVS Car Rental programme updates",href:"https://www.facebook.com/profile.php?id=61595874147900"}, { label: "Green GSM Limo Green rental options", href: "https://platform.greengsm.ph/limo_green?order-type=rent" }, { label: "Talk with the DT Car rental team", href: messenger }],
     stories: [],
     related: "green-gsm-driver-application",
   },
@@ -278,10 +280,11 @@ export const services: Service[] = [
       { title: "Coordinate an inspection", text: "If the initial review advances, the site team can examine access, power and layout with the owner or representative. Approval and commercial terms follow a separate review." },
     ],
     questions: [
+      {question:"Can a restaurant, café or hotel propose its parking area?",answer:"Yes. DT Car’s partner channel invited commercial hosts to propose sites in November 2026. Send a map pin, site photos, usable parking area, opening hours, electrical information and the contact authorised to discuss the property. Show how drivers would enter, park and leave during your busiest hour, including when delivery vehicles are present. The team reviews each site individually."},
       { question: "Can a fuel station or mall submit a site?", answer: "Yes. DT Car’s site brief also considers parking facilities, roadside lots and other commercial properties. Show how vehicles can reach and leave the proposed bays." },
       { question: "Can I submit several sites?", answer: "Prepare a separate map pin, photo set and slot count for each address. Make clear who can arrange access at each property." },
     ],
-    references: [{ label: "DT Car and V-Green site selection brief", href: "/news/vgreen-land-space-charging-battery-swapping-philippines/" }],
+    references: [{label:"VGreen Partner Philippines site enquiries",href:"https://www.facebook.com/profile.php?id=61587987413957"}, { label: "DT Car and V-Green site selection brief", href: "/news/vgreen-land-space-charging-battery-swapping-philippines/" }],
     stories: ["vgreen-land-space-charging-battery-swapping-philippines", "vgreen-charging-network-philippines"],
   },
 ];
