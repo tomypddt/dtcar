@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { PageHero, SubPage } from "@/app/components/Subpage";
 import { pageMetadata } from "@/app/data/site";
 
@@ -26,7 +27,7 @@ export default function SellYourCar() {
           <a href={messenger}><div><h3>Send photos on Messenger</h3><p>DT Car – Quality Car Manila</p></div><span aria-hidden="true">→</span></a>
           <a href={email}><div><h3>Email your car details</h3><p>Open a message with the details to fill in.</p></div><span aria-hidden="true">→</span></a>
         </div>
-        <aside><strong>What happens next?</strong><p>Our team reviews your details and discusses a time and place to see the car. The final offer depends on its condition and records. You can review the offer before deciding to sell.</p><a href="/business/sell-my-car-manila/">See the full appraisal checklist →</a></aside>
+        <aside><strong>What happens next?</strong><p>Our team reviews your details and discusses a time and place to see the car. The final offer depends on its condition and records. You can review the offer before deciding to sell.</p><Link href="/business/sell-my-car-manila/">See the full appraisal checklist →</Link></aside>
       </section>
     </SubPage>
   );

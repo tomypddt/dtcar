@@ -31,3 +31,9 @@ Production build and TypeScript pass after merging the concurrent landing page. 
 - https://www.greengsm.ph/en/driver-car — application process and requirements; eligibility and final terms remain provider-controlled.
 - https://vinfastauto.ph/en/does-an-electric-car-need-maintenance-heres-what-to-know
 - https://developers.google.com/search/docs/appearance/ai-features — standard search accessibility remains the foundation; no special markup guarantees an AI citation.
+
+## Analytics follow-up
+Created GA4 web stream DT Car website (16409805013), measurement ID G-NMJEB0W2HP, under the existing Hữu Dương account (123736184) via huuduongdna@gmail.com. Optional consent-based loading is implemented with explicit reject/withdraw controls, page-path-only page locations, disabled advertising personalization and custom contact-method events. Enhanced measurement is off in the stream. GA4 receipt and OpenSEO OAuth binding still need verification.
+
+## Live verification of first deployment
+GitHub deployment 45533480561 succeeded for commit 4166a6d16c375f5454f77fdfc1eddd7e0b3c418c. Live guides hub rendered all 12 guides. Calculator default: PHP2550 versus4200; 2000km:5100 versus8400; negative distance shows validation; reset restores defaults. Mobile menu opened successfully and document width equalled viewport width.
