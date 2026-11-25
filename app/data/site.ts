@@ -26,6 +26,7 @@ export const organization = {
 
 export const siteMetadata: Metadata = {
   metadataBase: new URL(origin),
+  verification: { other: { "msvalidate.01": "B5A75919F2D6E7EA659CE630C7B5B720" } },
   icons: {
     icon: { url: "/dtc-favicon.svg", type: "image/svg+xml" },
     shortcut: "/dtc-favicon.svg",

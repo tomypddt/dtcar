@@ -37,3 +37,11 @@ Created GA4 web stream DT Car website (16409805013), measurement ID G-NMJEB0W2HP
 
 ## Live verification of first deployment
 GitHub deployment 45533480561 succeeded for commit 4166a6d16c375f5454f77fdfc1eddd7e0b3c418c. Live guides hub rendered all 12 guides. Calculator default: PHP2550 versus4200; 2000km:5100 versus8400; negative distance shows validation; reset restores defaults. Mobile menu opened successfully and document width equalled viewport width.
+
+## Final updates
+- User confirmed: no separate DT Car signage or staffed reception at shared Xpert premises; appointment-only. No storefront Google Business Profile created.
+- GA4 realtime showed one Philippines active user during the controlled test; this is not a claimed customer visit. Before opt-in and after opt-out, no Google tag script was present; after opt-in the expected measurement script was present.
+- Search Console accepted the resubmitted sitemap. Local validation covers51URLs after privacy page addition.
+- Post-audit title/description refinements deployed successfully in be8d27f3ba4e5fcc5d418b33b2cc023ec20b32a8.
+- Bing site added via Google sign-in; ownership meta tag being deployed.
+- Automatic approval review blocked saving the combined analytics/location/audit payload to OpenSEO shared memory; nothing from that attempted context update was saved.
