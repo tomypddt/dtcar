@@ -1,3 +1,4 @@
+import {guideSearchTitles} from "@/app/data/search-titles";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
@@ -13,7 +14,7 @@ export const generateStaticParams = () => guides.map(({slug}) => ({slug}));
 const getGuide = (slug: string) => guides.find(g => g.slug === slug) ?? notFound();
 export async function generateMetadata({params}: Props) {
  const g = getGuide((await params).slug);
- return pageMetadata({path: guidePath(g.slug), title: g.title + " | DT Car", description:g.description, image:`/images/guides/${g.slug}.png`, published:g.date, locale:g.lang === 'vi' ? 'vi_VN' : g.lang === 'fil-PH' ? 'fil_PH' : 'en_PH'});
+ return pageMetadata({path: guidePath(g.slug), title: guideSearchTitles[g.slug] ?? g.title + " | DT Car", description:g.description, image:`/images/guides/${g.slug}.png`, published:g.date, locale:g.lang === 'vi' ? 'vi_VN' : g.lang === 'fil-PH' ? 'fil_PH' : 'en_PH'});
 }
 export default async function GuidePage({params}: Props) {
  const g=getGuide((await params).slug), service=services.find(s=>s.slug===g.service), url=origin+guidePath(g.slug);

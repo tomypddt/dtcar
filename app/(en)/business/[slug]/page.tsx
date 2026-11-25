@@ -1,3 +1,4 @@
+import {serviceSearchDescriptions} from "@/app/data/search-titles";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
@@ -19,7 +20,7 @@ function getService(slug: string) {
 
 export async function generateMetadata({ params }: Props) {
   const service = getService((await params).slug);
-  return pageMetadata({ path: servicePath(service.slug), title: service.title, description: service.summary, image: service.image });
+  return pageMetadata({ path: servicePath(service.slug), title: service.title, description: serviceSearchDescriptions[service.slug] ?? service.summary, image: service.image });
 }
 
 export default async function ServicePage({ params }: Props) {

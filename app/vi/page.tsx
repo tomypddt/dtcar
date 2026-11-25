@@ -3,7 +3,7 @@ import { pageMetadata, profileLanguages } from "@/app/data/site";
 
 export const metadata = pageMetadata({
   path: "/vi/",
-  title: "DT Car Philippines | Mua bán ô tô và dịch vụ xe tại Philippines",
+  title: "DT Car | Mua bán ô tô và dịch vụ xe tại Philippines",
   description: "Tìm hiểu đội ngũ DT Car tại Makati, dịch vụ mua bán xe VinFast và xe cũ, hậu mãi, dự án Green GSM, trạm sạc và kênh liên hệ tiếng Việt.",
   locale: "vi_VN",
   languages: profileLanguages,

@@ -4,7 +4,7 @@ import { pageMetadata } from "@/app/data/site";
 
 export const metadata = pageMetadata({
   path: "/news/",
-  title: "DT Car Philippines News | Vehicle Handovers and Fleet Projects",
+  title: "DT Car News | Vehicle Handovers and Fleet Projects",
   description: "Read DT Car’s field reports from vehicle handovers, Philippine EV workshops, fleet installations, charging sites and community events.",
 });
 

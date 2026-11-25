@@ -18,3 +18,30 @@ export const storySearchTitles: Record<string,string> = {
  'meals-of-hope-community-program':'Meals of Hope: DT Car’s Community Program',
  'dt-tour-philippines-curated-journeys':'DT Tour: Private Philippine Travel Experiences',
 };
+export const guideSearchTitles:Record<string,string>={
+'vinfast-vf3-price-philippines':'VinFast VF 3 Price Philippines: Compare Options | DT Car',
+'vinfast-vf5-price-philippines':'VinFast VF 5 Plus Price Philippines | DT Car',
+'car-appraisal-photos-manila':'Car Appraisal Photo Checklist for Manila | DT Car',
+'charging-site-proposal-checklist':'EV Charging Site Proposal Checklist | DT Car',
+'ev-charging-philippines-cost':'EV Charging Costs in the Philippines | DT Car',
+'fleet-dashcam-meter-installation':'Fleet Dashcam and Meter Installation Guide | DT Car',
+'green-gsm-driver-application-guide':'Green GSM Driver Application Guide | DT Car',
+'used-car-inspection-checklist':'Used-Car Inspection and Appraisal Checklist | DT Car',
+'vinfast-service-appointment-checklist':'VinFast Service Appointment Checklist | DT Car',
+};
+export const serviceSearchDescriptions:Record<string,string>={
+'fleet-installation':'Plan fleet dashcam, SIM, meter and sticker installation with DT Car. Send vehicle counts, model mix, approved scope and location for a project review.',
+'green-gsm-driver-application':'Ask DT Car about Green GSM driver applications in the Philippines. Prepare your professional licence and discuss the next recruitment steps.',
+'green-gsm-rental-pasada':'Explore Green GSM EV rental enquiries with DT Car. Review the official registration process, current terms and referral code PH5301.',
+'sell-my-car-manila':'Sell your car in Metro Manila with DT Car. Send the model, year, mileage, photos and location for an initial review and inspection appointment.',
+'vgreen-charging-site-proposal':'Propose a Philippine property for V-Green screening through DT Car. Prepare location, access, parking and electrical-supply information.',
+'vinfast-test-drive':'Compare VinFast VF 3 and VF 5 Plus starting prices in the Philippines. Ask DT Car for a written quotation and test-drive appointment.',
+'vinfast-workshop-service':'Coordinate a VinFast service enquiry with DT Car. Send your model, mileage, city and service needs to confirm workshop scope and availability.',
+};
+export const storySearchDescriptions:Record<string,string>={
+'dtcar-online-car-sales-driver-recruitment-agents':'DT Car invites independent agents in the Philippines to discuss vehicle sales and driver-recruitment opportunities with the team.',
+'dtcar-welcomes-prime-minister-le-minh-hung':'DT Car supported the Vietnamese delegation in Manila alongside the Embassy of Viet Nam during Prime Minister Le Minh Hung’s visit.',
+'lisa-dong-mrs-universe-ambassador-2026':'Lisa Dong’s Mrs. Universe Ambassador 2026 recognition and Vietnamese business-community involvement in the Philippines.',
+'lisa-dong-proud-vietnamese-growing-philippines':'Lisa Dong reflects on Vietnamese identity, entrepreneurship and cultural exchange in the Philippines.',
+'vingroup-500m-ev-manufacturing-philippines':'The Philippine DTI discusses Vingroup’s proposed EV manufacturing investment and the planned construction and production timeline.',
+};

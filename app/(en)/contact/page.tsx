@@ -4,7 +4,7 @@ import { pageMetadata } from "@/app/data/site";
 export const metadata = pageMetadata({
   path: "/contact/",
   title: "Contact DT Car in Pasay | Phone and Messenger",
-  description: "Call, email or message DT Car Philippines for vehicle sales, service and project enquiries. Find the official English, Filipino, Vietnamese, Chinese and Korean channels.",
+  description: "Contact DT Car in Pasay for vehicle sales, service and project enquiries. Find phone, email, Messenger channels and appointment location.",
 });
 
 

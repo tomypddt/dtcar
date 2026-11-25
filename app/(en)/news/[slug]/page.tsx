@@ -1,4 +1,4 @@
-import { storySearchTitles } from "@/app/data/search-titles";
+import { storySearchTitles, storySearchDescriptions } from "@/app/data/search-titles";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
@@ -20,7 +20,7 @@ function getArticle(slug: string) {
 
 export async function generateMetadata({ params }: Props) {
   const { article, published, path } = getArticle((await params).slug);
-  return pageMetadata({ path, title: storySearchTitles[article.slug] ?? article.title, description: article.dek, image: article.hero, published });
+  return pageMetadata({ path, title: storySearchTitles[article.slug] ?? article.title, description: storySearchDescriptions[article.slug] ?? article.dek, image: article.hero, published });
 }
 
 export default async function ArticlePage({ params }: Props) {
