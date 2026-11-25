@@ -1,3 +1,4 @@
+import { storySearchTitles } from "@/app/data/search-titles";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
@@ -19,7 +20,7 @@ function getArticle(slug: string) {
 
 export async function generateMetadata({ params }: Props) {
   const { article, published, path } = getArticle((await params).slug);
-  return pageMetadata({ path, title: article.title + " | DT Car", description: article.dek, image: article.hero, published });
+  return pageMetadata({ path, title: storySearchTitles[article.slug] ?? article.title, description: article.dek, image: article.hero, published });
 }
 
 export default async function ArticlePage({ params }: Props) {
@@ -33,6 +34,7 @@ export default async function ArticlePage({ params }: Props) {
       author: { "@type": "Organization", "@id": organization["@id"], name: brand, url: origin + "/about/" },
       publisher: organization, inLanguage: "en-PH", articleSection: a.category,
     }} />
+    <JsonLd data={{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Home",item:origin+"/"},{"@type":"ListItem",position:2,name:"News",item:origin+"/news/"},{"@type":"ListItem",position:3,name:a.title,item:url}]}} />
     <article className="magazine">
       <Link prefetch={false} className="storyBack" href="/news/">← All journal editions</Link>
       <header className="magHead"><p className="eyebrow">{a.category}</p><h1>{a.title}</h1><p>{a.dek}</p><small><time dateTime={published}>{a.date}</time> · DT Car Philippines</small></header>

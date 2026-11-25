@@ -25,6 +25,57 @@ const priceList = { label: "VinFast Philippines price list", href: "https://vinf
 export const rentalRegistration = "https://platform.greengsm.ph/dat_coc_xe?model=HerioGreen&rental=true";
 
 export const services: Service[] = [
+{
+  "slug": "fleet-installation",
+  "name": "Fleet equipment installation",
+  "title": "Fleet Dashcam, Meter & Sticker Installation | DT Car",
+  "summary": "Discuss a fleet installation project with DT Car in the Philippines. Send the vehicle model mix, quantity, equipment scope, site location and target work window for a project enquiry.",
+  "image": "/images/web/gsm-fleet.webp",
+  "action": {
+    "label": "Request a fleet installation quotation",
+    "href": "mailto:management@dtcar.ph?subject=Fleet%20installation%20enquiry"
+  },
+  "checklistTitle": "Prepare your project brief",
+  "checklist": [
+    "Vehicle models, quantity and equipment scope per group.",
+    "Work location, site access, available space and preferred dates.",
+    "Responsibility for equipment supply, configuration and acceptance."
+  ],
+  "steps": [
+    {
+      "title": "Define the scope",
+      "text": "Separate equipment supply, installation and configuration. Provide approved placement references and any model-specific requirements."
+    },
+    {
+      "title": "Plan the site work",
+      "text": "Discuss materials, work windows, key access and how vehicles will move through the installation area."
+    },
+    {
+      "title": "Agree acceptance",
+      "text": "Confirm per-vehicle checks, reporting, exception handling and handover requirements in the quotation."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Can several types of installation be coordinated?",
+      "answer": "Describe each requested task, such as stickers, SIM-enabled dashcams or taxi meters. DT Car can review the combined scope and advise on planning."
+    },
+    {
+      "question": "Is there a standard per-vehicle price?",
+      "answer": "Request a project quotation. Model mix, quantity, equipment, site conditions and the agreed work affect the scope and price."
+    }
+  ],
+  "references": [
+    {
+      "label": "Fleet rollout planning guide",
+      "href": "/guides/fleet-dashcam-meter-installation/"
+    }
+  ],
+  "stories": [
+    "gsm-10000-vehicle-technology-rollout",
+    "xentro-mall-fleet-installation"
+  ]
+},
   {
     slug: "sell-my-car-manila",
     name: "Sell a used car in Metro Manila",
@@ -55,12 +106,12 @@ export const services: Service[] = [
   {
     slug: "vinfast-test-drive",
     name: "VinFast prices and test drives",
-    title: "VinFast VF 3 and VF 5 Prices & Test Drives | DT Car Philippines",
+    title: "VinFast Prices & Test Drives Philippines | DT Car",
     summary: "Compare Philippine starting prices for the VinFast VF 3 and VF 5 Plus, then ask DT Car for a written quote or a test drive near you. Include your city and preferred model so the team can check availability.",
     image: "/images/web/showroom.webp",
     action: { label: "Request a VinFast test drive", href: messenger },
     comparison: {
-      caption: "Philippine starting prices in pesos · checked 24 November 2026",
+      caption: "Philippine starting prices in pesos · checked 25 November 2026",
       columns: ["Model", "With battery subscription", "Without battery subscription"],
       rows: [["VF 3", "₱590,000", "₱745,000"], ["VF 5 Plus", "₱949,000", "₱1,099,000"]],
       source: priceList,
@@ -129,7 +180,7 @@ export const services: Service[] = [
   {
     slug: "vinfast-workshop-service",
     name: "VinFast workshop and service enquiries",
-    title: "VinFast Workshop and Service Enquiries | DT Car Philippines",
+    title: "VinFast Workshop & Service Enquiries | DT Car",
     summary: "Ask DT Car to coordinate a VinFast workshop visit. Send the model, mileage, your city and the work needed so the service team can check a suitable workshop and appointment.",
     image: "/images/web/workshop.webp",
     action: { label: "Ask for a workshop appointment", href: messenger },
@@ -151,7 +202,7 @@ export const services: Service[] = [
   {
     slug: "vgreen-charging-site-proposal",
     name: "Propose a V-Green charging site",
-    title: "Propose a V-Green EV Charging Site in the Philippines | DT Car",
+    title: "V-Green Charging Site Proposals Philippines | DT Car",
     summary: "Landowners and authorized agents can propose a Philippine property to DT Car for V-Green screening. Metro Manila is the first priority. Send a map pin, parking layout, current photos and an owner or agent contact.",
     image: "/images/web/vgreen-site.webp",
     action: { label: "Email DT Car about a site", href: "mailto:management@dtcar.ph?subject=V-Green%20site%20proposal" },

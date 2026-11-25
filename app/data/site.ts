@@ -20,7 +20,7 @@ export const organization = {
   logo: origin + "/images/dtcar-logo.png",
   email: "management@dtcar.ph",
   telephone: ["+639498768888", "+639060185666"],
-  address: { "@type": "PostalAddress", addressLocality: "Makati", addressRegion: "Metro Manila", addressCountry: "PH" },
+  address: { "@type": "PostalAddress", addressLocality: "Pasay", addressRegion: "Metro Manila", addressCountry: "PH" },
   sameAs: ["https://www.facebook.com/profile.php?id=61550266324189", "https://www.facebook.com/dtcarphil", "https://www.tiktok.com/@vinfastdtcar"],
 };
 

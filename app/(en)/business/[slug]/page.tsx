@@ -4,8 +4,10 @@ import { SubPage } from "@/app/components/Subpage";
 import { JsonLd } from "@/app/components/JsonLd";
 import { services, servicePath } from "@/app/data/services";
 import { brand, organization, origin, pageMetadata } from "@/app/data/site";
+import { guides, guidePath } from "@/app/data/guides";
 import { findArticle } from "@/app/data/stories";
 import "./service.css";
+import "../../guides/guides.css";
 
 type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
@@ -26,7 +28,7 @@ export default async function ServicePage({ params }: Props) {
   const related = services.find((item) => item.slug === service.related);
   const story = service.stories.length ? findArticle(service.stories[0]) : undefined;
   const comparison = service.comparison;
-  const links = [...service.references];
+  const links = [...service.references, ...guides.filter(g => g.service === service.slug).map(g => ({ label: g.title, href: guidePath(g.slug) }))];
   if (story && !links.some((item) => item.href === "/news/" + story.slug + "/")) {
     links.push({ label: story.title, href: "/news/" + story.slug + "/" });
   }
@@ -58,9 +60,9 @@ export default async function ServicePage({ params }: Props) {
           {service.filipino && <p className="guideFilipino" lang="fil">{service.filipino}</p>}
           {comparison && <section>
             <h2>How much do the VF 3 and VF 5 Plus cost?</h2>
-            <table className="guideTable"><caption>{comparison.caption}</caption><thead><tr>{comparison.columns.map((value) => <th key={value} scope="col">{value}</th>)}</tr></thead>
+            <div className="guideTableWrap"><table className="guideTable"><caption>{comparison.caption}</caption><thead><tr>{comparison.columns.map((value) => <th key={value} scope="col">{value}</th>)}</tr></thead>
               <tbody>{comparison.rows.map(([model, ...values]) => <tr key={model}><th scope="row">{model}</th>{values.map((value) => <td key={value}>{value}</td>)}</tr>)}</tbody>
-            </table>
+            </table></div>
             <p className="guideSource">Source · <a href={comparison.source.href}>{comparison.source.label}</a></p>
           </section>}
           <section><h2>{service.checklistTitle}</h2><ul>{service.checklist.map((item) => <li key={item}>{item}</li>)}</ul></section>

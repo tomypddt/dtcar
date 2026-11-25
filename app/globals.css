@@ -73,3 +73,6 @@
 .storyServiceLink a { color: #a51b2b; font-weight: 700; text-decoration: underline; text-underline-offset: .18em; }
 
 .heroImage > img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+
+.subMobileMenu{display:none}.subMobileMenu summary{cursor:pointer;padding:12px;border:1px solid #d2d8dc}.subMobileMenu nav{position:absolute;right:0;top:100%;z-index:20;display:grid;gap:14px;padding:24px;background:white;box-shadow:0 12px 30px #0002;min-width:220px}.subMobileMenu nav a{color:#192630}.subHeader{position:relative}@media(max-width:900px){.subMobileMenu{display:block}.subHeader .subNav{margin-left:auto;margin-right:12px}.subHeader .langLinks{display:none}}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #116b75;outline-offset:4px}
