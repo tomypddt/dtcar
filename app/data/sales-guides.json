@@ -726,5 +726,173 @@
     ],
     "date": "2026-11-25",
     "enquiry": "Gia đình mình từ Việt Nam đi Bohol ngày __, có __ người lớn và __ trẻ em. Dự kiến ở __. Nhờ báo xe và lịch Chocolate Hills phù hợp, kèm phương án đón."
+  },
+  {
+    "slug": "used-honda-city-manila-viewing",
+    "title": "Looking for a used Honda City in Manila? Request a viewing",
+    "description": "Ask DT Car to source a Honda City by year, transmission, budget and viewing area.",
+    "summary": "Send a year range and spending ceiling first. Two Honda City listings can have different equipment, ownership history and condition even if their photos look similar. Ask to see the exact unit before making a decision.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "sections": [
+      {
+        "heading": "Get the identity of each candidate right",
+        "paragraphs": [
+          "Ask the team to confirm the year, trim, transmission and odometer reading from the available unit. For an older sedan, recent workshop invoices and a clear explanation of any repairs can be more useful than a long list of accessories. Decide which features you actually need, then check them in the car."
+        ]
+      },
+      {
+        "heading": "Make the appointment count",
+        "paragraphs": [
+          "If rear-seat space matters, have a passenger sit behind the driver with the driver’s seat adjusted. Bring your largest work bag or stroller to try in the boot. Request the viewing address and a same-day availability confirmation; a photo from a previous listing is only a reference."
+        ]
+      }
+    ],
+    "checklist": [
+      "Preferred year range",
+      "Exact trim and mileage",
+      "Budget and viewing area"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Used cars in Manila",
+        "href": "/business/used-cars-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "used-mitsubishi-xpander-manila-viewing",
+      "buy-used-car-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "I am looking for a used Honda City, year __ to __. Budget __. Preferred transmission __. Please send current unit photos, asking price and viewing options near __."
+  },
+  {
+    "slug": "used-mitsubishi-xpander-manila-viewing",
+    "title": "Used Mitsubishi Xpander in Manila: request the right family unit",
+    "description": "Tell DT Car your passenger count and budget to enquire about an Xpander you can actually view.",
+    "summary": "If an Xpander is on your shortlist, ask for the exact year and trim before comparing asking prices. Then request photos with the seats set up as your family will actually use them.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "sections": [
+      {
+        "heading": "Compare two seat layouts before visiting",
+        "paragraphs": [
+          "Ask for a view through the tailgate with the rear row up and another with part of it folded. Send the length of your stroller or biggest suitcase. At the viewing, check that the folding mechanisms, belts and rear air conditioning work on the specific vehicle."
+        ]
+      },
+      {
+        "heading": "Set the offer against the condition",
+        "paragraphs": [
+          "Compare asking prices together with tyre condition, service records, recent repairs and any work an independent inspection identifies. Ask whether the seller permits a mechanic at the viewing. Have the sales team confirm that the particular car remains available before you travel."
+        ]
+      }
+    ],
+    "checklist": [
+      "Year and exact trim",
+      "Normal seating layout",
+      "Asking price and inspection"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Used cars in Manila",
+        "href": "/business/used-cars-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "used-car-500k-manila-shortlist",
+      "buy-used-car-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Please source a used Mitsubishi Xpander near __. Budget __, year range __. We normally carry __ passengers and __ bags. Can you send current photos and viewing times?"
+  },
+  {
+    "slug": "vinfast-vf5-plus-vs-vf6-eco-quote",
+    "title": "VF 5 Plus or VF 6 Eco: what does the upgrade cost?",
+    "description": "Compare the published model-price difference and ask for both VinFast quotations on the same basis.",
+    "summary": "On the VinFast Philippines price list checked 25 November 2026, the VF 6 Eco starts ₱300,000 above the VF 5 Plus with a battery subscription. Without a subscription, the listed starting-price difference is ₱400,000.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "sections": [
+      {
+        "heading": "Read the two comparisons separately",
+        "paragraphs": [
+          "With a battery subscription, the listed starting prices are ₱949,000 for VF 5 Plus and ₱1,249,000 for VF 6 Eco. Without a subscription, they are ₱1,099,000 and ₱1,499,000. The differences describe upfront vehicle prices; they do not include the running cost of the subscription, insurance or other quoted fees."
+        ]
+      },
+      {
+        "heading": "Decide what you want to test for that difference",
+        "paragraphs": [
+          "Bring the people and bags you normally carry. Try rear access, the driving position and your parking manoeuvre in both models if the dealer can arrange the demos. Ask for a written quote per available variant, the applicable recurring charges and the earliest confirmed viewing date."
+        ]
+      }
+    ],
+    "checklist": [
+      "Same battery arrangement",
+      "Published price difference",
+      "Two itemised quotes"
+    ],
+    "references": [
+      {
+        "label": "VinFast Philippines · Official price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      },
+      {
+        "label": "DT Car · VinFast test drives",
+        "href": "/business/vinfast-test-drive/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "vinfast-vf6-plus-vs-vf7-eco-manila",
+      "vinfast-vf3-vs-vf5"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Please compare VF 5 Plus and VF 6 Eco for me. City __, monthly distance __. I want both quotes with __ battery arrangement and available demo dates."
+  },
+  {
+    "slug": "vinfast-vf6-plus-vs-vf7-eco-manila",
+    "title": "VF 6 Plus vs VF 7 Eco in the Philippines: compare two close quotes",
+    "description": "Check the VF 6 Plus and VF 7 Eco price gap, equipment and test-drive arrangements with DT Car.",
+    "summary": "VinFast Philippines listed a ₱21,000 gap between VF 6 Plus and VF 7 Eco starting prices with battery subscription on 25 November 2026. The gap without a subscription was ₱61,000. These figures make the two models worth comparing on the same written quotation.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "sections": [
+      {
+        "heading": "Where the price gap comes from",
+        "paragraphs": [
+          "With subscription, VF 6 Plus starts at ₱1,409,000 and VF 7 Eco at ₱1,430,000. Without subscription the figures are ₱1,699,000 and ₱1,760,000. Request the two equipment lists for the Philippine units quoted. A Plus trim in one model and an Eco trim in another need a feature-by-feature comparison."
+        ]
+      },
+      {
+        "heading": "Make the shortlist personal",
+        "paragraphs": [
+          "Choose three features you use every day. For example, check the view from your driving position, how easily your usual passenger can get in and how the car fits your parking bay. Request a demo of those features and confirmation of colour, allocation and quote validity before discussing a reservation."
+        ]
+      }
+    ],
+    "checklist": [
+      "Exact Philippine variants",
+      "Three features to try",
+      "Availability and quote expiry"
+    ],
+    "references": [
+      {
+        "label": "VinFast Philippines · Official price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      },
+      {
+        "label": "DT Car · VinFast test drives",
+        "href": "/business/vinfast-test-drive/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "vinfast-vf3-second-car-manila",
+      "vinfast-vf3-vs-vf5"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "I am choosing between VF 6 Plus and VF 7 Eco in __. My key features are __. Please quote both on the same battery terms and confirm test-drive availability."
   }
 ]
