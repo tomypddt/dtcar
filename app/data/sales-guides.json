@@ -1,0 +1,730 @@
+[
+  {
+    "slug": "used-car-500k-manila-shortlist",
+    "title": "Buying a used car under ₱500,000 in Manila",
+    "description": "Build a shortlist around a total budget of ₱500,000 and request currently available cars to view.",
+    "summary": "A ₱500,000 budget can mean two different things: the maximum purchase price or everything you can spend before the first drive. Tell the seller which ceiling applies so the shortlist leaves room for the work each car actually needs.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "sections": [
+      {
+        "heading": "Turn the ceiling into a buying brief",
+        "paragraphs": [
+          "Suppose you want to keep ₱40,000 for initial expenses. That gives you a ₱460,000 vehicle-price ceiling. This is a budgeting example, not an estimate of transfer costs or repairs. Ask which costs are included in each offer before using that number to shortlist.",
+          "Specify automatic or manual, the number of regular passengers and your viewing area. One non-negotiable requirement is more helpful than a long list of favourite models."
+        ]
+      },
+      {
+        "heading": "Compare the first two candidates",
+        "paragraphs": [
+          "Ask for the exact variant, odometer photo, known faults and recent service history for each available unit. If one needs tyres or scheduled work soon, record the quoted cost separately. Ask for a viewing slot only after checking which unit is still available."
+        ]
+      }
+    ],
+    "checklist": [
+      "Total spending ceiling",
+      "Reserve for initial expenses",
+      "Viewing area and preferred date"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Used cars in Manila",
+        "href": "/business/used-cars-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "used-seven-seater-manila-family",
+      "buy-used-car-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "I am looking for a used car in Manila. Total budget: __. Vehicle-price ceiling: __. Transmission: __. Please send available options and viewing dates."
+  },
+  {
+    "slug": "used-seven-seater-manila-family",
+    "title": "Buying a used seven-seater in Manila for family trips",
+    "description": "Compare third-row access, luggage room and everyday parking before booking a seven-seat vehicle viewing.",
+    "summary": "Bring your normal seating plan to the viewing. A car that seats seven on paper can still leave too little room for the bags, stroller or mobility aid you carry most weekends.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "sections": [
+      {
+        "heading": "Test the row you will use every week",
+        "paragraphs": [
+          "Seat the adults who normally ride in the back. Try the third-row entry with the second row adjusted for the regular passenger. Check that each occupied seat has an accessible belt. If you use a child seat, bring its model information and check compatibility against the vehicle and seat manuals."
+        ]
+      },
+      {
+        "heading": "Ask for a useful video before travelling",
+        "paragraphs": [
+          "Request one continuous clip showing the third row raised, the usable boot and the rear opening. Send the dimensions of your largest item. When comparing two vehicles, ask for the same views on both and bring that item to the appointment."
+        ]
+      }
+    ],
+    "checklist": [
+      "Regular passenger count",
+      "Largest bag or stroller",
+      "Third row raised for viewing"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Used cars in Manila",
+        "href": "/business/used-cars-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "used-pickup-manila-work-family",
+      "buy-used-car-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "We need a used seven-seater. Usually __ adults and __ children travel with __ bags. Budget: __. Can we view units with the third row raised?"
+  },
+  {
+    "slug": "used-pickup-manila-work-family",
+    "title": "Used pickup in Manila for work and family use",
+    "description": "Shortlist a double-cab pickup by bed dimensions, rear-seat space and its previous use.",
+    "summary": "Describe what the pickup will carry on weekdays and who rides in it on weekends. A canopy, bed liner or raised suspension may suit one job and make another harder.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "sections": [
+      {
+        "heading": "Measure the load before comparing trims",
+        "paragraphs": [
+          "Write down the length, width and height of the largest item. Compare those figures with the usable space between the wheel arches and under any canopy. For heavy work, ask for the specific vehicle’s rated limits and let a qualified inspector assess modifications."
+        ]
+      },
+      {
+        "heading": "Read the vehicle’s work history",
+        "paragraphs": [
+          "Ask what the previous owner carried, whether the suspension has been changed, and if the original parts or installation receipts are available. Request a view of the bed floor and rear seats. An accessory list alone cannot tell you how the unit was used."
+        ]
+      }
+    ],
+    "checklist": [
+      "Largest cargo dimensions",
+      "Weekday load and weekend seats",
+      "Modifications to inspect"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Used cars in Manila",
+        "href": "/business/used-cars-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "mua-xe-cu-manila-xem-hai-xe",
+      "buy-used-car-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "I need a pickup for __ and family use. Cargo dimensions: __. Passenger count: __. Budget: __. Please shortlist units available near __."
+  },
+  {
+    "slug": "mua-xe-cu-manila-xem-hai-xe",
+    "title": "Mua xe cũ ở Manila: cách hẹn xem hai xe trong một buổi",
+    "description": "Gửi ngân sách và nhu cầu bằng tiếng Việt để DT Car kiểm tra xe còn bán trước khi bạn đi xem.",
+    "summary": "Nếu chỉ rảnh một buổi, hãy chốt tối đa hai xe và yêu cầu xác nhận cả hai còn bán. Hai xe cùng mức giá nhưng ở hai khu vực xa nhau có thể cần hai lịch hẹn riêng.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "sections": [
+      {
+        "heading": "Nhờ sales gửi cùng một bộ thông tin",
+        "paragraphs": [
+          "Với mỗi xe, xin năm sản xuất, phiên bản, số km, ảnh khoang lái và thông tin bảo dưỡng gần nhất. Nói rõ tiêu chí khiến bạn loại xe ngay, chẳng hạn cần số tự động hoặc chỗ để xe giới hạn chiều dài.",
+          "Nếu một chiếc mới chỉ có hình cũ, đề nghị gọi video ngắn trước khi đi. Hình chụp hôm nay giúp xác nhận đúng chiếc xe và tình trạng đang được mô tả."
+        ]
+      },
+      {
+        "heading": "Chốt lịch và người đi cùng",
+        "paragraphs": [
+          "Hỏi địa điểm cụ thể của từng xe, ai giữ chìa khóa, có thể nổ máy và kiểm tra xe trong khung giờ đó không. Nếu muốn nhờ thợ riêng, báo trước để bên bán thu xếp. Chỉ xuất phát sau khi có tin xác nhận."
+        ]
+      }
+    ],
+    "checklist": [
+      "Ngân sách và loại xe",
+      "Khu vực xuất phát",
+      "Hai xe và giờ xem"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Used cars in Manila",
+        "href": "/business/used-cars-manila/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "used-car-500k-manila-shortlist",
+      "buy-used-car-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Mình ở __, muốn tìm xe __, ngân sách __ peso. Mình rảnh __. Nhờ DT Car gửi tối đa hai xe còn bán và xác nhận lịch xem bằng tiếng Việt."
+  },
+  {
+    "slug": "sell-used-car-repainted-panel-manila",
+    "title": "Selling a car with a repainted panel in Manila",
+    "description": "Show an appraiser what was painted, why it was repaired and what records you still have.",
+    "summary": "Start with the panel, not a label for the whole car. A repainted door and a repair that extended into adjoining structure raise different questions. State what you know and leave uncertain details open for inspection.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "sections": [
+      {
+        "heading": "Photograph the repair in context",
+        "paragraphs": [
+          "Take one photo of the whole side in daylight, one straight-on view of the panel and one angled view where it meets the next panel. Include an old repair invoice if available, with personal details covered. Do not filter the colour or remove marks from the photo."
+        ]
+      },
+      {
+        "heading": "Describe the limits of your knowledge",
+        "paragraphs": [
+          "If you bought the vehicle after the repair, say so. Ask whether the preliminary appraisal assumes only a cosmetic repair and what needs checking in person. Keep the written offer and any conditions together when comparing buyers."
+        ]
+      }
+    ],
+    "checklist": [
+      "Affected panel",
+      "Reason for repair if known",
+      "Daylight photos and viewing city"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Vehicle appraisal",
+        "href": "/business/sell-my-car-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "sell-low-mileage-car-manila",
+      "car-appraisal-photos-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Please appraise my __, year __, mileage __. The __ panel was repainted. What I know about the repair: __. The vehicle can be inspected in __."
+  },
+  {
+    "slug": "sell-low-mileage-car-manila",
+    "title": "Selling a low-mileage car in Manila",
+    "description": "Support a low odometer reading with a dated maintenance timeline for a DT Car appraisal.",
+    "summary": "An odometer photo tells the buyer what the display reads today. A timeline showing how the car was maintained helps an appraiser understand the reading, especially if the car was parked for long periods.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "sections": [
+      {
+        "heading": "Build a short mileage timeline",
+        "paragraphs": [
+          "Find two or three dated service entries and list the distance recorded at each. Note when regular use stopped and resumed. If the dashboard was replaced, tell the appraiser and include the supporting record if one exists."
+        ]
+      },
+      {
+        "heading": "Show the car as it stands now",
+        "paragraphs": [
+          "Photograph the odometer with the display readable, the exterior in daylight and the cabin. Describe any current starting, tyre or air-conditioning issues instead of using low mileage to imply pristine condition. Ask which assumptions the initial offer depends on."
+        ]
+      }
+    ],
+    "checklist": [
+      "Current odometer",
+      "Two dated service entries",
+      "Long periods parked"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Vehicle appraisal",
+        "href": "/business/sell-my-car-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "sell-two-company-cars-manila",
+      "car-appraisal-photos-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "I would like an appraisal for a low-mileage __. Year: __. Current km: __. Last service date and km: __. Stored from __ to __. Inspection area: __."
+  },
+  {
+    "slug": "sell-two-company-cars-manila",
+    "title": "Selling two company vehicles in Metro Manila",
+    "description": "Request separate appraisals for company cars and plan staggered collection so staff keep transport.",
+    "summary": "Ask for an offer per vehicle, even when you want one buyer for the pair. It makes clear which offer depends on buying both and whether your company can release the units on different dates.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "sections": [
+      {
+        "heading": "Prepare a two-line vehicle register",
+        "paragraphs": [
+          "Give each car its own row with year, exact variant, current mileage, assigned location, known repairs and earliest release date. Label the photo sets separately. Use an internal reference instead of putting staff names in the public enquiry."
+        ]
+      },
+      {
+        "heading": "Agree on the handover order",
+        "paragraphs": [
+          "If one car must remain available until a replacement arrives, say which car and why. Ask the buyer whether the combined figure changes if collection is staggered. Confirm who at your business can approve the sale and what authority the buyer will need to see in private."
+        ]
+      }
+    ],
+    "checklist": [
+      "One photo set per unit",
+      "Earliest release for each",
+      "Separate and combined offers"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Vehicle appraisal",
+        "href": "/business/sell-my-car-manila/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "thu-mua-xe-cu-manila-vao-cuoi-tuan",
+      "car-appraisal-photos-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Our company wants to sell two cars: A __ and B __. Locations: __. Release dates: __. Please quote each unit and any combined offer."
+  },
+  {
+    "slug": "thu-mua-xe-cu-manila-vao-cuoi-tuan",
+    "title": "Thu mua xe cũ ở Manila: chuẩn bị gì nếu chỉ rảnh cuối tuần?",
+    "description": "Gửi thông tin xe trước để DT Car xác nhận lịch thẩm định phù hợp với giờ rảnh của bạn.",
+    "summary": "Đừng đợi đến lúc gặp mới gửi thông tin xe. Nếu chỉ có một khung giờ cuối tuần, hãy xin mức đánh giá sơ bộ và xác nhận người xem xe, địa điểm, thời lượng dự kiến trước khi di chuyển.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "sections": [
+      {
+        "heading": "Gửi một tin đủ để định lịch",
+        "paragraphs": [
+          "Ghi rõ hãng, mẫu, phiên bản, đời xe, số km, thành phố và việc xe có đang được sử dụng hằng ngày hay không. Thêm ảnh tổng thể, khoang lái và phần cần sửa. Bạn có thể gửi tài liệu riêng sau khi đã biết người tiếp nhận."
+        ]
+      },
+      {
+        "heading": "Phân biệt lịch kiểm tra với lịch giao xe",
+        "paragraphs": [
+          "Nếu cần giữ xe đi làm vào thứ Hai, nói trước rằng cuối tuần này bạn chỉ muốn kiểm tra. Hỏi giá cuối cùng sẽ được xác nhận ở bước nào và khi nào hai bên mới bàn thời điểm giao xe. Lịch chỉ được chốt khi DT Car phản hồi."
+        ]
+      }
+    ],
+    "checklist": [
+      "Thông tin xe và số km",
+      "Địa điểm và hai khung giờ",
+      "Ngày sớm nhất có thể giao"
+    ],
+    "references": [
+      {
+        "label": "DT Car · Vehicle appraisal",
+        "href": "/business/sell-my-car-manila/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "sell-used-car-repainted-panel-manila",
+      "car-appraisal-photos-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Mình muốn bán xe __, đời __, số km __, ở __. Cuối tuần mình rảnh __ hoặc __. Nhờ báo giá sơ bộ và xác nhận có thể hẹn kiểm tra lúc nào."
+  },
+  {
+    "slug": "vinfast-vf3-second-car-manila",
+    "title": "VinFast VF 3 as a second car in Metro Manila",
+    "description": "Plan a VF 3 test drive around the short weekday journeys your household actually makes.",
+    "summary": "Write down the trips the VF 3 would take over from your present car. The right test is whether it works for school pickup, groceries and your parking space with the passengers who normally come along.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "sections": [
+      {
+        "heading": "Build the test around an ordinary afternoon",
+        "paragraphs": [
+          "List the longest routine round trip, where the car will be parked afterwards and who uses the rear seats. Bring the bag or small stroller you carry most often. Ask the adviser to demonstrate rear access and the charging connection on the exact demo vehicle."
+        ]
+      },
+      {
+        "heading": "Ask for a quote you can compare",
+        "paragraphs": [
+          "Request the exact variant, battery arrangement, any recurring fee and the amount due at handover. Ask which items are optional, whether the quoted unit can be allocated, and how long the offer is valid. A test-drive appointment and a vehicle allocation are separate confirmations."
+        ]
+      }
+    ],
+    "checklist": [
+      "Typical weekday route",
+      "Rear-seat and bag check",
+      "Written quote and validity"
+    ],
+    "references": [
+      {
+        "label": "VinFast Philippines · Official price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      },
+      {
+        "label": "DT Car · VinFast test drives",
+        "href": "/business/vinfast-test-drive/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "vinfast-condo-parking-before-order",
+      "vinfast-vf3-vs-vf5"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Please arrange a VF 3 demo for a second household car. Daily route: __. Parking city: __. Preferred date: __. Please include the battery arrangement in the quote."
+  },
+  {
+    "slug": "vinfast-condo-parking-before-order",
+    "title": "Buying a VinFast EV with condo parking in Manila",
+    "description": "Request a VinFast consultation with a practical charging plan for a rented or assigned condo bay.",
+    "summary": "Before choosing a model, confirm how you would charge during an ordinary working week. A parking space by itself does not establish permission to install equipment or guarantee access to a shared charger.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "sections": [
+      {
+        "heading": "Ask the building three specific questions",
+        "paragraphs": [
+          "Is EV charging available to residents in your parking area? Who controls access, fees and booking? If you rent, who must approve an installation request? Ask management for the existing process and leave electrical design and installation to qualified professionals."
+        ]
+      },
+      {
+        "heading": "Test the fallback route",
+        "paragraphs": [
+          "If you expect to use public charging, identify a stop on a route you already drive and an alternative for days when that stop is unavailable. Ask the adviser to show the charging port and compatible charging options for your chosen model. Then request a written quotation based on your actual mileage."
+        ]
+      }
+    ],
+    "checklist": [
+      "Building charging arrangements",
+      "Alternative charging stop",
+      "Model and monthly distance"
+    ],
+    "references": [
+      {
+        "label": "VinFast Philippines · Official price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      },
+      {
+        "label": "DT Car · VinFast test drives",
+        "href": "/business/vinfast-test-drive/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "vinfast-trade-in-quote-manila",
+      "vinfast-vf3-vs-vf5"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "I am considering a VinFast __. I park in a condo in __. I drive around __ km/month. Could you explain charging options and quote the vehicle?"
+  },
+  {
+    "slug": "vinfast-trade-in-quote-manila",
+    "title": "Trading in a used car for a VinFast in Manila",
+    "description": "Request a VinFast quote and an appraisal for your current car as two separate figures.",
+    "summary": "Ask for the vehicle purchase price and the trade-in offer separately. The cash difference only becomes meaningful when both quotations name the units, dates, included charges and conditions.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "sections": [
+      {
+        "heading": "Prepare the two sides of the comparison",
+        "paragraphs": [
+          "For the used vehicle, send year, variant, mileage, known repairs and daylight photos. For the EV, name the model, preferred variant and battery arrangement. If the old car is still financed, request the current settlement figure from the lender before planning the handover."
+        ]
+      },
+      {
+        "heading": "Coordinate the two dates",
+        "paragraphs": [
+          "Ask when the EV can actually be allocated and how long the appraisal stays valid. If you need your present car until delivery, make that a condition of the discussion. Have the team confirm the final appraised value after inspection and the handover schedule in writing."
+        ]
+      }
+    ],
+    "checklist": [
+      "Current car and mileage",
+      "VinFast model and quote basis",
+      "Latest date you can release your car"
+    ],
+    "references": [
+      {
+        "label": "VinFast Philippines · Official price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      },
+      {
+        "label": "DT Car · VinFast test drives",
+        "href": "/business/vinfast-test-drive/"
+      }
+    ],
+    "lang": "en-PH",
+    "related": [
+      "mua-vinfast-philippines-bao-gia-tieng-viet",
+      "vinfast-vf3-vs-vf5"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "I want to compare a trade-in for a VinFast __. My car is __, year __, mileage __. Please send a separate EV quote and preliminary appraisal."
+  },
+  {
+    "slug": "mua-vinfast-philippines-bao-gia-tieng-viet",
+    "title": "Mua VinFast tại Philippines: xin báo giá bằng tiếng Việt",
+    "description": "Gửi mẫu xe, khu vực sử dụng và lịch lái thử để nhận báo giá VinFast đúng phiên bản.",
+    "summary": "Nếu đang chọn giữa hai mẫu VinFast, hãy yêu cầu hai bản báo giá cùng ngày và cùng cách tính pin. Khi đó bạn có thể nhìn thấy phần chênh lệch do mẫu xe, thay vì so hai con số được tính trên cơ sở khác nhau.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "sections": [
+      {
+        "heading": "Bốn dòng nên có trong báo giá",
+        "paragraphs": [
+          "Đề nghị ghi rõ mẫu và phiên bản, pin đi kèm hay thuê pin, khoản phải trả ban đầu, và các phí hoặc ưu đãi có điều kiện. Nếu có phí định kỳ, hỏi cách tính cho số km bạn thường chạy. Đừng suy ra xe đang sẵn từ một bảng giá công bố."
+        ]
+      },
+      {
+        "heading": "Từ báo giá đến buổi lái thử",
+        "paragraphs": [
+          "Nói rõ bạn ở thành phố nào, ai thường lái và cần thử tính năng gì. Nếu định đỗ ở chỗ hẹp, mang kích thước chỗ đỗ. Xin xác nhận địa điểm, mẫu xe demo và giờ hẹn trước khi đi; hỏi riêng lịch giao của đúng xe bạn định mua."
+        ]
+      }
+    ],
+    "checklist": [
+      "Hai mẫu cần so",
+      "Cách tính pin",
+      "Địa điểm và giờ lái thử"
+    ],
+    "references": [
+      {
+        "label": "VinFast Philippines · Official price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      },
+      {
+        "label": "DT Car · VinFast test drives",
+        "href": "/business/vinfast-test-drive/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "vinfast-vf3-second-car-manila",
+      "vinfast-vf3-vs-vf5"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Mình muốn nhận báo giá VinFast __ và __ bằng tiếng Việt. Mình ở __, đi khoảng __ km/tháng, muốn lái thử ngày __. Nhờ ghi rõ pin, phí và tình trạng xe."
+  },
+  {
+    "slug": "tour-manila-3-ngay-2-dem-tu-viet-nam",
+    "title": "Tour Manila 3 ngày 2 đêm từ Việt Nam: lịch nào vừa sức?",
+    "description": "Gợi ý chia ba ngày theo giờ bay, một ngày khám phá Intramuros và thời gian thực tế của đoàn.",
+    "summary": "Với chuyến 3 ngày 2 đêm, bạn thường chỉ có một ngày trọn vẹn giữa hai chặng bay. Nên dành ngày đó cho điểm muốn xem nhất; ngày đến và ngày về hãy tính từ giờ hạ cánh, nhận phòng và giờ cần ra sân bay.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "sections": [
+      {
+        "heading": "Một phương án cho người lần đầu đến Manila",
+        "paragraphs": [
+          "Ngày 1: đón sân bay, về khách sạn và ăn tối gần nơi ở nếu đến muộn. Ngày 2: xem Fort Santiago và Casa Manila trong khu Intramuros, có thời gian nghỉ trưa giữa hai điểm. Ngày 3: ăn sáng rồi chọn hoạt động gần khách sạn nếu giờ bay cho phép. Đây là lịch gợi ý để điều chỉnh theo đoàn.",
+          "Nếu đi cùng bố mẹ, có thể chỉ chọn một điểm trong buổi sáng, dành buổi chiều nghỉ. Hỏi trước phần nào đi bộ, xe có thể đón lại ở đâu và điểm tham quan mở cửa ngày nào."
+        ]
+      },
+      {
+        "heading": "Xin giá theo chuyến bay thật",
+        "paragraphs": [
+          "Gửi ảnh hoặc chép lại giờ đến và giờ rời Manila theo giờ địa phương. Hỏi báo giá đã gồm xe sân bay, xe đi trong ngày, hướng dẫn tiếng Việt, vé vào cửa và khách sạn hay chưa. Nếu bay từ hai thành phố ở Việt Nam, ghi riêng từng nhóm để tính lượt đón."
+        ]
+      }
+    ],
+    "checklist": [
+      "Giờ bay hai chiều",
+      "Số người và nhu cầu đi bộ",
+      "Dịch vụ muốn bao gồm"
+    ],
+    "references": [
+      {
+        "label": "Intramuros Administration · điểm tham quan",
+        "href": "https://intramuros.gov.ph/sites/"
+      },
+      {
+        "label": "Lịch hoạt động của các điểm Intramuros",
+        "href": "https://intramuros.gov.ph/hours/"
+      },
+      {
+        "label": "DT Tour · Philippines",
+        "href": "/travel/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "cebu-hay-bohol-du-lich-tu-viet-nam",
+      "thue-xe-co-tai-xe-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Mình muốn tour Manila 3 ngày 2 đêm, đi từ __ ngày __, tới Manila lúc __, về lúc __. Đoàn __ người. Nhờ DT Tour báo xe, hướng dẫn và các khoản bao gồm."
+  },
+  {
+    "slug": "cebu-hay-bohol-du-lich-tu-viet-nam",
+    "title": "Du lịch Philippines từ Việt Nam: chọn Cebu hay Bohol?",
+    "description": "Chọn điểm ở chính theo sở thích thành phố, biển hay cảnh quan, rồi xin lịch nối chuyến phù hợp.",
+    "summary": "Nếu cả nhóm thích lịch sử đô thị, hãy hỏi về Cebu City. Nếu muốn kết hợp nghỉ ở Panglao với một ngày đi Chocolate Hills, hãy lấy Bohol làm điểm ở chính. Số đêm và cửa ngõ đến hoặc về quyết định có nên ghép cả hai.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "sections": [
+      {
+        "heading": "So theo một ngày bạn muốn trải qua",
+        "paragraphs": [
+          "Ở Cebu City, một buổi tham quan có thể xoay quanh Magellan’s Cross và Basilica Minore del Santo Niño. Ở Bohol, một ngày nội đảo có thể tập trung vào Chocolate Hills, còn hôm khác dành để nghỉ biển. Hãy chọn trải nghiệm chủ đạo trước khi nhìn số lượng điểm trong chương trình."
+        ]
+      },
+      {
+        "heading": "Đề nghị hai phương án cùng ngân sách",
+        "paragraphs": [
+          "Phương án A ở một nơi để giảm số lần đổi khách sạn. Phương án B ghép hai điểm, tách rõ thời gian ra cảng hoặc sân bay, thời gian chờ và chặng về. Gửi giờ bay dự kiến từ Việt Nam, số vali và việc đoàn có trẻ nhỏ hay người lớn tuổi; nhờ DT Tour xác nhận chặng di chuyển khả thi trước khi bạn mua vé."
+        ]
+      }
+    ],
+    "checklist": [
+      "Số đêm thực tế",
+      "Ưu tiên thành phố hoặc biển",
+      "Giờ bay và số lần đổi khách sạn"
+    ],
+    "references": [
+      {
+        "label": "Bộ Du lịch Philippines · Central Visayas",
+        "href": "https://www.tourism.gov.ph/destination/central-visayas/"
+      },
+      {
+        "label": "Bộ Du lịch Philippines · Bohol",
+        "href": "https://www.tourism.gov.ph/destination/central-visayas/bohol/"
+      },
+      {
+        "label": "DT Tour · Philippines",
+        "href": "/travel/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng",
+      "thue-xe-co-tai-xe-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Mình đi Philippines từ __, có __ đêm và __ người. Bọn mình thích __. Nhờ DT Tour so phương án Cebu với Bohol, tách chi phí và thời gian di chuyển."
+  },
+  {
+    "slug": "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng",
+    "title": "Tour Philippines nhóm riêng từ Việt Nam: đọc báo giá thế nào?",
+    "description": "Cách so hai báo giá tour riêng cho nhóm bạn hoặc gia đình cùng ngày đi, hạng phòng và số người.",
+    "summary": "Đề nghị DT Tour báo cả tổng giá đoàn và giá mỗi người trên cùng số khách. Khi một người hủy, chi phí xe riêng chia lại trên ít người hơn; giá phòng cũng có thể đổi nếu cách ghép phòng thay đổi.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "sections": [
+      {
+        "heading": "Chốt phòng và phương tiện trước khi so giá",
+        "paragraphs": [
+          "Ví dụ đoàn năm người lớn muốn hai phòng đôi và một phòng đơn. Nếu báo giá chỉ tính theo phòng đôi, cần hỏi phụ thu hoặc phương án phòng ba. Với xe riêng, gửi số vali lớn, ngày nào cần xe cả ngày, ngày nào chỉ cần một lượt đón.",
+          "Tách vé máy bay từ Việt Nam, chặng di chuyển nội địa, vé tham quan, bữa ăn, hướng dẫn tiếng Việt và chi phí cá nhân thành từng dòng. Ghi rõ loại tiền để dễ đối chiếu."
+        ]
+      },
+      {
+        "heading": "Yêu cầu điều kiện thay đổi bằng văn bản",
+        "paragraphs": [
+          "Hỏi giá có hiệu lực đến ngày nào, dịch vụ nào cần xác nhận lại, và điều gì xảy ra nếu nhóm đổi giờ bay hoặc giảm số người. Khi chưa mua vé, gửi khoảng ngày linh hoạt để đội tour xây phương án trước."
+        ]
+      }
+    ],
+    "checklist": [
+      "Tổng khách và cách xếp phòng",
+      "Khoản bao gồm và khoản tự trả",
+      "Điều kiện đổi số khách"
+    ],
+    "references": [
+      {
+        "label": "DT Tour · Philippines",
+        "href": "/travel/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "lich-manila-nua-ngay-intramuros-khach-viet",
+      "thue-xe-co-tai-xe-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Đoàn mình từ __ có __ người, đi khoảng __, muốn __ phòng. Ngân sách khoảng __ cho cả đoàn, đã/chưa gồm vé bay. Xin báo tour riêng và tách các khoản."
+  },
+  {
+    "slug": "lich-manila-nua-ngay-intramuros-khach-viet",
+    "title": "Nửa ngày ở Manila: chọn Fort Santiago hay Casa Manila?",
+    "description": "Gợi ý tham quan Intramuros cho khách Việt có nửa ngày rảnh ở Manila và muốn đặt xe hoặc hướng dẫn.",
+    "summary": "Nếu thích lịch sử thành lũy và không gian ngoài trời, ưu tiên Fort Santiago. Nếu muốn xem cách bài trí nhà ở qua một bảo tàng, chọn Casa Manila. Có ít giờ thì nên chọn một điểm chính và một điểm dự phòng gần đó.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "sections": [
+      {
+        "heading": "Tính ngược từ giờ phải có mặt",
+        "paragraphs": [
+          "Giả sử đoàn phải về khách sạn cho cuộc hẹn buổi chiều. Hãy đưa giờ đó vào yêu cầu báo giá, kèm địa chỉ khách sạn. Nhờ đội tour tính thời gian đón, di chuyển và quay về trước khi quyết định có đủ thời gian ghé cả hai điểm hay không."
+        ]
+      },
+      {
+        "heading": "Đặt đúng dịch vụ bạn cần",
+        "paragraphs": [
+          "Xe đưa đón và người thuyết minh là hai phần riêng. Nếu cần hướng dẫn tiếng Việt, nói rõ ngay từ đầu và yêu cầu xác nhận. Trước ngày đi, kiểm tra lịch hoạt động chính thức của điểm tham quan. Khi đi đông, hẹn một điểm tập trung và một người liên hệ cho cả đoàn."
+        ]
+      }
+    ],
+    "checklist": [
+      "Một điểm chính",
+      "Địa chỉ đón và hạn chót về",
+      "Xe riêng hoặc hướng dẫn tiếng Việt"
+    ],
+    "references": [
+      {
+        "label": "Intramuros Administration · điểm tham quan",
+        "href": "https://intramuros.gov.ph/sites/"
+      },
+      {
+        "label": "Lịch hoạt động của các điểm Intramuros",
+        "href": "https://intramuros.gov.ph/hours/"
+      },
+      {
+        "label": "DT Tour · Philippines",
+        "href": "/travel/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "tour-bohol-panglao-gia-dinh-tu-viet-nam",
+      "thue-xe-co-tai-xe-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Mình có nửa ngày ở Manila vào __, đón tại __, cần về trước __. Đoàn __ người, thích __. Xin tư vấn Fort Santiago hoặc Casa Manila và báo giá."
+  },
+  {
+    "slug": "tour-bohol-panglao-gia-dinh-tu-viet-nam",
+    "title": "Đi Bohol cùng gia đình: chia ngày nghỉ Panglao và ngày đi Chocolate Hills",
+    "description": "Lịch gợi ý cho gia đình từ Việt Nam muốn ở Panglao, đi nội đảo Bohol và hạn chế đổi khách sạn.",
+    "summary": "Nếu muốn cả nghỉ biển lẫn tham quan nội đảo, hãy dành riêng một ngày cho Chocolate Hills và giữ một buổi trống ở Panglao. Tránh dồn chuyến đi nội đảo vào ngay trước giờ nối chuyến về.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "sections": [
+      {
+        "heading": "Lấy nhịp sinh hoạt của gia đình làm mốc",
+        "paragraphs": [
+          "Với trẻ thường ngủ trưa hoặc người lớn tuổi cần nghỉ, báo khung giờ nghỉ trước khi chọn số điểm dừng. Xin lịch ghi thời gian ngồi xe dự kiến từng chặng, vị trí nghỉ ăn và phần cần đi bộ. Nếu đoàn thích chụp ảnh nhiều, hãy bớt một điểm thay vì rút ngắn mọi điểm."
+        ]
+      },
+      {
+        "heading": "Gửi đủ thông tin để xin lịch riêng",
+        "paragraphs": [
+          "Ghi rõ đoàn đến Bohol bằng máy bay hay dự kiến nối từ Cebu, đã đặt phòng ở đâu và ngày rời đảo. Nếu chưa mua chặng nối, yêu cầu hai báo giá: một phương án chỉ ở Bohol và một phương án kèm phần trung chuyển. Chỉ chốt sau khi xác nhận chỗ và điều kiện đổi."
+        ]
+      }
+    ],
+    "checklist": [
+      "Điểm đến và rời đảo",
+      "Giờ nghỉ của gia đình",
+      "Một ngày nội đảo, một buổi nghỉ"
+    ],
+    "references": [
+      {
+        "label": "Bộ Du lịch Philippines · Bohol",
+        "href": "https://www.tourism.gov.ph/destination/central-visayas/bohol/"
+      },
+      {
+        "label": "DT Tour · Philippines",
+        "href": "/travel/"
+      }
+    ],
+    "lang": "vi",
+    "related": [
+      "tour-manila-3-ngay-2-dem-tu-viet-nam",
+      "thue-xe-co-tai-xe-manila"
+    ],
+    "date": "2026-11-25",
+    "enquiry": "Gia đình mình từ Việt Nam đi Bohol ngày __, có __ người lớn và __ trẻ em. Dự kiến ở __. Nhờ báo xe và lịch Chocolate Hills phù hợp, kèm phương án đón."
+  }
+]

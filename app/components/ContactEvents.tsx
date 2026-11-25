@@ -30,6 +30,7 @@ export default function ContactEvents() {
       analytics.gtag?.('event', 'dtcar_contact_click', {
         send_to: measurementId,
         contact_method: method,
+        ...(link.dataset.enquiryService ? { enquiry_service: link.dataset.enquiryService } : {}),
         page_location: window.location.origin + window.location.pathname,
         page_path: window.location.pathname,
       });

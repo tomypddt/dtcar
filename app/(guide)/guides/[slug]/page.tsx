@@ -1,3 +1,4 @@
+import { SalesEnquiry } from "@/app/components/SalesEnquiry";
 import { guideAlternates } from "@/app/data/guide-alternates";
 import { guideLabels, guideLocale } from "@/app/data/guide-labels";
 import {guideSearchTitles} from "@/app/data/search-titles";
@@ -32,6 +33,9 @@ export default async function GuidePage({params}: Props) {
    : languageContact ? {href:languageContact,label:labels.message}
    : g.lang === "fil-PH" ? {href:servicePath(g.service),label:filipinoDriverApplication ? "Makipag-ugnayan tungkol sa driver application" : g.service === "green-gsm-rental-pasada" ? "Tingnan ang rental guide" : labels.continue}
    : service?.action ?? {href:"/contact/",label:labels.message};
+ const salesHref = isTravel ? "https://m.me/dulichphilippinesdttour" : languageContact ?? "https://m.me/61550266324189";
+ const salesLabel = g.lang === "vi" ? (isTravel ? "Nhắn DT Tour để nhận lịch và báo giá" : "Nhắn DT Car bằng tiếng Việt") : g.service === "sell-my-car-manila" ? "Ask for a vehicle appraisal" : g.service === "used-cars-manila" ? "Request available used cars" : "Request a VinFast quote";
+ const enquiryLink = salesHref + "?ref=" + encodeURIComponent(g.slug);
  const actionText = g.lang === "en-PH" ? (isTravel ? "Send your route, travel date and group size to DT Tour." : isCalculator ? "Use your local rate and expected driving distance." : service?.summary) : undefined;
  const related = guides.filter(other => g.related.includes(other.slug) || other.related.includes(g.slug));
  return <SubPage><JsonLd data={{"@graph":[{"@type":"Article","@id":url+'#article',headline:g.title,description:g.description,mainEntityOfPage:url,url,datePublished:g.date,dateModified:g.date,inLanguage:g.lang,image:[origin+(g.photo ?? `/images/guides/${g.slug}.png`)],author:{"@type":"Organization",name:brand,url:origin+'/about/'},publisher:organization},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:'Home',item:origin+'/'},{"@type":"ListItem",position:2,name:'Guides',item:origin+'/guides/'},{"@type":"ListItem",position:3,name:g.title,item:url}]}]}}/>
@@ -40,12 +44,13 @@ export default async function GuidePage({params}: Props) {
  <header className="knowledgeHead"><p className="eyebrow">{g.category}</p><h1>{g.title}</h1><p>{g.description}</p><small>DT Car Philippines · <time dateTime={g.date}>{formattedDate}</time></small></header>
  <div className="guideLayout"><div className="guideContent">
  <aside className="answerBox"><strong>{labels.quick}</strong><p>{g.summary}</p></aside>
+ {g.enquiry && <SalesEnquiry initialMessage={g.enquiry} topic={g.title} vietnamese={g.lang === "vi"} team={isTravel ? "DT Tour" : "DT Car"} messenger={enquiryLink} buttonLabel={salesLabel} service={g.service} />}
  <nav className="articleContents" aria-label="On this page"><strong>{labels.contents}</strong><ol>{g.sections.map((s,i)=><li key={s.heading}><a href={'#section-'+i}>{s.heading}</a></li>)}</ol></nav>
  <figure className="checklistGraphic"><img src={g.photo ?? `/images/guides/${g.slug}.svg`} width="1200" height="630" lang={g.photoAlt ? 'en' : undefined} alt={g.photo ? (g.photoAlt ?? '') : g.lang==='vi'?'Danh sách chuẩn bị được trình bày đầy đủ bên dưới':g.lang==='fil-PH'?'Checklist na nakasulat din sa ibaba':'Preparation checklist, also listed in full below'} />{g.photoSource && <figcaption><a href={g.photoSource}>DT Car · Facebook</a></figcaption>}</figure>
  {g.sections.map((s,i)=><section id={'section-'+i} key={s.heading}><h2>{s.heading}</h2>{s.paragraphs.map(p=><p key={p}>{p}</p>)}</section>)}
  <section className="takeaway"><h2>{labels.checklist}</h2><ul>{g.checklist.map(c=><li key={c}>{c}</li>)}</ul></section>
  {g.references.length>0&&<section className="sourceList"><h2>{labels.sources}</h2><ul>{g.references.map(r=><li key={r.href}><a href={r.href}>{r.label}</a></li>)}</ul><p>{labels.checked} · {formattedDate}</p></section>}
- <section><h2>{labels.next}</h2>{actionText && <p>{actionText}</p>}<a className="guideAction" href={action.href}>{action.label} →</a></section>
+ <section><h2>{labels.next}</h2>{!g.enquiry && actionText && <p>{actionText}</p>}<a className="guideAction" href={g.enquiry ? enquiryLink : action.href} data-enquiry-service={g.enquiry ? g.service : undefined}>{g.enquiry ? salesLabel : action.label} →</a></section>
  </div><aside className="guideAside"><h2>{labels.services}</h2><ul>{service&&<li><Link href={servicePath(service.slug)}>{service.name}</Link></li>}<li><Link href="/contact/">{labels.contact}</Link></li><li><Link href="/tools/ev-cost-calculator/">{labels.calculator}</Link></li><li><Link href="/guides/">{labels.guides}</Link></li></ul>{related.length>0&&<div><strong>{labels.related}</strong>{related.map(r=><Link key={r.slug} href={guidePath(r.slug)}>{r.title}</Link>)}</div>}<div><strong>{labels.about}</strong><p>DT Car Philippines · <Link href="/editorial-policy/">{labels.policy}</Link></p></div></aside></div>
  </article></SubPage>
 }

@@ -1,9 +1,11 @@
+import salesGuides from "./sales-guides.json";
 import media from "./guide-media.json";
 import practicalGuides from "./practical-guides.json";
 import fieldGuides from "./field-guides.json";
 
-export type Guide = { photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
+export type Guide = { enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 const content: Guide[] = [
+  ...salesGuides,
   ...practicalGuides,
   ...fieldGuides,
   {

@@ -382,5 +382,73 @@
     "kind": "photo",
     "alt": "Dark car parked beside a building",
     "source": "https://www.facebook.com/photo.php?fbid=122384861330008877"
+  },
+  "used-car-500k-manila-shortlist": {
+    "src": "/images/editorial/used-car-500k-manila-shortlist-brief.webp",
+    "kind": "checklist"
+  },
+  "used-seven-seater-manila-family": {
+    "src": "/images/editorial/used-seven-seater-manila-family-brief.webp",
+    "kind": "checklist"
+  },
+  "used-pickup-manila-work-family": {
+    "src": "/images/editorial/used-pickup-manila-work-family-brief.webp",
+    "kind": "checklist"
+  },
+  "mua-xe-cu-manila-xem-hai-xe": {
+    "src": "/images/editorial/mua-xe-cu-manila-xem-hai-xe-brief.webp",
+    "kind": "checklist"
+  },
+  "sell-used-car-repainted-panel-manila": {
+    "src": "/images/editorial/sell-used-car-repainted-panel-manila-brief.webp",
+    "kind": "checklist"
+  },
+  "sell-low-mileage-car-manila": {
+    "src": "/images/editorial/sell-low-mileage-car-manila-brief.webp",
+    "kind": "checklist"
+  },
+  "sell-two-company-cars-manila": {
+    "src": "/images/editorial/sell-two-company-cars-manila-brief.webp",
+    "kind": "checklist"
+  },
+  "thu-mua-xe-cu-manila-vao-cuoi-tuan": {
+    "src": "/images/editorial/thu-mua-xe-cu-manila-vao-cuoi-tuan-brief.webp",
+    "kind": "checklist"
+  },
+  "vinfast-vf3-second-car-manila": {
+    "src": "/images/editorial/vinfast-vf3-second-car-manila-brief.webp",
+    "kind": "checklist"
+  },
+  "vinfast-condo-parking-before-order": {
+    "src": "/images/editorial/vinfast-condo-parking-before-order-brief.webp",
+    "kind": "checklist"
+  },
+  "vinfast-trade-in-quote-manila": {
+    "src": "/images/editorial/vinfast-trade-in-quote-manila-brief.webp",
+    "kind": "checklist"
+  },
+  "mua-vinfast-philippines-bao-gia-tieng-viet": {
+    "src": "/images/editorial/mua-vinfast-philippines-bao-gia-tieng-viet-brief.webp",
+    "kind": "checklist"
+  },
+  "tour-manila-3-ngay-2-dem-tu-viet-nam": {
+    "src": "/images/editorial/tour-manila-3-ngay-2-dem-tu-viet-nam-brief.webp",
+    "kind": "checklist"
+  },
+  "cebu-hay-bohol-du-lich-tu-viet-nam": {
+    "src": "/images/editorial/cebu-hay-bohol-du-lich-tu-viet-nam-brief.webp",
+    "kind": "checklist"
+  },
+  "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng": {
+    "src": "/images/editorial/tour-philippines-tu-viet-nam-bao-gia-nhom-rieng-brief.webp",
+    "kind": "checklist"
+  },
+  "lich-manila-nua-ngay-intramuros-khach-viet": {
+    "src": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-brief.webp",
+    "kind": "checklist"
+  },
+  "tour-bohol-panglao-gia-dinh-tu-viet-nam": {
+    "src": "/images/editorial/tour-bohol-panglao-gia-dinh-tu-viet-nam-brief.webp",
+    "kind": "checklist"
   }
 }
