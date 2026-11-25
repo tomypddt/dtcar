@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import {analyticsPageLocation} from '@/app/data/analytics-page-location';
 import {useEffect,useSyncExternalStore} from 'react';
 import {usePathname} from 'next/navigation';
 const key='dtcar_analytics_choice';
@@ -14,7 +15,7 @@ export default function Analytics(){
 // gtag uses the standard arguments-shaped queue entry.
 // eslint-disable-next-line prefer-rest-params
 w.dataLayer?.push(arguments);
-};w.gtag('js',new Date());w.gtag('config',measurementId,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false});const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+measurementId;document.head.appendChild(script);}w.gtag('event','page_view',{send_to:measurementId,page_location:window.location.origin+path,page_referrer:document.referrer?new URL(document.referrer).origin:'',page_title:document.title});},[consent,path]);
+};w.gtag('js',new Date());w.gtag('config',measurementId,{send_page_view:false,page_location:analyticsPageLocation(window.location),allow_google_signals:false,allow_ad_personalization_signals:false});const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+measurementId;document.head.appendChild(script);}w.gtag('event','page_view',{send_to:measurementId,page_location:analyticsPageLocation(window.location),page_referrer:document.referrer?new URL(document.referrer).origin:'',page_title:document.title});},[consent,path]);
  const revoke=()=>{save('no');window.location.reload();};
  if(consent==='pending')return null;
  return <>{consent==='unset'?<aside className="analyticsChoice" aria-label="Analytics preference"><p>Allow optional Google Analytics cookies to help us understand page visits and contact-button clicks? <Link href="/privacy/">Privacy details</Link></p><div><button onClick={()=>save('yes')}>Allow analytics</button><button onClick={()=>save('no')}>No thanks</button></div></aside>:<button className="analyticsSettings" onClick={()=>consent==='yes'?revoke():save('unset')}>{consent==='yes'?'Turn off analytics':'Analytics settings'}</button>}</>;

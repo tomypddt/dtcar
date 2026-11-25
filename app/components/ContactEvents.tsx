@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import { measurementId } from './Analytics';
+import { analyticsPageLocation } from '@/app/data/analytics-page-location';
 
 function contactMethod(link: HTMLAnchorElement) {
   if (link.protocol === 'tel:') return 'phone';
@@ -31,7 +32,7 @@ export default function ContactEvents() {
         send_to: measurementId,
         contact_method: method,
         ...(link.dataset.enquiryService ? { enquiry_service: link.dataset.enquiryService } : {}),
-        page_location: window.location.origin + window.location.pathname,
+        page_location: analyticsPageLocation(window.location),
         page_path: window.location.pathname,
       });
     }
