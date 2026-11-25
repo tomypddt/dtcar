@@ -1,6 +1,6 @@
 type Link = { label: string; href: string };
 type Question = { question: string; answer: string };
-type Comparison = { caption: string; columns: string[]; rows: string[][]; source: Link };
+type Comparison = { heading?: string; caption: string; columns: string[]; rows: string[][]; source: Link };
 
 export type Service = {
   slug: string;
@@ -25,6 +25,46 @@ const priceList = { label: "VinFast Philippines price list", href: "https://vinf
 export const rentalRegistration = "https://platform.greengsm.ph/dat_coc_xe?model=HerioGreen&rental=true";
 
 export const services: Service[] = [
+  {
+    slug: "vinfast-vf6-vf7-philippines",
+    name: "VinFast VF 6 and VF 7 in the Philippines",
+    title: "VinFast VF 6 vs VF 7 Philippine Prices | DT Car",
+    summary: "Compare Philippine starting prices for VF 6 and VF 7 Eco and Plus. Ask DT Car for a written quote for your variant and a test-drive appointment.",
+    image: "/images/web/showroom.webp",
+    action: {label: "Request a VF 6 or VF 7 quotation", href: messenger},
+    comparison: {
+      heading: "What are the VF 6 and VF 7 starting prices?",
+      caption: "VinFast Philippines list checked 25 November 2026 · amounts in PHP",
+      columns: ["Variant", "With battery subscription", "Without subscription"],
+      rows: [["VF 6 Eco","₱1,249,000","₱1,499,000"],["VF 6 Plus","₱1,409,000","₱1,699,000"],["VF 7 Eco","₱1,430,000","₱1,760,000"],["VF 7 Plus","₱1,550,000","₱2,380,000"]],
+      source: priceList
+    },
+    checklistTitle: "Bring these details to your comparison",
+    checklist: ["Your normal monthly distance and where the car will charge.", "Garage dimensions, usual passengers and luggage you need to fit.", "Two variants to quote on the same battery terms and a target delivery city."],
+    steps: [
+      {title:"Compare two actual quotations",text:"The VF 6 Plus and VF 7 Eco start only ₱21,000 apart with subscription. Without subscription their listed gap is ₱61,000. Ask for the recurring charge on each quote before deciding what the difference means for your budget."},
+      {title:"Use the appointment to check fit",text:"Try the rear seats with the front seats in your usual driving position. If you carry a folded stroller or large suitcase, bring its dimensions. Ask the adviser to demonstrate the charging equipment supported by the exact variant."},
+      {title:"Confirm the unit and timing",text:"Request the quoted variant, battery arrangement, included charges and allocation status in writing. Confirm which demo vehicle is available before travelling to the appointment."}
+    ],
+    questions:[
+      {question:"How much more is a VF 6 Plus than Eco?",answer:"On the published list the difference is ₱160,000 with battery subscription or ₱200,000 without. Ask for the equipment sheet for both variants to decide which features you would actually use."},
+      {question:"Which quotation should a fleet buyer request?",answer:"Specify the quantity by variant, delivery locations, expected monthly kilometres per vehicle and charging arrangements. Ask for the delivery schedule and after-sales contacts in the same proposal."}
+    ],
+    references:[{label:"Compare battery ownership arrangements",href:"/guides/vinfast-battery-subscription-comparison/"},{label:"Browse selected VinFast model prices",href:"/guides/vinfast-price-list-philippines/"}],
+    stories:[], related:"vinfast-test-drive"
+  },
+  {
+    slug:"electric-fleet-quotation-philippines",
+    name:"Electric fleet quotations in the Philippines",
+    title:"VinFast Electric Fleet Quotations Philippines | DT Car",
+    summary:"Request a fleet quotation from DT Car for your Philippine operation. Include the routes, vehicle count, delivery locations and planned charging windows.",
+    image:"/images/web/gsm-fleet.webp",action:{label:"Request a fleet quotation",href:"mailto:management@dtcar.ph?subject=Electric%20fleet%20quotation"},
+    checklistTitle:"What an operations manager should send",
+    checklist:["Number of vehicles needed per depot, passenger loads and intended use.","Typical and longest shift distances, overnight parking and available charging time.","Preferred model mix, delivery batches and target dates.","A contact responsible for accepting vehicles at each site."],
+    steps:[{title:"Map a shift from departure to return",text:"Include deadhead kilometres, time spent waiting and any predictable break at a depot. Two vehicles travelling the same daily distance can need different charging plans if one returns between shifts and the other stays out."},{title:"Compare the cost per vehicle and per depot",text:"Request itemised vehicle prices, applicable battery fees and service assumptions. Keep charger installation, energy, insurance and fleet equipment in separate rows so a change to one depot can be priced without rebuilding the whole proposal."},{title:"Define a pilot and acceptance checks",text:"Pick a representative route, record actual distance and charging time, and name the person who signs each handover. Request confirmed availability in writing before setting a launch date for the whole fleet."}],
+    questions:[{question:"Can we ask about dashcams or meters?",answer:"Include your model list, required equipment, intended placements and the number of units per site. DT Car can review installation as a separate scope and coordinate a project quotation."},{question:"What if our depot charging is still under review?",answer:"Send the parking layout, available charging windows and proposed fleet size. Identify which supply details remain to be assessed by a qualified electrical practitioner. Ask for a vehicle proposal that identifies those dependencies."}],
+    references:[{label:"Fleet installation project enquiries",href:"/business/fleet-installation/"},{label:"Estimate energy costs with your own inputs",href:"/tools/ev-cost-calculator/"}],stories:[],related:"vinfast-test-drive"
+  },
   {
     slug: "used-cars-manila",
     name: "Buy a used car in Manila",
@@ -151,7 +191,7 @@ export const services: Service[] = [
       { question: "Does the published price mean a unit is available today?", answer: "Stock and demo schedules are checked separately from the price list. Give the sales team your city and preferred colour for a current availability check." },
       { question: "Can I request several vehicles for a company?", answer: "Yes. Include the model mix, estimated quantity, delivery city and target date in your enquiry so DT Car can coordinate a fleet quotation." },
     ],
-    references: [{ label: "VinFast Philippines model range", href: "https://vinfastauto.ph/en" }],
+    references: [{label:"VF 6 and VF 7 prices and test drives",href:"/business/vinfast-vf6-vf7-philippines/"},{label:"Request a fleet quotation",href:"/business/electric-fleet-quotation-philippines/"},{ label: "VinFast Philippines model range", href: "https://vinfastauto.ph/en" }],
     stories: ["vinfast-sales-and-customer-handover", "vinfast-delivery-emmanuelle-tiglao", "vinfast-vf3-best-selling-bev-philippines-2026", "vinfast-car-owners-event"],
     related: "vinfast-workshop-service",
   },

@@ -60,7 +60,7 @@ export default async function ServicePage({ params }: Props) {
         <div className="guideContent">
           {service.filipino && <p className="guideFilipino" lang="fil">{service.filipino}</p>}
           {comparison && <section>
-            <h2>How much do the VF 3 and VF 5 Plus cost?</h2>
+            <h2>{comparison.heading ?? "How much do the VF 3 and VF 5 Plus cost?"}</h2>
             <div className="guideTableWrap"><table className="guideTable"><caption>{comparison.caption}</caption><thead><tr>{comparison.columns.map((value) => <th key={value} scope="col">{value}</th>)}</tr></thead>
               <tbody>{comparison.rows.map(([model, ...values]) => <tr key={model}><th scope="row">{model}</th>{values.map((value) => <td key={value}>{value}</td>)}</tr>)}</tbody>
             </table></div>
