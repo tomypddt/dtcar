@@ -1,4 +1,4 @@
-import { mkdir, readdir } from "node:fs/promises";
+import { mkdir, readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import sharp from "sharp";
 import { articleImages, articles, travel } from "../app/data/stories.ts";
@@ -26,4 +26,17 @@ for (const name of await readdir(artDirectory)) {
     .resize({ width: 1200, withoutEnlargement: true })
     .webp({ quality: 85 })
     .toFile(join(directory, "editorial", slug + "-brief.webp"));
+}
+
+const guideMedia = JSON.parse(await readFile("app/data/guide-media.json", "utf8"));
+const cardDirectory = join(destination, "guide-cards");
+await mkdir(cardDirectory, { recursive: true });
+for (const [slug, cover] of Object.entries(guideMedia)) {
+  const source = join("public", cover.src.slice(1));
+  for (const width of [480, 800]) {
+    await sharp(source)
+      .resize({ width })
+      .webp({ quality: 78 })
+      .toFile(join(cardDirectory, slug + "-" + width + ".webp"));
+  }
 }

@@ -29,7 +29,7 @@ export function GuideDirectory({cards}:{cards:Card[]}) {
     <nav className="topicLinks" aria-label="Guide topics">{topics.map(topic=><a key={topic} href={"#"+topicId(topic)}>{topic}</a>)}</nav>
     {topics.map(topic=><section key={topic} id={topicId(topic)} className="directoryTopic"><h2>{topic}</h2>
       <div className="knowledgeGrid">{filtered.filter(card=>card.category===topic).map(card=><article key={card.slug} lang={card.lang}>
-        <a href={"/guides/"+card.slug+"/"} tabIndex={-1} aria-hidden="true"><img src={card.image} alt="" width="1200" height="630" loading="lazy"/></a>
+        <a href={"/guides/"+card.slug+"/"} tabIndex={-1} aria-hidden="true"><img src={card.image} srcSet={card.image.startsWith("/images/editorial/") ? [480, 800].map(width => "/images/gallery/guide-cards/" + card.slug + "-" + width + ".webp " + width + "w").join(", ") : undefined} sizes="(max-width: 600px) 94vw, (max-width: 900px) 46vw, 31vw" alt="" width="1200" height="630" loading="lazy"/></a>
         <div><h3><a href={"/guides/"+card.slug+"/"}>{card.title}</a></h3><p>{card.description}</p><a className="readLink" href={"/guides/"+card.slug+"/"}>{card.read} →</a></div>
       </article>)}</div></section>)}
   </>;
