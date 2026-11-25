@@ -145,7 +145,7 @@ export const services: Service[] = [
     title: "Sell My Car in Metro Manila | DT Car Appraisals",
     summary: "Selling a car in Metro Manila? Send DT Car the model, year, mileage, photos and location. The used-car team can review the details and discuss an inspection before making an offer.",
     image: "/images/web/used-car.webp",
-    action: { label: "Send my car for appraisal", href: messenger },
+    action: { label: "Send my car for appraisal", href: "https://m.me/61596445001029" },
     checklistTitle: "What to send for a first valuation",
     checklist: [
       "Make, model, variant, model year, transmission and current odometer reading.",

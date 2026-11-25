@@ -8,7 +8,7 @@ export const metadata = pageMetadata({
   description: "Send your model, year, mileage and photos to DT Car for an initial review. Arrange a local inspection and discuss an offer for your car.",
 });
 
-const messenger = "https://m.me/61550266324189?ref=sell_car_landing";
+const messenger = "https://m.me/61596445001029?ref=sell_car_landing";
 const email = "mailto:management@dtcar.ph?subject=" + encodeURIComponent("Car appraisal | Sell Your Car page") +
   "&body=" + encodeURIComponent("I'd like to sell my car.\nModel and year: \nMileage: \nCity: \nCondition: \nAsking price (optional): \nPhotos attached: ");
 

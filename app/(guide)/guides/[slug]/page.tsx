@@ -33,7 +33,7 @@ export default async function GuidePage({params}: Props) {
    : languageContact ? {href:languageContact,label:labels.message}
    : g.lang === "fil-PH" ? {href:servicePath(g.service),label:filipinoDriverApplication ? "Makipag-ugnayan tungkol sa driver application" : g.service === "green-gsm-rental-pasada" ? "Tingnan ang rental guide" : labels.continue}
    : service?.action ?? {href:"/contact/",label:labels.message};
- const salesHref = isTravel ? "https://m.me/dulichphilippinesdttour" : languageContact ?? "https://m.me/61550266324189";
+ const salesHref = isTravel ? "https://m.me/dulichphilippinesdttour" : languageContact ?? (g.service === "sell-my-car-manila" ? "https://m.me/61596445001029" : "https://m.me/61550266324189");
  const salesLabel = g.lang === "vi" ? (isTravel ? "Nhắn DT Tour để nhận lịch và báo giá" : "Nhắn DT Car bằng tiếng Việt") : g.service === "sell-my-car-manila" ? "Ask for a vehicle appraisal" : g.service === "used-cars-manila" ? "Request available used cars" : "Request a VinFast quote";
  const enquiryLink = salesHref + "?ref=" + encodeURIComponent(g.slug);
  const actionText = g.lang === "en-PH" ? (isTravel ? "Send your route, travel date and group size to DT Tour." : isCalculator ? "Use your local rate and expected driving distance." : service?.summary) : undefined;
