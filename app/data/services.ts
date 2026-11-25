@@ -25,6 +25,30 @@ const priceList = { label: "VinFast Philippines price list", href: "https://vinf
 export const rentalRegistration = "https://platform.greengsm.ph/dat_coc_xe?model=HerioGreen&rental=true";
 
 export const services: Service[] = [
+  {
+    slug: "used-cars-manila",
+    name: "Buy a used car in Manila",
+    title: "Used Cars in Manila: Buying & Sourcing | DT Car",
+    summary: "Looking for a used car in Manila? Send DT Car your budget, preferred models and location to discuss current options and a viewing by appointment.",
+    image: "/images/web/used-car.webp",
+    action: { label: "Ask about current used-car options", href: messenger },
+    checklistTitle: "Build your buying brief",
+    checklist: ["Your vehicle budget and preferred purchase timing.", "Passenger needs, transmission preference and models or body types you are considering.", "Your location, preferred language and available viewing dates.", "Any parking-size constraints or must-have equipment."],
+    steps: [
+      { title: "Share your requirements", text: "Start with your budget and daily use. Keep essential needs separate from preferences so the team can discuss a useful shortlist." },
+      { title: "Confirm the actual vehicle", text: "Ask for the exact variant, year, mileage, recent photos and current availability. Photos from previous transactions are not a live stock list." },
+      { title: "Arrange a viewing and inspection", text: "Confirm the vehicle and meeting point before travelling. Review condition, available records and the written offer before committing." }
+    ],
+    questions: [
+      { question: "Does this page show live inventory?", answer: "No. Contact the team for current vehicles and quotations. Availability must be confirmed for the specific unit before arranging a viewing." },
+      { question: "Can DT Car discuss a model that is not displayed?", answer: "Send the model, budget and timeframe as a sourcing enquiry. The team can discuss what is available; submitting a request does not guarantee a vehicle can be sourced." },
+      { question: "Can I arrange an independent inspection?", answer: "Tell the sales team you would like an independent inspection and agree the arrangements for the specific vehicle before booking or paying." },
+      { question: "Where can I meet the team?", answer: "DT Car currently receives customers by appointment. Confirm the meeting address and vehicle with the team before travelling; see the contact page for current meeting-location information." }
+    ],
+    references: [{ label: "Contact DT Car in your preferred language", href: "/contact/" }],
+    stories: ["pre-owned-cars-professional-inspection"],
+    related: "sell-my-car-manila"
+  },
 {
   "slug": "fleet-installation",
   "name": "Fleet equipment installation",
@@ -96,7 +120,7 @@ export const services: Service[] = [
       { title: "Review the offer", text: "Ask for the offer for your specific vehicle and confirm payment and handover arrangements before agreeing to the sale." },
     ],
     questions: [
-      { question: "Can I start while the car is outside Makati?", answer: "Yes. Include the city or municipality where the car can be inspected. DT Car will confirm whether the team can cover that location before you travel." },
+      { question: "Can I enquire from outside Metro Manila?", answer: "Include the city or municipality where the car can be inspected. DT Car will confirm whether the team can cover that location before you travel." },
       { question: "Is an estimate from photos the final price?", answer: "The photos support an initial assessment. The appraiser still needs to check the car’s condition and records before confirming an offer." },
       { question: "Can I speak with the team in another language?", answer: "DT Car has English/Filipino, Vietnamese, Chinese and Korean vehicle channels. Use the contact directory below to reach your preferred team." },
     ],

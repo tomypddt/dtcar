@@ -45,3 +45,20 @@ GitHub deployment 45533480561 succeeded for commit 4166a6d16c375f5454f77fdfc1edd
 - Post-audit title/description refinements deployed successfully in be8d27f3ba4e5fcc5d418b33b2cc023ec20b32a8.
 - Bing site added via Google sign-in; ownership meta tag being deployed.
 - Automatic approval review blocked saving the combined analytics/location/audit payload to OpenSEO shared memory; nothing from that attempted context update was saved.
+
+## Second content expansion, 25 November 2026
+
+- Eight additional guides (~3,160 body words) cover used-car shortlisting, trade-ins, new versus used, valuation, VF 3 versus VF 5, EV energy-cost comparisons, home-charging preparation and selected VinFast model prices.
+- New `/business/used-cars-manila/` is a buying/sourcing enquiry page, explicitly not live inventory. Existing seller page remains distinct.
+- Twenty guides total; sixty sitemap URLs. Added eight SVG checklist illustrations and PNG social previews, reciprocal related reading, buyer links and data-driven article dates.
+- Official VinFast and Meralco pages checked 25 November. Published prices do not guarantee availability. Illustrative financial arithmetic is labelled; no electrical installation specifications supplied.
+- Philippine keyword estimates: used cars philippines 2,900 (KD8); used cars manila 480 (KD22); vinfast electric car price philippines 260 (KD unavailable); car trade in philippines 90 (KD10); used cars vs new 70 (KD unavailable). Do not sum close variants. Eight of ten exact phrases lacked measurable volume.
+- Keyword report: https://app.openseo.so/p/b92049dc-0d32-42d4-92a5-a78d4256bd21/reports/8981042f-32a8-4e97-a1d6-db2179ad9bbe
+- Build and export checks passed for all 60 sitemap URLs before publication; one H1 and self-canonical per URL, unique titles, JSON-LD parse, internal destination/image existence, duplicate IDs.
+- User authorised reading managed Facebook Pages and using actual photos/posts. Browser connector currently reports missing originating browser context; no new Facebook posts or images have been accessed in this expansion. Resume in the user's connected Chrome session. Do not describe generic diagrams as project photographs.
+
+### Earlier completed setup, confirmed in browser
+
+- Bing ownership verified; sitemap submission accepted and processing. Bing AI Performance had no data at the time checked, not evidence of zero mentions across all AI systems.
+- GA4 contact-click key event configured with no monetary value, once per session. A click is not a qualified lead. Only page-view receipt was observed; contact-event receipt remains to verify.
+- GitHub Pages source switched from branch deployment to GitHub Actions. Existing deployment workflow retained; website checked over HTTPS. Origin HTTPS-enforcement setting still needs resolution; working HTTPS does not establish all redirect variants.

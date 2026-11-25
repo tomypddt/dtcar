@@ -56,7 +56,9 @@ export const guides: Guide[] = [
     "related": [
       "vinfast-vf5-price-philippines",
       "vinfast-battery-subscription-comparison",
-      "ev-charging-philippines-cost"
+      "ev-charging-philippines-cost",
+      "vinfast-vf3-vs-vf5",
+      "vinfast-price-list-philippines"
     ],
     "date": "2026-11-25"
   },
@@ -117,7 +119,9 @@ export const guides: Guide[] = [
     "related": [
       "vinfast-vf3-price-philippines",
       "vinfast-battery-subscription-comparison",
-      "vinfast-service-appointment-checklist"
+      "vinfast-service-appointment-checklist",
+      "vinfast-vf3-vs-vf5",
+      "vinfast-price-list-philippines"
     ],
     "date": "2026-11-25"
   },
@@ -175,7 +179,8 @@ export const guides: Guide[] = [
     "related": [
       "vinfast-vf3-price-philippines",
       "vinfast-vf5-price-philippines",
-      "ev-charging-philippines-cost"
+      "ev-charging-philippines-cost",
+      "electric-vs-gasoline-car-cost"
     ],
     "date": "2026-11-25"
   },
@@ -227,7 +232,9 @@ export const guides: Guide[] = [
     "lang": "en-PH",
     "related": [
       "used-car-inspection-checklist",
-      "ban-xe-cu-manila"
+      "ban-xe-cu-manila",
+      "car-trade-in-philippines",
+      "used-car-valuation-philippines"
     ],
     "date": "2026-11-25"
   },
@@ -279,7 +286,10 @@ export const guides: Guide[] = [
     "lang": "en-PH",
     "related": [
       "car-appraisal-photos-manila",
-      "ban-xe-cu-manila"
+      "ban-xe-cu-manila",
+      "buy-used-car-manila",
+      "new-vs-used-car-philippines",
+      "used-car-valuation-philippines"
     ],
     "date": "2026-11-25"
   },
@@ -504,7 +514,9 @@ export const guides: Guide[] = [
     "lang": "en-PH",
     "related": [
       "vinfast-battery-subscription-comparison",
-      "charging-site-proposal-checklist"
+      "charging-site-proposal-checklist",
+      "electric-vs-gasoline-car-cost",
+      "ev-home-charging-philippines"
     ],
     "date": "2026-11-25"
   },
@@ -560,7 +572,8 @@ export const guides: Guide[] = [
     ],
     "lang": "en-PH",
     "related": [
-      "ev-charging-philippines-cost"
+      "ev-charging-philippines-cost",
+      "ev-home-charging-philippines"
     ],
     "date": "2026-11-25"
   },
@@ -672,6 +685,449 @@ export const guides: Guide[] = [
     ],
     "lang": "en-PH",
     "related": [],
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "buy-used-car-manila",
+    "title": "Buying a Used Car in Manila: Build a Better Shortlist",
+    "description": "Compare used cars in Manila by condition, running costs and viewing arrangements. Prepare a clear buying brief before contacting DT Car.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "summary": "Start a used-car search with your total budget, passenger needs and normal route. Shortlist specific vehicles only after confirming their exact variant, current availability and condition. A low advertised price alone is not enough to compare two cars.",
+    "sections": [
+      {
+        "heading": "Set a budget that leaves room after purchase",
+        "paragraphs": [
+          "Write down the amount available for the vehicle separately from the amount you can reserve for inspection, insurance, registration-related expenses and immediate maintenance. Get quotations for these items instead of assuming a fixed percentage covers every vehicle. If buying the car uses all of your available funds, an otherwise ordinary repair can disrupt your transport plan.",
+          "Compare the cost of keeping the car as well as acquiring it. Ask a workshop about the maintenance likely to fall due on the specific example you are considering. The useful question is what this car needs next, supported by records and inspection, rather than whether the model has a general reputation for reliability."
+        ]
+      },
+      {
+        "heading": "Turn your routine into three non-negotiables",
+        "paragraphs": [
+          "List how many people normally travel, the largest item you regularly carry and where the vehicle must park. Then add your transmission preference and the routes you expect to drive. A buyer carrying bulky equipment has a different shortlist from someone driving alone through tight city parking.",
+          "Keep cosmetic preferences separate from essential requirements. Colour may be flexible while passenger access or garage clearance is not. Send measurements for a narrow entrance or bulky load so the sales team can help you rule out unsuitable options before arranging several viewings."
+        ]
+      },
+      {
+        "heading": "Compare actual units, not model names",
+        "paragraphs": [
+          "For each candidate, record the year, exact variant, odometer reading, asking price, service records available and the date availability was confirmed. Ask for recent photos of the actual vehicle. A previous delivery photo or an example image does not confirm present stock.",
+          "Two vehicles with the same badge may differ in equipment, history and near-term repairs. Keep unresolved items in a separate column: a missing record is a question to investigate, not evidence that the car is either good or bad. Use an independent inspection to resolve condition questions before committing."
+        ]
+      },
+      {
+        "heading": "Make one viewing answer the important questions",
+        "paragraphs": [
+          "Confirm the meeting place, the specific vehicle and whether inspection and a test drive can be arranged. Bring your shortlist and ask to review the vehicle records with the seller. If someone else is attending for you, agree what they should check and what they are authorised to decide.",
+          "DT Car can discuss used-car sourcing from your budget, model preferences and location. Ask the team which vehicles are currently available and arrange a viewing by appointment. This guide is a buying framework, not a live inventory or a promise that a particular model is in stock."
+        ]
+      }
+    ],
+    "checklist": [
+      "Set vehicle and after-purchase budgets.",
+      "List essential space and route needs.",
+      "Confirm the exact unit is available.",
+      "Arrange inspection before committing."
+    ],
+    "related": [
+      "used-car-inspection-checklist",
+      "new-vs-used-car-philippines",
+      "car-trade-in-philippines"
+    ],
+    "references": [],
+    "lang": "en-PH",
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "car-trade-in-philippines",
+    "title": "Car Trade-In in the Philippines: Compare the Full Deal",
+    "description": "Understand trade-in quotations, the cash difference and handover timing before replacing your car in the Philippines.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "summary": "A trade-in comparison needs two separate figures: the offer for your existing car and the complete price of its replacement. Compare the cash difference and every condition together. A larger trade-in allowance is not automatically a better overall deal.",
+    "sections": [
+      {
+        "heading": "Separate the two transactions on paper",
+        "paragraphs": [
+          "Ask for the replacement vehicle price before trade-in, the appraised value of your current car and the additional charges. Keep any discount visible as its own line. This makes it easier to see whether an attractive allowance is offset by a higher replacement price or by fees elsewhere.",
+          "For example, a hypothetical replacement priced at ₱900,000 with a ₱400,000 allowance leaves ₱500,000 before other charges. Another priced at ₱860,000 with a ₱380,000 allowance leaves ₱480,000. The second has a smaller allowance but a lower cash difference. These are arithmetic examples, not DT Car offers."
+        ]
+      },
+      {
+        "heading": "Make the appraisal conditions explicit",
+        "paragraphs": [
+          "Provide the exact variant, year, mileage and known condition of your existing car. Include maintenance records, previous repairs and modifications. Photos help start the discussion, but an inspection may change an initial indication. Ask what still needs to be checked and when the offer becomes firm.",
+          "Request the period for which the offer is valid and the circumstances that can change it. If you continue using the car while waiting for a replacement, discuss mileage and condition expectations. This helps both sides avoid disagreeing about a vehicle that has changed between appraisal and handover."
+        ]
+      },
+      {
+        "heading": "Match the handover dates",
+        "paragraphs": [
+          "Confirm whether the replacement vehicle is available, reserved or still awaiting allocation. Ask when you must release your existing car and when you can collect the replacement. Include any interim transport cost in your comparison if the dates do not align.",
+          "If there is outstanding finance, tell the parties at the start and request the lender’s current settlement instructions. Ask who coordinates the remaining balance and document release. Do not treat a verbal allowance as confirmation that a loan or ownership-record issue has been settled."
+        ]
+      },
+      {
+        "heading": "Ask DT Car for an appraisal and replacement enquiry",
+        "paragraphs": [
+          "Send the current car’s details together with the replacement model or vehicle type you want. Include your location and target changeover date. DT Car can assess the appraisal enquiry and discuss replacement sourcing; the team must confirm whether a combined trade-in arrangement is available for your case.",
+          "Before accepting, compare the final written totals, payment instructions, vehicle descriptions and handover conditions. Keep separate records for what you are selling and what you are buying, even when the transactions are coordinated in one appointment."
+        ]
+      }
+    ],
+    "checklist": [
+      "Separate appraisal and replacement prices.",
+      "Compare the total cash difference.",
+      "Confirm conditions and offer validity.",
+      "Align both vehicle handover dates."
+    ],
+    "related": [
+      "car-appraisal-photos-manila",
+      "used-car-valuation-philippines",
+      "buy-used-car-manila"
+    ],
+    "references": [],
+    "lang": "en-PH",
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "new-vs-used-car-philippines",
+    "title": "New vs Used Car: A Practical Philippine Buying Guide",
+    "description": "Compare new and used cars using actual quotations, ownership costs, condition and delivery timing rather than purchase price alone.",
+    "category": "OWNERSHIP",
+    "service": "used-cars-manila",
+    "summary": "Choose between a new and used car by comparing two actual vehicles against the same needs and ownership period. Purchase price, condition, warranty terms, near-term maintenance and delivery timing all matter. Neither choice is automatically better for every buyer.",
+    "sections": [
+      {
+        "heading": "Start with comparable vehicles",
+        "paragraphs": [
+          "Set the passenger space, parking fit and intended use before comparing prices. A new small car and a used larger SUV may cost a similar amount but solve different transport problems. Decide whether the extra space is essential and whether the larger vehicle fits your normal parking and driving routine.",
+          "Use exact variants and dated quotations. Record what is included, which costs remain outside the price and whether the offered vehicle can actually be delivered when you need it. Avoid comparing an advertised starting price with an all-inclusive quotation as though they cover the same items."
+        ]
+      },
+      {
+        "heading": "Budget for the first year, not just collection day",
+        "paragraphs": [
+          "Create separate lines for purchase, insurance, registration-related expenses, energy or fuel, scheduled servicing and any repairs identified before purchase. For a used car, ask an independent inspector which items need attention immediately and which can reasonably be planned later.",
+          "For a new vehicle, request the maintenance schedule and the warranty terms for the exact model. For a used vehicle, verify any remaining warranty with the relevant provider. A seller’s statement that a car is still under warranty does not establish what is covered or whether particular conditions have been met."
+        ]
+      },
+      {
+        "heading": "Consider how much uncertainty you can absorb",
+        "paragraphs": [
+          "A lower purchase price may leave more cash available for maintenance, but the condition of the actual used vehicle is crucial. Recent records and a thorough inspection help you judge it. A newer purchase may offer a different support arrangement, yet it still needs scheduled care and a realistic delivery plan.",
+          "Think about the practical cost of downtime. If this is the only household vehicle, ask how you would manage school runs or work during repairs. If another vehicle is available, your tolerance for waiting may be different. Make that assumption explicit instead of treating every buyer’s situation as the same."
+        ]
+      },
+      {
+        "heading": "Use a simple decision sheet",
+        "paragraphs": [
+          "Give each candidate a row for seating, parking, all-in purchase cost, first-year spending, documented condition, warranty and availability. Mark information you do not have as unknown. Obtain the missing quote or inspection result before declaring one option cheaper.",
+          "Ask DT Car about current used-car options or a VinFast quotation, depending on your shortlist. Keep the actual offers side by side and choose the vehicle that meets your requirements within a budget you can sustain. Future resale values remain uncertain and should not be presented as guaranteed returns."
+        ]
+      }
+    ],
+    "checklist": [
+      "Compare vehicles meeting the same needs.",
+      "Estimate first-year costs separately.",
+      "Verify condition and warranty terms.",
+      "Confirm a realistic delivery date."
+    ],
+    "related": [
+      "buy-used-car-manila",
+      "used-car-inspection-checklist",
+      "electric-vs-gasoline-car-cost"
+    ],
+    "references": [],
+    "lang": "en-PH",
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "used-car-valuation-philippines",
+    "title": "Used-Car Valuation: Why Offers Can Differ",
+    "description": "Understand how variant, condition, records and selling arrangements affect a used-car appraisal in the Philippines.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "summary": "A used-car valuation depends on the specific vehicle and the conditions of the offer. Advertised asking prices can provide context, but they do not prove completed sale prices. Compare cars of the same variant and ask what an appraiser has included or deducted.",
+    "sections": [
+      {
+        "heading": "Identify the vehicle precisely",
+        "paragraphs": [
+          "Start with the make, model, year, exact variant, transmission and odometer reading. Include the car’s location and any modifications. Small differences in equipment or specification can make an apparently similar online listing a weak comparison.",
+          "Separate confirmed information from assumptions. If you are unsure of a variant, provide the relevant vehicle details privately to the appraiser rather than choosing the highest-priced version online. Keep registration documents available for review without posting personal details publicly."
+        ]
+      },
+      {
+        "heading": "Use listings as a range, not a price guarantee",
+        "paragraphs": [
+          "Compare several recent listings for genuinely similar vehicles and record their dates. Remove examples that differ substantially in year, specification or condition. An old listing can remain visible after circumstances change, and a seller’s asking price may differ from the final agreed amount.",
+          "A useful comparison sheet contains the asking price, mileage, stated condition and unresolved questions for each example. Avoid averaging unlike vehicles simply to produce one precise number. A realistic range with clear assumptions is more useful than an unsupported valuation presented to the last peso."
+        ]
+      },
+      {
+        "heading": "Ask how condition affects the offer",
+        "paragraphs": [
+          "Present service records, repair history and known faults before the appraisal. Ask which observations are affecting the estimate and whether any items require further checking. A written explanation makes it easier to compare offers and to understand a revision after inspection.",
+          "Do not assume that spending money on cosmetic work will increase the offer by the same amount. Discuss significant work with the appraiser first and obtain repair quotations where needed. Describing existing damage accurately is more useful than hiding it in photos or editing it out."
+        ]
+      },
+      {
+        "heading": "Compare payment and handover conditions",
+        "paragraphs": [
+          "Two offers may have different inspection conditions, payment timing and collection arrangements. Confirm who is buying, when the amount becomes final and what must happen before handover. The highest headline number is difficult to evaluate if its conditions are unclear.",
+          "For a DT Car appraisal enquiry, send the identifying details, recent unedited photos, location and your preferred timing. Include an asking price if you have one. The team can review the information and discuss an inspection; an initial photo assessment is not a guaranteed purchase offer."
+        ]
+      }
+    ],
+    "checklist": [
+      "Identify the exact variant and mileage.",
+      "Compare similar, recent listings.",
+      "Disclose condition and available records.",
+      "Check payment and handover conditions."
+    ],
+    "related": [
+      "car-appraisal-photos-manila",
+      "car-trade-in-philippines",
+      "used-car-inspection-checklist"
+    ],
+    "references": [],
+    "lang": "en-PH",
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "vinfast-vf3-vs-vf5",
+    "title": "VinFast VF 3 vs VF 5: Which Fits Your Routine?",
+    "description": "Compare the VF 3 and VF 5 by seating, quotation scope, parking and charging needs before arranging a Philippine test drive.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "summary": "The VF 3 offers four seats, while the VF 5 is listed with five. Start with the people and luggage you carry, then compare parking fit, charging compatibility and complete quotations. A test drive should resolve everyday-use questions, not just confirm a preferred colour.",
+    "sections": [
+      {
+        "heading": "Passenger needs come before price",
+        "paragraphs": [
+          "If five people need to travel together, a four-seat layout does not meet that requirement. If your usual journey is solo or as a couple, compare how both models fit your parking space and how easily passengers enter and leave. Try the seating arrangement with the people who will actually use it.",
+          "Bring measurements for items you often carry, such as luggage or work equipment. Check the available arrangement with the required passenger seats in use. A demonstration with seats folded may not represent how you will travel most days."
+        ]
+      },
+      {
+        "heading": "Keep the battery arrangement consistent",
+        "paragraphs": [
+          "VinFast’s published Philippine price list offers both subscription and non-subscription pricing for these models. Compare the same battery arrangement across the two cars, then request the applicable recurring fee if considering a subscription. Otherwise, the apparent model-price gap can mix two different ownership structures.",
+          "Use the model-specific price guides linked below for the published starting figures. Ask for a dated written quote covering the exact variant, additional charges and any promotion. Current availability and the final order terms need confirmation with the sales team."
+        ]
+      },
+      {
+        "heading": "Ask for a charging demonstration for each model",
+        "paragraphs": [
+          "Confirm the charging connection, supported equipment and the procedure for the exact Philippine vehicle offered. Do not assume two electric models accept identical home or public charging equipment. Ask the adviser to demonstrate the charging interface and explain which compatible locations can serve your routine.",
+          "Bring your usual weekday distance and a typical longer journey to the discussion. Identify a primary charging option and a backup before choosing. A charger’s advertised maximum power does not, by itself, establish the charging speed of either vehicle."
+        ]
+      },
+      {
+        "heading": "Record the same observations on both drives",
+        "paragraphs": [
+          "Use one scorecard for visibility, seat comfort, passenger access, parking, luggage and ease of using the controls. Take notes immediately after each drive. If a route or manoeuvre is important to you, discuss whether it can safely be included in the appointment.",
+          "Tell DT Car you are comparing both models and confirm which demonstration units are available before travelling. Request the meeting point and appointment time in advance. Choose after resolving your must-have requirements; this comparison does not declare a universal winner or claim firsthand road-test results."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm whether four or five seats fit.",
+      "Compare the same battery arrangement.",
+      "Check model-specific charging support.",
+      "Use one scorecard for both drives."
+    ],
+    "related": [
+      "vinfast-vf3-price-philippines",
+      "vinfast-vf5-price-philippines",
+      "ev-home-charging-philippines"
+    ],
+    "references": [
+      {
+        "label": "VinFast VF 3 official model page",
+        "href": "https://shop.vinfastauto.ph/vf3"
+      },
+      {
+        "label": "VinFast VF 5 official model page",
+        "href": "https://vinfastauto.ph/en/vf5"
+      },
+      {
+        "label": "VinFast Philippines price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      }
+    ],
+    "lang": "en-PH",
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "electric-vs-gasoline-car-cost",
+    "title": "Electric vs Gasoline Car: Compare Monthly Energy Costs",
+    "description": "Use your distance, efficiency and actual charging or fuel rates to compare EV and gasoline energy costs in the Philippines.",
+    "category": "OWNERSHIP",
+    "service": "vinfast-test-drive",
+    "summary": "Compare monthly energy costs using the same distance: EV cost equals kilometres ÷ 100 × kWh per 100 km × price per kWh. Gasoline cost uses litres per 100 km and price per litre instead. This estimates energy spending, not total ownership cost.",
+    "sections": [
+      {
+        "heading": "Use a typical month of driving",
+        "paragraphs": [
+          "Record the odometer at the start and end of a representative period. Include regular errands and weekend trips, not just the commute. If your work pattern changes, run a lower-distance and a higher-distance scenario instead of assuming one month represents every month.",
+          "Use efficiency measurements that reflect your route where possible. Traffic, load and driving conditions can affect consumption. Label manufacturer test figures and personal estimates clearly so a projected result is not mistaken for a bill you have already achieved."
+        ]
+      },
+      {
+        "heading": "Work through an illustrative example",
+        "paragraphs": [
+          "At 1,000 km per month, an assumed EV consumption of 15 kWh per 100 km uses 150 kWh. At an assumed ₱17 per kWh, the energy cost is ₱2,550. A gasoline vehicle using an assumed 7 litres per 100 km at ₱60 per litre costs ₱4,200 for the same distance.",
+          "The difference is ₱1,650 in this example. These inputs illustrate the calculation; they are not a measured comparison of particular models or a guarantee of savings. Replace each value with your own consumption and applicable rates in the DT Car calculator."
+        ]
+      },
+      {
+        "heading": "Account for how you actually charge",
+        "paragraphs": [
+          "For a mix of home and public charging, calculate the energy bought at each rate separately. If half of 150 kWh is billed at an illustrative ₱12 and half at ₱20, the cost is ₱900 plus ₱1,500, or ₱2,400. The two rates in this example are hypothetical, not current tariff quotations.",
+          "Use billed energy where available, because energy delivered into the vehicle and energy drawn from the supply can differ. Add parking or other session charges separately. If a free-charging promotion applies, record its eligibility and duration rather than assuming it covers every charger indefinitely."
+        ]
+      },
+      {
+        "heading": "Keep total ownership cost in a second calculation",
+        "paragraphs": [
+          "Energy savings alone do not establish which vehicle is cheaper to own. Add purchase-price differences, battery subscription charges where applicable, insurance, installation, maintenance and other recurring expenses. If comparing financing, use the lender’s actual quotation rather than an advertised monthly figure without its conditions.",
+          "The calculator linked on this page lets you change the distance, efficiency and energy prices. Use it to explore a range of outcomes, then request a model quotation and charging assessment. Keep future resale assumptions visible because they can change the result substantially."
+        ]
+      }
+    ],
+    "checklist": [
+      "Use the same monthly distance.",
+      "Enter realistic consumption and rates.",
+      "Include each charging location used.",
+      "Keep ownership costs separate."
+    ],
+    "related": [
+      "ev-charging-philippines-cost",
+      "vinfast-battery-subscription-comparison",
+      "new-vs-used-car-philippines"
+    ],
+    "references": [],
+    "lang": "en-PH",
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "ev-home-charging-philippines",
+    "title": "Home EV Charging in the Philippines: Before You Buy",
+    "description": "Prepare a home or condominium charging enquiry with vehicle compatibility, parking permission and a professional electrical assessment.",
+    "category": "EV CHARGING",
+    "service": "vinfast-test-drive",
+    "summary": "Check your exact vehicle’s charging compatibility and arrange a professional electrical assessment before buying a home charger. For rented or shared parking, establish permission and billing arrangements first. A nearby socket does not establish that a suitable charging installation is possible.",
+    "sections": [
+      {
+        "heading": "Confirm the vehicle before choosing equipment",
+        "paragraphs": [
+          "Ask the vehicle provider which charging equipment is compatible with the exact model and market specification. Record the connector, supported charging type and relevant charging limits. Do not buy a charger solely because it is advertised for electric vehicles or because another model uses it.",
+          "Bring the manufacturer’s documentation to the installer. Ask for an explanation of the proposed equipment, how it will work with your car and who provides support. Keep vehicle and charger quotations separate so you can see whether installation and commissioning are included."
+        ]
+      },
+      {
+        "heading": "Have the supply assessed professionally",
+        "paragraphs": [
+          "Meralco’s home-charging guidance recommends a licensed electrical practitioner assess available capacity, the installation location and required work. Its process also covers applying for additional service capacity when needed and having the charger installed and tested before use.",
+          "Prepare your vehicle details, parking photos and a description of the property for the assessment. Ask the practitioner what other information is required. Do not open electrical equipment yourself to obtain photos, or treat a generic online wiring example as a design for your property."
+        ]
+      },
+      {
+        "heading": "Resolve shared-parking arrangements early",
+        "paragraphs": [
+          "For a condominium or rented property, ask the owner or building administrator whether the proposed charger and cable route can be approved. Discuss which parking space is involved, who can use it, how electricity will be measured and who pays for ongoing support or repairs.",
+          "Request the building’s own process and required documents before committing to equipment. An assigned parking space does not by itself answer every question about electrical work in shared areas. Keep approval, installation scope and billing arrangements together so everyone is working from the same proposal."
+        ]
+      },
+      {
+        "heading": "Plan for days when home charging is unavailable",
+        "paragraphs": [
+          "Identify a compatible public option along your normal route and check its access conditions. If installation will follow vehicle delivery, plan the interim charging routine before accepting the handover date. This avoids relying on equipment that has not yet been approved or commissioned.",
+          "Tell DT Car your intended model and whether you park at home, in a condominium or elsewhere. The sales discussion can include model-specific charging questions. Electrical suitability and installation scope still require an assessment by the appropriate professional; this guide is a preparation checklist, not an installation specification."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm exact vehicle compatibility.",
+      "Arrange a licensed electrical assessment.",
+      "Resolve parking permission and billing.",
+      "Identify a compatible backup charger."
+    ],
+    "related": [
+      "vinfast-vf3-vs-vf5",
+      "ev-charging-philippines-cost",
+      "charging-site-proposal-checklist"
+    ],
+    "references": [
+      {
+        "label": "Meralco home charging installation guide",
+        "href": "https://www.meralco.com.ph/residential/energy-solutions/electric-vehicles/home-charging"
+      },
+      {
+        "label": "Meralco electric-vehicle planning guidance",
+        "href": "https://www.meralco.com.ph/residential/bright-ideas/new-technology/electric-vehicles"
+      }
+    ],
+    "lang": "en-PH",
+    "date": "2026-11-25"
+  },
+  {
+    "slug": "vinfast-price-list-philippines",
+    "title": "VinFast Philippines Price List: Compare Model Quotes",
+    "description": "Read VinFast Philippine starting prices for selected models and compare battery arrangements, inclusions and availability.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "summary": "VinFast publishes separate Philippine starting prices with and without battery subscription. Use the official list to shortlist models, then obtain a dated quotation with the exact variant, recurring fees and other charges. Published prices do not confirm stock or delivery timing.",
+    "sections": [
+      {
+        "heading": "Selected published starting prices",
+        "paragraphs": [
+          "Checked on 25 November 2026, the official list gives VF 3 from ₱590,000 with subscription or ₱745,000 without; VF 5 Plus from ₱949,000 or ₱1,099,000; VF 6 Eco from ₱1,249,000 or ₱1,499,000; and VF 6 Plus from ₱1,409,000 or ₱1,699,000.",
+          "The same list gives VF 7 Eco from ₱1,430,000 with subscription or ₱1,760,000 without; VF 7 Plus from ₱1,550,000 or ₱2,380,000; and Limo Green from ₱1,099,000 or ₱1,399,000. These are selected entries, not an exhaustive market-wide electric-car price list. Follow the official source below for updates."
+        ]
+      },
+      {
+        "heading": "Compare one battery arrangement at a time",
+        "paragraphs": [
+          "Build a shortlist using either subscription or non-subscription prices consistently. Then compare the two arrangements for the model you prefer. A lower initial payment under a subscription does not establish a lower total cost over the period you plan to keep the car.",
+          "Request the applicable subscription fee, any usage-related terms and the responsibilities stated in the contract. Use your expected distance and ownership period to compare scenarios. Do not fill in an unknown recurring charge from a different model’s offer."
+        ]
+      },
+      {
+        "heading": "Ask what the quotation includes",
+        "paragraphs": [
+          "Request a breakdown of the vehicle price, registration, insurance, accessories, delivery and any other charges. Ask whether a promotion changes the total or adds a benefit with separate conditions. Keep the quote date and validity period visible when comparing several offers.",
+          "A starting price is not an approval for financing. If using finance, compare the down payment, payment schedule, fees and total payable from the actual lender quotation. Keep those costs separate from the vehicle’s published starting price."
+        ]
+      },
+      {
+        "heading": "Shortlist by use before making a reservation",
+        "paragraphs": [
+          "Write down passenger needs, parking dimensions, routine distance and available charging options. Choose models that fit those requirements before deciding between trims. The best-priced car for your situation is one that meets your practical needs without relying on equipment or access you do not have.",
+          "Send DT Car your preferred models, city and target purchase timing. Ask for current quotations and which demonstration units can be arranged. Before making a reservation, confirm the allocated vehicle or order status, payment recipient, written terms and expected handover process."
+        ]
+      }
+    ],
+    "checklist": [
+      "Use dated, model-specific prices.",
+      "Compare like-for-like battery terms.",
+      "Request an itemised final quotation.",
+      "Confirm availability before reserving."
+    ],
+    "related": [
+      "vinfast-vf3-price-philippines",
+      "vinfast-vf5-price-philippines",
+      "vinfast-vf3-vs-vf5"
+    ],
+    "references": [
+      {
+        "label": "VinFast Philippines official price list",
+        "href": "https://vinfastauto.ph/en/price-list"
+      }
+    ],
+    "lang": "en-PH",
     "date": "2026-11-25"
   }
 ];
