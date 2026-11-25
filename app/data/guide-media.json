@@ -1,97 +1,68 @@
 {
   "airport-meet-and-greet-manila": {
-    "src": "/images/editorial/airport-meet-and-greet-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580636657161961",
-    "alt": "White SUV parked under a covered loading area"
+    "src": "/images/editorial/airport-meet-and-greet-manila-brief.webp",
+    "kind": "checklist"
   },
   "manila-transfer-delayed-flight": {
-    "src": "/images/editorial/manila-transfer-delayed-flight.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122199916034790161",
-    "alt": "Palm trees silhouetted at dusk on a Philippine island"
+    "src": "/images/editorial/manila-transfer-delayed-flight-brief.webp",
+    "kind": "checklist"
   },
   "manila-van-luggage-capacity": {
-    "src": "/images/editorial/manila-van-luggage-capacity.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580646017161025",
-    "alt": "Rear passenger seats of a parked SUV"
+    "src": "/images/editorial/manila-van-luggage-capacity-brief.webp",
+    "kind": "illustration",
+    "alt": "Editorial illustration of a passenger van with rear seats in place and different sizes of luggage."
   },
   "manila-private-driver-overtime": {
-    "src": "/images/editorial/manila-private-driver-overtime.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580640423828251",
-    "alt": "White SUV photographed at the curb of a covered driveway"
+    "src": "/images/editorial/manila-private-driver-overtime-brief.webp",
+    "kind": "checklist"
   },
   "manila-business-meetings-driver": {
-    "src": "/images/editorial/manila-business-meetings-driver.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580636487161978",
-    "alt": "Passenger seating viewed through an open rear door"
+    "src": "/images/editorial/manila-business-meetings-driver-brief.webp",
+    "kind": "checklist"
   },
   "private-manila-tour-with-seniors": {
-    "src": "/images/editorial/private-manila-tour-with-seniors.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122199915950790161",
-    "alt": "Tree-lined entrance to a heritage building"
+    "src": "/images/editorial/private-manila-tour-with-seniors-brief.webp",
+    "kind": "checklist"
   },
   "manila-multiple-hotel-pickup": {
-    "src": "/images/editorial/manila-multiple-hotel-pickup.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580636903828603",
-    "alt": "Rear three-quarter view of a white SUV in a covered driveway"
+    "src": "/images/editorial/manila-multiple-hotel-pickup-brief.webp",
+    "kind": "checklist"
   },
   "thue-xe-co-tai-xe-manila": {
-    "src": "/images/editorial/thue-xe-co-tai-xe-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122199698924790161",
-    "alt": "Philippine destination viewed from a hillside"
+    "src": "/images/editorial/thue-xe-co-tai-xe-manila-brief.webp",
+    "kind": "checklist"
   },
   "used-car-service-records-manila": {
-    "src": "/images/editorial/used-car-service-records-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122377267898008877",
-    "alt": "Driver’s view of the dashboard and center console"
+    "src": "/images/editorial/used-car-service-records-manila-brief.webp",
+    "kind": "checklist"
   },
   "compare-used-car-offers-manila": {
-    "src": "/images/editorial/compare-used-car-offers-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645717161055",
-    "alt": "White crossover photographed on a Philippine street"
+    "src": "/images/editorial/compare-used-car-offers-manila-brief.webp",
+    "kind": "checklist"
   },
   "used-ford-everest-appraisal-manila": {
     "src": "/images/editorial/used-ford-everest-appraisal-manila.webp",
     "kind": "checklist"
   },
   "used-car-viewing-from-another-city": {
-    "src": "/images/editorial/used-car-viewing-from-another-city.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645773827716",
-    "alt": "Rear view of a parked crossover"
+    "src": "/images/editorial/used-car-viewing-from-another-city-brief.webp",
+    "kind": "checklist"
   },
   "used-car-accessories-resale": {
-    "src": "/images/editorial/used-car-accessories-resale.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580646003827693",
-    "alt": "Steering wheel and front seats viewed from the driver’s door"
+    "src": "/images/editorial/used-car-accessories-resale-brief.webp",
+    "kind": "checklist"
   },
   "used-car-spare-key-handover": {
-    "src": "/images/editorial/used-car-spare-key-handover.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580636550495305",
-    "alt": "Vehicle cockpit with steering wheel and center display"
+    "src": "/images/editorial/used-car-spare-key-handover-brief.webp",
+    "kind": "checklist"
   },
   "used-car-photo-damage-disclosure": {
-    "src": "/images/editorial/used-car-photo-damage-disclosure.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580636760495284",
-    "alt": "Tailgate and rear bodywork of a white SUV"
+    "src": "/images/editorial/used-car-photo-damage-disclosure-brief.webp",
+    "kind": "checklist"
   },
   "ban-xe-cu-truoc-khi-ve-viet-nam": {
-    "src": "/images/editorial/ban-xe-cu-truoc-khi-ve-viet-nam.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645697161057",
-    "alt": "Front exterior view of a parked white crossover"
+    "src": "/images/editorial/ban-xe-cu-truoc-khi-ve-viet-nam-brief.webp",
+    "kind": "checklist"
   },
   "vinfast-vf9-price-philippines": {
     "src": "/images/editorial/vinfast-vf9-price-philippines.webp",
@@ -111,10 +82,8 @@
     "alt": "Two people reviewing paperwork at a table"
   },
   "vinfast-demo-parking-space": {
-    "src": "/images/editorial/vinfast-demo-parking-space.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1006911325788205",
-    "alt": "Compact white SUV parked beside other cars"
+    "src": "/images/editorial/vinfast-demo-parking-space-brief.webp",
+    "kind": "checklist"
   },
   "vinfast-ev-handover-checklist": {
     "src": "/images/editorial/vinfast-ev-handover-checklist.webp",
@@ -122,58 +91,44 @@
     "alt": "People gathered beside a vehicle at a handover"
   },
   "ev-range-commute-buffer": {
-    "src": "/images/editorial/ev-range-commute-buffer.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1006911385788199",
-    "alt": "Turquoise compact vehicle seen from the front"
+    "src": "/images/editorial/ev-range-commute-buffer-brief.webp",
+    "kind": "checklist"
   },
   "vgreen-charging-payment-philippines": {
-    "src": "/images/editorial/vgreen-charging-payment-philippines.webp",
-    "kind": "photo",
-    "alt": "Charging equipment with a display and connector"
+    "src": "/images/editorial/vgreen-charging-payment-philippines-brief.webp",
+    "kind": "checklist"
   },
   "ev-charging-time-estimate": {
-    "src": "/images/editorial/ev-charging-time-estimate.webp",
-    "kind": "photo",
-    "alt": "Public charging equipment in the DT Car archive"
+    "src": "/images/editorial/ev-charging-time-estimate-brief.webp",
+    "kind": "checklist"
   },
   "ev-charging-site-parking-layout": {
-    "src": "/images/editorial/ev-charging-site-parking-layout.webp",
-    "kind": "photo",
-    "alt": "Civil works in progress at a charging site"
+    "src": "/images/editorial/ev-charging-site-parking-layout-brief.webp",
+    "kind": "checklist"
   },
   "ev-charger-host-opening-hours": {
-    "src": "/images/editorial/ev-charger-host-opening-hours.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122384488568008877",
-    "alt": "Roadside entrance to a Philippine property"
+    "src": "/images/editorial/ev-charger-host-opening-hours-brief.webp",
+    "kind": "checklist"
   },
   "fleet-home-public-charging-mix": {
-    "src": "/images/editorial/fleet-home-public-charging-mix.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122108263581380235",
-    "alt": "Electric taxis parked together"
+    "src": "/images/editorial/fleet-home-public-charging-mix-brief.webp",
+    "kind": "checklist"
   },
   "fleet-dashcam-sim-inventory": {
-    "src": "/images/editorial/fleet-dashcam-sim-inventory.webp",
-    "kind": "photo",
-    "alt": "Technicians reviewing equipment in a vehicle cabin"
+    "src": "/images/editorial/fleet-dashcam-sim-inventory-brief.webp",
+    "kind": "checklist"
   },
   "fleet-dashcam-night-acceptance": {
-    "src": "/images/editorial/fleet-dashcam-night-acceptance.webp",
-    "kind": "photo",
-    "alt": "Vehicle in a covered service bay"
+    "src": "/images/editorial/fleet-dashcam-night-acceptance-brief.webp",
+    "kind": "checklist"
   },
   "taxi-meter-installation-batch-planning": {
-    "src": "/images/editorial/taxi-meter-installation-batch-planning.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122105618295380235",
-    "alt": "Electric taxis lined up in a fleet yard"
+    "src": "/images/editorial/taxi-meter-installation-batch-planning-brief.webp",
+    "kind": "checklist"
   },
   "fleet-installation-rework-log": {
-    "src": "/images/editorial/fleet-installation-rework-log.webp",
-    "kind": "photo",
-    "alt": "Vehicle cabin viewed through the open door"
+    "src": "/images/editorial/fleet-installation-rework-log-brief.webp",
+    "kind": "checklist"
   },
   "electric-fleet-spare-vehicle-planning": {
     "src": "/images/editorial/electric-fleet-spare-vehicle-planning.webp",
@@ -182,25 +137,20 @@
     "alt": "Electric taxis travelling along a curved road"
   },
   "ev-fleet-pilot-driver-log": {
-    "src": "/images/editorial/ev-fleet-pilot-driver-log.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122110379319380235",
-    "alt": "Driver beside an electric taxi at a fleet yard"
+    "src": "/images/editorial/ev-fleet-pilot-driver-log-brief.webp",
+    "kind": "checklist"
   },
   "ev-workshop-warning-message": {
     "src": "/images/editorial/ev-workshop-warning-message.webp",
     "kind": "checklist"
   },
   "vinfast-service-records-resale": {
-    "src": "/images/editorial/vinfast-service-records-resale.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645757161051",
-    "alt": "Side view of a white crossover"
+    "src": "/images/editorial/vinfast-service-records-resale-brief.webp",
+    "kind": "checklist"
   },
   "ev-workshop-repeat-visit": {
-    "src": "/images/editorial/ev-workshop-repeat-visit.webp",
-    "kind": "photo",
-    "alt": "Team members working inside a covered vehicle facility"
+    "src": "/images/editorial/ev-workshop-repeat-visit-brief.webp",
+    "kind": "checklist"
   },
   "green-gsm-driver-interview-preparation": {
     "src": "/images/editorial/green-gsm-driver-interview-preparation.webp",
@@ -213,10 +163,8 @@
     "kind": "checklist"
   },
   "green-gsm-rental-parking-photo": {
-    "src": "/images/editorial/green-gsm-rental-parking-photo.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645943827699",
-    "alt": "Parked SUV viewed from the rear"
+    "src": "/images/editorial/green-gsm-rental-parking-photo-brief.webp",
+    "kind": "checklist"
   },
   "manila-maiche-zhongwen-yugu": {
     "src": "/images/editorial/manila-maiche-zhongwen-yugu.webp",
@@ -231,16 +179,12 @@
     "alt": "Rear three-quarter exterior inspection view"
   },
   "manila-gongsi-cheliang-piliang-chushou": {
-    "src": "/images/editorial/manila-gongsi-cheliang-piliang-chushou.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122384861204008877",
-    "alt": "Black SUV parked outside a building"
+    "src": "/images/editorial/manila-gongsi-cheliang-piliang-chushou-brief.webp",
+    "kind": "checklist"
   },
   "manila-jichang-jieji-zhongwen": {
-    "src": "/images/editorial/manila-jichang-jieji-zhongwen.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122199698756790161",
-    "alt": "Destination buildings and landscape on a Philippine tour"
+    "src": "/images/editorial/manila-jichang-jieji-zhongwen-brief.webp",
+    "kind": "checklist"
   },
   "feilvbin-vinfast-dianchi-baojia": {
     "src": "/images/editorial/feilvbin-vinfast-dianchi-baojia.webp",
@@ -253,10 +197,8 @@
     "alt": "White SUV photographed outdoors"
   },
   "philippines-used-car-deposit-korean": {
-    "src": "/images/editorial/philippines-used-car-deposit-korean.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645887161038",
-    "alt": "Side profile of a parked crossover"
+    "src": "/images/editorial/philippines-used-car-deposit-korean-brief.webp",
+    "kind": "checklist"
   },
   "manila-golf-bag-driver-korean": {
     "src": "/images/editorial/manila-golf-bag-driver-korean.webp",
@@ -275,24 +217,20 @@
     "alt": "Pink VinFast compact EV photographed outdoors"
   },
   "kiem-tra-xe-cu-tu-xa-manila": {
-    "src": "/images/editorial/kiem-tra-xe-cu-tu-xa-manila.webp",
-    "kind": "photo",
-    "alt": "Red sedan viewed head-on in a DT Car appraisal photo"
+    "src": "/images/editorial/kiem-tra-xe-cu-tu-xa-manila-brief.webp",
+    "kind": "checklist"
   },
   "bao-gia-xe-dien-doanh-nghiep-philippines": {
     "src": "/images/editorial/bao-gia-xe-dien-doanh-nghiep-philippines.webp",
     "kind": "checklist"
   },
   "hen-xuong-vinfast-manila-tieng-viet": {
-    "src": "/images/editorial/hen-xuong-vinfast-manila-tieng-viet.webp",
-    "kind": "photo",
-    "alt": "Team at work around vehicle infrastructure"
+    "src": "/images/editorial/hen-xuong-vinfast-manila-tieng-viet-brief.webp",
+    "kind": "checklist"
   },
   "dat-xe-dua-don-doan-cong-tac-manila": {
-    "src": "/images/editorial/dat-xe-dua-don-doan-cong-tac-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122384488478008877",
-    "alt": "Covered outdoor seating at a travel stop"
+    "src": "/images/editorial/dat-xe-dua-don-doan-cong-tac-manila-brief.webp",
+    "kind": "checklist"
   },
   "paano-magpa-appraise-ng-kotse": {
     "src": "/images/editorial/paano-magpa-appraise-ng-kotse.webp",
@@ -314,22 +252,16 @@
     "kind": "checklist"
   },
   "vinfast-vf3-magkano-filipino": {
-    "src": "/images/editorial/vinfast-vf3-magkano-filipino.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1006911445788193",
-    "alt": "Compact car seen from the front"
+    "src": "/images/editorial/vinfast-vf3-magkano-filipino-brief.webp",
+    "kind": "checklist"
   },
   "car-consignment-vs-direct-sale-manila": {
-    "src": "/images/editorial/car-consignment-vs-direct-sale-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122383149674008877",
-    "alt": "Car photographed beside a covered structure"
+    "src": "/images/editorial/car-consignment-vs-direct-sale-manila-brief.webp",
+    "kind": "checklist"
   },
   "selling-a-car-before-leaving-philippines": {
-    "src": "/images/editorial/selling-a-car-before-leaving-philippines.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1590712929487667",
-    "alt": "Dark sedan parked beside a building"
+    "src": "/images/editorial/selling-a-car-before-leaving-philippines-brief.webp",
+    "kind": "checklist"
   },
   "green-gsm-driver-job-or-ev-rental": {
     "src": "/images/editorial/green-gsm-driver-job-or-ev-rental.webp",
@@ -348,10 +280,8 @@
     "kind": "checklist"
   },
   "ev-charging-site-restaurant-hotel": {
-    "src": "/images/editorial/ev-charging-site-restaurant-hotel.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122384488394008877",
-    "alt": "Access road outside a commercial property"
+    "src": "/images/editorial/ev-charging-site-restaurant-hotel-brief.webp",
+    "kind": "checklist"
   },
   "electric-fleet-pilot-route": {
     "src": "/images/editorial/electric-fleet-pilot-route.webp",
@@ -370,16 +300,12 @@
     "kind": "checklist"
   },
   "mazda-cx5-used-price-manila": {
-    "src": "/images/editorial/mazda-cx5-used-price-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122377267760008877",
-    "alt": "White crossover photographed outside a showroom"
+    "src": "/images/editorial/mazda-cx5-used-price-manila-brief.webp",
+    "kind": "checklist"
   },
   "reserved-used-car-listing-manila": {
-    "src": "/images/editorial/reserved-used-car-listing-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122384853650008877",
-    "alt": "Dark SUV photographed outdoors"
+    "src": "/images/editorial/reserved-used-car-listing-manila-brief.webp",
+    "kind": "checklist"
   },
   "car-sourcing-agent-referral-philippines": {
     "src": "/images/editorial/car-sourcing-agent-referral-philippines.webp",
@@ -387,29 +313,24 @@
     "alt": "People beside a car at a vehicle handover"
   },
   "sell-financed-car-appraisal-manila": {
-    "src": "/images/editorial/sell-financed-car-appraisal-manila.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645873827706",
-    "alt": "View across the dashboard of a parked vehicle"
+    "src": "/images/editorial/sell-financed-car-appraisal-manila-brief.webp",
+    "kind": "checklist"
   },
   "vinfast-mpv7-price-seven-seats-philippines": {
     "src": "/images/editorial/vinfast-mpv7-price-seven-seats-philippines.webp",
     "kind": "checklist"
   },
   "electric-car-maintenance-schedule-philippines": {
-    "src": "/images/editorial/electric-car-maintenance-schedule-philippines.webp",
-    "kind": "photo",
-    "alt": "Equipment in a vehicle work area"
+    "src": "/images/editorial/electric-car-maintenance-schedule-philippines-brief.webp",
+    "kind": "checklist"
   },
   "fleet-installation-rfq-philippines": {
-    "src": "/images/editorial/fleet-installation-rfq-philippines.webp",
-    "kind": "photo",
-    "alt": "Fleet vehicle and team member at a depot"
+    "src": "/images/editorial/fleet-installation-rfq-philippines-brief.webp",
+    "kind": "checklist"
   },
   "ev-charging-site-survey-preparation": {
-    "src": "/images/editorial/ev-charging-site-survey-preparation.webp",
-    "kind": "photo",
-    "alt": "Site equipment photographed during field work"
+    "src": "/images/editorial/ev-charging-site-survey-preparation-brief.webp",
+    "kind": "checklist"
   },
   "vinfast-test-drive-metro-manila": {
     "src": "/images/editorial/vinfast-test-drive-metro-manila.webp",
@@ -427,10 +348,8 @@
     "source": "https://www.facebook.com/photo.php?fbid=1580645953827698"
   },
   "used-car-inspection-checklist": {
-    "src": "/images/editorial/used-car-inspection-checklist.webp",
-    "kind": "photo",
-    "alt": "Dashboard and windshield viewed from the cabin",
-    "source": "https://www.facebook.com/photo.php?fbid=122377268264008877"
+    "src": "/images/editorial/used-car-inspection-checklist-brief.webp",
+    "kind": "checklist"
   },
   "ev-charging-philippines-cost": {
     "src": "/images/editorial/ev-charging-philippines-cost.webp",
@@ -455,10 +374,8 @@
     "alt": "Front of a used vehicle in the DT Car archive"
   },
   "new-vs-used-car-philippines": {
-    "src": "/images/editorial/new-vs-used-car-philippines.webp",
-    "kind": "photo",
-    "alt": "Rear three-quarter view of a white crossover",
-    "source": "https://www.facebook.com/photo.php?fbid=122377267886008877"
+    "src": "/images/editorial/new-vs-used-car-philippines-brief.webp",
+    "kind": "checklist"
   },
   "used-car-valuation-philippines": {
     "src": "/images/editorial/used-car-valuation-philippines.webp",

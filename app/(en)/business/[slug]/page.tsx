@@ -67,7 +67,7 @@ export default async function ServicePage({ params }: Props) {
             <p className="guideSource">Source · <a href={comparison.source.href}>{comparison.source.label}</a></p>
           </section>}
           <section><h2>{service.checklistTitle}</h2><ul>{service.checklist.map((item) => <li key={item}>{item}</li>)}</ul></section>
-          <section><h2>Next steps</h2><ol className="guideSteps">{service.steps.map((step) => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol></section>
+          <section><h2>Next steps</h2>{service.slug === "sell-my-car-manila" && <p><Link href="/sell-your-car/">Send your vehicle details for an appraisal</Link></p>}<ol className="guideSteps">{service.steps.map((step) => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol></section>
           <section><h2>Common questions</h2>{service.questions.map((item) => <div className="guideAnswer" key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></div>)}</section>
         </div>
         <aside className="guideAside"><h2>Contacts and further reading</h2>
