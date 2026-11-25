@@ -125,7 +125,7 @@ export const services: Service[] = [
       { question: "Can I speak with the team in another language?", answer: "DT Car has English/Filipino, Vietnamese, Chinese and Korean vehicle channels. Use the contact directory below to reach your preferred team." },
     ],
     references: [{ label: "DT Car language and contact directory", href: "/contact/" }],
-    stories: ["pre-owned-cars-professional-inspection"],
+    stories: ["selling-a-ford-everest-manila", "pre-owned-cars-professional-inspection"],
   },
   {
     slug: "vinfast-test-drive",

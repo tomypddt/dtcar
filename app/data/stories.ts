@@ -1,10 +1,25 @@
 export type Section={heading:string;paragraphs:string[]};
-export type Article={slug:string;category:string;title:string;dek:string;date:string;hero:string;images:string[];sections:Section[];facts?:string[]};
+export type Article={slug:string;category:string;title:string;dek:string;date:string;hero:string;images:string[];sections:Section[];source?:{url:string;label:string};facts?:string[]};
 const I=(name:string)=>`/images/${name}`;
 const used=["used-car-lexus.jpeg","used-car-toyota.jpeg","used-car-ford.jpeg","used-car-ford-territory.jpeg","used-car-bmw.jpeg","used-car-honda.jpeg","used-car-suzuki.jpeg","used-car-geely.jpeg","used-car-audi.jpeg","used-car-mercedes.jpeg","used-car-volvo.jpeg","used-car-nissan.jpeg","D78A9CE1-9A03-4F73-89BE-FFFBFD0923D7.jpeg","E3679320-6F62-45B2-8C1C-9585E11F0343.jpeg","78DD0486-303D-4EEE-BC49-615B6D424E01.jpeg","A96C1D77-C099-44FB-88C9-6A398DD359D4.jpeg","FCBFA5C3-E582-4D74-B6DA-34EE4DD2DD3A.jpeg","06175AA1-8B13-4728-A329-6379D4D6B899.jpeg","2635CE6B-0157-4645-8284-DA6CC58085B1.jpeg","2FDD7F6D-417C-4BD3-8CD5-51FC28675AB7.jpeg","9F58E17F-8F3D-4F38-92AA-0A15401C0DA6.jpeg","808E30E1-1901-4E1B-8B89-56F51F18C3FB.jpeg","6D305D54-DDA0-4DFC-98BA-389070D6E989.jpeg","67ABF8C4-8226-4099-8405-DC5771375253.jpeg","235993FA-122C-4900-BD39-EAC455381A5A.jpeg","ED8747A1-68DB-40F0-9C33-EE55EA63AA3D.jpeg","38DFF011-6F4B-48D4-829F-E78493331E60.jpeg","63D1D685-53E2-450B-89C8-2768EF6649E6.jpeg","FFA452DD-BD1D-45BD-B7B3-26250F0B2FED.jpeg","5376625F-4873-43D7-B505-D61E3C2C9428.jpeg"].map(I);
 const travel=["3B201622-AA7A-4A05-B30C-C22C209A3814.jpeg","91526570-951A-4990-A2C8-BCAE9773E638.jpeg","5DADBE0B-BEDD-4ED2-8838-1DBAF10535DA.jpeg","263FB8F1-0B32-4CF2-A681-EB6CCCD9D434.jpeg","4B014B84-54B4-4E2C-B984-AF8DB0B1BBCF.jpeg","BEBB1179-9D48-4222-B07C-FAAD69DE40F0.jpeg","A4857DB4-1CEC-48EB-85F1-563DD51DB9A0.jpeg","FB2022D8-E30A-4A48-A324-52203B363079.jpeg","360EFD10-780F-41E9-8A38-905566633118.jpeg","85F9AFEC-BC83-4902-8DDD-83A832C18996.jpeg"].map(I);
 const vf3BestSellerHero=I("vf3-pink-lisa-highres-2026.webp");
 export const articles:Article[]=[
+{
+  slug: "selling-a-ford-everest-manila",
+  category: "USED CARS",
+  title: "Selling a used Ford Everest in Manila",
+  dek: "A 2024 Everest Titanium 4x4 marked sold on DT Car’s We Buy Cars page illustrates two routes owners can discuss when selling an SUV.",
+  date: "25 November 2026",
+  hero: I("everest-2024-we-buy-cars.webp"),
+  images: [],
+  source: {label: "See the original Everest sale photo and post on DT Car – We Buy Cars", url: "https://www.facebook.com/photo/?fbid=122105863467548166"},
+  sections: [
+    {heading: "What happened with the Everest?", paragraphs: ["DT Car shared a photo of a white 2024 Ford Everest Titanium 4x4 and marked the vehicle sold. The post thanked the seller and explained that the team can also introduce a vehicle to clients when its own purchase offer falls short of the owner’s asking price. The parties kept the sale price private."]},
+    {heading: "A direct offer or a buyer introduction?", paragraphs: ["If you want to sell an SUV, ask who would buy it. For a direct purchase, request the amount DT Car can offer after inspection and the proposed payment and handover dates. If you prefer an introduction to another buyer, agree on your asking price, who will arrange viewings, any fee and who will pay you. Ask which arrangement is available for your vehicle."]},
+    {heading: "What to send for an appraisal", paragraphs: ["DT Car’s seller page asks for the make, model, year, mileage, location, asking price and clear photos. For an Everest, include the exact trim and drivetrain. A photo showing the badge and a dashboard photo showing the odometer help the team identify which version it is evaluating.", "If a loan is outstanding, mention it when you enquire. The Page offers settlement assistance. Request the outstanding amount and instructions directly from your lender before agreeing on the sum you will receive or a handover date."]}
+  ]
+},
 {
   slug: "dtcar-welcomes-prime-minister-le-minh-hung",
   category: "VIET NAM–PHILIPPINES",

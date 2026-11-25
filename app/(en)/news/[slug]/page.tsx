@@ -41,6 +41,7 @@ export default async function ArticlePage({ params }: Props) {
       <figure className="magHero"><img src={a.hero} alt={a.title}/></figure>
       {a.facts && <aside className="factStrip">{a.facts.map((fact, i) => <div key={fact}><strong>{String(i + 1).padStart(2, "0")}</strong><span>{fact}</span></div>)}</aside>}
       <div className="magBody">{a.sections.map((section, i) => <section key={section.heading}><span className="sectionNo">{String(i + 1).padStart(2, "0")}</span><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}</div>
+      {a.source && <p className="storyServiceLink"><a href={a.source.url}>{a.source.label}</a></p>}
       {service && <p className="storyServiceLink"><a href={servicePath(service.slug)}>{service.name} →</a></p>}
       <section className="photoEssay"><header><p className="eyebrow">PHOTO ESSAY</p><h2>From the DT Car archive</h2></header><div className="photoMosaic">{articleImages(a).map((src, i) => <figure key={src + i} className={i % 7 === 0 ? "wide" : i % 5 === 0 ? "tall" : ""}><img src={src} alt={a.title + " — photograph " + (i + 1)} loading="lazy" decoding="async"/><figcaption>{a.category} · {String(i + 1).padStart(2, "0")}</figcaption></figure>)}</div></section>
       <section className="storyContact"><div><p className="eyebrow">OFFICIAL ENGLISH CHANNEL</p><h2>Continue the conversation with DT Car.</h2></div><a href="https://www.facebook.com/profile.php?id=61550266324189" target="_blank" rel="noreferrer">View &amp; message DT Car →</a></section>

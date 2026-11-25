@@ -529,6 +529,13 @@ export const guides: Guide[] = [
     "summary": "An initial charging-site proposal should identify the property, authorized contact, available parking area, access and known electrical supply. A map pin and labelled photos help DT Car screen the location before arranging a technical visit.",
     "sections": [
       {
+        "heading": "Why DT Car may ask for a second look at the land",
+        "paragraphs": [
+          "DT Car’s Quality Car Manila team asks about flooding, drainage and ground movement when it evaluates a proposed site. If water reached the parking area during a storm, mark where it collected on a site photo. Show the access road too. A dry bay is of limited use if drivers cannot reach it during heavy rain.",
+          "Sketch the area vehicles can actually use. Show where a car enters, turns, charges and exits, and leave room for emergency access. Note any available information about three-phase supply so an engineer can check capacity with the utility. Owners or brokers should identify who can authorise the proposed lease and disclose any conflicting claims before a survey is scheduled."
+        ]
+      },
+      {
         "heading": "Show how vehicles enter, park and leave",
         "paragraphs": [
           "Provide a map pin and photographs from the road to the proposed bays. Label the entrance and exit, describe any access restrictions and show nearby structures that could affect vehicle movement. Include the hours when drivers can enter the site.",
@@ -564,7 +571,7 @@ export const guides: Guide[] = [
       "Known supply and proposed cable route.",
       "Flood history and availability."
     ],
-    "references": [
+    "references": [{"label":"DT Car – Quality Car Manila, publisher of the site evaluation explainer","href":"https://www.facebook.com/profile.php?id=61550266324189"},
       {
         "label": "DT Car site-selection brief",
         "href": "/news/vgreen-land-space-charging-battery-swapping-philippines/"
