@@ -1599,5 +1599,752 @@
       "ev-rental-daily-budget"
     ],
     "date": "2026-11-25"
+  },
+  {
+    "slug": "manila-maiche-zhongwen-yugu",
+    "title": "在马尼拉卖二手车，怎样用中文询价？",
+    "description": "用一条中文消息说明车况、约看时间和交车条件，比较马尼拉二手车收购报价。",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "zh-Hans",
+    "date": "2026-11-25",
+    "summary": "先准备车型、配置、年份、公里数和所在区域，再向 DT Car 中文团队预约看车。第一次联系适合确认估价范围和流程，最终报价要看具体车辆。",
+    "sections": [
+      {
+        "heading": "一条消息把车说清楚",
+        "paragraphs": [
+          "可以这样写：“我在帕赛，想卖一辆［年份、品牌、型号、配置］，目前约［公里数］公里，［时间］可以看车。请问初步报价需要哪些照片？检查后多久能确认实收金额？”如果不确定配置，请说明手上有哪些车辆资料，不要凭外观猜版本。"
+        ]
+      },
+      {
+        "heading": "去看车之前确认三件事",
+        "paragraphs": [
+          "问清看车地点、负责人的联系方式和谁来做检查。如果还在用车，提前说明最早可交车的日期。保留有日期的书面报价，并确认是否还要扣除取车或其他费用。帕赛的会面请先约好时间再出发。"
+        ]
+      }
+    ],
+    "checklist": [
+      "车辆配置和里程",
+      "看车时间与地点",
+      "实收金额和交车日期"
+    ],
+    "related": [
+      "compare-used-car-offers-manila",
+      "manila-gongsi-cheliang-piliang-chushou"
+    ],
+    "references": [
+      {
+        "href": "/business/sell-my-car-manila/",
+        "label": "DT Car · 服务信息"
+      }
+    ]
+  },
+  {
+    "slug": "feilvbin-ershouche-zhongwen-kanche",
+    "title": "在菲律宾第一次看二手车，如何安排现场检查？",
+    "description": "从核对目标车辆到预约独立检查，准备第一次在菲律宾看二手车时要问的问题。",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "zh-Hans",
+    "date": "2026-11-25",
+    "summary": "先确认车辆仍可看、约好检查时间，再带着卖方提供的资料逐项核对。照片适合筛选车辆，现场检查才能进一步判断是否值得购买。",
+    "sections": [
+      {
+        "heading": "到场前先缩小范围",
+        "paragraphs": [
+          "请卖家提供准确版本、现有里程、保养记录和已披露的问题。对方如果发来多辆车的照片，请逐辆编号并注明年份。出发当天再次确认要看的那一辆还在，避免到场后才发现预订状态已经改变。"
+        ]
+      },
+      {
+        "heading": "把疑问交给独立检查人员",
+        "paragraphs": [
+          "把照片里看不清的位置、历史维修和记录空档列在纸上。请检查人员写明看过哪些部分、哪些部分需要进一步诊断，以及预计需要处理的项目。卖家口头说明和实际检查结果分开记录，再决定是否继续谈价。"
+        ]
+      }
+    ],
+    "checklist": [
+      "指定要看的车辆",
+      "待核查问题",
+      "独立检查记录"
+    ],
+    "related": [
+      "used-car-service-records-manila"
+    ],
+    "references": [
+      {
+        "href": "/business/used-cars-manila/",
+        "label": "DT Car · 服务信息"
+      }
+    ]
+  },
+  {
+    "slug": "manila-gongsi-cheliang-piliang-chushou",
+    "title": "马尼拉公司批量卖车，怎样准备逐车报价？",
+    "description": "为菲律宾公司车队准备逐车资料，比较整批收购与分批交车的条件。",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "zh-Hans",
+    "date": "2026-11-25",
+    "summary": "先按车辆编号列清单，每辆车单独列出年份、版本、里程、状态、可检查地点和可交车日期。即使希望整批成交，也应能看出每辆车对总价的影响。",
+    "sections": [
+      {
+        "heading": "给买方一份能排期的清单",
+        "paragraphs": [
+          "例如公司有五辆车，其中两辆每天出勤。用内部编号把每组照片对应到具体车辆，并区分可立即交车和需要等替代车辆到位的车。第一轮沟通可提供区域和时间窗口，无需公开司机资料或客户行程。"
+        ]
+      },
+      {
+        "heading": "比较整批和分批方案",
+        "paragraphs": [
+          "要求买方说明总报价是否以全部车辆同时交付为条件。如一辆车退出交易，其他车辆的价格是否变化？问清每批检查人、收款方、提车顺序和报价有效期。公司内部再确认谁有权签收并保存交接记录。"
+        ]
+      }
+    ],
+    "checklist": [
+      "逐车档案",
+      "分批时间",
+      "总价成立条件"
+    ],
+    "related": [
+      "car-appraisal-photos-manila",
+      "manila-maiche-zhongwen-yugu"
+    ],
+    "references": [
+      {
+        "href": "/business/sell-my-car-manila/",
+        "label": "DT Car · 服务信息"
+      }
+    ]
+  },
+  {
+    "slug": "manila-jichang-jieji-zhongwen",
+    "title": "马尼拉机场接机，中文旅客应给司机哪些信息？",
+    "description": "中文旅客预约马尼拉机场接机时可直接使用的询价模板和航班变更清单。",
+    "category": "PRIVATE TRANSPORT",
+    "service": "travel",
+    "photo": "/images/BEBB1179-9D48-4222-B07C-FAAD69DE40F0.jpeg",
+    "lang": "zh-Hans",
+    "date": "2026-11-25",
+    "summary": "发给调度航班号、菲律宾当地抵达日期、人数、行李数量和酒店分店。若需要中文沟通，订车时确认是中文客服协调，还是随车人员会中文。",
+    "sections": [
+      {
+        "heading": "两段行程要分别说明",
+        "paragraphs": [
+          "“我们［日期］乘［航班号］到马尼拉，［人数］人、［数量］件大行李，送到［酒店全名和地址］。请确认见面地点、车型和等候安排。”如果第二天还想包车，将次日行程另列，避免把单程接机报成整天用车。"
+        ]
+      },
+      {
+        "heading": "航班或航站楼变更时",
+        "paragraphs": [
+          "把航空公司的新航班号和预计到达时间发给调度，确认是否影响司机安排。先保存司机或值班联系人的信息，约定找不到对方时在哪里等。多人同行可指定一人联络，其余人在约定地点集合。"
+        ]
+      }
+    ],
+    "checklist": [
+      "当地抵达日期",
+      "行李及酒店分店",
+      "接机联络方式"
+    ],
+    "related": [
+      "airport-meet-and-greet-manila"
+    ],
+    "references": [
+      {
+        "href": "/travel/",
+        "label": "DT Car · 服务信息"
+      }
+    ]
+  },
+  {
+    "slug": "feilvbin-vinfast-dianchi-baojia",
+    "title": "在菲律宾买 VinFast，如何看懂电池方案报价？",
+    "description": "用菲律宾 VF 3 官方起售价作例子，拆开看车价、电池订阅费用和交付条件。",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "photo": "/images/web/showroom.webp",
+    "lang": "zh-Hans",
+    "date": "2026-11-25",
+    "summary": "比较同一车型、同一配置的两份书面报价，一份列电池订阅，另一份列不订阅的购车价格。分别记录首付款、后续电池支出和预计用车时间。",
+    "sections": [
+      {
+        "heading": "用 VF 3 看懂价差",
+        "paragraphs": [
+          "按 2026 年 11 月 25 日查阅的菲律宾官方价目表，VF 3 两种起售价分别为 590,000 和 745,000 比索，相差 155,000 比索。这个差额只说明购车时的价格差，不能直接视作整个用车期间的节省金额。"
+        ]
+      },
+      {
+        "heading": "拿着自己的里程问销售",
+        "paragraphs": [
+          "把最近一个正常月份的里程写下来，询问适用的订阅收费、变更条件和当前促销期限。比较时保持贷款期限、首付比例和保险条件一致。请销售写明车型年份、是否已分配车辆以及哪些费用仍可能变化。"
+        ]
+      }
+    ],
+    "checklist": [
+      "同一配置的两份报价",
+      "每月预计公里数",
+      "费用和促销期限"
+    ],
+    "related": [
+      "vinfast-battery-subscription-comparison"
+    ],
+    "references": [
+      {
+        "href": "https://vinfastauto.ph/en/price-list",
+        "label": "VinFast 菲律宾官方价目表"
+      }
+    ]
+  },
+  {
+    "slug": "manila-used-car-korean-appraisal",
+    "title": "마닐라에서 중고차 팔 때 한국어 견적 요청하는 법",
+    "description": "차량 사진과 함께 보낼 한국어 문의 문장, 마닐라 차량 확인 약속과 매입 실수령액을 정리합니다.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "ko",
+    "date": "2026-11-25",
+    "summary": "차량 연식, 정확한 트림, 주행거리, 차량이 있는 지역을 먼저 정리하세요. DT Car 한국어 상담 채널에 사진을 보내고 방문 시간을 정하면 차량 상태를 확인한 뒤 최종 제안을 비교할 수 있습니다.",
+    "sections": [
+      {
+        "heading": "사진과 함께 보낼 문장",
+        "paragraphs": [
+          "“마닐라 [지역]에 있는 [연식·차종·트림]을 판매하려고 합니다. 주행거리는 [km]이고 [요일과 시간]에 차량을 보여 드릴 수 있습니다. 예상 매입가와 현장 확인 후 차감될 수 있는 항목을 알려 주세요.” 수리한 부위나 없는 예비 키가 있다면 처음부터 함께 적는 편이 좋습니다."
+        ]
+      },
+      {
+        "heading": "일정과 실수령액 확인",
+        "paragraphs": [
+          "출장이나 귀국 일정이 있으면 차량을 넘길 수 있는 마지막 날짜를 알려 주세요. 제안받은 금액에 수수료나 차량 이동 비용이 포함되는지, 실제로 누가 언제 지급하는지 확인하세요. 파사이 미팅은 출발 전에 약속 시간과 장소를 확인하세요."
+        ]
+      }
+    ],
+    "checklist": [
+      "차량 기본 정보",
+      "차량 확인 약속",
+      "실수령액과 인도일"
+    ],
+    "related": [
+      "used-car-photo-damage-disclosure",
+      "manila-trade-in-korean"
+    ],
+    "references": [
+      {
+        "href": "/business/sell-my-car-manila/",
+        "label": "DT Car 서비스 안내"
+      }
+    ]
+  },
+  {
+    "slug": "philippines-used-car-deposit-korean",
+    "title": "필리핀 중고차 예약 전 확인할 내용",
+    "description": "필리핀 중고차를 예약하기 전에 판매 상태, 차량 식별 정보, 점검 기회와 취소 조건을 확인하세요.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "ko",
+    "date": "2026-11-25",
+    "summary": "예약하려는 매물의 현재 상태와 예약 조건을 서면으로 받아 두세요. 오래된 판매 게시물만으로 지금도 같은 차를 살 수 있는지는 알기 어렵습니다.",
+    "sections": [
+      {
+        "heading": "먼저 어떤 차를 예약하는지 확인",
+        "paragraphs": [
+          "연식과 색상이 같은 매물이 여러 대라면 판매자의 차량 관리번호나 구분 가능한 사양을 확인하세요. 예약 기간 동안 다른 사람이 시승할 수 있는지, 독립 점검을 언제 받을 수 있는지도 물어보세요. 현장 확인이 어려우면 예약 전에 실시간 영상으로 해당 차량을 보여 달라고 요청할 수 있습니다."
+        ]
+      },
+      {
+        "heading": "송금 전에 기록할 항목",
+        "paragraphs": [
+          "누가 예약금을 받고 영수증을 발행하는지, 잔금에서 공제되는지, 점검 결과나 인도 일정이 달라지면 어떻게 처리하는지 확인하세요. 취소 가능 여부와 환불 조건은 해당 매물의 서면 내용을 기준으로 판단하세요. 답이 모호하면 남은 질문을 먼저 정리하세요."
+        ]
+      }
+    ],
+    "checklist": [
+      "특정 매물 확인",
+      "예약 기간과 점검 일정",
+      "지급 및 취소 조건"
+    ],
+    "related": [
+      "reserved-used-car-listing-manila"
+    ],
+    "references": [
+      {
+        "href": "/business/used-cars-manila/",
+        "label": "DT Car 서비스 안내"
+      }
+    ]
+  },
+  {
+    "slug": "manila-golf-bag-driver-korean",
+    "title": "마닐라 골프 이동 차량 예약 시 골프백과 짐 계산하기",
+    "description": "마닐라 골프 이동 일정에 맞춰 골프백·캐리어 공간, 차량 대기 시간과 공항 드롭을 확인하세요.",
+    "category": "PRIVATE TRANSPORT",
+    "service": "travel",
+    "photo": "/images/BEBB1179-9D48-4222-B07C-FAAD69DE40F0.jpeg",
+    "lang": "ko",
+    "date": "2026-11-25",
+    "summary": "승객 수와 골프백 수를 따로 알려 주세요. 공항에서 골프장으로 바로 이동한다면 캐리어까지 모두 실은 상태에서 좌석을 확보할 수 있는지 확인해야 합니다.",
+    "sections": [
+      {
+        "heading": "예약 메시지에 넣을 정보",
+        "paragraphs": [
+          "예를 들어 네 명이 각자 골프백과 큰 캐리어를 하나씩 가져온다면 큰 짐만 여덟 개입니다. 접이식 카트나 부피가 큰 항공 커버가 있으면 가장 긴 짐의 길이도 보내세요. 제시된 차량에서 좌석을 접어야 한다면 실제로 몇 명이 탈 수 있는지 다시 물어보세요."
+        ]
+      },
+      {
+        "heading": "라운드가 끝나는 시간까지 고려",
+        "paragraphs": [
+          "클럽하우스에서 다시 만날 장소와 드라이버의 대기 조건을 확인하세요. 티오프 시간 변경이나 라운드 지연 시 누구에게 알리는지, 추가 시간이 어떻게 계산되는지도 합의하세요. 마지막 일정이 공항이라면 호텔에 들러 짐을 찾는 시간도 경로에 포함하세요."
+        ]
+      }
+    ],
+    "checklist": [
+      "골프백과 캐리어 개수",
+      "티오프와 픽업 지점",
+      "대기 및 초과 시간"
+    ],
+    "related": [
+      "manila-van-luggage-capacity"
+    ],
+    "references": [
+      {
+        "href": "/travel/",
+        "label": "DT Car 서비스 안내"
+      }
+    ]
+  },
+  {
+    "slug": "manila-trade-in-korean",
+    "title": "마닐라에서 타던 차를 대차할 때 견적 읽는 법",
+    "description": "중고차 매입가와 교체 차량 판매가를 분리해 마닐라 대차 견적의 실제 차액을 계산합니다.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "ko",
+    "date": "2026-11-25",
+    "summary": "기존 차의 매입가와 새로 받을 차의 판매가를 따로 적어 달라고 요청하세요. 추가로 내야 할 금액 한 줄만 보면 어느 차량의 조건이 바뀌었는지 확인하기 어렵습니다.",
+    "sections": [
+      {
+        "heading": "두 견적을 같은 기준으로 보기",
+        "paragraphs": [
+          "예를 들어 교체 차량이 90만 페소이고 기존 차 평가액이 60만 페소라면 비용을 더하기 전 차액은 30만 페소입니다. 다른 곳에서 기존 차에 2만 페소를 더 주더라도 교체 차량 가격이 3만 페소 높다면 최종 차액은 오히려 늘어납니다. 이 숫자는 계산 예시입니다."
+        ]
+      },
+      {
+        "heading": "실제 인도 날짜를 따져 보기",
+        "paragraphs": [
+          "기존 차는 오늘 넘겨야 하는데 교체 차량은 다음 주에만 받을 수 있다면 이동 공백이 생깁니다. 양쪽 차량의 확인 날짜, 인도일, 아직 확정되지 않은 비용을 한 장에 적어 두세요. 최종 조건이 바뀌면 같은 항목으로 다시 비교하세요."
+        ]
+      }
+    ],
+    "checklist": [
+      "두 차량의 개별 금액",
+      "최종 차액",
+      "인도일 사이의 공백"
+    ],
+    "related": [
+      "car-trade-in-philippines",
+      "manila-used-car-korean-appraisal"
+    ],
+    "references": [
+      {
+        "href": "/business/sell-my-car-manila/",
+        "label": "DT Car 서비스 안내"
+      }
+    ]
+  },
+  {
+    "slug": "lai-thu-vinfast-pasay-tieng-viet",
+    "title": "Đặt lịch lái thử VinFast ở Metro Manila bằng tiếng Việt",
+    "description": "Mẫu nhắn DT Car để hẹn đúng xe demo, điểm gặp và giờ lái thử VinFast tại Metro Manila.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "photo": "/images/web/showroom.webp",
+    "lang": "vi",
+    "date": "2026-11-25",
+    "summary": "Gửi mẫu xe, phiên bản muốn lái, khu vực xuất phát và hai khung giờ bạn rảnh. DT Car tiếp khách theo hẹn tại Pasay. Hỏi riêng điểm gặp và vị trí xe lái thử vì hai địa điểm có thể khác nhau.",
+    "sections": [
+      {
+        "heading": "Nếu muốn so hai mẫu trong một buổi",
+        "paragraphs": [
+          "Ví dụ bạn đang cân nhắc VF 3 và VF 5, hãy nói rõ ai thường ngồi ghế sau, chỗ đỗ xe rộng bao nhiêu và một tuần bạn đi mấy ngày. Hỏi mẫu nào có xe demo đúng phiên bản, liệu có thể thử cả hai trong cùng buổi và cần mang giấy tờ gì."
+        ]
+      },
+      {
+        "heading": "Mẫu nhắn trước khi xuất phát",
+        "paragraphs": [
+          "“Mình ở [khu vực], muốn lái thử [mẫu và bản] vào [giờ]. Nhờ gửi định vị, tên người đón, mẫu xe có mặt và xác nhận lịch giúp mình.” Lưu lại tin xác nhận. Nếu buổi lái thử được dời, hãy chốt giờ mới trước khi đặt xe tới điểm hẹn."
+        ]
+      }
+    ],
+    "checklist": [
+      "Mẫu và phiên bản",
+      "Hai khung giờ",
+      "Định vị và người phụ trách"
+    ],
+    "related": [
+      "vinfast-test-drive-metro-manila"
+    ],
+    "references": [
+      {
+        "href": "/business/vinfast-test-drive/",
+        "label": "DT Car · Thông tin dịch vụ"
+      }
+    ]
+  },
+  {
+    "slug": "kiem-tra-xe-cu-tu-xa-manila",
+    "title": "Ở Cebu hoặc Davao muốn xem xe cũ tại Manila thì làm thế nào?",
+    "description": "Hẹn xem xe qua video, nhờ kiểm tra tại chỗ và xác nhận còn xe trước khi từ tỉnh khác tới Manila.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "vi",
+    "date": "2026-11-25",
+    "summary": "Trước khi mua vé sang Manila, yêu cầu xác nhận xe còn bán và hẹn một cuộc gọi video xem đúng chiếc xe. Chỉ chốt lịch đi sau khi đã thống nhất thời gian xem trực tiếp hoặc kiểm tra độc lập.",
+    "sections": [
+      {
+        "heading": "Chuẩn bị nội dung cuộc gọi",
+        "paragraphs": [
+          "Gửi trước ba điểm bạn cần nhìn kỹ, chẳng hạn đồng hồ km, hàng ghế cuối và vết trầy đã được nhắc trong bài bán xe. Đề nghị người bán quay toàn cảnh rồi chuyển đến từng chi tiết để bạn nhận ra vị trí trên xe. Ảnh tư liệu giúp chọn mẫu nhưng không xác nhận được tình trạng hôm nay."
+        ]
+      },
+      {
+        "heading": "Nếu nhờ người quen đi xem hộ",
+        "paragraphs": [
+          "Giao cho họ danh sách việc cần ghi nhận bằng hình và câu hỏi cần hỏi. Người xem hộ có thể ghi lại hiện trạng, còn việc đánh giá lỗi cơ khí nên giao cho đơn vị kiểm tra phù hợp. Thống nhất ai nhận báo cáo và ai có quyền chốt giá trước khi đặt lịch."
+        ]
+      }
+    ],
+    "checklist": [
+      "Xác nhận còn xe",
+      "Cuộc gọi xem xe",
+      "Báo cáo và người quyết định"
+    ],
+    "related": [
+      "used-car-viewing-from-another-city"
+    ],
+    "references": [
+      {
+        "href": "/business/used-cars-manila/",
+        "label": "DT Car · Thông tin dịch vụ"
+      }
+    ]
+  },
+  {
+    "slug": "bao-gia-xe-dien-doanh-nghiep-philippines",
+    "title": "Xin báo giá đội xe điện ở Philippines cho doanh nghiệp Việt",
+    "description": "Cách mô tả tuyến chạy và quy mô thử nghiệm để nhận báo giá đội xe điện tại Philippines.",
+    "category": "FLEET OPERATIONS",
+    "service": "electric-fleet-quotation-philippines",
+    "photo": "/images/web/gsm-fleet.webp",
+    "lang": "vi",
+    "date": "2026-11-25",
+    "summary": "Nêu số chuyến, tải hành khách, quãng đường và thời gian xe phải sẵn sàng mỗi ngày. Đơn vị báo giá sẽ dễ chọn phương án hơn khi biết xe chạy đưa đón nhân viên, phục vụ khách hay luân phiên nhiều ca.",
+    "sections": [
+      {
+        "heading": "Ví dụ thông tin cho đợt chạy thử",
+        "paragraphs": [
+          "Thay vì hỏi giá mười xe ngay, có thể ghi “chúng tôi muốn thử hai xe ở tuyến 55 km/ngày, sáu người mỗi chuyến, xe về bãi lúc 18 giờ”. Gắn kèm dự kiến mở rộng và điều kiện mà đội vận hành sẽ dùng để quyết định có mua thêm hay không."
+        ]
+      },
+      {
+        "heading": "Đề nghị nhà cung cấp tách phần chi phí",
+        "paragraphs": [
+          "Yêu cầu ghi riêng giá xe theo phiên bản, phương án pin, thiết bị đi kèm, lịch bàn giao và phạm vi hỗ trợ. Nếu đang so nhiều phương án, dùng cùng số năm và cùng km mỗi tháng. Khoản nào chưa có giá thì để trống và đánh dấu cần xác nhận, tránh coi mặc định bằng không."
+        ]
+      }
+    ],
+    "checklist": [
+      "Tuyến và số ca",
+      "Tiêu chí thử nghiệm",
+      "Báo giá cùng giả định"
+    ],
+    "related": [
+      "electric-fleet-pilot-route"
+    ],
+    "references": [
+      {
+        "href": "/business/electric-fleet-quotation-philippines/",
+        "label": "DT Car · Thông tin dịch vụ"
+      }
+    ]
+  },
+  {
+    "slug": "hen-xuong-vinfast-manila-tieng-viet",
+    "title": "Đặt lịch kiểm tra xe VinFast ở Manila bằng tiếng Việt",
+    "description": "Mẫu thông tin gửi trước cho cố vấn dịch vụ, cách xác nhận điểm nhận xe và duyệt chi phí phát sinh.",
+    "category": "WORKSHOP",
+    "service": "vinfast-workshop-service",
+    "photo": "/images/web/workshop.webp",
+    "lang": "vi",
+    "date": "2026-11-25",
+    "summary": "Khi liên hệ DT Car, gửi mẫu xe, số km, khu vực đang đỗ và lý do cần kiểm tra. Hỏi rõ cơ sở nào sẽ tiếp nhận xe, ngày giờ được xác nhận và ai là người tư vấn cho ca đó.",
+    "sections": [
+      {
+        "heading": "Mô tả sao cho kỹ thuật viên dễ hiểu",
+        "paragraphs": [
+          "Ví dụ “xe hiển thị [nguyên văn thông báo] sau khi [tình huống], lần đầu vào [ngày], lúc đó xe khoảng [km]”. Nếu có ảnh chụp khi xe đã dừng an toàn, gửi kèm qua kênh hỗ trợ phù hợp. Với vấn đề có thể ảnh hưởng an toàn, xin hướng dẫn của hãng trước khi di chuyển xe."
+        ]
+      },
+      {
+        "heading": "Chốt phạm vi trước khi giao chìa khóa",
+        "paragraphs": [
+          "Hỏi phí kiểm tra ban đầu, ai được duyệt phát sinh và khi nào nhận kết quả. Nếu đã từng sửa cùng hiện tượng, gửi số phiếu lần trước. Trước lúc nhận xe, xin bản công việc hoàn tất cùng các hạng mục phải theo dõi sau đó."
+        ]
+      }
+    ],
+    "checklist": [
+      "Mẫu và km",
+      "Hiện tượng và phiếu cũ",
+      "Địa điểm và phạm vi kiểm tra"
+    ],
+    "related": [
+      "vinfast-service-appointment-checklist"
+    ],
+    "references": [
+      {
+        "href": "/business/vinfast-workshop-service/",
+        "label": "DT Car · Thông tin dịch vụ"
+      }
+    ]
+  },
+  {
+    "slug": "dat-xe-dua-don-doan-cong-tac-manila",
+    "title": "Đặt xe cho đoàn công tác Việt Nam đi nhiều điểm ở Manila",
+    "description": "Sắp lịch xe cho đoàn Việt đi họp ở Manila theo giờ bắt buộc, sảnh đón và người duyệt thay đổi.",
+    "category": "PRIVATE TRANSPORT",
+    "service": "travel",
+    "photo": "/images/BEBB1179-9D48-4222-B07C-FAAD69DE40F0.jpeg",
+    "lang": "vi",
+    "date": "2026-11-25",
+    "summary": "Chọn cuộc hẹn quan trọng nhất làm mốc cố định rồi sắp các điểm còn lại quanh mốc đó. Báo cả lối đón ở từng tòa nhà và ai trong đoàn được quyền đổi lịch với điều phối.",
+    "sections": [
+      {
+        "heading": "Bảng lịch gửi DT Tour",
+        "paragraphs": [
+          "Mỗi dòng nên có giờ phải đến, tên công ty hoặc địa điểm, địa chỉ đầy đủ, sảnh hoặc cổng đón, số khách lên xuống và điểm tiếp theo. Nếu chỉ hai thành viên đi cuộc họp cuối, ghi rõ xe còn phải đưa phần còn lại của đoàn về đâu."
+        ]
+      },
+      {
+        "heading": "Khi cuộc họp kéo dài",
+        "paragraphs": [
+          "Thống nhất sẵn đầu mối báo tài xế và hỏi cách tính thời gian chờ. Cho điều phối biết điểm nào có thể bỏ nếu tắc đường, điểm nào bắt buộc giữ. Trước giờ cuối ngày, xác nhận lại địa chỉ khách sạn hoặc nhà hàng thay vì chỉ gửi tên chuỗi có nhiều chi nhánh."
+        ]
+      }
+    ],
+    "checklist": [
+      "Mốc phải đến",
+      "Danh sách điểm dừng",
+      "Người duyệt ngoài giờ"
+    ],
+    "related": [
+      "manila-business-meetings-driver"
+    ],
+    "references": [
+      {
+        "href": "/travel/",
+        "label": "DT Car · Thông tin dịch vụ"
+      }
+    ]
+  },
+  {
+    "slug": "paano-magpa-appraise-ng-kotse",
+    "title": "Paano magpa-appraise ng kotse sa Metro Manila?",
+    "description": "Mensahe at checklist sa pagpapakuha ng presyo ng kotse bago magpa-inspection sa Metro Manila.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "fil-PH",
+    "date": "2026-11-25",
+    "summary": "Ipadala ang taon, eksaktong variant, kasalukuyang kilometrahe at lokasyon ng sasakyan. Sabihin kung kailan ito puwedeng tingnan at kung aling mga gamit ang kasama sa bentahan.",
+    "sections": [
+      {
+        "heading": "Halimbawa ng unang mensahe",
+        "paragraphs": [
+          "“Magandang araw. Gusto kong ipa-appraise ang [taon at modelo], [variant], may [km] na takbo. Nasa [lungsod] ang sasakyan at puwedeng tingnan sa [araw]. May service records at [bilang] na susi. Anong litrato ang kailangan at kailan makukuha ang final offer?” Huwag muna ilagay ang personal na dokumento sa public comment."
+        ]
+      },
+      {
+        "heading": "Basahin ang sagot nang mabuti",
+        "paragraphs": [
+          "Tanungin kung indicative pa lang ang presyo at ano ang kailangang suriin nang personal. Kung may dalawang alok, ihambing ang halagang matatanggap pagkatapos ng anumang singil, pati petsa ng bayad at pagkuha ng sasakyan. Ipasulat ang kasunduang pareho ninyong tinanggap."
+        ]
+      }
+    ],
+    "checklist": [
+      "Variant at km",
+      "Oras ng inspection",
+      "Halagang matatanggap"
+    ],
+    "related": [
+      "used-car-valuation-philippines",
+      "paano-ikumpara-trade-in-kotse"
+    ],
+    "references": [
+      {
+        "href": "/business/sell-my-car-manila/",
+        "label": "DT Car · Impormasyon sa serbisyo"
+      }
+    ]
+  },
+  {
+    "slug": "paano-ikumpara-trade-in-kotse",
+    "title": "Trade-in o ibenta muna ang kotse sa Manila?",
+    "description": "Ihambing ang trade-in at direktang pagbenta gamit ang netong halaga at petsa ng pagkuha ng kapalit.",
+    "category": "USED CARS",
+    "service": "sell-my-car-manila",
+    "photo": "/images/web/used-car.webp",
+    "lang": "fil-PH",
+    "date": "2026-11-25",
+    "summary": "Isulat nang hiwalay ang presyo ng kapalit na kotse, ang alok para sa lumang sasakyan at ang ibang singil. Sa ganitong paraan makikita mo kung magkano talaga ang ilalabas mo sa bawat opsyon.",
+    "sections": [
+      {
+        "heading": "Subukan sa simpleng halimbawa",
+        "paragraphs": [
+          "Kung ₱800,000 ang kapalit at ₱500,000 ang trade-in, ₱300,000 ang pagitan bago ang ibang singil. Kung maibebenta mo nang hiwalay sa ₱520,000 pero kailangan mong gumastos ng ₱8,000 sa paghahanda at paglipat, ₱512,000 ang matitira. Mga halimbawang halaga lamang ito."
+        ]
+      },
+      {
+        "heading": "Isama ang panahon na walang sasakyan",
+        "paragraphs": [
+          "Alamin kung kailan kukunin ang lumang kotse at kung kailan talaga makukuha ang kapalit. Kapag magkalayo ang dalawang petsa, isama sa paghahambing ang gastos sa pamasahe o pansamantalang sasakyan. Humingi ng updated na computation kung nagbago ang presyo ng kabilang unit."
+        ]
+      }
+    ],
+    "checklist": [
+      "Presyo ng kapalit",
+      "Netong alok sa lumang kotse",
+      "Agwat ng mga petsa"
+    ],
+    "related": [
+      "car-trade-in-philippines",
+      "paano-magpa-appraise-ng-kotse"
+    ],
+    "references": [
+      {
+        "href": "/business/sell-my-car-manila/",
+        "label": "DT Car · Impormasyon sa serbisyo"
+      }
+    ]
+  },
+  {
+    "slug": "green-gsm-missed-interview-filipino",
+    "title": "Hindi nakaabot sa Green GSM interview? Paano humiling ng bagong schedule",
+    "description": "Sample message sa recruitment team at mga detalyeng dapat kumpirmahin bago bumiyahe sa bagong schedule.",
+    "category": "DRIVER GUIDE",
+    "service": "green-gsm-driver-application",
+    "photo": "/images/web/gsm-fleet.webp",
+    "lang": "fil-PH",
+    "date": "2026-11-25",
+    "summary": "Mag-reply sa parehong recruitment conversation at banggitin ang orihinal na depot, araw at oras. Humiling ng bagong slot at hintayin ang kumpirmasyon bago bumiyahe.",
+    "sections": [
+      {
+        "heading": "Puwedeng kopyahing mensahe",
+        "paragraphs": [
+          "“Magandang araw. May interview po ako sa [depot] noong [araw at oras], pero hindi ako nakaabot. Gusto ko pa ring ituloy ang application. Available ako sa [dalawang petsa]. Maaari po bang kumpirmahin kung may bagong slot at kung pareho pa rin ang mga kailangang dalhin?” Kung may application reference ka, ibigay ito sa pribadong channel."
+        ]
+      },
+      {
+        "heading": "Kapag may bagong petsa na",
+        "paragraphs": [
+          "I-check ang eksaktong entrance, contact person at kung kasama rin sa araw na iyon ang driving assessment. Itago ang sagot para hindi mapaghalo ang luma at bagong schedule. Ang pagpapadala ng bagong availability ay kahilingan pa lamang hanggang may kumpirmasyon ang recruitment team."
+        ]
+      }
+    ],
+    "checklist": [
+      "Dating appointment",
+      "Dalawang bagong petsa",
+      "Kumpirmadong depot at oras"
+    ],
+    "related": [
+      "paano-mag-apply-green-gsm-taxi-driver"
+    ],
+    "references": [
+      {
+        "href": "https://www.greengsm.ph/driver-car",
+        "label": "Opisyal na recruitment page ng Green GSM"
+      }
+    ]
+  },
+  {
+    "slug": "ev-rental-mahinang-pasada-budget",
+    "title": "EV rental: paano kung mahina ang pasada sa isang araw?",
+    "description": "Kuwentahin ang natitira sa mahinang araw at linawin ang singil kapag nakatigil ang rental EV.",
+    "category": "DRIVER GUIDE",
+    "service": "green-gsm-rental-pasada",
+    "photo": "/images/web/limo-green.webp",
+    "lang": "fil-PH",
+    "date": "2026-11-25",
+    "summary": "Gumawa ng magkahiwalay na budget para sa normal na araw at mahinang araw. Isama ang singil sa rental ayon sa aktuwal na kasunduan, enerhiya, parking at iba pang gastos na ikaw ang magbabayad.",
+    "sections": [
+      {
+        "heading": "Halimbawang computation",
+        "paragraphs": [
+          "Kung ₱2,000 ang pasok na pamasahe at ₱1,300 ang kabuuang gastos sa araw na iyon, ₱700 ang natitira bago ang iba pang obligasyon. Kung bumaba sa ₱1,400 ang pamasahe pero pareho pa rin ang gastos, ₱100 na lang ang natitira. Hindi ito opisyal na rate o kita ng Green GSM."
+        ]
+      },
+      {
+        "heading": "Ano ang itatanong sa rental team?",
+        "paragraphs": [
+          "Ipakumpirma kung alin ang sinisingil kada araw, alin ang depende sa paggamit at ano ang patakaran kapag hindi bumiyahe o kailangang ipa-service ang unit. Itala ang mga sagot at petsa ng offer. Iba ang araw na mahina ang demand sa araw na hindi magagamit ang sasakyan."
+        ]
+      }
+    ],
+    "checklist": [
+      "Kita sa mahinang araw",
+      "Fixed at variable na gastos",
+      "Patakaran sa downtime"
+    ],
+    "related": [
+      "ev-rental-daily-budget"
+    ],
+    "references": [
+      {
+        "href": "/business/green-gsm-rental-pasada/",
+        "label": "DT Car · Impormasyon sa serbisyo"
+      }
+    ]
+  },
+  {
+    "slug": "vinfast-vf3-magkano-filipino",
+    "title": "Magkano ang VinFast VF 3 kung may battery subscription?",
+    "description": "Tingnan ang Philippine VF 3 starting prices at ihambing ang dalawang battery arrangement sa parehong quote.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "photo": "/images/web/showroom.webp",
+    "lang": "fil-PH",
+    "date": "2026-11-25",
+    "summary": "Sa opisyal na Philippine price list na tiningnan noong 25 Nobyembre 2026, mula ₱590,000 ang VF 3 na may battery subscription at mula ₱745,000 ang walang subscription. Ang pagitan sa panimulang presyo ay ₱155,000.",
+    "sections": [
+      {
+        "heading": "Alin ang bagay sa paggamit mo?",
+        "paragraphs": [
+          "Ilista ang tinatayang kilometrahe mo kada buwan at gaano katagal mong balak gamitin ang kotse. Humingi ng nakasulat na kasalukuyang bayad sa subscription at mga kondisyong applicable sa iyo. Hindi sapat ang ₱155,000 na agwat para malaman kung alin ang mas mura sa buong panahon ng paggamit."
+        ]
+      },
+      {
+        "heading": "Humingi ng dalawang magkaparehong quote",
+        "paragraphs": [
+          "“Pahingi po ng quotation sa parehong VF 3 variant at model year, isa na may subscription at isa na wala. Pakihiwalay ang presyo, ibang singil, promo at petsa ng bisa.” Kung hulugan ang alok, ihambing din ang down payment at haba ng termino. Kumpirmahin kung may aktuwal na unit bago magpareserba."
+        ]
+      }
+    ],
+    "checklist": [
+      "Dalawang written quote",
+      "Buwanang kilometrahe",
+      "Available na unit at validity"
+    ],
+    "related": [
+      "vinfast-vf3-price-philippines"
+    ],
+    "references": [
+      {
+        "href": "https://vinfastauto.ph/en/price-list",
+        "label": "Opisyal na presyo ng VinFast Philippines"
+      }
+    ]
   }
 ]

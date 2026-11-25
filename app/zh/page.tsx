@@ -1,3 +1,4 @@
+import {guides, guidePath} from "@/app/data/guides";
 import { PageHero, SubPage } from "../components/Subpage";
 import { pageMetadata, profileLanguages } from "@/app/data/site";
 
@@ -21,4 +22,4 @@ export default function ChinesePage(){return <SubPage profile>
 <section className="aboutCommitment"><div><p className="eyebrow">我们的承诺</p><h2>透明、定制、负责。</h2></div><div className="commitmentList"><article><strong>透明价格</strong><p>提供有竞争力且无隐藏费用的清晰报价。</p></article><article><strong>详细计划</strong><p>根据客户目标和市场要求制定方案。</p></article><article><strong>全流程管理</strong><p>从计划到验收控制进度、质量和成本。</p></article><article><strong>客户导向</strong><p>创造长期、可持续价值。</p></article></div></section>
 <section className="leadership aboutLeadership"><p className="eyebrow">管理团队</p><h2>DT Car 管理层。</h2><div className="leaderGrid">{leaders.map(([src,n,r])=><article key={n}><div className="leaderPortrait"><img src={src} alt={n}/></div><h3>{n}</h3><p className="leaderRole">{r}</p></article>)}</div></section>
 <section className="aboutContact"><p className="eyebrow">联系我们</p><h2>与 DT Car 沟通。</h2><p>中文客户可通过我们的官方中文 Facebook 页面咨询。</p><div><a href="tel:+639498768888">+63 949 876 8888</a><a href="tel:+639060185666">+63 906 018 5666</a><a href="mailto:management@dtcar.ph">management@dtcar.ph</a><a href="https://www.facebook.com/profile.php?id=61552426496371" target="_blank" rel="noreferrer">中文咨询</a></div></section>
-</SubPage>}
+<section className="detailIntro"><div><h2>菲律宾用车中文指南</h2><ul>{guides.filter(g=>g.lang === "zh-Hans").map(g=><li key={g.slug}><a href={guidePath(g.slug)}>{g.title}</a></li>)}</ul></div></section></SubPage>}
