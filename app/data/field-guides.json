@@ -977,5 +977,67 @@
     ],
     "lang": "en-PH",
     "date": "2026-11-25"
+  },
+  {
+    "slug": "paano-mag-apply-green-gsm-taxi-driver",
+    "title": "Paano mag-apply bilang Green GSM taxi driver sa Pilipinas",
+    "description": "Alamin ang kailangan sa lisensya, paano magtanong sa recruitment team, at ano ang dapat kumpirmahin bago pumunta sa depot para sa interview at driving test.",
+    "category": "DRIVER GUIDE",
+    "service": "green-gsm-driver-application",
+    "photo": "/images/web/gsm-fleet.webp",
+    "lang": "fil-PH",
+    "date": "2026-11-25",
+    "summary": "Kung gusto mong magmaneho ng Green GSM taxi, puwede kang magsimula sa opisyal na online application o magtanong sa DT Car tungkol sa recruitment. Ayon sa Green GSM, kailangang 18 taong gulang pataas at may valid na Philippine professional driver’s license. Kumpirmahin ang depot at iskedyul bago bumiyahe.",
+    "sections": [
+      {
+        "heading": "Ano ang kailangan sa aplikante?",
+        "paragraphs": [
+          "Tingnan ang expiry date at uri ng lisensya mo. Kung student permit o non-professional ang hawak mo, ang nakalistang requirement ng Green GSM para sa taxi driver ay professional license. Kung malapit na itong mag-expire, tanungin ang recruitment team kung kailan kailangang magpakita ng updated na lisensya.",
+          "Maghanda ng maikling paglalarawan ng karanasan mo. Halimbawa, sabihin kung anong sasakyan ang minaneho mo, gaano katagal, at aling mga ruta ang pamilyar sa iyo. Binabanggit ng Green GSM ang kaalaman sa ruta at maayos na pakikitungo sa pasahero."
+        ]
+      },
+      {
+        "heading": "Ano ang puwedeng i-message sa DT Car?",
+        "paragraphs": [
+          "Puwede mong kopyahin ito at palitan ang nasa bracket. “Magandang araw po. Gusto kong mag-apply bilang Green GSM taxi driver. Taga-[lungsod] ako at may valid na professional license. May [tagal] akong karanasan sa pagmamaneho. Available ako sa [araw]. Saang depot po ang interview at ano ang kailangan kong dalhin?”",
+          "Sa unang tanong, sapat nang sabihin kung valid ang lisensya. Kapag hiningi na ang kopya, kumpirmahin kung aling opisyal na application channel ang tatanggap nito. Iwasang ilagay ang numero o litrato ng lisensya sa pampublikong comment."
+        ]
+      },
+      {
+        "heading": "Ano ang dapat kumpirmahin bago ang interview?",
+        "paragraphs": [
+          "Humingi ng eksaktong address, landmark o entrance, oras ng pagdating, at listahan ng dokumento para sa schedule mo. May in-person interview at driving test sa prosesong inilathala ng Green GSM. Kung manggagaling ka sa malayo, itanong kung parehong gagawin ang dalawang hakbang sa araw ng appointment.",
+          "Kung may nakita kang post tungkol sa kita o incentive, itanong kung paano ito kinukuwenta para sa shift at lugar na inaalok sa iyo. Hingin ang detalye ng offer bago magdesisyon."
+        ]
+      },
+      {
+        "heading": "Paano mag-follow up pagkatapos mag-apply?",
+        "paragraphs": [
+          "Gamitin ang parehong recruitment conversation. Sabihin kung kailan ka nag-apply o na-interview, aling depot ang nakausap mo, at kung ano ang huling instruction. Itanong kung may kulang na dokumento at kung kailan ang susunod na update. Ang Green GSM ang nagkukumpirma ng assessment at onboarding.",
+          "Kung ang balak mo ay umupa ng EV para sa sariling pasada, piliin ang hiwalay na gabay sa rental sa ibaba. Para sa aplikanteng naghahanap ng trabaho bilang taxi driver, gamitin ang recruitment link."
+        ]
+      }
+    ],
+    "checklist": [
+      "Tingnan kung valid ang professional license.",
+      "Ihanda ang lungsod, karanasan at available na araw.",
+      "Kumpirmahin ang depot, oras at kailangang dokumento.",
+      "Itabi ang confirmation at susunod na instruction."
+    ],
+    "references": [
+      {
+        "label": "Green GSM Pilipinas · gabay sa pag-apply bilang taxi driver",
+        "href": "https://www.greengsm.ph/driver-car"
+      },
+      {
+        "label": "Opisyal na recruitment portal ng Green GSM",
+        "href": "https://driver.greengsm.ph/"
+      }
+    ],
+    "related": [
+      "green-gsm-driver-application-guide",
+      "green-gsm-driver-job-or-ev-rental",
+      "green-gsm-rental-guide-filipino"
+    ]
   }
 ]
