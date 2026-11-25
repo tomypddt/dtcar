@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { guides, guidePath } from "@/app/data/guides";
 import { PageHero, SubPage } from "@/app/components/Subpage";
 import { pageMetadata } from "@/app/data/site";
 
@@ -23,6 +25,8 @@ export default function DrivingLessonsPage() {
       <p>“Mình đang ở [thành phố], đã lái xe được [kinh nghiệm] và muốn tập [kỹ năng]. Mình rảnh [ngày/giờ]. Bên mình có lớp nào phù hợp? Cho mình xin địa điểm, loại xe, thời lượng và học phí nhé.”</p>
       <a className="primary darkPrimary" href="https://m.me/dtcarphil">Hỏi lịch học bằng tiếng Việt</a>
       <p><a href="https://www.facebook.com/dtcarphil">Nguồn thông tin lớp học · DT Car Xe chất Philippines</a></p>
+    <h2>Câu hỏi trước khi đặt lịch</h2>
+      <ul>{guides.filter(g => g.service === "driving-lessons").map(g => <li key={g.slug}><Link href={guidePath(g.slug)}>{g.title}</Link></li>)}</ul>
     </div></section>
   </SubPage>;
 }

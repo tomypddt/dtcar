@@ -1,3 +1,4 @@
+import { guides, guidePath } from "@/app/data/guides";
 import Link from "next/link";
 import { PageHero, SubPage } from "@/app/components/Subpage";
 import { pageMetadata } from "@/app/data/site";
@@ -35,7 +36,9 @@ export default function LicenceSupportPage() {
         <p><a className="primary darkPrimary" href={messenger} data-enquiry-service="licence">Nhắn đội tư vấn tiếng Việt</a></p>
         <p><a href="https://lto.gov.ph/">Xem thông tin chính thức của LTO</a> · <Link href="/vi/hoc-lai-xe-philippines/">Hỏi lịch học thực hành</Link></p>
         <small>Ảnh đầu trang là hình minh họa cho buổi tư vấn.</small>
-      </div></section>
+      <h2>Câu hỏi trước khi đặt lịch</h2>
+      <ul>{guides.filter(g => g.service === "licence").map(g => <li key={g.slug}><Link href={guidePath(g.slug)}>{g.title}</Link></li>)}</ul>
+    </div></section>
     </SubPage>
   );
 }
