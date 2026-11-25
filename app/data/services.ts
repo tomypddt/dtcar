@@ -202,7 +202,7 @@ export const services: Service[] = [
     title: "Green GSM Driver Application in the Philippines | DT Car",
     summary: "Want to drive a Green GSM electric taxi? DT Car assists applicants with the recruitment steps. Start with your city and Philippine professional driver’s licence status so the team can check the appropriate intake and depot.",
     image: "/images/web/gsm-fleet.webp",
-    action: { label: "Talk to DT Car about applying", href: messenger },
+    action: { label: "Message the DT Car driver recruitment team", href: "https://m.me/61591407076129" },
     filipino: "May professional driver’s license ka na? I-message ang DT Car at sabihin ang lungsod mo para makumpirma ang susunod na hakbang.",
     checklistTitle: "Before contacting recruitment",
     checklist: ["Your city or municipality and the area where you want to drive.", "Whether you currently hold a valid Philippine professional driver’s licence.", "Your driving experience and the days you can attend an interview or assessment."],

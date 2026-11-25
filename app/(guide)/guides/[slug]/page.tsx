@@ -1,3 +1,4 @@
+import { guideAlternates } from "@/app/data/guide-alternates";
 import { guideLabels, guideLocale } from "@/app/data/guide-labels";
 import {guideSearchTitles} from "@/app/data/search-titles";
 import Link from "next/link";
@@ -7,15 +8,15 @@ import { JsonLd } from "@/app/components/JsonLd";
 import { guides, guidePath } from "@/app/data/guides";
 import { services, servicePath } from "@/app/data/services";
 import { brand, organization, origin, pageMetadata } from "@/app/data/site";
-import "../../business/[slug]/service.css";
-import "../guides.css";
+import "@/app/(en)/business/[slug]/service.css";
+import "@/app/(en)/guides/guides.css";
 type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
 export const generateStaticParams = () => guides.map(({slug}) => ({slug}));
 const getGuide = (slug: string) => guides.find(g => g.slug === slug) ?? notFound();
 export async function generateMetadata({params}: Props) {
  const g = getGuide((await params).slug);
- return pageMetadata({path: guidePath(g.slug), title: guideSearchTitles[g.slug] ?? g.title + " | DT Car", description:g.description, image:g.photo ?? `/images/guides/${g.slug}.png`, published:g.date, locale:guideLocale(g.lang)});
+ return pageMetadata({path: guidePath(g.slug), title: guideSearchTitles[g.slug] ?? g.title + " | DT Car", description:g.description, languages:guideAlternates(g.slug), image:g.photo ?? `/images/guides/${g.slug}.png`, published:g.date, locale:guideLocale(g.lang)});
 }
 export default async function GuidePage({params}: Props) {
  const g=getGuide((await params).slug), service=services.find(s=>s.slug===g.service), url=origin+guidePath(g.slug);
@@ -40,7 +41,7 @@ export default async function GuidePage({params}: Props) {
  <div className="guideLayout"><div className="guideContent">
  <aside className="answerBox"><strong>{labels.quick}</strong><p>{g.summary}</p></aside>
  <nav className="articleContents" aria-label="On this page"><strong>{labels.contents}</strong><ol>{g.sections.map((s,i)=><li key={s.heading}><a href={'#section-'+i}>{s.heading}</a></li>)}</ol></nav>
- <figure className="checklistGraphic"><img src={g.photo ?? `/images/guides/${g.slug}.svg`} width="1200" height="630" alt={g.photo ? '' : g.lang==='vi'?'Danh sách chuẩn bị được trình bày đầy đủ bên dưới':g.lang==='fil-PH'?'Checklist na nakasulat din sa ibaba':'Preparation checklist, also listed in full below'} />{g.photo === "/images/web/used-car.webp" && <figcaption>{labels.archive}</figcaption>}</figure>
+ <figure className="checklistGraphic"><img src={g.photo ?? `/images/guides/${g.slug}.svg`} width="1200" height="630" lang={g.photoAlt ? 'en' : undefined} alt={g.photo ? (g.photoAlt ?? '') : g.lang==='vi'?'Danh sách chuẩn bị được trình bày đầy đủ bên dưới':g.lang==='fil-PH'?'Checklist na nakasulat din sa ibaba':'Preparation checklist, also listed in full below'} />{g.photoSource && <figcaption><a href={g.photoSource}>DT Car · Facebook</a></figcaption>}</figure>
  {g.sections.map((s,i)=><section id={'section-'+i} key={s.heading}><h2>{s.heading}</h2>{s.paragraphs.map(p=><p key={p}>{p}</p>)}</section>)}
  <section className="takeaway"><h2>{labels.checklist}</h2><ul>{g.checklist.map(c=><li key={c}>{c}</li>)}</ul></section>
  {g.references.length>0&&<section className="sourceList"><h2>{labels.sources}</h2><ul>{g.references.map(r=><li key={r.href}><a href={r.href}>{r.label}</a></li>)}</ul><p>{labels.checked} · {formattedDate}</p></section>}

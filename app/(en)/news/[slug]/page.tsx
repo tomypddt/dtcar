@@ -1,3 +1,4 @@
+import { galleryPreview } from "@/app/data/gallery";
 import { storySearchTitles, storySearchDescriptions } from "@/app/data/search-titles";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -26,6 +27,9 @@ export async function generateMetadata({ params }: Props) {
 export default async function ArticlePage({ params }: Props) {
   const { article: a, published, path } = getArticle((await params).slug);
   const service = services.find((item) => item.stories.includes(a.slug));
+  const action = a.slug === "dt-tour-philippines-curated-journeys"
+    ? {href:"https://m.me/dulichphilippinesdttour",label:"Plan a trip with DT Tour"}
+    : service?.action ?? {href:"/contact/",label:"Choose a DT Car contact"};
   const url = origin + path;
   return <SubPage>
     <JsonLd data={{
@@ -43,8 +47,8 @@ export default async function ArticlePage({ params }: Props) {
       <div className="magBody">{a.sections.map((section, i) => <section key={section.heading}><span className="sectionNo">{String(i + 1).padStart(2, "0")}</span><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}</div>
       {a.source && <p className="storyServiceLink"><a href={a.source.url}>{a.source.label}</a></p>}
       {service && <p className="storyServiceLink"><a href={servicePath(service.slug)}>{service.name} →</a></p>}
-      <section className="photoEssay"><header><p className="eyebrow">PHOTO ESSAY</p><h2>From the DT Car archive</h2></header><div className="photoMosaic">{articleImages(a).map((src, i) => <figure key={src + i} className={i % 7 === 0 ? "wide" : i % 5 === 0 ? "tall" : ""}><img src={src} alt={a.title + " — photograph " + (i + 1)} loading="lazy" decoding="async"/><figcaption>{a.category} · {String(i + 1).padStart(2, "0")}</figcaption></figure>)}</div></section>
-      <section className="storyContact"><div><p className="eyebrow">OFFICIAL ENGLISH CHANNEL</p><h2>Continue the conversation with DT Car.</h2></div><a href="https://www.facebook.com/profile.php?id=61550266324189" target="_blank" rel="noreferrer">View &amp; message DT Car →</a></section>
+      {articleImages(a).length > 0 && <section className="photoEssay"><header><p className="eyebrow">PHOTO ESSAY</p><h2>From the DT Car archive</h2></header><div className="photoMosaic">{articleImages(a).map((src, i) => <figure key={src + i} className={i % 7 === 0 ? "wide" : i % 5 === 0 ? "tall" : ""}><img src={galleryPreview(src)} alt={a.title + " — photograph " + (i + 1)} loading="lazy" decoding="async"/><figcaption>{a.category} · {String(i + 1).padStart(2, "0")}</figcaption></figure>)}</div></section>}
+      <section className="storyContact"><h2>Contact DT Car</h2><a href={action.href}>{action.label} →</a></section>
     </article>
   </SubPage>;
 }

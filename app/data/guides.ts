@@ -1,8 +1,9 @@
+import media from "./guide-media.json";
 import practicalGuides from "./practical-guides.json";
 import fieldGuides from "./field-guides.json";
 
-export type Guide = { photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
-export const guides: Guide[] = [
+export type Guide = { photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
+const content: Guide[] = [
   ...practicalGuides,
   ...fieldGuides,
   {
@@ -1143,4 +1144,9 @@ export const guides: Guide[] = [
     "date": "2026-11-25"
   }
 ];
+const covers: Record<string, { src: string; alt?: string; source?: string }> = media;
+export const guides: Guide[] = content.map(guide => {
+  const cover = covers[guide.slug];
+  return cover ? { ...guide, photo: cover.src, photoAlt: cover.alt, photoSource: cover.source } : guide;
+});
 export const guidePath = (slug: string) => `/guides/${slug}/`;
