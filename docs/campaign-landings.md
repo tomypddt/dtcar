@@ -24,3 +24,10 @@ Photos are curated from the existing DT Car website library. Vehicle photos are 
 | VF 3 | `/business/ads/vinfast/vf3/` | `dtcar_vinfast_vf3` |
 
 Use the same `utm_source=chatgpt&utm_medium=cpc&...&utm_content=web` format. Model-specific Messenger referrals and enquiries are separate. Before launching any paid creative, check manufacturer suggested prices, written dealer offers, stock, and the qualification rules for any promotion. Manage model-specific gallery images only in `public/images/ads/vinfast/`. Media is attributed on each page; MPV 7 launch images are from VinFast's Philippines press release, Limo Green renders and the MPV 7 seat image from VinFast product materials, and VF 3 mixes DT Car photos and manufacturer product imagery.
+
+## Four lead pages refreshed from DT Car's Facebook campaigns
+
+- Used-car acquisition: use the We Buy Cars Page and its active posted contact channel. The posts from 18 November 2026 supplied the appraisal brief and the seller scenarios. Bank settlement assistance refers to the seller's existing loan, not an instalment purchase offer.
+- Used-car sales: the Quality Car Manila inbox handles purchase enquiries. Vehicle images are examples drawn from the DT Car library and Facebook posts, not live inventory.
+- Vietnamese driving lessons: the DT Car Xe chất Philippines posts from 8 October and 8 August 2026 supplied the one-to-one format, beginner course and flexible sessions. Confirm current instructors, cars, booking and fees.
+- Vietnamese driving licence enquiries: DT Car provides procedural guidance only; use official LTO documents for current eligibility and process.
