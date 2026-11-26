@@ -1,13 +1,13 @@
-import TourPhotoCredit from "../../components/TourPhotoCredit";
+import TourPhotoCredit from "@/app/(en)/products-services/components/TourPhotoCredit";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
 import { adLandings, adMessenger } from "@/app/data/ad-landings";
 import { pageMetadata } from "@/app/data/site";
 import { tours, tourRoot, tourPath } from "@/app/data/tour-catalogue";
-import CopyEnquiry from "../../components/CopyEnquiry";
-import css from "../../components/campaign-details.module.css";
-import styles from "../../landing.module.css";
+import CopyEnquiry from "@/app/(en)/products-services/components/CopyEnquiry";
+import css from "@/app/(en)/products-services/components/campaign-details.module.css";
+import styles from "@/app/(en)/products-services/landing.module.css";
 
 type Props={params:Promise<{tour:string}>};
 export const dynamicParams=false;

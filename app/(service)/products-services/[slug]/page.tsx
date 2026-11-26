@@ -3,11 +3,12 @@ import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
 import { adHubPath, adImage, adLandings, adMessenger, adPath, type AdLanding } from "@/app/data/ad-landings";
 import { compareLimoMpvPath, peso, vinfastAdModels, vinfastModelImage, vinfastModelPath } from "@/app/data/vinfast-ad-models";
-import { pageMetadata } from "@/app/data/site";
-import styles from "../landing.module.css";
-import modelStyle from "../vinfast/model.module.css";
-import CampaignDetails from "../components/CampaignDetails";
-import TourCampaign from "../components/TourCampaign";
+import { JsonLd } from "@/app/components/JsonLd";
+import { origin, organizationId, pageMetadata } from "@/app/data/site";
+import styles from "@/app/(en)/products-services/landing.module.css";
+import modelStyle from "@/app/(en)/products-services/vinfast/model.module.css";
+import CampaignDetails from "@/app/(en)/products-services/components/CampaignDetails";
+import TourCampaign from "@/app/(en)/products-services/components/TourCampaign";
 import { serviceCampaignDetails } from "@/app/data/service-campaign-details";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -34,7 +35,14 @@ export default async function AdLandingPage({ params }: Props) {
   const page = getPage((await params).slug);
   const vi = page.lang === "vi";
   const extra = serviceCampaignDetails[page.slug];
-  return <SubPage><article lang={page.lang} className={styles.wrap}>
+  const url = origin + adPath(page.slug);
+  return <SubPage><JsonLd data={{"@graph":[
+    {"@type":"Service","@id":url+"#service",name:page.label,description:page.summary,url,provider:{"@id":organizationId},areaServed:{ "@type":"Country", name:"Philippines" }},
+    {"@type":"BreadcrumbList",itemListElement:[
+      {"@type":"ListItem",position:1,name:"Products / Services",item:origin+adHubPath},
+      {"@type":"ListItem",position:2,name:page.label,item:url}
+    ]}
+  ]}}/><article lang={page.lang} className={styles.wrap}>
     <nav aria-label={vi ? "Đường dẫn" : "Breadcrumb"} className={styles.crumb}><Link href={adHubPath}>{vi ? "Sản phẩm / Dịch vụ" : "Products / Services"}</Link><span>/</span><span aria-current="page">{page.label}</span></nav>
     <header className={styles.hero}>
       <div className={styles.heroText}>
