@@ -8,6 +8,12 @@
     "service": "used-cars-manila",
     "sections": [
       {
+        "heading": "A worked example with a fixed ceiling",
+        "paragraphs": [
+          "Suppose you set aside ₱40,000 of a ₱500,000 total budget for costs after purchase. Your starting ceiling for the vehicle is ₱460,000. If an inspection then identifies a repair outside that allowance, subtract the quoted repair cost before comparing cars. These figures illustrate the calculation. Ask for actual estimates for the specific unit."
+        ]
+      },
+      {
         "heading": "Turn the ceiling into a buying brief",
         "paragraphs": [
           "Suppose you want to keep ₱40,000 for initial expenses. That gives you a ₱460,000 vehicle-price ceiling. This is a budgeting example, not an estimate of transfer costs or repairs. Ask which costs are included in each offer before using that number to shortlist.",
@@ -505,6 +511,12 @@
     "category": "DU LỊCH PHILIPPINES",
     "service": "travel",
     "sections": [
+      {
+        "heading": "Nếu chuyến về đổi từ buổi tối sang buổi trưa",
+        "paragraphs": [
+          "Hãy chuyển điểm bạn muốn xem nhất vào ngày thứ hai. Sáng ngày về chỉ giữ bữa sáng, trả phòng và xe ra sân bay. Khi hỏi giá, gửi giờ cất cánh, tên khách sạn và số vali để DT Tour báo riêng chặng tiễn sân bay. Nếu hai gia đình bay khác giờ, hỏi thêm chi phí tách xe."
+        ]
+      },
       {
         "heading": "Một phương án cho người lần đầu đến Manila",
         "paragraphs": [

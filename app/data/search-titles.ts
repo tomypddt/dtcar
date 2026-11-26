@@ -31,7 +31,7 @@ export const guideSearchTitles:Record<string,string>={
 };
 export const serviceSearchDescriptions:Record<string,string>={
 'fleet-installation':'Plan fleet dashcam, SIM, meter and sticker installation with DT Car. Send vehicle counts, model mix, approved scope and location for a project review.',
-'green-gsm-driver-application':'Ask DT Car about Green GSM driver applications in the Philippines. Prepare your professional licence and discuss the next recruitment steps.',
+'green-gsm-driver-application':'DT Car has closed its public Green GSM driver intake. See how to follow up on an earlier application.',
 'green-gsm-rental-pasada':'Green GSM rental is paused until further notice. See the status for new registrations and deposits, and where to follow up on an existing booking.',
 'sell-my-car-manila':'Sell your car in Metro Manila with DT Car. Send the model, year, mileage, photos and location for an initial review and inspection appointment.',
 'vgreen-charging-site-proposal':'Propose a Philippine property for V-Green screening through DT Car. Prepare location, access, parking and electrical-supply information.',
@@ -39,7 +39,7 @@ export const serviceSearchDescriptions:Record<string,string>={
 'vinfast-workshop-service':'Coordinate a VinFast service enquiry with DT Car. Send your model, mileage, city and service needs to confirm workshop scope and availability.',
 };
 export const storySearchDescriptions:Record<string,string>={
-'dtcar-online-car-sales-driver-recruitment-agents':'DT Car invites independent agents in the Philippines to discuss vehicle sales and driver-recruitment opportunities with the team.',
+'dtcar-online-car-sales-driver-recruitment-agents':'Archive of DT Car’s vehicle sales and driver referral programme in the Philippines. Public driver recruitment through DT Car is closed.',
 'dtcar-welcomes-prime-minister-le-minh-hung':'DT Car supported the Vietnamese delegation in Manila alongside the Embassy of Viet Nam during Prime Minister Le Minh Hung’s visit.',
 'lisa-dong-mrs-universe-ambassador-2026':'Lisa Dong’s Mrs. Universe Ambassador 2026 recognition and Vietnamese business-community involvement in the Philippines.',
 'lisa-dong-proud-vietnamese-growing-philippines':'Lisa Dong reflects on Vietnamese identity, entrepreneurship and cultural exchange in the Philippines.',

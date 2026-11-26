@@ -1,13 +1,15 @@
+import { adPreview } from "@/app/data/ad-preview";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
 import { adHubPath, adImage, adLandings, adMessenger, adPath, type AdLanding } from "@/app/data/ad-landings";
 import { compareLimoMpvPath, peso, vinfastAdModels, vinfastModelImage, vinfastModelPath } from "@/app/data/vinfast-ad-models";
-import { pageMetadata } from "@/app/data/site";
-import styles from "../landing.module.css";
-import modelStyle from "../vinfast/model.module.css";
-import CampaignDetails from "../components/CampaignDetails";
-import TourCampaign from "../components/TourCampaign";
+import { JsonLd } from "@/app/components/JsonLd";
+import { origin, organizationId, pageMetadata } from "@/app/data/site";
+import styles from "@/app/(en)/products-services/landing.module.css";
+import modelStyle from "@/app/(en)/products-services/vinfast/model.module.css";
+import CampaignDetails from "@/app/(en)/products-services/components/CampaignDetails";
+import TourCampaign from "@/app/(en)/products-services/components/TourCampaign";
 import { serviceCampaignDetails } from "@/app/data/service-campaign-details";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -34,7 +36,14 @@ export default async function AdLandingPage({ params }: Props) {
   const page = getPage((await params).slug);
   const vi = page.lang === "vi";
   const extra = serviceCampaignDetails[page.slug];
-  return <SubPage><article lang={page.lang} className={styles.wrap}>
+  const url = origin + adPath(page.slug);
+  return <SubPage><JsonLd data={{"@graph":[
+    {"@type":"Service","@id":url+"#service",name:page.label,description:page.summary,url,provider:{"@id":organizationId},areaServed:{ "@type":"Country", name:"Philippines" }},
+    {"@type":"BreadcrumbList",itemListElement:[
+      {"@type":"ListItem",position:1,name:"Products / Services",item:origin+adHubPath},
+      {"@type":"ListItem",position:2,name:page.label,item:url}
+    ]}
+  ]}}/><article lang={page.lang} className={styles.wrap}>
     <nav aria-label={vi ? "Đường dẫn" : "Breadcrumb"} className={styles.crumb}><Link href={adHubPath}>{vi ? "Sản phẩm / Dịch vụ" : "Products / Services"}</Link><span>/</span><span aria-current="page">{page.label}</span></nav>
     <header className={styles.hero}>
       <div className={styles.heroText}>
@@ -42,12 +51,12 @@ export default async function AdLandingPage({ params }: Props) {
         <h1>{page.title}</h1><p className={styles.lead}>{extra?.focus ?? page.summary}</p>
         {page.slug === "vinfast" ? <a className={styles.button} href="#vinfast-models">See VinFast models ↓</a> : <MessageLink page={page}/>}<p className={styles.hint}>{page.slug === "vinfast" ? "Model photos, prices and offers below" : vi ? "Mở Messenger của đội tư vấn" : "Opens Messenger for the service team"}</p>
       </div>
-      <figure className={page.slug === "sell-your-car" ? styles.heroPhoto + " " + styles.portrait : styles.heroPhoto}><img src={adImage(page.slug)} alt={page.imageAlt} width={page.slug === "sell-your-car" ? 512 : 1200} height={page.slug === "sell-your-car" ? 640 : 720} fetchPriority="high"/><figcaption>{page.imageNote}</figcaption></figure>
+      <figure className={page.slug === "sell-your-car" ? styles.heroPhoto + " " + styles.portrait : styles.heroPhoto}><picture><source media="(max-width: 670px)" srcSet={adPreview(adImage(page.slug))}/><img src={adImage(page.slug)} alt={page.imageAlt} width={page.slug === "sell-your-car" ? 512 : 1200} height={page.slug === "sell-your-car" ? 640 : 720} fetchPriority="high"/></picture><figcaption>{page.imageNote}</figcaption></figure>
     </header>
     {page.slug === "vinfast" && <section className={styles.section} id="vinfast-models" style={{scrollMarginTop: "100px"}}>
       <h2>Choose your VinFast model</h2>
       <div className={styles.directoryGrid}>{vinfastAdModels.map((model) => <Link key={model.slug} href={vinfastModelPath(model.slug)} className={styles.card}>
-        <img src={vinfastModelImage(model.slug,model.photos[0].key)} alt={model.photos[0].caption} width={1200} height={720} loading="lazy"/>
+        <img src={adPreview(vinfastModelImage(model.slug,model.photos[0].key))} alt={model.photos[0].caption} width={1200} height={720} loading="lazy"/>
         <div><p className={styles.kicker}>{model.segment}</p><h2>{model.name}</h2><p>From {peso(model.withPlan)} with battery subscription</p><span>Photos, prices and offers →</span></div>
       </Link>)}</div></section>}
     {page.slug === "vinfast" && <section className={styles.section}><h2>VinFast price and seating at a glance</h2>

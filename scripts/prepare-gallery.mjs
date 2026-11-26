@@ -1,5 +1,5 @@
-import { mkdir, readdir, readFile } from "node:fs/promises";
-import { join } from "node:path";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
 import sharp from "sharp";
 import { articleImages, articles, travel } from "../app/data/stories.ts";
 
@@ -40,3 +40,15 @@ for (const [slug, cover] of Object.entries(guideMedia)) {
       .toFile(join(cardDirectory, slug + "-" + width + ".webp"));
   }
 }
+
+const adsDirectory = join(directory, "ads");
+const previewDirectory = join(destination, "ads");
+for (const name of await readdir(adsDirectory, { recursive: true })) {
+  if (!name.endsWith(".webp")) continue;
+  const original = await readFile(join(adsDirectory, name));
+  const preview = await sharp(original).resize({ width: 640, withoutEnlargement: true }).webp({ quality: 72 }).toBuffer();
+  const target = join(previewDirectory, name);
+  await mkdir(dirname(target), { recursive: true });
+  await writeFile(target, preview.length < original.length ? preview : original);
+}
+await sharp(join(directory, "dtcar-logo.png")).resize({ width: 280 }).webp({ quality: 86 }).toFile(join(destination, "dtcar-logo.webp"));

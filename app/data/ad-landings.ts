@@ -39,6 +39,7 @@ export const adLandings: AdLanding[] = [
     ],
     brief: ["Model or number of seats you need", "City, preferred date and time for a test drive", "Budget, preferred colour and whether you want a cash quotation"],
     questions: [
+      ["Which price should I use when comparing a VF 3 and VF 5?", "Choose the same battery arrangement for both cars. Ask for the vehicle price, recurring battery fee if applicable, and any delivery or registration charges separately. The model pages below show the two purchase options."],
       ["Is a test drive confirmed when I message?", "No. The team will confirm the model, location and available time before you make the trip."],
       ["Can I ask about battery or charging arrangements?", "Yes. Ask for the battery arrangement, charging inclusions and applicable conditions in the quote for your specific variant."],
     ],
@@ -59,6 +60,7 @@ export const adLandings: AdLanding[] = [
     ],
     brief: ["Year, make, model, variant and odometer reading", "City, asking price and clear photos", "Ownership or financing status only. Do not send IDs or original papers in the first message."],
     questions: [
+      ["How can I compare a trade-in with a direct cash sale?", "Ask for the cash offer on your current car and a separate written price for the replacement. Compare the amount you would pay after fees and any outstanding finance. Send the same mileage, photos and condition notes for both estimates."],
       ["Is an estimate a final offer?", "No. A final offer depends on inspection, condition and verification of the vehicle and ownership details."],
       ["Who receives my message?", "The link opens the DT Car We Buy Cars Messenger page for seller enquiries, not the retail sales inbox."],
     ],
@@ -79,6 +81,7 @@ export const adLandings: AdLanding[] = [
     ],
     brief: ["Total budget and preferred body style", "Must-have features and acceptable mileage", "City and a suitable time to view the car"],
     questions: [
+      ["What should I send for a shortlist under ₱500,000?", "State whether ₱500,000 covers the vehicle alone or your total budget. Include your city, preferred transmission and number of seats. Ask for current photos, mileage and the viewing location of each available unit before travelling."],
       ["Is the car in the photo still available?", "This page uses an example photo. The sales team can confirm which vehicles are currently available."],
       ["Can I reserve a viewing?", "Ask for a date, location and confirmation that the specific unit will be available to see."],
     ],
@@ -99,6 +102,7 @@ export const adLandings: AdLanding[] = [
     ],
     brief: ["Khu vực bạn đang ở", "Chưa từng lái hay muốn học bổ túc", "Khung giờ rảnh và loại xe muốn tập"],
     questions: [
+      ["Muốn so học phí thực hành ở Manila thì hỏi những khoản nào?", "Gửi khu vực, loại xe số tự động hoặc số sàn và khung giờ bạn rảnh. Hỏi số giờ thực lái, nơi đón, phí đổi lịch và ngôn ngữ của giáo viên. Nếu cần chứng nhận, hỏi rõ trường nào cấp trước khi đặt lớp."],
       ["Mình chưa lái lần nào có thể hỏi lịch không?", "Có. Nói rõ bạn mới bắt đầu để đội tư vấn trao đổi về lớp, thời gian và yêu cầu phù hợp."],
       ["Học với DT Car có đồng nghĩa được cấp bằng không?", "Không. Học lái và thủ tục cấp bằng là hai việc khác nhau. Hãy hỏi rõ đơn vị dạy, nội dung và giấy tờ của lớp trước khi đăng ký."],
     ],
@@ -119,6 +123,7 @@ export const adLandings: AdLanding[] = [
     ],
     brief: ["Bạn muốn làm mới, đổi, gia hạn hay cấp lại", "Thành phố đang ở và tình trạng bằng hiện tại", "Chỉ mô tả trường hợp lúc đầu. Không gửi ảnh hộ chiếu, số giấy tờ hoặc ảnh bằng qua tin nhắn đầu tiên."],
     questions: [
+      ["Có bằng Việt Nam rồi thì nên hỏi tư vấn theo diện nào?", "Nêu quốc gia cấp bằng, loại bằng, thời hạn và thành phố bạn đang ở. Hỏi đội tư vấn về thủ tục chuyển đổi bằng nước ngoài tại LTO và nguồn hướng dẫn chính thức cho trường hợp của bạn. Chỉ gửi thông tin cơ bản trong tin nhắn đầu."],
       ["DT Car có cấp bằng lái không?", "Không. DT Car hỗ trợ tư vấn. Việc xác định đủ điều kiện và cấp bằng thuộc thẩm quyền của LTO."],
       ["Có cam kết đậu hay bỏ qua thủ tục không?", "Không. Không cam kết kết quả, thời gian cấp bằng hoặc miễn yêu cầu xác minh, học hay thi nếu cơ quan có thẩm quyền yêu cầu."],
     ],
@@ -139,6 +144,7 @@ export const adLandings: AdLanding[] = [
     ],
     brief: ["Ngày dự kiến, số khách và nơi xuất phát", "Số ngày, điểm muốn đến và hoạt động ưu tiên", "Ngân sách dự kiến và nhu cầu xe riêng hoặc đón sân bay"],
     questions: [
+      ["Khởi hành từ Hà Nội hoặc TP.HCM, nên gửi gì để nhận báo giá?", "Gửi sân bay khởi hành, ngày có thể đi, số đêm và số người lớn, trẻ em. Cho biết bạn muốn đi Manila, Cebu – Bohol hay Boracay. Yêu cầu báo riêng dịch vụ tại Philippines, chặng bay nội địa và vé quốc tế để so cùng phạm vi."],
       ["Tour có bao gồm vé máy bay và khách sạn không?", "Tùy lịch trình. Yêu cầu bảng báo giá ghi rõ các khoản đã bao gồm và các khoản cần tự đặt trước khi đóng cọc."],
       ["Có tư vấn cho nhóm đang ở Việt Nam không?", "Có thể nhắn bằng tiếng Việt để lên lịch với DT Tour. Gửi thành phố khởi hành và ngày dự kiến để đội tư vấn sắp xếp phương án."],
     ],

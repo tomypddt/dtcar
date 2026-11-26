@@ -22,6 +22,12 @@ const content: Guide[] = [
     "summary": "The VinFast Philippine price list shows the VF 3 from ₱590,000 with a battery subscription and ₱745,000 without a battery subscription, checked on 25 November 2026. Compare the recurring battery fee and the written quotation alongside the upfront price.",
     "sections": [
       {
+        "heading": "Use your planned ownership period",
+        "paragraphs": [
+          "For a three-year comparison, put 36 months of subscription charges beside the purchase price. If the contract uses mileage bands, calculate a typical month and a higher-mileage month separately. Add confirmed one-off charges to each option and request the end-of-contract terms before treating the totals as comparable."
+        ]
+      },
+      {
         "heading": "Two prices, two ownership arrangements",
         "paragraphs": [
           "The difference between the two published starting prices is ₱155,000. This is an upfront difference, not a calculation of lifetime savings. A subscription introduces a recurring charge, so a fair comparison needs the fee that applies to your mileage and the period you expect to keep the vehicle.",
@@ -83,6 +89,12 @@ const content: Guide[] = [
     "service": "vinfast-test-drive",
     "summary": "VinFast’s Philippine list shows the VF 5 Plus from ₱949,000 with a battery subscription or ₱1,099,000 without one, checked on 25 November 2026. The ₱150,000 upfront difference should be considered alongside recurring fees and your intended use.",
     "sections": [
+      {
+        "heading": "Compare offers for the same model year and variant",
+        "paragraphs": [
+          "If two sales sheets both say VF 5, ask each seller to confirm the variant, model year, battery arrangement and what the quoted amount covers. Put any discount on its own line with its expiry date. Keep an unconfirmed credit or trade-in estimate out of the amount you plan to pay at handover."
+        ]
+      },
       {
         "heading": "Compare the same quotation scope",
         "paragraphs": [
@@ -205,6 +217,12 @@ const content: Guide[] = [
     "service": "sell-my-car-manila",
     "summary": "For an initial car appraisal, send clear exterior and cabin photos, a readable odometer photo, the exact model and variant, the model year and the car’s city. Include damage and known issues so the initial discussion reflects the actual vehicle.",
     "sections": [
+      {
+        "heading": "Photographing a repaired panel",
+        "paragraphs": [
+          "Take one photo of the whole side of the car and a second showing the repaired area in daylight. If you have an earlier image or invoice, note its date and cover personal details before sharing it. Explain what was repaired and whether an inspection or estimate is outstanding."
+        ]
+      },
       {
         "heading": "Start with a clear exterior set",
         "paragraphs": [
@@ -749,6 +767,12 @@ const content: Guide[] = [
     "service": "sell-my-car-manila",
     "summary": "A trade-in comparison needs two separate figures: the offer for your existing car and the complete price of its replacement. Compare the cash difference and every condition together. A larger trade-in allowance is not automatically a better overall deal.",
     "sections": [
+      {
+        "heading": "Compare the amount you actually pay",
+        "paragraphs": [
+          "Suppose one quote prices the replacement at ₱900,000 and offers ₱350,000 for your car. The difference is ₱550,000. A second quote prices the replacement at ₱870,000 and offers ₱330,000. Its difference is ₱540,000. Compare fees, loan settlement and handover dates before choosing. These are illustrative figures, not DT Car offers."
+        ]
+      },
       {
         "heading": "Separate the two transactions on paper",
         "paragraphs": [
