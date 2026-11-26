@@ -1,10 +1,11 @@
+import {extraTours} from "./dt-tour-extra";
+import {tourMedia,type TourPhoto} from "./dt-tour-media";
+import {findTourRates} from "./dt-tour-prices";
 export const tourRoot="/products-services/tour-philippines/";
 export const tourPath=(slug:string)=>tourRoot+slug+"/";
-type TourPhoto={src:string;caption:string;source?:string};
-type TourPrice={label:string;conditions:string;source?:string};
 type TourBrochure={href:string;label:string};
-type Tour={slug:string;name:string;heading:string;duration:string;summary:string;stops:[string,string][];photo?:TourPhoto;gallery?:TourPhoto[];price?:TourPrice;brochure?:TourBrochure;note:string};
-export const tours:Tour[]=[
+type Tour={slug:string;name:string;heading:string;duration:string;summary:string;stops:[string,string][];photo?:TourPhoto;gallery?:TourPhoto[];rates?:readonly [number,number,number];brochure?:TourBrochure;note:string};
+const existing:Tour[]=[
  {slug:"south-cebu",name:"Nam Cebu",heading:"Tour riêng Nam Cebu 3 ngày 2 đêm",duration:"3 ngày 2 đêm",summary:"Moalboal, Kawasan và Oslob, chọn hoạt động theo tuổi, khả năng bơi và lịch bay của cả nhóm.",
  brochure:{href:"/documents/dt-tour/south-cebu.pdf",label:"Tải lịch trình tham khảo"},
  stops:[["Ngày 1 · Cebu → Moalboal","Đón theo chuyến bay đã chốt, đi Moalboal và nhận phòng. Nếu đến đủ sớm và biển phù hợp, có thể lặn ngắm đàn cá mòi; nếu đến muộn, đảo thứ tự hoạt động."],["Ngày 2 · Kawasan → Oslob","Tham quan Kawasan, chọn canyoneering hoặc phương án nhẹ hơn tùy nhóm. Sau chương trình, di chuyển và nghỉ đêm ở Oslob."],["Ngày 3 · Oslob → Tumalog → Cebu","Có thể đi trải nghiệm ngắm cá mập voi buổi sớm, ghé Tumalog rồi về Cebu City hoặc sân bay. Xác nhận hoạt động và giờ bay trước khi chốt."]],
@@ -56,3 +57,8 @@ export const tours:Tour[]=[
  stops:[["Sáng · Manila → Batangas","Xác nhận giờ đón, bến hoặc điểm dừng, số ghế và số kiện hành lý. Đây không phải đảo Boracay và không cần đặt chuyến bay Caticlan cho tuyến này."],["Trưa và chiều · Trải nghiệm biển","Hỏi bến, hình thức ra điểm cát, áo phao, thời điểm thủy triều, bữa ăn và giờ xe về. Nhà tổ chức cần xác nhận phương án khi không thể ra biển."]],
  note:"Điểm cát và hoạt động phụ thuộc thủy triều, thời tiết và xác nhận của bến trong ngày."},
 ];
+
+export const tours:Tour[]=[...existing,...extraTours].map(t=>{
+ const photos=tourMedia[t.slug]??[];
+ return {...t,photo:photos[0],gallery:photos.slice(1),rates:findTourRates(t.slug),brochure:{href:"/documents/dt-tour/"+t.slug+".pdf",label:"Tải lịch trình tham khảo"}};
+});
