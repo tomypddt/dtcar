@@ -1,3 +1,4 @@
+import {TourStartingPrice} from "@/app/(en)/products-services/components/TourRates";
 import TourPhotoCredit from "@/app/(en)/products-services/components/TourPhotoCredit";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -22,6 +23,7 @@ export default async function TourDetail({params}:Props){
   <header className={t.photo?styles.hero:styles.directoryIntro}><div>
    <p className={styles.kicker}>DT TOUR · {t.duration}</p><h1>{t.heading}</h1><p className={styles.lead}>{t.summary}</p>
 
+   <TourStartingPrice slug={t.slug}/>
    <a className={styles.button} href={adMessenger(campaign)} target="_blank" rel="noopener noreferrer" data-enquiry-service={campaign.campaign}>Hỏi lịch và báo giá ↗</a>{t.brochure&&<a className={css.pdfLink} href={t.brochure.href} download>{t.brochure.label} (PDF) ↓</a>}
   </div>{t.photo&&<figure className={styles.heroPhoto}><img src={t.photo.src} alt={t.photo.caption} width={1200} height={720} fetchPriority="high"/><figcaption><TourPhotoCredit photo={t.photo}/></figcaption></figure>}</header>
   <section className={styles.section}><h2>{["coron","bohol"].includes(t.slug)?"Điểm và trải nghiệm để lên lịch":"Lịch trình mẫu"}</h2><p className={css.stockNote}>{t.note} Giờ bay, thời tiết và xác nhận địa phương có thể làm thay đổi chương trình.</p><ol className={css.steps}>{t.stops.map(([title,body],i)=><li key={title}><span aria-hidden="true">{i+1}</span><div><h3>{title}</h3><p>{body}</p></div></li>)}</ol></section>

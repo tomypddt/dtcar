@@ -1,6 +1,7 @@
 import ownPhotos from "./dt-tour-photos.json";
 import guideMedia from "./guide-media.json";
-export type TourPhoto={src:string;caption:string;source?:string;credit?:string;license?:string;licenseHref?:string};
+import refresh from "./dt-tour-gallery-refresh.json";
+export type TourPhoto={src:string;caption:string;source?:string;credit?:string;license?:string;licenseHref?:string;rightsNote?:string};
 const page="https://www.facebook.com/dulichphilippinesdttour/";
 const guide=(k:keyof typeof guideMedia):TourPhoto=>{
  const v: {src:string;alt:string;source?:string;kind:string}=guideMedia[k];
@@ -32,16 +33,28 @@ const little=own("little-0","little-5","little-20");
 const warm=own("hot-0","hot-19","hot-30");
 const sant=own("santorini-1","santorini-8","santorini-38");
 const luzon=[little[0],tag[0],subic[0],warm[0],...manila.slice(0,1)];
-export const tourMedia:Record<string,TourPhoto[]>={
- "south-cebu":cebu,"manila-boracay":[...boracay,...manila],"boracay-3n2d":boracay,
+const baseTourMedia:Record<string,TourPhoto[]>={
+ "south-cebu":cebu,"cebu-4n3d":[cebu[2],cebu[0],cebu[1],cebu[3],cebu[4]],"manila-boracay":[...boracay,...manila],"boracay-3n2d":boracay,"manila-boracay-4ngay":[...boracay,...manila],
  "el-nido":nido,"el-nido-3n2d":nido,"coron":coron,"coron-3n2d":coron,
  "luzon":luzon,"bohol":bohol,"tagaytay-trong-ngay":tag,
  "hidden-valley":[hot,detail(hot,"Chi tiết hồ nước ở Hidden Valley Springs · cắt từ ảnh toàn cảnh")],
  "subic-du-thuyen":subic,"santorini-trong-ngay":sant,"little-boracay-batangas":little,
  "suoi-nong-tagaytay":[...warm,tag[0]],"fortune-island":[fort,detail(fort,"Chi tiết hàng cột trên Fortune Island · cắt từ ảnh toàn cảnh")],
 };
+const refreshedPhotos:Record<string,TourPhoto>=refresh.photos;
+const imagesFor=(ids:readonly string[]|undefined)=>ids?.map(id=>refreshedPhotos[id]).filter((photo):photo is TourPhoto=>Boolean(photo))??[];
+const refreshedTours:Record<string,readonly string[]>=refresh.tours;
+const refreshedJournal:Record<string,readonly string[]>=refresh.journal;
+export const tourMedia:Record<string,TourPhoto[]>=Object.fromEntries(
+ Object.entries(baseTourMedia).map(([slug, fallback])=>{
+  const selected=imagesFor(refreshedTours[slug]);
+  return [slug,selected.length?selected:fallback];
+ })
+);
 const general=[guide("tour-philippines-tu-viet-nam-bao-gia-nhom-rieng"),manila[0],boracay[0],tag[0]];
 export function journalMedia(p:{slug:string;group:string;tour?:string}):TourPhoto[]{
+ const gallery=imagesFor(refreshedJournal[p.slug]);
+ if(gallery.length) return gallery;
  const explicit:Record<string,TourPhoto[]>={
  "manila-hay-di-bien":[manila[0],boracay[0],tag[0]],
  "hanh-ly-xach-tay":[guide("di-cebu-roi-noi-chuyen-sang-bohol-nen-dat-xe-tung-chang-the-nao"),...general.slice(0,2)],

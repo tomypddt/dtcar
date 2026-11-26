@@ -1,0 +1,1115 @@
+{
+  "tours": {
+    "south-cebu": [
+      "cebu-3",
+      "cebu-48",
+      "old-3c11b6b6531f",
+      "cebu-6",
+      "cebu-31",
+      "cebu-0"
+    ],
+    "manila-boracay": [
+      "boracay-9",
+      "boracay-28",
+      "tele-boracay-shore",
+      "boracay-18",
+      "boracay-5",
+      "old-5a668c81300a",
+      "boracay-10"
+    ],
+    "el-nido": [
+      "fb-el-nido-aerial-boats-in-cove",
+      "fb-el-nido-cliffside-boats",
+      "tele-el-nido-aerial",
+      "fb-el-nido-turquoise-kayak-lagoon",
+      "cc-el-nido-small-lagoon",
+      "cc-el-nido-nacpan-beach"
+    ],
+    "coron": [
+      "old-d193b4abd3f9",
+      "cc-coron-barracuda-lake",
+      "cc-coron-malcapuya-island",
+      "old-77fbbb368ef2"
+    ],
+    "luzon": [
+      "subic-15",
+      "old-cee66d577552",
+      "hot-1",
+      "old-689af0ae504d",
+      "old-fe08d498368f",
+      "hot-24",
+      "hot-12"
+    ],
+    "bohol": [
+      "cc-bohol-loboc-tarsier",
+      "cc-bohol-chocolate-hills",
+      "old-477557aa5127",
+      "old-7a3b60c1a444",
+      "fb-bohol-pamilacan-boats-offshore",
+      "fb-bohol-pamilacan-shoreline-and-boats"
+    ],
+    "tagaytay-trong-ngay": [
+      "tagaytay-4",
+      "old-93ab91d9e9e7",
+      "tagaytay-6",
+      "tagaytay-1",
+      "old-2cb39e2f9d51",
+      "tagaytay-8"
+    ],
+    "hidden-valley": [
+      "cc-hidden-valley-waterfall-july-2025",
+      "cc-hidden-valley-pavilion",
+      "cc-hidden-valley-entrance",
+      "cc-hidden-valley-garden-path",
+      "old-761954cf965c"
+    ],
+    "subic-du-thuyen": [
+      "subic-3",
+      "subic-1",
+      "subic-7",
+      "old-005b6b1fd360",
+      "subic-27",
+      "subic-15",
+      "old-33b4c884b2de"
+    ],
+    "santorini-trong-ngay": [
+      "santorini-6",
+      "santorini-50",
+      "santorini-0",
+      "santorini-12",
+      "santorini-63",
+      "old-e1138a0fc674",
+      "old-4d3bf1ed9cd8"
+    ],
+    "little-boracay-batangas": [
+      "little-22",
+      "little-3",
+      "little-18",
+      "old-1b7a15b3cf3d",
+      "old-f2068abb0766",
+      "little-9"
+    ],
+    "cebu-4n3d": [
+      "cebu-6",
+      "cebu-9",
+      "cebu-1",
+      "old-c81ef3bd83ba",
+      "cebu-48",
+      "cebu_lisa-4",
+      "cebu-4"
+    ],
+    "manila-boracay-4ngay": [
+      "boracay-23",
+      "boracay-24",
+      "boracay-14",
+      "boracay-26",
+      "boracay-17",
+      "old-a33bd3c96ff4",
+      "fb-boracay-palm-lined-white-sand"
+    ],
+    "boracay-3n2d": [
+      "fb-boracay-sailboats-at-sunset",
+      "boracay-18",
+      "boracay-9",
+      "boracay-39",
+      "boracay-12",
+      "tele-boracay-shore"
+    ],
+    "el-nido-3n2d": [
+      "fb-el-nido-boat-toward-palms",
+      "tele-el-nido-lagoons",
+      "fb-el-nido-cliffside-boats",
+      "old-873cefd13ed1",
+      "old-1747e1269b5e",
+      "fb-el-nido-aerial-boats-in-cove"
+    ],
+    "coron-3n2d": [
+      "old-77fbbb368ef2",
+      "cc-coron-malcapuya-island",
+      "old-d193b4abd3f9",
+      "cc-coron-barracuda-lake"
+    ],
+    "suoi-nong-tagaytay": [
+      "hot-38",
+      "hot-24",
+      "hot-12",
+      "hot-5",
+      "old-e0e9df278b48",
+      "hot-1",
+      "old-93ab91d9e9e7"
+    ],
+    "fortune-island": [
+      "cc-fortune-island-path-to-greece",
+      "cc-fortune-island-first-light",
+      "cc-fortune-island-shore",
+      "old-7b7bcdba303d"
+    ]
+  },
+  "journal": {
+    "manila-hay-di-bien": [
+      "cc-intramuros-fort-santiago-dungeon",
+      "boracay-4",
+      "fb-boracay-sea-framed-by-palms",
+      "old-35a977d7121d",
+      "boracay-31"
+    ],
+    "hanh-ly-xach-tay": [
+      "fb-boracay-sea-framed-by-palms",
+      "boracay-20",
+      "boracay-19",
+      "old-c3d97c4d1138"
+    ],
+    "doi-tien-peso": [
+      "cc-intramuros-fort-santiago-gate",
+      "boracay-14",
+      "fb-boracay-sailboats-at-sunset",
+      "old-656a2038f819"
+    ],
+    "cuoi-tuan-cho-nguoi-viet-tai-philippines": [
+      "tagaytay-8",
+      "subic-7",
+      "subic-1",
+      "little-9",
+      "subic-24",
+      "tagaytay-1"
+    ],
+    "checklist-di-lan": [
+      "boracay-15",
+      "boracay-16",
+      "cebu-4",
+      "old-c97adecc3f1f",
+      "cebu-3",
+      "tele-el-nido-lagoons"
+    ],
+    "oslob-ca-map-voi": [
+      "cebu-31",
+      "cebu-50",
+      "old-c81ef3bd83ba",
+      "cebu-53",
+      "old-a3bba30f847d"
+    ],
+    "thac-nam-cebu": [
+      "cebu-0",
+      "cebu_lisa-4",
+      "old-503f687672cb",
+      "cebu_lisa-7",
+      "cebu-9"
+    ],
+    "kawasan-canyoneering-hay-tham-quan": [
+      "cebu-1",
+      "cebu_lisa-7",
+      "cebu-0",
+      "old-a3bba30f847d",
+      "cebu-50"
+    ],
+    "moalboal-mot-buoi-o-bien": [
+      "cebu-4",
+      "cebu_lisa-4",
+      "cebu-3",
+      "old-c526060f6f33",
+      "old-5fdbbd9d29a4",
+      "cebu-53"
+    ],
+    "cebu-3-ngay-tu-manila": [
+      "cebu-53",
+      "cebu-9",
+      "cebu-50",
+      "cebu-31",
+      "cebu_lisa-7",
+      "cebu-6"
+    ],
+    "pamilacan-lan-ong-tho": [
+      "fb-bohol-pamilacan-boats-offshore",
+      "fb-bohol-pamilacan-shoreline-and-boats",
+      "old-7a3b60c1a444",
+      "cc-bohol-loboc-tarsier",
+      "cc-bohol-chocolate-hills"
+    ],
+    "balicasag-napaling-pamilacan": [
+      "fb-bohol-pamilacan-shoreline-and-boats",
+      "old-7a3b60c1a444",
+      "fb-bohol-pamilacan-boats-offshore",
+      "old-477557aa5127",
+      "old-4ba1abe1dc5b"
+    ],
+    "bohol-voi-gia-dinh-co-tre": [
+      "cc-bohol-chocolate-hills",
+      "fb-bohol-pamilacan-boats-offshore",
+      "cc-bohol-loboc-tarsier",
+      "old-4ba1abe1dc5b",
+      "fb-bohol-pamilacan-shoreline-and-boats"
+    ],
+    "panglao-khong-can-lan": [
+      "old-477557aa5127",
+      "fb-bohol-pamilacan-shoreline-and-boats",
+      "old-4ba1abe1dc5b",
+      "cc-bohol-chocolate-hills",
+      "cc-bohol-loboc-tarsier"
+    ],
+    "cebu-bohol-noi-chuyen": [
+      "old-4ba1abe1dc5b",
+      "cebu-48",
+      "old-5fdbbd9d29a4",
+      "old-503f687672cb",
+      "old-3c11b6b6531f",
+      "old-c526060f6f33"
+    ],
+    "hoang-hon-el-nido": [
+      "cc-el-nido-nacpan-beach",
+      "fb-el-nido-limestone-islets-wide",
+      "fb-el-nido-aerial-enclosed-lagoon",
+      "tele-el-nido-lagoons",
+      "tele-el-nido-aerial"
+    ],
+    "el-nido-tour-a-tour-c": [
+      "fb-el-nido-turquoise-kayak-lagoon",
+      "cc-el-nido-small-lagoon",
+      "fb-el-nido-karst-bay-overlook",
+      "tele-el-nido-aerial",
+      "fb-el-nido-cliffside-boats",
+      "fb-el-nido-aerial-enclosed-lagoon"
+    ],
+    "el-nido-qua-puerto-princesa": [
+      "tele-el-nido-aerial",
+      "fb-el-nido-aerial-enclosed-lagoon",
+      "fb-el-nido-limestone-islets-wide",
+      "fb-el-nido-aerial-boats-in-cove",
+      "cc-el-nido-nacpan-beach"
+    ],
+    "coron-ho-va-dam": [
+      "cc-coron-barracuda-lake",
+      "cc-coron-malcapuya-island",
+      "old-77fbbb368ef2",
+      "old-d193b4abd3f9"
+    ],
+    "el-nido-hay-coron": [
+      "fb-el-nido-karst-bay-overlook",
+      "cc-el-nido-nacpan-beach",
+      "fb-el-nido-boat-toward-palms",
+      "old-f0fd445a0e65",
+      "fb-el-nido-limestone-islets-wide",
+      "cc-coron-barracuda-lake"
+    ],
+    "parasailing-boracay": [
+      "boracay-17",
+      "boracay-10",
+      "boracay-16",
+      "boracay-25",
+      "boracay-15"
+    ],
+    "white-beach-hay-island-hopping": [
+      "boracay-31",
+      "boracay-12",
+      "fb-boracay-beach-from-veranda",
+      "boracay-28",
+      "boracay-4",
+      "boracay-14"
+    ],
+    "caticlan-ra-dao-boracay": [
+      "boracay-19",
+      "fb-boracay-beach-from-veranda",
+      "boracay-26",
+      "fb-boracay-palm-lined-white-sand",
+      "boracay-23"
+    ],
+    "boracay-nghi-cham-cung-gia-dinh": [
+      "boracay-5",
+      "boracay-25",
+      "boracay-39",
+      "boracay-20",
+      "boracay-24",
+      "fb-boracay-beach-from-veranda"
+    ],
+    "manila-ket-hop-boracay": [
+      "fb-boracay-palm-lined-white-sand",
+      "tele-boracay-shore",
+      "cc-intramuros-fort-santiago-dungeon",
+      "cc-intramuros-plaza-moriones",
+      "boracay-10",
+      "cc-intramuros-fort-santiago-gate"
+    ],
+    "intramuros-nua-ngay": [
+      "cc-intramuros-plaza-moriones",
+      "old-a33bd3c96ff4",
+      "old-5a668c81300a",
+      "old-af91f959cc54",
+      "cc-intramuros-fort-santiago-gate",
+      "cc-intramuros-fort-santiago-dungeon"
+    ],
+    "tagaytay-ngam-ho-taal": [
+      "tagaytay-6",
+      "tagaytay-1",
+      "tagaytay-8",
+      "tagaytay-4",
+      "old-141bfcaae995",
+      "old-cee66d577552"
+    ],
+    "mayon-tren-to-100-peso": [
+      "cc-mayon-sumlang-lake",
+      "cc-mayon-daraga-church",
+      "old-175518c83b4b"
+    ],
+    "little-boracay-batangas": [
+      "little-18",
+      "little-9",
+      "little-3",
+      "little-22",
+      "old-7ec368bac178",
+      "old-1b7a15b3cf3d"
+    ],
+    "subic-hoang-hon-tren-vinh": [
+      "subic-24",
+      "subic-27",
+      "old-33b4c884b2de",
+      "subic-15",
+      "old-c827ded1adf9",
+      "subic-3"
+    ]
+  },
+  "photos": {
+    "old-3c11b6b6531f": {
+      "src": "/images/editorial/cebu-hay-bohol-du-lich-tu-viet-nam-cover.webp",
+      "caption": "Cá mập voi ở Oslob, Cebu, theo album DT Tour",
+      "source": "https://www.facebook.com/photo.php?fbid=122189980394790161",
+      "credit": "Page DT Tour"
+    },
+    "old-c81ef3bd83ba": {
+      "src": "/images/editorial/du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien-cover.webp",
+      "caption": "Cảnh dưới nước trong chuyến tham quan Oslob, Cebu",
+      "source": "https://www.facebook.com/photo.php?fbid=122189980358790161",
+      "credit": "Page DT Tour"
+    },
+    "old-5fdbbd9d29a4": {
+      "src": "/images/dt-tour/cebu-10.webp",
+      "caption": "Bờ biển Cebu trong chuyến đi của Lisa – DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-a3bba30f847d": {
+      "src": "/images/dt-tour/cebu-0.webp",
+      "caption": "Lisa trong chuyến đi Cebu của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-503f687672cb": {
+      "src": "/images/dt-tour/cebu-6.webp",
+      "caption": "Lisa bên biển Cebu – DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-c526060f6f33": {
+      "src": "/images/dt-tour/cebu-3.webp",
+      "caption": "Góc hoa giấy trong album Cebu của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-c3d97c4d1138": {
+      "src": "/images/dt-tour/boracay-8.webp",
+      "caption": "Bờ biển và mặt nước xanh ở Boracay – tư liệu DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-c97adecc3f1f": {
+      "src": "/images/dt-tour/boracay-0.webp",
+      "caption": "Bộ ảnh giới thiệu biển Boracay của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-35a977d7121d": {
+      "src": "/images/dt-tour/boracay-3.webp",
+      "caption": "Bộ ảnh điểm dừng, hàng dừa và hoàng hôn ở Boracay",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-5a668c81300a": {
+      "src": "/images/editorial/tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc-cover.webp",
+      "caption": "Mặt tiền nhà thờ với cửa vòm và họa tiết đá",
+      "source": "https://www.facebook.com/photo.php?fbid=122190087068790161",
+      "credit": "Page DT Tour"
+    },
+    "old-a33bd3c96ff4": {
+      "src": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-cover.webp",
+      "caption": "Mặt tiền nhà thờ đá trong khu phố cổ",
+      "source": "https://www.facebook.com/photo.php?fbid=122190087002790161",
+      "credit": "Page DT Tour"
+    },
+    "old-af91f959cc54": {
+      "src": "/images/editorial/tour-manila-3-ngay-2-dem-tu-viet-nam-cover.webp",
+      "caption": "Phố di sản lúc hoàng hôn trong album DT Tour",
+      "source": "https://www.facebook.com/photo.php?fbid=122190086960790161",
+      "credit": "Page DT Tour"
+    },
+    "old-f0fd445a0e65": {
+      "src": "/images/dt-tour/el-nido-big-lagoon.webp",
+      "caption": "Big Lagoon, El Nido",
+      "credit": "nennnn",
+      "license": "CC BY 2.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:El_Nido_Palawan_Big_Lagoon.jpg"
+    },
+    "old-1747e1269b5e": {
+      "src": "/images/dt-tour/el-nido-seven-commandos.webp",
+      "caption": "Bãi Seven Commandos nhìn từ biển, El Nido",
+      "credit": "Fabio Achilli",
+      "license": "CC BY 2.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Seven_Commando_Beach,_El_Nido,_Philippines_(36703369760).jpg"
+    },
+    "old-873cefd13ed1": {
+      "src": "/images/dt-tour/el-nido-bacuit-reef.webp",
+      "caption": "Cảnh san hô trong vịnh Bacuit, El Nido",
+      "credit": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Coral,_Bacuit_Bay,_El_Nido,_Palawan,_Philippines.jpg"
+    },
+    "old-d193b4abd3f9": {
+      "src": "/images/dt-tour/coron-kayangan-lake.webp",
+      "caption": "Cảnh hồ Kayangan và núi đá vôi, Coron",
+      "credit": "Franz C. Trinidad",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kayangan_Lake_in_Coron.jpg"
+    },
+    "old-77fbbb368ef2": {
+      "src": "/images/dt-tour/coron-twin-lagoon.webp",
+      "caption": "Thuyền trong làn nước ở Twin Lagoon, Coron",
+      "credit": "MikelleBandin",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon_of_Coron_Island.jpg"
+    },
+    "old-7ec368bac178": {
+      "src": "/images/dt-tour/little-0.webp",
+      "caption": "Lisa ở vùng nước nông tại Little Boracay, Batangas",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-93ab91d9e9e7": {
+      "src": "/images/editorial/tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet-cover.webp",
+      "caption": "Hồ và miệng núi lửa Taal nhìn từ trên cao",
+      "source": "https://www.facebook.com/photo.php?fbid=122192738564790161",
+      "credit": "Page DT Tour"
+    },
+    "old-005b6b1fd360": {
+      "src": "/images/dt-tour/subic-0.webp",
+      "caption": "Lisa trên du thuyền Subic lúc hoàng hôn",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-fe08d498368f": {
+      "src": "/images/dt-tour/hot-0.webp",
+      "caption": "Lối đi giữa cây xanh và mặt nước trong album Suối nước nóng",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-4ba1abe1dc5b": {
+      "src": "/images/editorial/tour-bohol-panglao-gia-dinh-tu-viet-nam-cover.webp",
+      "caption": "Dải cát trắng ở Virgin Island, Bohol",
+      "source": "https://www.facebook.com/photo.php?fbid=122190995594790161",
+      "credit": "Page DT Tour"
+    },
+    "old-7a3b60c1a444": {
+      "src": "/images/dt-tour/bohol-balicasag-reef.webp",
+      "caption": "Rạn san hô Balicasag, Bohol",
+      "credit": "Thomas Brown",
+      "license": "CC BY 2.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Balicasag_Reef.jpg"
+    },
+    "old-477557aa5127": {
+      "src": "/images/editorial/tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao-cover.webp",
+      "caption": "Vùng nước nông bên dải cát Virgin Island ở Bohol",
+      "source": "https://www.facebook.com/photo.php?fbid=122190995582790161",
+      "credit": "Page DT Tour"
+    },
+    "old-cee66d577552": {
+      "src": "/images/dt-tour/tagaytay-2.webp",
+      "caption": "Lisa tại điểm nhìn hồ Taal ở Tagaytay",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-2cb39e2f9d51": {
+      "src": "/images/dt-tour/tagaytay-5.webp",
+      "caption": "Điểm dừng Windmill trong album Tagaytay của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-141bfcaae995": {
+      "src": "/images/dt-tour/tagaytay-7.webp",
+      "caption": "Điểm dừng mua sắm trong album Tagaytay của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-761954cf965c": {
+      "src": "/images/dt-tour/hidden-valley-pools.webp",
+      "caption": "Các hồ nước trong rừng, Hidden Valley Springs, Laguna",
+      "credit": "rickyrose27 / Wikimapia",
+      "license": "CC BY-SA 3.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://manilastay.com/photo-credits/#hidden-valley-laguna"
+    },
+    "old-33b4c884b2de": {
+      "src": "/images/dt-tour/subic-5.webp",
+      "caption": "Ánh chiều trên du thuyền Subic – DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-c827ded1adf9": {
+      "src": "/images/dt-tour/subic-22.webp",
+      "caption": "Hoàng hôn nhìn từ boong tàu tại Subic",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-e1138a0fc674": {
+      "src": "/images/dt-tour/santorini-1.webp",
+      "caption": "Lisa trong khung hình Santorini của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-4d3bf1ed9cd8": {
+      "src": "/images/dt-tour/santorini-38.webp",
+      "caption": "Hoàng hôn trong album Santorini của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-f2068abb0766": {
+      "src": "/images/dt-tour/little-5.webp",
+      "caption": "Biển Batangas nhìn từ lối lên tàu",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-1b7a15b3cf3d": {
+      "src": "/images/dt-tour/little-20.webp",
+      "caption": "Bãi cát và biển Little Boracay, Batangas",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-e0e9df278b48": {
+      "src": "/images/dt-tour/hot-19.webp",
+      "caption": "Bờ nước trong album Suối nước nóng của DT Tour",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-689af0ae504d": {
+      "src": "/images/dt-tour/hot-30.webp",
+      "caption": "Đường đi bộ qua cây xanh – album Suối nước nóng",
+      "credit": "DT Tour · album tư liệu Ami"
+    },
+    "old-7b7bcdba303d": {
+      "src": "/images/dt-tour/fortune-island-greek-ruins.webp",
+      "caption": "Hàng cột kiểu Hy Lạp trên Fortune Island, Nasugbu",
+      "credit": "Alienscream",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:RuinsofFortuneIsland_Nasugbu_Batangas_Philippines.jpg"
+    },
+    "old-656a2038f819": {
+      "src": "/images/editorial/tour-philippines-tu-viet-nam-bao-gia-nhom-rieng-cover.webp",
+      "caption": "Hàng dừa và bãi biển trong album hành trình Philippines của DT Tour",
+      "source": "https://www.facebook.com/photo.php?fbid=122193035114790161",
+      "credit": "Page DT Tour"
+    },
+    "old-175518c83b4b": {
+      "src": "/images/dt-tour/mayon-cagsawa.webp",
+      "caption": "Tháp Cagsawa và núi Mayon, Albay",
+      "credit": "Say Bernardo",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Mt.Mayon_with_Cagsawa_Ruins,_Albay_by_Say_Bernardo.jpg"
+    },
+    "cebu_lisa-4": {
+      "src": "/images/dt-tour/2025-26/cebu-lisa-4-e84f1dc79f.webp",
+      "caption": "Ảnh Lisa trong vườn dừa ven biển Cebu",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "cebu_lisa-7": {
+      "src": "/images/dt-tour/2025-26/cebu-lisa-7-f0e314d420.webp",
+      "caption": "Biển Cebu nhìn từ lối đi ven bờ",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "cebu-0": {
+      "src": "/images/dt-tour/2025-26/cebu-0-000948cc4c.webp",
+      "caption": "Ảnh các góc nước xanh và hoạt động tại Kawasan",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-1": {
+      "src": "/images/dt-tour/2025-26/cebu-1-8d2c90adb1.webp",
+      "caption": "Cảnh núi rừng trong bộ ảnh Kawasan",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-3": {
+      "src": "/images/dt-tour/2025-26/cebu-3-47d6f62660.webp",
+      "caption": "Đàn cá mòi nhìn từ dưới nước, Moalboal",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-4": {
+      "src": "/images/dt-tour/2025-26/cebu-4-eb869ff586.webp",
+      "caption": "Rùa biển trong album lặn Cebu",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-6": {
+      "src": "/images/dt-tour/2025-26/cebu-6-b9df89b3e1.webp",
+      "caption": "Góc kiến trúc nhà thờ ở Cebu",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-9": {
+      "src": "/images/dt-tour/2025-26/cebu-9-3f91411e9a.webp",
+      "caption": "Thánh giá Magellan và trần nhà vòm ở Cebu City",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-31": {
+      "src": "/images/dt-tour/2025-26/cebu-31-b324eb95d2.webp",
+      "caption": "Cá mập voi nhìn từ dưới mặt nước tại Oslob",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-48": {
+      "src": "/images/dt-tour/2025-26/cebu-48-7d87bad632.webp",
+      "caption": "Hoàng hôn trên bờ biển trong album Cebu",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-50": {
+      "src": "/images/dt-tour/2025-26/cebu-50-366a15e55b.webp",
+      "caption": "Bờ cát bên tán cây trong album Cebu",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "cebu-53": {
+      "src": "/images/dt-tour/2025-26/cebu-53-6bcbc49b3a.webp",
+      "caption": "Xích đu trên bãi cát ở Cebu",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-4": {
+      "src": "/images/dt-tour/2025-26/boracay-4-1e401bb0f3.webp",
+      "caption": "Bộ ảnh DT Tour: bờ biển, thuyền và hoàng hôn Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-5": {
+      "src": "/images/dt-tour/2025-26/boracay-5-f9f4f135a6.webp",
+      "caption": "Bộ ảnh các món ăn và điểm dừng ở Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-9": {
+      "src": "/images/dt-tour/2025-26/boracay-9-f11204a8ee.webp",
+      "caption": "Thuyền buồm và hoàng hôn trong album Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-10": {
+      "src": "/images/dt-tour/2025-26/boracay-10-8dc2f649c3.webp",
+      "caption": "Cánh diều trên bờ biển Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-12": {
+      "src": "/images/dt-tour/2025-26/boracay-12-60691820bb.webp",
+      "caption": "Hàng dừa bên bờ cát Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-14": {
+      "src": "/images/dt-tour/2025-26/boracay-14-3be2d060bd.webp",
+      "caption": "Phố đi bộ Boracay về đêm",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-15": {
+      "src": "/images/dt-tour/2025-26/boracay-15-6536a68169.webp",
+      "caption": "Trải nghiệm dưới nước trong album Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-16": {
+      "src": "/images/dt-tour/2025-26/boracay-16-085498a2dc.webp",
+      "caption": "Thuyền kéo dù trên biển Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-17": {
+      "src": "/images/dt-tour/2025-26/boracay-17-570c8a2940.webp",
+      "caption": "Các góc kéo dù và chuẩn bị lên thuyền tại Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-18": {
+      "src": "/images/dt-tour/2025-26/boracay-18-c008d9654c.webp",
+      "caption": "Lối đi dưới hàng dừa dọc bờ biển Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-19": {
+      "src": "/images/dt-tour/2025-26/boracay-19-ada60e8b98.webp",
+      "caption": "Thuyền bên bãi cát Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-20": {
+      "src": "/images/dt-tour/2025-26/boracay-20-7d4b92829b.webp",
+      "caption": "Bãi biển Boracay nhìn từ cao",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-23": {
+      "src": "/images/dt-tour/2025-26/boracay-23-4ca306cc62.webp",
+      "caption": "Lối mua sắm trong album D’Mall ở Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-24": {
+      "src": "/images/dt-tour/2025-26/boracay-24-808bcf6462.webp",
+      "caption": "Cảnh biển nhìn về Crystal Cove trong album Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-25": {
+      "src": "/images/dt-tour/2025-26/boracay-25-410a771714.webp",
+      "caption": "Lâu đài cát với chữ Boracay bên bờ biển",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-26": {
+      "src": "/images/dt-tour/2025-26/boracay-26-082d725965.webp",
+      "caption": "Dải nước xanh và vịnh nhỏ nhìn từ trên cao, Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-28": {
+      "src": "/images/dt-tour/2025-26/boracay-28-26b0173a22.webp",
+      "caption": "Boracay nhìn qua cửa sổ trực thăng",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-31": {
+      "src": "/images/dt-tour/2025-26/boracay-31-18a972fd24.webp",
+      "caption": "Bờ đá và làn nước xanh trong album Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "boracay-39": {
+      "src": "/images/dt-tour/2025-26/boracay-39-86848d2463.webp",
+      "caption": "Bữa ăn bên bãi biển trong album Boracay",
+      "credit": "DT Tour · kho ảnh Ami chia sẻ"
+    },
+    "tagaytay-1": {
+      "src": "/images/dt-tour/2025-26/tagaytay-1-d165e6bbb3.webp",
+      "caption": "Tư liệu chuyến đi Tagaytay của DT Tour",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "tagaytay-4": {
+      "src": "/images/dt-tour/2025-26/tagaytay-4-71960c5cbe.webp",
+      "caption": "Lối đi giữa hàng thông trong album Tagaytay",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "tagaytay-6": {
+      "src": "/images/dt-tour/2025-26/tagaytay-6-b6551a20a2.webp",
+      "caption": "Toàn cảnh hồ Taal nhìn từ Tagaytay",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "tagaytay-8": {
+      "src": "/images/dt-tour/2025-26/tagaytay-8-cc9ceb3dc6.webp",
+      "caption": "Điểm dừng có tháp đồng hồ trong album Tagaytay",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "subic-1": {
+      "src": "/images/dt-tour/2025-26/subic-1-37987d1efa.webp",
+      "caption": "Vịnh Subic nhìn từ mũi du thuyền",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "subic-3": {
+      "src": "/images/dt-tour/2025-26/subic-3-ae097c36bb.webp",
+      "caption": "Lisa đứng trên boong tàu giữa vịnh Subic",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "subic-7": {
+      "src": "/images/dt-tour/2025-26/subic-7-d9bcaca71c.webp",
+      "caption": "Một góc ghế ngồi và mặt vịnh Subic",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "subic-15": {
+      "src": "/images/dt-tour/2025-26/subic-15-f14fef8367.webp",
+      "caption": "Đường chân trời Subic nhìn qua lan can du thuyền",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "subic-24": {
+      "src": "/images/dt-tour/2025-26/subic-24-6c68f8646e.webp",
+      "caption": "Lisa với biển hiệu DT Tour trên chuyến du thuyền Subic",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "subic-27": {
+      "src": "/images/dt-tour/2025-26/subic-27-fbc3f7d323.webp",
+      "caption": "Bờ biển Subic với các hoạt động gần bờ",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "santorini-0": {
+      "src": "/images/dt-tour/2025-26/santorini-0-1fd1a79629.webp",
+      "caption": "Lối đi trắng xanh trong album Santorini",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "santorini-6": {
+      "src": "/images/dt-tour/2025-26/santorini-6-d29cb97a96.webp",
+      "caption": "Góc ban công nhìn ra khu nghỉ phong cách Santorini",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "santorini-12": {
+      "src": "/images/dt-tour/2025-26/santorini-12-16ab57f2b4.webp",
+      "caption": "Không gian trong nhà ở điểm dừng phong cách Santorini",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "santorini-50": {
+      "src": "/images/dt-tour/2025-26/santorini-50-54b562c768.webp",
+      "caption": "Hoàng hôn bên hồ bơi trong album Santorini",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "santorini-63": {
+      "src": "/images/dt-tour/2025-26/santorini-63-adfb1d420b.webp",
+      "caption": "Hồ bơi nhìn về khu nhà trắng xanh, album Santorini",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "little-3": {
+      "src": "/images/dt-tour/2025-26/little-3-ab85fa9606.webp",
+      "caption": "Thuyền hai tầng trong album Little Boracay, Batangas",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "little-9": {
+      "src": "/images/dt-tour/2025-26/little-9-5efbccc06d.webp",
+      "caption": "Biển Little Boracay nhìn từ lan can tàu",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "little-18": {
+      "src": "/images/dt-tour/2025-26/little-18-f6768e68de.webp",
+      "caption": "Lisa ở vùng nước trong tại Little Boracay, Batangas",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "little-22": {
+      "src": "/images/dt-tour/2025-26/little-22-ccbce675e3.webp",
+      "caption": "Toàn cảnh vùng nước nông và bầu trời Little Boracay",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "hot-1": {
+      "src": "/images/dt-tour/2025-26/hot-1-04bd6f8468.webp",
+      "caption": "Cây xanh và suối trong album Suối nước nóng",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "hot-5": {
+      "src": "/images/dt-tour/2025-26/hot-5-38b42d0796.webp",
+      "caption": "Vườn và dòng nước trong bộ ảnh Suối nước nóng của DT Tour",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "hot-12": {
+      "src": "/images/dt-tour/2025-26/hot-12-b9eabbd8a0.webp",
+      "caption": "Bậc nước giữa vườn trong album Suối nước nóng",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "hot-24": {
+      "src": "/images/dt-tour/2025-26/hot-24-2a9f7ca1da.webp",
+      "caption": "Một góc thác nhỏ trong bộ ảnh Suối nước nóng",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "hot-38": {
+      "src": "/images/dt-tour/2025-26/hot-38-638d5aa549.webp",
+      "caption": "Mặt nước dưới tán cây trong album Suối nước nóng",
+      "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+    },
+    "tele-el-nido-lagoons": {
+      "src": "/images/dt-tour/2025-26/tele-el-nido-lagoons-3103404c83.webp",
+      "caption": "Đầm phá, vách đá và kayak trong bộ ảnh El Nido",
+      "credit": "DT Tour · bộ ảnh Telegram ngày 1/8/2025"
+    },
+    "tele-el-nido-aerial": {
+      "src": "/images/dt-tour/2025-26/tele-el-nido-aerial-c391dcfc0f.webp",
+      "caption": "Các góc nhìn từ trên cao và bãi biển trong bộ ảnh El Nido",
+      "credit": "DT Tour · bộ ảnh Telegram ngày 1/8/2025"
+    },
+    "tele-boracay-shore": {
+      "src": "/images/dt-tour/2025-26/tele-boracay-shore-daeb9cc6e3.webp",
+      "caption": "Bờ biển, hoạt động trên vịnh và hoàng hôn Boracay",
+      "credit": "DT Tour · bộ ảnh Telegram ngày 1/8/2025"
+    },
+    "fb-bohol-pamilacan-boats-offshore": {
+      "src": "/images/dt-tour/2025-26/fb-bohol-pamilacan-boats-offshore-20fda3f38f.webp",
+      "caption": "Thuyền neo ngoài bờ biển xanh trong ở Pamilacan, Bohol.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122194755080790161&set=pcb.122194755248790161"
+    },
+    "fb-bohol-pamilacan-shoreline-and-boats": {
+      "src": "/images/dt-tour/2025-26/fb-bohol-pamilacan-shoreline-and-boats-abea6162ec.webp",
+      "caption": "Bờ cát và thuyền tại Pamilacan, Bohol.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122194755122790161&set=pcb.122194755248790161"
+    },
+    "fb-el-nido-turquoise-kayak-lagoon": {
+      "src": "/images/dt-tour/2025-26/fb-el-nido-turquoise-kayak-lagoon-0e9adf487d.webp",
+      "caption": "Thuyền kayak giữa làn nước xanh và vách đá vôi ở El Nido.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191826420790161&set=pcb.122191826768790161"
+    },
+    "fb-el-nido-cliffside-boats": {
+      "src": "/images/dt-tour/2025-26/fb-el-nido-cliffside-boats-0974c217ea.webp",
+      "caption": "Những chiếc thuyền nhỏ neo dưới vách đá vôi El Nido.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191826366790161&set=pcb.122191826768790161"
+    },
+    "fb-el-nido-boat-toward-palms": {
+      "src": "/images/dt-tour/2025-26/fb-el-nido-boat-toward-palms-5da6e2a665.webp",
+      "caption": "Góc nhìn từ mũi thuyền về bãi cát và hàng dừa ở El Nido.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191826462790161&set=pcb.122191826768790161"
+    },
+    "fb-el-nido-limestone-islets-wide": {
+      "src": "/images/dt-tour/2025-26/fb-el-nido-limestone-islets-wide-9780b4fc48.webp",
+      "caption": "Toàn cảnh cụm đảo đá vôi và vịnh nước xanh của El Nido.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191256438790161&set=pcb.122191256660790161"
+    },
+    "fb-el-nido-aerial-boats-in-cove": {
+      "src": "/images/dt-tour/2025-26/fb-el-nido-aerial-boats-in-cove-52700ade69.webp",
+      "caption": "Thuyền nhìn từ trên cao trong vịnh đá vôi El Nido.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191256414790161&set=pcb.122191256660790161"
+    },
+    "fb-el-nido-aerial-enclosed-lagoon": {
+      "src": "/images/dt-tour/2025-26/fb-el-nido-aerial-enclosed-lagoon-5ce161d307.webp",
+      "caption": "Đầm nước màu ngọc được bao quanh bởi sườn đá phủ cây ở El Nido.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191256474790161&set=pcb.122191256660790161"
+    },
+    "fb-el-nido-karst-bay-overlook": {
+      "src": "/images/dt-tour/2025-26/fb-el-nido-karst-bay-overlook-9ef7c1ab77.webp",
+      "caption": "Góc nhìn ngang qua vịnh và các đảo đá vôi ở El Nido.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191256396790161&set=pcb.122191256660790161"
+    },
+    "fb-boracay-palm-lined-white-sand": {
+      "src": "/images/dt-tour/2025-26/fb-boracay-palm-lined-white-sand-5c53956ef1.webp",
+      "caption": "Bãi cát trắng và hàng dừa nghiêng bên bờ biển Boracay.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191084616790161&set=pcb.122191084976790161"
+    },
+    "fb-boracay-beach-from-veranda": {
+      "src": "/images/dt-tour/2025-26/fb-boracay-beach-from-veranda-3a01b0f38e.webp",
+      "caption": "Góc nhìn ra bãi biển Boracay từ hiên mái lá.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191084772790161&set=pcb.122191084976790161"
+    },
+    "fb-boracay-sailboats-at-sunset": {
+      "src": "/images/dt-tour/2025-26/fb-boracay-sailboats-at-sunset-992708a120.webp",
+      "caption": "Thuyền buồm trên biển Boracay lúc hoàng hôn.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191084610790161&set=pcb.122191084976790161"
+    },
+    "fb-boracay-sea-framed-by-palms": {
+      "src": "/images/dt-tour/2025-26/fb-boracay-sea-framed-by-palms-f90d1bb02a.webp",
+      "caption": "Biển xanh Boracay qua tán lá dừa.",
+      "credit": "Page Du lịch Philippines – DT Tour",
+      "source": "https://www.facebook.com/photo?fbid=122191736426790161&set=pcb.122191736840790161"
+    },
+    "cc-fortune-island-shore": {
+      "src": "/images/dt-tour/2025-26/cc-fortune-island-shore-8d0f19f236.webp",
+      "caption": "Fortune Island nhìn từ ven biển",
+      "credit": "P199",
+      "source": "https://commons.wikimedia.org/wiki/File:Fortune_Island.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-bohol-chocolate-hills": {
+      "src": "/images/dt-tour/2025-26/cc-bohol-chocolate-hills-c30996fff7.webp",
+      "caption": "Toàn cảnh Chocolate Hills, Bohol",
+      "credit": "rogel tura",
+      "source": "https://commons.wikimedia.org/wiki/File:Bohol%27s_Chocolate_Hills.jpg",
+      "license": "CC0 1.0",
+      "licenseHref": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "cc-bohol-loboc-tarsier": {
+      "src": "/images/dt-tour/2025-26/cc-bohol-loboc-tarsier-1d0aea414b.webp",
+      "caption": "Khỉ lùn tarsier ở Bohol",
+      "credit": "FroyR",
+      "source": "https://commons.wikimedia.org/wiki/File:Tarsier_in_Bohol,_Philippines.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-fortune-island-first-light": {
+      "src": "/images/dt-tour/2025-26/cc-fortune-island-first-light-ee3de82513.webp",
+      "caption": "Bãi biển Fortune Island lúc hừng sáng",
+      "credit": "Zumar001",
+      "source": "https://commons.wikimedia.org/wiki/File:Every_Morning_is_a_new_Beginning.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-mayon-sumlang-lake": {
+      "src": "/images/dt-tour/2025-26/cc-mayon-sumlang-lake-ff8e4407d7.webp",
+      "caption": "Núi Mayon nhìn từ hồ Sumlang, Albay",
+      "credit": "MarvinBikolano",
+      "source": "https://commons.wikimedia.org/wiki/File:Volcano_Mayon_at_Sumlang_Lake.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-mayon-daraga-church": {
+      "src": "/images/dt-tour/2025-26/cc-mayon-daraga-church-f4dfd701a6.webp",
+      "caption": "Nhà thờ Daraga với núi Mayon ở phía xa",
+      "credit": "Angelonce",
+      "source": "https://commons.wikimedia.org/wiki/File:Daraga-church_on_a_hill.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "cc-el-nido-small-lagoon": {
+      "src": "/images/dt-tour/2025-26/cc-el-nido-small-lagoon-de867341e0.webp",
+      "caption": "Vách đá và làn nước ở Small Lagoon, El Nido",
+      "credit": "Fabio Achilli",
+      "source": "https://commons.wikimedia.org/wiki/File:Small_Lagoon,_El_Nido,_Philippines_(36910469846).jpg",
+      "license": "CC BY 2.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "cc-fortune-island-path-to-greece": {
+      "src": "/images/dt-tour/2025-26/cc-fortune-island-path-to-greece-412a543880.webp",
+      "caption": "Bờ biển và hàng cột nhìn từ lối đi trên Fortune Island",
+      "credit": "Oliver Mercader",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Path_to_Greece_(Fortune_Island).jpg",
+      "license": "CC BY 2.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "cc-coron-barracuda-lake": {
+      "src": "/images/dt-tour/2025-26/cc-coron-barracuda-lake-176e1f7161.webp",
+      "caption": "Hồ Barracuda giữa vách đá, Coron",
+      "credit": "Patrickroque01",
+      "source": "https://commons.wikimedia.org/wiki/File:Barracuda_Lake_(Coron,_Palawan;_03-17-2024).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-coron-malcapuya-island": {
+      "src": "/images/dt-tour/2025-26/cc-coron-malcapuya-island-a2b1e8f992.webp",
+      "caption": "Bãi biển trên đảo Malcapuya, Coron",
+      "credit": ". Ray in Manila",
+      "source": "https://commons.wikimedia.org/wiki/File:Malcapuya_Island,_Palawan,_Philippines.jpg",
+      "license": "CC BY 2.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "cc-el-nido-nacpan-beach": {
+      "src": "/images/dt-tour/2025-26/cc-el-nido-nacpan-beach-e1e4c0e6dd.webp",
+      "caption": "Bãi biển Nacpan, El Nido",
+      "credit": "Micluna",
+      "source": "https://commons.wikimedia.org/wiki/File:Nacpan_Beach_in_El_Nido.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-intramuros-fort-santiago-gate": {
+      "src": "/images/dt-tour/2025-26/cc-intramuros-fort-santiago-gate-ecdfcdc3cd.webp",
+      "caption": "Cổng Fort Santiago ở Intramuros, Manila",
+      "credit": "Markadan",
+      "source": "https://commons.wikimedia.org/wiki/File:Fort_Santiago,_Intramuros,_Manila.jpg",
+      "license": "CC BY 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "cc-intramuros-plaza-moriones": {
+      "src": "/images/dt-tour/2025-26/cc-intramuros-plaza-moriones-1b99c42a27.webp",
+      "caption": "Plaza Moriones bên trong Fort Santiago, Manila",
+      "credit": "Wide Awake!",
+      "source": "https://commons.wikimedia.org/wiki/File:Plaza_Moriones_in_Intramuros_(02)_(2026-01-15).jpg",
+      "license": "CC BY 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "cc-intramuros-fort-santiago-dungeon": {
+      "src": "/images/dt-tour/2025-26/cc-intramuros-fort-santiago-dungeon-98c30b908b.webp",
+      "caption": "Đường xuống hầm đá Fort Santiago, Manila",
+      "credit": "Richmond Chi",
+      "source": "https://commons.wikimedia.org/wiki/File:Fort_Santiago_Dungeon.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-hidden-valley-waterfall-july-2025": {
+      "src": "/images/dt-tour/2025-26/cc-hidden-valley-waterfall-july-2025-0ded37851c.webp",
+      "caption": "Thác trong Hidden Valley Springs, Laguna · ảnh tháng 7/2025, đã cắt khung",
+      "credit": "U.S. Navy photo by Seaman Apprentice Nicolas Quezada",
+      "source": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Participate_in_MWR_Tour_(9169874).jpg",
+      "license": "Public Domain Mark 1.0",
+      "licenseHref": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rightsNote": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement."
+    },
+    "cc-hidden-valley-pavilion": {
+      "src": "/images/dt-tour/2025-26/cc-hidden-valley-pavilion-9cb30ea86b.webp",
+      "caption": "Nhà nghỉ chân giữa khu vườn Hidden Valley Springs",
+      "credit": "Judgefloro",
+      "source": "https://commons.wikimedia.org/wiki/File:9421Limao,_Calauan,_Laguna_71.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-hidden-valley-entrance": {
+      "src": "/images/dt-tour/2025-26/cc-hidden-valley-entrance-884260265f.webp",
+      "caption": "Cổng vào Hidden Valley Springs, Laguna",
+      "credit": "Judgefloro",
+      "source": "https://commons.wikimedia.org/wiki/File:9421Limao,_Calauan,_Laguna_59.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "cc-hidden-valley-garden-path": {
+      "src": "/images/dt-tour/2025-26/cc-hidden-valley-garden-path-399a41d9c9.webp",
+      "caption": "Lối đi bên vườn ở lối vào Hidden Valley Springs",
+      "credit": "Judgefloro",
+      "source": "https://commons.wikimedia.org/wiki/File:9421Limao,_Calauan,_Laguna_60.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseHref": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  }
+}
