@@ -1,3 +1,4 @@
+import TravelJournal from "./TravelJournal";
 import { travel as photos } from "@/app/data/stories";
 import { galleryPreview } from "@/app/data/gallery";
 import {guides, guidePath} from "@/app/data/guides";
@@ -17,6 +18,7 @@ export const metadata = pageMetadata({
 export default function TravelPage(){return <SubPage>
   <PageHero label="DT TOUR · PHILIPPINES" title="Explore more of the Philippines." text="Private, flexible journeys designed with local knowledge—from heritage towns and mountain escapes to islands, waterfalls and yacht experiences." image="/images/BEBB1179-9D48-4222-B07C-FAAD69DE40F0.jpeg"/>
   <section className="detailIntro"><p className="eyebrow">TRAVEL WITH DT TOUR</p><div><h2>Real places. Thoughtful itineraries. Local support.</h2><p>DT Tour plans complete Philippines experiences for Vietnamese, Chinese and international guests. Our team coordinates itineraries, private transport, local assistance and activity reservations around the way each guest wants to travel.</p><a className="primary darkPrimary" target="_blank" rel="noreferrer" href="https://m.me/dulichphilippinesdttour">Plan a trip on Messenger</a></div></section>
+  <TravelJournal/>
   <section className="detailGrid"><article><span>01</span><h3>Heritage &amp; culture</h3><p>Historic architecture, local food and flexible private-day itineraries.</p></article><article><span>02</span><h3>Nature &amp; highlands</h3><p>Waterfalls, forest pools, hot springs and cool-weather retreats.</p></article><article><span>03</span><h3>Islands &amp; the sea</h3><p>Yachts, beaches, water activities and coastal escapes planned end to end.</p></article></section>
   <section className="detailIntro"><p className="eyebrow">MANILA PRIVATE TRANSPORT</p><div>
     <h2>How do I arrange a car with a driver in Manila?</h2>

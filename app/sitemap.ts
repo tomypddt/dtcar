@@ -5,6 +5,7 @@ import { guides, guidePath } from "./data/guides";
 import { adHubPath, adLandings, adPath } from "./data/ad-landings";
 import { compareLimoMpvPath, vinfastAdModels, vinfastModelPath } from "./data/vinfast-ad-models";
 import { tours, tourPath } from "./data/tour-catalogue";
+import { journal, journalPath } from "./data/travel-journal";
 import { articles } from "./data/stories";
 
 export const dynamic = "force-static";
@@ -15,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...guides.map((guide) => guidePath(guide.slug)),
     adHubPath, ...adLandings.map((page) => adPath(page.slug)),
     compareLimoMpvPath, ...vinfastAdModels.map((model) => vinfastModelPath(model.slug)),
-    ...tours.map(t=>tourPath(t.slug)),
+    ...tours.map(t=>tourPath(t.slug)), ...journal.map(p=>journalPath(p.slug)),
     ...services.map((service) => servicePath(service.slug)),
     ...articles.map((article) => "/news/" + article.slug + "/"),
   ];
