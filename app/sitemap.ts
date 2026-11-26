@@ -3,7 +3,8 @@ import { services, servicePath } from "./data/services";
 import { origin } from "./data/site";
 import { guides, guidePath } from "./data/guides";
 import { adHubPath, adLandings, adPath } from "./data/ad-landings";
-import { vinfastAdModels, vinfastModelPath } from "./data/vinfast-ad-models";
+import { compareLimoMpvPath, vinfastAdModels, vinfastModelPath } from "./data/vinfast-ad-models";
+import { tours, tourPath } from "./data/tour-catalogue";
 import { articles } from "./data/stories";
 
 export const dynamic = "force-static";
@@ -13,7 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/", "/about/", "/business/", "/projects/", "/news/", "/travel/", "/contact/", "/sell-your-car/", "/vi/", "/vi/hoc-lai-xe-philippines/", "/vi/tu-van-bang-lai-philippines/", "/zh/", "/guides/", "/editorial-policy/", "/privacy/", "/tools/ev-cost-calculator/",
     ...guides.map((guide) => guidePath(guide.slug)),
     adHubPath, ...adLandings.map((page) => adPath(page.slug)),
-    ...vinfastAdModels.map((model) => vinfastModelPath(model.slug)),
+    compareLimoMpvPath, ...vinfastAdModels.map((model) => vinfastModelPath(model.slug)),
+    ...tours.map(t=>tourPath(t.slug)),
     ...services.map((service) => servicePath(service.slug)),
     ...articles.map((article) => "/news/" + article.slug + "/"),
   ];

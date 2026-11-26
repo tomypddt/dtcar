@@ -1,3 +1,4 @@
+import { usedPostImage } from "./used-car-post";
 export type AdLanding = {
   slug: string;
   campaign: string;
@@ -16,9 +17,9 @@ export type AdLanding = {
   questions: [string, string][];
 };
 
-export const adHubPath = "/business/ads/";
+export const adHubPath = "/products-services/";
 export const adPath = (slug: string) => adHubPath + slug + "/";
-export const adImage = (slug: string) => "/images/ads/" + slug + ".webp";
+export const adImage = (slug: string) => slug === "sell-your-car" ? "/images/ads/we-buy-cars/sell-great-price.webp" : slug === "used-cars" ? usedPostImage("car-02") : slug === "hoc-lai-xe" ? "/images/ads/driving-students/oct-8-2.webp" : "/images/ads/" + slug + ".webp";
 export const adMessenger = (page: AdLanding) => "https://m.me/" + page.messenger + "?ref=" + page.campaign + "_web";
 
 export const adLandings: AdLanding[] = [
@@ -47,8 +48,8 @@ export const adLandings: AdLanding[] = [
     label: "Sell your car to DT Car", area: "Metro Manila · Vehicle appraisal",
     title: "Sell your used car to DT Car in Metro Manila",
     summary: "Send your car details and photos to DT Car We Buy Cars for an appraisal. Selling before a move or still paying off a loan? Ask about a viewing and settlement coordination.",
-    imageAlt: "Used vehicle parked for a closer look",
-    imageNote: "DT Car vehicle photo, shown as an example.",
+    imageAlt: "Lisa in an original DT Car We Buy Cars campaign creative",
+    imageNote: "Ảnh Lisa từ bài đăng của DT Car We Buy Cars.",
     messenger: "61596445001029", action: "Send my car for appraisal",
     details: { label: "Use the vehicle details checklist", href: "/sell-your-car/" },
     options: [
@@ -67,8 +68,8 @@ export const adLandings: AdLanding[] = [
     label: "Buy a used car", area: "Metro Manila · Pre-owned vehicles",
     title: "Buy a used car in Metro Manila: get a shortlist for your budget",
     summary: "Shop for a sedan, family MPV or SUV. Ask DT Car Quality Car Manila for available units, recent photos, a written quote and a viewing appointment.",
-    imageAlt: "Front view of a pre-owned Toyota in the DT Car photo library",
-    imageNote: "DT Car vehicle photo, not a current listing or stock promise.",
+    imageAlt: "Toyota Fortuner from the DT Car Quality Car Manila vehicle roundup",
+    imageNote: "From the Quality Car Manila Facebook roundup. Check current availability.",
     messenger: "61550266324189", action: "Ask for current used-car options",
     details: { label: "Read the buyer’s guide", href: "/business/used-cars-manila/" },
     options: [
@@ -87,8 +88,8 @@ export const adLandings: AdLanding[] = [
     label: "Học lái xe bằng tiếng Việt", area: "Philippines · Tư vấn lịch học",
     title: "Học lái xe tại Philippines, tư vấn bằng tiếng Việt",
     summary: "Hỏi buổi học lái 1 kèm 1, tập từ số 0 hoặc bổ túc. Nhắn DT Car để xác nhận giáo viên, địa điểm, giờ thực hành và học phí trọn gói.",
-    imageAlt: "Hình minh họa buổi học thực hành lái ô tô",
-    imageNote: "Hình minh họa, không phải ảnh xác nhận một lớp đang mở.",
+    imageAlt: "Học viên cầm vô-lăng trong buổi thực hành lái xe của DT Car",
+    imageNote: "Ảnh thực hành từ Page DT Car Xe chất Philippines, đăng ngày 8/10/2026.",
     messenger: "dtcarphil", action: "Hỏi lịch học lái",
     details: { label: "Xem thêm về hình thức học", href: "/vi/hoc-lai-xe-philippines/" },
     options: [
@@ -125,8 +126,8 @@ export const adLandings: AdLanding[] = [
   {
     slug: "tour-philippines", campaign: "dtcar_tours", lang: "vi",
     label: "Tour Philippines theo nhóm riêng", area: "DT Tour · Tư vấn bằng tiếng Việt",
-    title: "Lên lịch du lịch Philippines theo nhóm của bạn",
-    summary: "Đi từ Việt Nam hoặc gặp đoàn tại Philippines. Gửi ngày đi, số người và kiểu trải nghiệm bạn thích để DT Tour đề xuất tuyến, xe riêng và báo giá theo nhóm.",
+    title: "Các tour Philippines dành cho khách Việt | DT Tour",
+    summary: "Xem lịch trình và lựa chọn tour riêng Cebu, Manila – Boracay, El Nido, Coron, Luzon và Bohol. Báo giá theo ngày đi, nơi đón và số người.",
     imageAlt: "Khung cảnh du lịch tại Philippines bên vịnh biển",
     imageNote: "Ảnh từ thư viện DT Tour. Tuyến và hoạt động phụ thuộc lịch xác nhận.",
     messenger: "dulichphilippinesdttour", action: "Nhận lịch trình và báo giá tour",

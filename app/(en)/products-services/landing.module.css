@@ -36,3 +36,8 @@
 @media(max-width:850px){.hero{gap:22px}.directoryGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:670px){.hero,.options,.panel{grid-template-columns:minmax(0,1fr)}.hero .button,.panel .button{width:100%}.hero h1{text-wrap:initial}}
 @media(max-width:440px){.directoryGrid{grid-template-columns:minmax(0,1fr)}}
+
+.portrait img{aspect-ratio:auto;object-fit:contain;max-height:480px;background:#ece7e2}
+.quickLinks{display:flex;gap:8px;flex-wrap:wrap;margin:.15rem 0 1.25rem}
+.quickLinks a{border:1px solid #dce0e7;border-radius:7px;padding:.56rem .76rem;font-size:.88rem;font-weight:740;color:#a31125}
+.catalogue{scroll-margin-top:92px;margin-bottom:clamp(24px,5vw,55px)}.catalogue>h2{font-size:clamp(1.45rem,3vw,2.3rem);margin:.5rem 0 .75rem;font-weight:760;line-height:1.2}.catalogue>p{margin:0 0 .9rem;font-size:.93rem;font-weight:720}.catalogue>p a{text-decoration:underline;text-underline-offset:.2em}.card h3{font-size:clamp(1.05rem,2vw,1.35rem);margin:.55rem 0;font-weight:760;line-height:1.22}.card div>p:not(:first-child){font-size:.85rem;color:#414a58;margin:.35rem 0 .6rem}

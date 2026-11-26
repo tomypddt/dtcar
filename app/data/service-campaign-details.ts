@@ -69,8 +69,8 @@ export const serviceCampaignDetails: Record<string,Detail|undefined> = {
     ],
     sample:"Chào DT Car, mình ở __, hiện [chưa từng lái / muốn học bổ túc]. Mình muốn tập __, rảnh __, ưu tiên xe __. Cho mình xin địa điểm, số giờ thực lái, xe học, lịch phù hợp và học phí trọn gói.",
     source:[{label:"DT Car Xe chất Philippines trên Facebook",href:"https://www.facebook.com/dtcarphil"},{label:"Học liệu chính thức của LTO",href:"https://portal.lto.gov.ph/ords/f?p=ELEARNING%3AHOME"}],
-    cross:{label:"Cần hỏi về hồ sơ bằng lái? Xem trang tư vấn riêng",href:"/business/ads/tu-van-bang-lai/"},
-    note:"Ảnh minh họa. Kèm lái thực hành không thay thế khóa học hoặc chứng nhận do LTO yêu cầu. Xác nhận với đơn vị đào tạo trước khi đóng phí nếu học để làm hồ sơ.",
+    cross:{label:"Cần hỏi về hồ sơ bằng lái? Xem trang tư vấn riêng",href:"/products-services/tu-van-bang-lai/"},
+    note:"Ảnh thực hành từ bài Page ngày 8/10/2026. Kèm lái thực hành không thay thế khóa học hoặc chứng nhận do LTO yêu cầu. Xác nhận với đơn vị đào tạo trước khi đóng phí nếu học để làm hồ sơ.",
   },
   "tu-van-bang-lai":{
     focus:"Bạn có bằng Việt Nam, chưa có bằng, hay cần xử lý bằng Philippines đã hết hạn hoặc thất lạc? DT Car tư vấn bằng tiếng Việt để bạn biết hỏi đúng nơi, chuẩn bị gì và dự trù chi phí ra sao.",
@@ -88,7 +88,7 @@ export const serviceCampaignDetails: Record<string,Detail|undefined> = {
     ],
     sample:"Chào DT Car, mình đang ở __ và muốn [làm bằng lần đầu / đổi bằng __ / gia hạn / cấp lại]. Tình trạng bằng hiện tại là __. Cho mình xin checklist, các bước phải có mặt và báo phí tách từng khoản.",
     source:[{label:"Cổng LTMS chính thức",href:"https://portal.lto.gov.ph/"},{label:"Checklist LTO: đổi bằng nước ngoài",href:"https://www.lto.gov.ph/wp-content/uploads/2023/09/9-CC2024-DL-CONVERSION.pdf"}],
-    cross:{label:"Chưa tự tin cầm lái? Hỏi về buổi học thực hành",href:"/business/ads/hoc-lai-xe/"},
+    cross:{label:"Chưa tự tin cầm lái? Hỏi về buổi học thực hành",href:"/products-services/hoc-lai-xe/"},
     note:"DT Car hỗ trợ tư vấn, không cấp bằng, không hứa đậu hoặc miễn thi và không cam kết thời gian xử lý. LTO quyết định điều kiện, hồ sơ và kết quả. Ảnh minh họa.",
   },
 };
