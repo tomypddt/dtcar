@@ -5,7 +5,8 @@ import media from "./guide-media.json";
 import practicalGuides from "./practical-guides.json";
 import fieldGuides from "./field-guides.json";
 
-export type Guide = { enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
+type InlinePhoto = { src: string; alt: string; source: string; width?: number; height?: number };
+export type Guide = { photoWidth?: number; photoHeight?: number; photoKind?: string; inlinePhoto?: InlinePhoto; enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 const content: Guide[] = [
   ...buyerQuestions,
   ...customerGuides,
@@ -1132,9 +1133,9 @@ const content: Guide[] = [
     "date": "2026-11-25"
   }
 ];
-const covers: Record<string, { src: string; alt?: string; source?: string }> = media;
+const covers: Record<string, { src: string; alt?: string; source?: string; kind?: string; width?: number; height?: number; inlinePhoto?: InlinePhoto }> = media;
 export const guides: Guide[] = content.map(guide => {
   const cover = covers[guide.slug];
-  return cover ? { ...guide, photo: cover.src, photoAlt: cover.alt, photoSource: cover.source } : guide;
+  return cover ? { ...guide, photo: cover.src, photoAlt: cover.alt, photoSource: cover.source, photoKind: cover.kind, photoWidth: cover.width, photoHeight: cover.height, inlinePhoto: cover.inlinePhoto } : guide;
 });
 export const guidePath = (slug: string) => `/guides/${slug}/`;

@@ -42,7 +42,7 @@ export default async function ArticlePage({ params }: Props) {
     <article className="magazine">
       <Link prefetch={false} className="storyBack" href="/news/">← All journal editions</Link>
       <header className="magHead"><p className="eyebrow">{a.category}</p><h1>{a.title}</h1><p>{a.dek}</p><small><time dateTime={published}>{a.date}</time> · DT Car Philippines</small></header>
-      <figure className="magHero"><img src={a.hero} alt={a.title}/></figure>
+      <figure className="magHero"><img src={a.hero} alt={a.heroAlt ?? a.title}/>{a.heroCaption && <figcaption>{a.heroCaption}</figcaption>}</figure>
       {a.facts && <aside className="factStrip">{a.facts.map((fact, i) => <div key={fact}><strong>{String(i + 1).padStart(2, "0")}</strong><span>{fact}</span></div>)}</aside>}
       <div className="magBody">{a.sections.map((section, i) => <section key={section.heading}><span className="sectionNo">{String(i + 1).padStart(2, "0")}</span><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}</div>
       {a.source && <p className="storyServiceLink"><a href={a.source.url}>{a.source.label}</a></p>}

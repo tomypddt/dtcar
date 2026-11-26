@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-type Card = {slug:string; title:string; description:string; category:string; service:string; lang:string; image:string; read:string};
+type Card = {slug:string; title:string; description:string; category:string; service:string; lang:string; image:string; photoWidth?:number; read:string};
 const languages: Record<string,string> = {"en-PH":"English","fil-PH":"Filipino",vi:"Tiếng Việt","zh-Hans":"中文",ko:"한국어"};
 const services: Record<string, string> = {
   "used-cars-manila": "Buy a used car",
@@ -43,7 +43,7 @@ export function GuideDirectory({cards}:{cards:Card[]}) {
     <nav className="topicLinks" aria-label="Guide topics">{topics.map(topic=><a key={topic} href={"#"+topicId(topic)}>{topic}</a>)}</nav>
     {topics.map(topic=><section key={topic} id={topicId(topic)} className="directoryTopic"><h2>{topic}</h2>
       <div className="knowledgeGrid">{filtered.filter(card=>card.category===topic).map(card=><article key={card.slug} lang={card.lang}>
-        <a href={"/guides/"+card.slug+"/"} tabIndex={-1} aria-hidden="true"><img src={card.image} srcSet={card.image.startsWith("/images/editorial/") ? [480, 800].map(width => "/images/gallery/guide-cards/" + card.slug + "-" + width + ".webp " + width + "w").join(", ") : undefined} sizes="(max-width: 600px) 94vw, (max-width: 900px) 46vw, 31vw" alt="" width="1200" height="630" loading="lazy"/></a>
+        <a href={"/guides/"+card.slug+"/"} tabIndex={-1} aria-hidden="true"><img src={card.image} srcSet={card.image.startsWith("/images/editorial/") ? [480, 800].filter(width => width < (card.photoWidth ?? 1200)).map(width => "/images/gallery/guide-cards/" + card.slug + "-" + width + ".webp " + width + "w").concat(card.image + " " + (card.photoWidth ?? 1200) + "w").join(", ") : undefined} sizes="(max-width: 600px) 94vw, (max-width: 900px) 46vw, 31vw" alt="" width="1200" height="630" loading="lazy"/></a>
         <div><h3><a href={"/guides/"+card.slug+"/"}>{card.title}</a></h3><p>{card.description}</p><a className="readLink" href={"/guides/"+card.slug+"/"}>{card.read} →</a></div>
       </article>)}</div></section>)}
   </>;

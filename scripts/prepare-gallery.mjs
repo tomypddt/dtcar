@@ -33,7 +33,7 @@ const cardDirectory = join(destination, "guide-cards");
 await mkdir(cardDirectory, { recursive: true });
 for (const [slug, cover] of Object.entries(guideMedia)) {
   const source = join("public", cover.src.slice(1));
-  for (const width of [480, 800]) {
+  for (const width of [480, 800].filter(width => width < (cover.width ?? 1200))) {
     await sharp(source)
       .resize({ width })
       .webp({ quality: 78 })

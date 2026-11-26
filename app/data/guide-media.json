@@ -1,1262 +1,2256 @@
 {
   "airport-meet-and-greet-manila": {
-    "src": "/images/editorial/airport-meet-and-greet-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/airport-meet-and-greet-manila-cover.webp",
+    "alt": "A Filipino airport driver holds a plain blank meeting board at chest height in a bright arrivals hall, a traveler with a wheeled bag approaching from behind, soft tropical light.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "manila-transfer-delayed-flight": {
-    "src": "/images/editorial/manila-transfer-delayed-flight-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/manila-transfer-delayed-flight-cover.webp",
+    "alt": "Through a rain-streaked airport window at night, a plane waits on the apron while a passenger rests one hand on a roller suitcase in the foreground.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "manila-van-luggage-capacity": {
-    "src": "/images/editorial/manila-van-luggage-capacity-brief.webp",
-    "kind": "illustration",
-    "alt": "Editorial illustration of a passenger van with rear seats in place and different sizes of luggage."
+    "src": "/images/editorial/manila-van-luggage-capacity-cover.webp",
+    "alt": "Editorial illustration of a passenger van with rear seats in place and different sizes of luggage.",
+    "width": 1200,
+    "height": 675,
+    "kind": "illustration"
   },
   "manila-private-driver-overtime": {
-    "src": "/images/editorial/manila-private-driver-overtime-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/manila-private-driver-overtime-cover.webp",
+    "alt": "A chauffeur waiting beside a parked silver people carrier at dusk, wristwatch in foreground, warm Manila street lights, office workers in soft focus.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "manila-business-meetings-driver": {
-    "src": "/images/editorial/manila-business-meetings-driver-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/manila-business-meetings-driver-cover.webp",
+    "alt": "A business traveler closes a laptop and lifts a leather portfolio from a rear car seat outside a glass office building in Makati, eye-level candid.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "private-manila-tour-with-seniors": {
-    "src": "/images/editorial/private-manila-tour-with-seniors-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/private-manila-tour-with-seniors-cover.webp",
+    "alt": "An elderly Vietnamese traveler using a cane steps carefully onto a low shaded pavement with a companion, a passenger van and old Manila masonry in background.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "manila-multiple-hotel-pickup": {
-    "src": "/images/editorial/manila-multiple-hotel-pickup-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/manila-multiple-hotel-pickup-cover.webp",
+    "alt": "Three separate clusters of luggage wait at a hotel covered driveway, a shuttle driver helping the travelers consolidate the bags in morning light.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "thue-xe-co-tai-xe-manila": {
-    "src": "/images/editorial/thue-xe-co-tai-xe-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/thue-xe-co-tai-xe-manila-cover.webp",
+    "alt": "Khách Việt lên xe riêng tại điểm đón trước khách sạn ở Manila.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-car-service-records-manila": {
-    "src": "/images/editorial/used-car-service-records-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-service-records-manila-cover.webp",
+    "alt": "Front view of a vehicle during a workshop visit",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122374362878008877",
+    "kind": "photo"
   },
   "compare-used-car-offers-manila": {
-    "src": "/images/editorial/compare-used-car-offers-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/compare-used-car-offers-manila-cover.webp",
+    "alt": "White sedan photographed from the front corner for comparison",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122384861624008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/compare-used-car-offers-manila-detail.webp",
+      "alt": "Second exterior angle showing the rear of the same white sedan",
+      "width": 900,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122377267844008877"
+    }
   },
   "used-ford-everest-appraisal-manila": {
-    "src": "/images/editorial/used-ford-everest-appraisal-manila.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-ford-everest-appraisal-manila-cover.webp",
+    "alt": "An automotive appraiser at knee level examining the running board and tyre of a tall used SUV.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-car-viewing-from-another-city": {
-    "src": "/images/editorial/used-car-viewing-from-another-city-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-viewing-from-another-city-cover.webp",
+    "alt": "Rear three-quarter reference photo for a remote vehicle viewing",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377267886008877",
+    "kind": "photo"
   },
   "used-car-accessories-resale": {
-    "src": "/images/editorial/used-car-accessories-resale-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-accessories-resale-cover.webp",
+    "alt": "Roof rack and ladder fitted to a vehicle",
+    "width": 675,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122361743342008877",
+    "kind": "photo"
   },
   "used-car-spare-key-handover": {
-    "src": "/images/editorial/used-car-spare-key-handover-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-spare-key-handover-cover.webp",
+    "alt": "A seller and appraiser compare a car key with its spare.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-car-photo-damage-disclosure": {
-    "src": "/images/editorial/used-car-photo-damage-disclosure-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-photo-damage-disclosure-cover.webp",
+    "alt": "A seller photographs a mark on the side of a parked vehicle.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "ban-xe-cu-truoc-khi-ve-viet-nam": {
-    "src": "/images/editorial/ban-xe-cu-truoc-khi-ve-viet-nam-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ban-xe-cu-truoc-khi-ve-viet-nam-cover.webp",
+    "alt": "Người bán chuẩn bị giấy tờ trước buổi trao đổi",
+    "width": 1200,
+    "height": 802,
+    "source": "https://www.facebook.com/photo.php?fbid=122372783354008877",
+    "kind": "photo"
   },
   "vinfast-vf9-price-philippines": {
-    "src": "/images/editorial/vinfast-vf9-price-philippines.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf9-price-philippines-cover.webp",
+    "alt": "Two supple rear passenger seats with a broad centre armrest inside a premium electric SUV, moody daylight and a minimalist pale cabin, no brand or claims.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-vf6-eco-plus-price": {
-    "src": "/images/editorial/vinfast-vf6-eco-plus-price.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf6-eco-plus-price-cover.webp",
+    "alt": "Two small automotive interior samples with contrasting upholstery textures placed on a clean consultation table, black steering wheel rim blurred in the background.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-vf7-eco-plus-price": {
-    "src": "/images/editorial/vinfast-vf7-eco-plus-price.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf7-eco-plus-price-cover.webp",
+    "alt": "A driver trying the electric seat adjustment switches on the outer side of a premium SUV seat, low macro perspective, no branding.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-reservation-delivery-questions": {
     "src": "/images/editorial/vinfast-reservation-delivery-questions.webp",
     "kind": "photo",
-    "alt": "Two people reviewing paperwork at a table"
+    "alt": "Two people reviewing paperwork at a table",
+    "width": 1200,
+    "height": 800
   },
   "vinfast-demo-parking-space": {
-    "src": "/images/editorial/vinfast-demo-parking-space-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-demo-parking-space-cover.webp",
+    "alt": "Compact white VF 3 parked indoors",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122371510808008877",
+    "kind": "photo"
   },
   "vinfast-ev-handover-checklist": {
     "src": "/images/editorial/vinfast-ev-handover-checklist.webp",
     "kind": "photo",
-    "alt": "People gathered beside a vehicle at a handover"
+    "alt": "People gathered beside a vehicle at a handover",
+    "width": 1200,
+    "height": 900
   },
   "ev-range-commute-buffer": {
-    "src": "/images/editorial/ev-range-commute-buffer-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-range-commute-buffer-cover.webp",
+    "alt": "Driver's display inside an electric vehicle",
+    "width": 800,
+    "height": 600,
+    "source": "https://www.facebook.com/photo.php?fbid=122371936982008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/ev-range-commute-buffer-detail.webp",
+      "alt": "Steering wheel and dashboard of a showroom vehicle",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122371956068008877"
+    }
   },
   "vgreen-charging-payment-philippines": {
-    "src": "/images/editorial/vgreen-charging-payment-philippines-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vgreen-charging-payment-philippines-cover.webp",
+    "alt": "Public charging posts beside a parking lane",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122361118322008877",
+    "kind": "photo"
   },
   "ev-charging-time-estimate": {
-    "src": "/images/editorial/ev-charging-time-estimate-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-charging-time-estimate-cover.webp",
+    "alt": "A cable connects an electric car to a public charger in a shaded parking bay.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "ev-charging-site-parking-layout": {
-    "src": "/images/editorial/ev-charging-site-parking-layout-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-charging-site-parking-layout-cover.webp",
+    "alt": "Approach to an outdoor EV charging site",
+    "width": 1200,
+    "height": 581,
+    "source": "https://www.facebook.com/photo.php?fbid=122384488394008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/ev-charging-site-parking-layout-detail.webp",
+      "alt": "Night-time view of a vehicle site and the approach road",
+      "width": 960,
+      "height": 588,
+      "source": "https://www.facebook.com/photo.php?fbid=122374729118008877"
+    }
   },
   "ev-charger-host-opening-hours": {
-    "src": "/images/editorial/ev-charger-host-opening-hours-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-charger-host-opening-hours-cover.webp",
+    "alt": "Roadside entrance to a charging location",
+    "width": 872,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122384488568008877",
+    "kind": "photo"
   },
   "fleet-home-public-charging-mix": {
-    "src": "/images/editorial/fleet-home-public-charging-mix-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/fleet-home-public-charging-mix-cover.webp",
+    "alt": "Electric fleet parked under lights in the evening",
+    "width": 960,
+    "height": 588,
+    "source": "https://www.facebook.com/photo.php?fbid=122374728974008877",
+    "kind": "photo"
   },
   "fleet-dashcam-sim-inventory": {
-    "src": "/images/editorial/fleet-dashcam-sim-inventory-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/fleet-dashcam-sim-inventory-cover.webp",
+    "alt": "A fleet technician and driver review dashcam and SIM equipment.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "fleet-dashcam-night-acceptance": {
-    "src": "/images/editorial/fleet-dashcam-night-acceptance-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/fleet-dashcam-night-acceptance-cover.webp",
+    "alt": "A vehicle-mounted camera and technician during a night-time check.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "taxi-meter-installation-batch-planning": {
-    "src": "/images/editorial/taxi-meter-installation-batch-planning-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/taxi-meter-installation-batch-planning-cover.webp",
+    "alt": "A technician checks taxi equipment in a service bay.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "fleet-installation-rework-log": {
-    "src": "/images/editorial/fleet-installation-rework-log-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/fleet-installation-rework-log-cover.webp",
+    "alt": "Workshop team alongside vehicles in service bays",
+    "width": 1200,
+    "height": 825,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360044008877",
+    "kind": "photo"
   },
   "electric-fleet-spare-vehicle-planning": {
     "src": "/images/editorial/electric-fleet-spare-vehicle-planning.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=122106484071380235",
-    "alt": "Electric taxis travelling along a curved road"
+    "alt": "Electric taxis travelling along a curved road",
+    "width": 1200,
+    "height": 800
   },
   "ev-fleet-pilot-driver-log": {
-    "src": "/images/editorial/ev-fleet-pilot-driver-log-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-fleet-pilot-driver-log-cover.webp",
+    "alt": "Fleet vehicles lined up outdoors",
+    "width": 800,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122363779202008877",
+    "kind": "photo"
   },
   "ev-workshop-warning-message": {
-    "src": "/images/editorial/ev-workshop-warning-message.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-workshop-warning-message-cover.webp",
+    "alt": "Driver's view of the dashboard and centre display",
+    "width": 1200,
+    "height": 902,
+    "source": "https://www.facebook.com/photo.php?fbid=122371525718008877",
+    "kind": "photo"
   },
   "vinfast-service-records-resale": {
-    "src": "/images/editorial/vinfast-service-records-resale-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-service-records-resale-cover.webp",
+    "alt": "Workshop consultation next to a vehicle on a lift",
+    "width": 1200,
+    "height": 800,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360230008877",
+    "kind": "photo"
   },
   "ev-workshop-repeat-visit": {
-    "src": "/images/editorial/ev-workshop-repeat-visit-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-workshop-repeat-visit-cover.webp",
+    "alt": "Workshop visit beside an open service bay",
+    "width": 1200,
+    "height": 825,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360356008877",
+    "kind": "photo"
   },
   "green-gsm-driver-interview-preparation": {
     "src": "/images/editorial/green-gsm-driver-interview-preparation.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=122106483933380235",
-    "alt": "Fleet team gathered beside electric taxis"
+    "alt": "Fleet team gathered beside electric taxis",
+    "width": 1200,
+    "height": 900
   },
   "green-gsm-income-offer-questions": {
-    "src": "/images/editorial/green-gsm-income-offer-questions.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/green-gsm-income-offer-questions-cover.webp",
+    "alt": "Fleet workers alongside a vehicle during a shift",
+    "width": 1200,
+    "height": 800,
+    "kind": "photo"
   },
   "green-gsm-rental-parking-photo": {
-    "src": "/images/editorial/green-gsm-rental-parking-photo-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/green-gsm-rental-parking-photo-cover.webp",
+    "alt": "Sheltered parking area with a row of vehicles",
+    "width": 960,
+    "height": 654,
+    "source": "https://www.facebook.com/photo.php?fbid=122374729208008877",
+    "kind": "photo"
   },
   "manila-maiche-zhongwen-yugu": {
     "src": "/images/editorial/manila-maiche-zhongwen-yugu.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=1580636477161979",
-    "alt": "White SUV photographed head-on"
+    "alt": "White SUV photographed head-on",
+    "width": 800,
+    "height": 1000
   },
   "feilvbin-ershouche-zhongwen-kanche": {
     "src": "/images/editorial/feilvbin-ershouche-zhongwen-kanche.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=1580637113828582",
-    "alt": "Rear three-quarter exterior inspection view"
+    "alt": "Rear three-quarter exterior inspection view",
+    "width": 800,
+    "height": 1000
   },
   "manila-gongsi-cheliang-piliang-chushou": {
-    "src": "/images/editorial/manila-gongsi-cheliang-piliang-chushou-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/manila-gongsi-cheliang-piliang-chushou-cover.webp",
+    "alt": "同一停车场内排列的多辆汽车",
+    "width": 1200,
+    "height": 800,
+    "source": "https://www.facebook.com/photo.php?fbid=122371518620008877",
+    "kind": "photo"
   },
   "manila-jichang-jieji-zhongwen": {
-    "src": "/images/editorial/manila-jichang-jieji-zhongwen-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/manila-jichang-jieji-zhongwen-cover.webp",
+    "alt": "旅客带着行李，在机场接车区与司机会合。",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "feilvbin-vinfast-dianchi-baojia": {
-    "src": "/images/editorial/feilvbin-vinfast-dianchi-baojia.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/feilvbin-vinfast-dianchi-baojia-cover.webp",
+    "alt": "展厅外的白色电动车",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371518590008877",
+    "kind": "photo"
   },
   "manila-used-car-korean-appraisal": {
     "src": "/images/editorial/manila-used-car-korean-appraisal.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=122384853416008877",
-    "alt": "White SUV photographed outdoors"
+    "alt": "White SUV photographed outdoors",
+    "width": 750,
+    "height": 1000
   },
   "philippines-used-car-deposit-korean": {
-    "src": "/images/editorial/philippines-used-car-deposit-korean-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/philippines-used-car-deposit-korean-cover.webp",
+    "alt": "구매자와 판매자가 자동차 열쇠를 두고 상담하는 모습.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "manila-golf-bag-driver-korean": {
-    "src": "/images/editorial/manila-golf-bag-driver-korean.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/manila-golf-bag-driver-korean-cover.webp",
+    "alt": "공항 이동 차량에 골프 여행 가방을 싣는 모습.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "manila-trade-in-korean": {
     "src": "/images/editorial/manila-trade-in-korean.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=122384852960008877",
-    "alt": "Front view of a grey car in a covered area"
+    "alt": "Front view of a grey car in a covered area",
+    "width": 1200,
+    "height": 900
   },
   "lai-thu-vinfast-pasay-tieng-viet": {
     "src": "/images/editorial/lai-thu-vinfast-pasay-tieng-viet.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=122381860550008877",
-    "alt": "Pink VinFast compact EV photographed outdoors"
+    "alt": "Pink VinFast compact EV photographed outdoors",
+    "width": 1200,
+    "height": 798
   },
   "kiem-tra-xe-cu-tu-xa-manila": {
-    "src": "/images/editorial/kiem-tra-xe-cu-tu-xa-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/kiem-tra-xe-cu-tu-xa-manila-cover.webp",
+    "alt": "Ảnh chụp bảng táp-lô và cụm điều khiển để xem xe từ xa",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377263242008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/kiem-tra-xe-cu-tu-xa-manila-detail.webp",
+      "alt": "Ảnh hàng ghế sau để người mua xem tình trạng nội thất",
+      "width": 900,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122377263038008877"
+    }
   },
   "bao-gia-xe-dien-doanh-nghiep-philippines": {
-    "src": "/images/editorial/bao-gia-xe-dien-doanh-nghiep-philippines.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/bao-gia-xe-dien-doanh-nghiep-philippines-cover.webp",
+    "alt": "Xe điện trưng bày tại showroom",
+    "width": 1200,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122371937102008877",
+    "kind": "photo"
   },
   "hen-xuong-vinfast-manila-tieng-viet": {
-    "src": "/images/editorial/hen-xuong-vinfast-manila-tieng-viet-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/hen-xuong-vinfast-manila-tieng-viet-cover.webp",
+    "alt": "Xe trên cầu nâng tại xưởng dịch vụ",
+    "width": 1200,
+    "height": 800,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360182008877",
+    "kind": "photo"
   },
   "dat-xe-dua-don-doan-cong-tac-manila": {
-    "src": "/images/editorial/dat-xe-dua-don-doan-cong-tac-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/dat-xe-dua-don-doan-cong-tac-manila-cover.webp",
+    "alt": "Khách công tác mang hành lý ra xe đưa đón tại khách sạn.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "paano-magpa-appraise-ng-kotse": {
     "src": "/images/editorial/paano-magpa-appraise-ng-kotse.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=1591878022704491",
-    "alt": "White SUV photographed in side profile"
+    "alt": "White SUV photographed in side profile",
+    "width": 1200,
+    "height": 880
   },
   "paano-ikumpara-trade-in-kotse": {
     "src": "/images/editorial/paano-ikumpara-trade-in-kotse.webp",
     "kind": "photo",
-    "alt": "Front exterior of a silver used car"
+    "alt": "Front exterior of a silver used car",
+    "width": 750,
+    "height": 1000
   },
   "green-gsm-missed-interview-filipino": {
-    "src": "/images/editorial/green-gsm-missed-interview-filipino.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/green-gsm-missed-interview-filipino-cover.webp",
+    "alt": "Isang tao sa tabi ng mga berdeng taxi sa larawan ng recruitment Page",
+    "width": 854,
+    "height": 568,
+    "source": "https://www.facebook.com/photo.php?fbid=122110379319380235",
+    "kind": "photo"
   },
   "ev-rental-mahinang-pasada-budget": {
-    "src": "/images/editorial/ev-rental-mahinang-pasada-budget.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-rental-mahinang-pasada-budget-cover.webp",
+    "alt": "Hanay ng mga sasakyang de-kuryente sa gabing paradahan",
+    "width": 960,
+    "height": 588,
+    "source": "https://www.facebook.com/photo.php?fbid=122374729298008877",
+    "kind": "photo"
   },
   "vinfast-vf3-magkano-filipino": {
-    "src": "/images/editorial/vinfast-vf3-magkano-filipino-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf3-magkano-filipino-cover.webp",
+    "alt": "Rosas na VinFast VF 3 na nakaparada sa labas",
+    "width": 800,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=1006911002454904",
+    "kind": "photo"
   },
   "car-consignment-vs-direct-sale-manila": {
-    "src": "/images/editorial/car-consignment-vs-direct-sale-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/car-consignment-vs-direct-sale-manila-cover.webp",
+    "alt": "Dark SUV parked outdoors for a vehicle appraisal",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122384853248008877",
+    "kind": "photo"
   },
   "selling-a-car-before-leaving-philippines": {
-    "src": "/images/editorial/selling-a-car-before-leaving-philippines-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-a-car-before-leaving-philippines-cover.webp",
+    "alt": "Rear three-quarter photograph of a white SUV",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377259660008877",
+    "kind": "photo"
   },
   "green-gsm-driver-job-or-ev-rental": {
-    "src": "/images/editorial/green-gsm-driver-job-or-ev-rental.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/green-gsm-driver-job-or-ev-rental-cover.webp",
+    "alt": "Electric taxis parked together in an outdoor lot",
+    "width": 960,
+    "height": 588,
+    "source": "https://www.facebook.com/photo.php?fbid=122374729148008877",
+    "kind": "photo"
   },
   "ev-rental-daily-budget": {
-    "src": "/images/editorial/ev-rental-daily-budget.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-rental-daily-budget-cover.webp",
+    "alt": "Electric taxis in a depot yard during daylight",
+    "width": 675,
+    "height": 1200,
+    "kind": "photo"
   },
   "compare-ev-workshop-estimates": {
-    "src": "/images/editorial/compare-ev-workshop-estimates.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/compare-ev-workshop-estimates-cover.webp",
+    "alt": "Vehicle underbody seen during a workshop visit",
+    "width": 1200,
+    "height": 800,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360086008877",
+    "kind": "photo"
   },
   "fleet-dashcam-handover-checklist": {
-    "src": "/images/editorial/fleet-dashcam-handover-checklist.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/fleet-dashcam-handover-checklist-cover.webp",
+    "alt": "Fleet staff checking a fitted camera at the side of a vehicle.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "ev-charging-site-restaurant-hotel": {
-    "src": "/images/editorial/ev-charging-site-restaurant-hotel-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-charging-site-restaurant-hotel-cover.webp",
+    "alt": "Sheltered seats adjacent to a vehicle site",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122384488478008877",
+    "kind": "photo"
   },
   "electric-fleet-pilot-route": {
-    "src": "/images/editorial/electric-fleet-pilot-route.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/electric-fleet-pilot-route-cover.webp",
+    "alt": "Row of fleet vehicles parked outdoors",
+    "width": 996,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122368142612008877",
+    "kind": "photo"
   },
   "vinfast-vf8-philippines-price": {
-    "src": "/images/editorial/vinfast-vf8-philippines-price.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf8-philippines-price-cover.webp",
+    "alt": "A driver checks the charging flap on a dark electric SUV parked under a modern concrete canopy.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "limo-green-herio-green-purchase-price": {
-    "src": "/images/editorial/limo-green-herio-green-purchase-price.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/limo-green-herio-green-purchase-price-cover.webp",
+    "alt": "White electric vehicle from the DT Car Limo Green and Herio Green showcase",
+    "width": 800,
+    "height": 600,
+    "source": "https://www.facebook.com/photo.php?fbid=122371937192008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/limo-green-herio-green-purchase-price-detail.webp",
+      "alt": "Rear passenger seating from the Limo Green and Herio Green showcase",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122371937144008877"
+    }
   },
   "used-toyota-fortuner-g-manila": {
-    "src": "/images/editorial/used-toyota-fortuner-g-manila.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-toyota-fortuner-g-manila-cover.webp",
+    "alt": "Inspection of the running boards and ground clearance of a used midsize SUV in a sunlit Philippine driveway, a tape measure and work shoes at the edge of frame, closeup.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "mazda-cx5-used-price-manila": {
-    "src": "/images/editorial/mazda-cx5-used-price-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/mazda-cx5-used-price-manila-cover.webp",
+    "alt": "Close-up of undulating red metallic crossover bodywork and rear wheel arch, an appraiser's small inspection light reflected in the glossy paint.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "reserved-used-car-listing-manila": {
-    "src": "/images/editorial/reserved-used-car-listing-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/reserved-used-car-listing-manila-cover.webp",
+    "alt": "White vehicle parked under cover",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122384853062008877",
+    "kind": "photo"
   },
   "car-sourcing-agent-referral-philippines": {
     "src": "/images/editorial/car-sourcing-agent-referral-philippines.webp",
     "kind": "photo",
-    "alt": "People beside a car at a vehicle handover"
+    "alt": "People beside a car at a vehicle handover",
+    "width": 1200,
+    "height": 800
   },
   "sell-financed-car-appraisal-manila": {
-    "src": "/images/editorial/sell-financed-car-appraisal-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/sell-financed-car-appraisal-manila-cover.webp",
+    "alt": "Front view of a dark pre-owned sedan",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377261904008877",
+    "kind": "photo"
   },
   "vinfast-mpv7-price-seven-seats-philippines": {
-    "src": "/images/editorial/vinfast-mpv7-price-seven-seats-philippines.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-mpv7-price-seven-seats-philippines-cover.webp",
+    "alt": "A seven-seat passenger vehicle seen from its open rear hatch, showing how much space remains with the back row upright, two suitcases on the ground.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "electric-car-maintenance-schedule-philippines": {
-    "src": "/images/editorial/electric-car-maintenance-schedule-philippines-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/electric-car-maintenance-schedule-philippines-cover.webp",
+    "alt": "Car raised for a mechanical inspection",
+    "width": 1200,
+    "height": 800,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360134008877",
+    "kind": "photo"
   },
   "fleet-installation-rfq-philippines": {
-    "src": "/images/editorial/fleet-installation-rfq-philippines-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/fleet-installation-rfq-philippines-cover.webp",
+    "alt": "Two technicians reviewing equipment beside a fleet vehicle",
+    "width": 1200,
+    "height": 800,
+    "kind": "photo"
   },
   "ev-charging-site-survey-preparation": {
-    "src": "/images/editorial/ev-charging-site-survey-preparation-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/ev-charging-site-survey-preparation-cover.webp",
+    "alt": "Field visit at a proposed charging location",
+    "width": 951,
+    "height": 1200,
+    "kind": "photo"
   },
   "vinfast-test-drive-metro-manila": {
     "src": "/images/editorial/vinfast-test-drive-metro-manila.webp",
     "kind": "photo",
-    "alt": "VinFast display vehicles in a showroom"
+    "alt": "VinFast display vehicles in a showroom",
+    "width": 1200,
+    "height": 716
   },
   "paano-mag-apply-green-gsm-taxi-driver": {
-    "src": "/images/editorial/paano-mag-apply-green-gsm-taxi-driver.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/paano-mag-apply-green-gsm-taxi-driver-cover.webp",
+    "alt": "Mga electric taxi na nakaparada sa Green GSM fleet site",
+    "width": 1200,
+    "height": 675,
+    "source": "https://www.facebook.com/photo.php?fbid=122108263581380235",
+    "kind": "photo"
   },
   "car-appraisal-photos-manila": {
     "src": "/images/editorial/car-appraisal-photos-manila.webp",
     "kind": "photo",
     "alt": "Rear quarter panel and side profile of a vehicle",
-    "source": "https://www.facebook.com/photo.php?fbid=1580645953827698"
+    "source": "https://www.facebook.com/photo.php?fbid=1580645953827698",
+    "width": 750,
+    "height": 1000
   },
   "used-car-inspection-checklist": {
-    "src": "/images/editorial/used-car-inspection-checklist-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-inspection-checklist-cover.webp",
+    "alt": "Open engine bay for a used-car inspection",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377264250008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/used-car-inspection-checklist-detail.webp",
+      "alt": "Steering wheel and driver's dashboard during an interior check",
+      "width": 1200,
+      "height": 892,
+      "source": "https://www.facebook.com/photo.php?fbid=122377265540008877"
+    }
   },
   "ev-charging-philippines-cost": {
     "src": "/images/editorial/ev-charging-philippines-cost.webp",
     "kind": "photo",
-    "alt": "Charging equipment with a cable and display"
+    "alt": "Charging equipment with a cable and display",
+    "width": 1200,
+    "height": 813
   },
   "ban-xe-cu-manila": {
     "src": "/images/editorial/ban-xe-cu-manila.webp",
     "kind": "photo",
     "alt": "Dark SUV parked outdoors",
-    "source": "https://www.facebook.com/photo.php?fbid=1574063907819236"
+    "source": "https://www.facebook.com/photo.php?fbid=1574063907819236",
+    "width": 750,
+    "height": 1000
   },
   "buy-used-car-manila": {
     "src": "/images/editorial/buy-used-car-manila.webp",
     "kind": "photo",
     "alt": "White used vehicle parked outdoors",
-    "source": "https://www.facebook.com/photo.php?fbid=122384853158008877"
+    "source": "https://www.facebook.com/photo.php?fbid=122384853158008877",
+    "width": 750,
+    "height": 1000
   },
   "car-trade-in-philippines": {
     "src": "/images/editorial/car-trade-in-philippines.webp",
     "kind": "photo",
-    "alt": "Front of a used vehicle in the DT Car archive"
+    "alt": "Front of a used vehicle in the DT Car archive",
+    "width": 750,
+    "height": 1000
   },
   "new-vs-used-car-philippines": {
-    "src": "/images/editorial/new-vs-used-car-philippines-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/new-vs-used-car-philippines-cover.webp",
+    "alt": "Dark pre-owned sedan on an outdoor viewing",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377263134008877",
+    "kind": "photo"
   },
   "used-car-valuation-philippines": {
     "src": "/images/editorial/used-car-valuation-philippines.webp",
     "kind": "photo",
     "alt": "Dark car parked beside a building",
-    "source": "https://www.facebook.com/photo.php?fbid=122384861330008877"
+    "source": "https://www.facebook.com/photo.php?fbid=122384861330008877",
+    "width": 750,
+    "height": 1000
   },
   "used-car-500k-manila-shortlist": {
-    "src": "/images/editorial/used-car-500k-manila-shortlist-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-500k-manila-shortlist-cover.webp",
+    "alt": "Yellow compact car photographed on a residential street",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377260518008877",
+    "kind": "photo"
   },
   "used-seven-seater-manila-family": {
-    "src": "/images/editorial/used-seven-seater-manila-family-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-seven-seater-manila-family-cover.webp",
+    "alt": "Passenger seats and headrests in the rear cabin",
+    "width": 1200,
+    "height": 885,
+    "source": "https://www.facebook.com/photo.php?fbid=122377265666008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/used-seven-seater-manila-family-detail.webp",
+      "alt": "Rear seating viewed through the passenger door",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122361280364008877"
+    }
   },
   "used-pickup-manila-work-family": {
-    "src": "/images/editorial/used-pickup-manila-work-family-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-pickup-manila-work-family-cover.webp",
+    "alt": "Open pickup bed viewed from behind",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122374363070008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/used-pickup-manila-work-family-detail.webp",
+      "alt": "Rear loading area shown during a hands-on inspection",
+      "width": 900,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122374363220008877"
+    }
   },
   "mua-xe-cu-manila-xem-hai-xe": {
-    "src": "/images/editorial/mua-xe-cu-manila-xem-hai-xe-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/mua-xe-cu-manila-xem-hai-xe-cover.webp",
+    "alt": "Hai xe đỗ cạnh nhau để khách so sánh",
+    "width": 1200,
+    "height": 928,
+    "source": "https://www.facebook.com/photo.php?fbid=122374748948008877",
+    "kind": "photo"
   },
   "sell-used-car-repainted-panel-manila": {
-    "src": "/images/editorial/sell-used-car-repainted-panel-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/sell-used-car-repainted-panel-manila-cover.webp",
+    "alt": "Close view of a side door panel and handle",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122374363136008877",
+    "kind": "photo"
   },
   "sell-low-mileage-car-manila": {
-    "src": "/images/editorial/sell-low-mileage-car-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/sell-low-mileage-car-manila-cover.webp",
+    "alt": "Rear bodywork of a dark sedan at the kerb",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377264076008877",
+    "kind": "photo"
   },
   "sell-two-company-cars-manila": {
-    "src": "/images/editorial/sell-two-company-cars-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/sell-two-company-cars-manila-cover.webp",
+    "alt": "Side profile of a car during an exterior appraisal",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377262678008877",
+    "kind": "photo"
   },
   "thu-mua-xe-cu-manila-vao-cuoi-tuan": {
-    "src": "/images/editorial/thu-mua-xe-cu-manila-vao-cuoi-tuan-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/thu-mua-xe-cu-manila-vao-cuoi-tuan-cover.webp",
+    "alt": "Góc sau của xe nhỏ màu vàng khi chuẩn bị định giá",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377260380008877",
+    "kind": "photo"
   },
   "vinfast-vf3-second-car-manila": {
-    "src": "/images/editorial/vinfast-vf3-second-car-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf3-second-car-manila-cover.webp",
+    "alt": "Blue compact VinFast VF 3 seen from the front",
+    "width": 1200,
+    "height": 799,
+    "source": "https://www.facebook.com/photo.php?fbid=1006911385788199",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/vinfast-vf3-second-car-manila-detail.webp",
+      "alt": "Steering wheel and front seats of a compact showroom car",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122371511378008877"
+    }
   },
   "vinfast-condo-parking-before-order": {
-    "src": "/images/editorial/vinfast-condo-parking-before-order-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-condo-parking-before-order-cover.webp",
+    "alt": "White VF 3 parked between the walls of an indoor bay",
+    "width": 720,
+    "height": 960,
+    "source": "https://www.facebook.com/photo.php?fbid=122371510994008877",
+    "kind": "photo"
   },
   "vinfast-trade-in-quote-manila": {
-    "src": "/images/editorial/vinfast-trade-in-quote-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-trade-in-quote-manila-cover.webp",
+    "alt": "White VinFast beside an outdoor vehicle viewing",
+    "width": 725,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122370780722008877",
+    "kind": "photo"
   },
   "mua-vinfast-philippines-bao-gia-tieng-viet": {
-    "src": "/images/editorial/mua-vinfast-philippines-bao-gia-tieng-viet-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/mua-vinfast-philippines-bao-gia-tieng-viet-cover.webp",
+    "alt": "Xe điện VinFast màu đỏ trong khu trưng bày",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371936994008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/mua-vinfast-philippines-bao-gia-tieng-viet-detail.webp",
+      "alt": "Góc bên của mẫu xe điện màu đỏ đang trưng bày",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122371519328008877"
+    }
   },
   "tour-manila-3-ngay-2-dem-tu-viet-nam": {
-    "src": "/images/editorial/tour-manila-3-ngay-2-dem-tu-viet-nam-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-manila-3-ngay-2-dem-tu-viet-nam-cover.webp",
+    "alt": "Phố di sản lúc hoàng hôn trong album DT Tour",
+    "width": 797,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122190086960790161",
+    "kind": "photo"
   },
   "cebu-hay-bohol-du-lich-tu-viet-nam": {
-    "src": "/images/editorial/cebu-hay-bohol-du-lich-tu-viet-nam-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/cebu-hay-bohol-du-lich-tu-viet-nam-cover.webp",
+    "alt": "Cá mập voi ở Oslob, Cebu, theo album DT Tour",
+    "width": 820,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122189980394790161",
+    "kind": "photo"
   },
   "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng": {
-    "src": "/images/editorial/tour-philippines-tu-viet-nam-bao-gia-nhom-rieng-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-philippines-tu-viet-nam-bao-gia-nhom-rieng-cover.webp",
+    "alt": "Hàng dừa và bãi biển trong album hành trình Philippines của DT Tour",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122193035114790161",
+    "kind": "photo"
   },
   "lich-manila-nua-ngay-intramuros-khach-viet": {
-    "src": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-cover.webp",
+    "alt": "Mặt tiền nhà thờ đá trong khu phố cổ",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122190087002790161",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-detail.webp",
+      "alt": "Lối vào nhà thờ với các chi tiết chạm khắc trên mặt đá",
+      "width": 900,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122190087134790161"
+    }
   },
   "tour-bohol-panglao-gia-dinh-tu-viet-nam": {
-    "src": "/images/editorial/tour-bohol-panglao-gia-dinh-tu-viet-nam-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-bohol-panglao-gia-dinh-tu-viet-nam-cover.webp",
+    "alt": "Dải cát trắng ở Virgin Island, Bohol",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122190995594790161",
+    "kind": "photo"
   },
   "used-honda-city-manila-viewing": {
-    "src": "/images/editorial/used-honda-city-manila-viewing-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-honda-city-manila-viewing-cover.webp",
+    "alt": "Two adults at the open passenger door of a compact sedan examining the dashboard and seat position before a viewing, crop to cabin, tropical daylight.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-mitsubishi-xpander-manila-viewing": {
-    "src": "/images/editorial/used-mitsubishi-xpander-manila-viewing-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-mitsubishi-xpander-manila-viewing-cover.webp",
+    "alt": "An adult lifts a second-row seat to try access to a third row of an unbranded family MPV.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-vf5-plus-vs-vf6-eco-quote": {
-    "src": "/images/editorial/vinfast-vf5-plus-vs-vf6-eco-quote-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf5-plus-vs-vf6-eco-quote-cover.webp",
+    "alt": "EV charging connector on a table between two unmarked sample vehicle keys, sunlit showroom windows, low-angle product still life.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-vf6-plus-vs-vf7-eco-manila": {
-    "src": "/images/editorial/vinfast-vf6-plus-vs-vf7-eco-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf6-plus-vs-vf7-eco-manila-cover.webp",
+    "alt": "Overhead close-up of two different rear-seat cushions in contrasting neutral materials beside two colour swatches on a showroom table, clean and tactile.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-car-pair-manila-inspection-budget": {
-    "src": "/images/editorial/used-car-pair-manila-inspection-budget-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-pair-manila-inspection-budget-cover.webp",
+    "alt": "Grey SUV photographed from its front corner for a viewing",
+    "width": 768,
+    "height": 1024,
+    "source": "https://www.facebook.com/photo.php?fbid=122384853746008877",
+    "kind": "photo"
   },
   "used-automatic-car-manila-first-viewing": {
-    "src": "/images/editorial/used-automatic-car-manila-first-viewing-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/used-automatic-car-manila-first-viewing-cover.webp",
+    "alt": "Driver's seat and centre console of a used automatic car",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377263014008877",
+    "kind": "photo"
   },
   "sell-car-with-two-sets-of-wheels-manila": {
-    "src": "/images/editorial/sell-car-with-two-sets-of-wheels-manila-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/sell-car-with-two-sets-of-wheels-manila-cover.webp",
+    "alt": "Close view of a wheel and tyre on a parked vehicle",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122374363298008877",
+    "kind": "photo"
   },
   "trade-in-when-replacement-car-is-delayed": {
-    "src": "/images/editorial/trade-in-when-replacement-car-is-delayed-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/trade-in-when-replacement-car-is-delayed-cover.webp",
+    "alt": "Interior view of a vehicle before a potential trade-in",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377268312008877",
+    "kind": "photo"
   },
   "vinfast-vf3-quote-two-commute-patterns": {
-    "src": "/images/editorial/vinfast-vf3-quote-two-commute-patterns-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf3-quote-two-commute-patterns-cover.webp",
+    "alt": "Yellow VF 3 on display outdoors",
+    "width": 1200,
+    "height": 899,
+    "source": "https://www.facebook.com/photo.php?fbid=122371511264008877",
+    "kind": "photo"
   },
   "vinfast-vf7-family-test-drive-child-seats": {
-    "src": "/images/editorial/vinfast-vf7-family-test-drive-child-seats-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf7-family-test-drive-child-seats-cover.webp",
+    "alt": "Adults trying a child restraint in the rear seat of a parked SUV.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "don-san-bay-manila-hai-chuyen-bay": {
-    "src": "/images/editorial/don-san-bay-manila-hai-chuyen-bay-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/don-san-bay-manila-hai-chuyen-bay-cover.webp",
+    "alt": "Hai nhóm khách mang hành lý đến điểm hẹn ở sân bay Manila.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "thue-xe-manila-doi-khach-san-trong-ngay": {
-    "src": "/images/editorial/thue-xe-manila-doi-khach-san-trong-ngay-brief.webp",
-    "kind": "checklist"
+    "src": "/images/editorial/thue-xe-manila-doi-khach-san-trong-ngay-cover.webp",
+    "alt": "Xe riêng và xe đẩy hành lý trước sảnh khách sạn.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use": {
-    "src": "/images/editorial/used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use-brief.webp",
-    "alt": "Airport load test — Passengers + luggage / Rear row in use",
-    "kind": "checklist"
+    "src": "/images/editorial/used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use-cover.webp",
+    "alt": "Through the open tailgate of a three-row family MPV, a parent checks whether two normal travel bags fit behind the raised third row.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-honda-cr-v-in-manila-what-to-check-when-comparing-generations": {
-    "src": "/images/editorial/used-honda-cr-v-in-manila-what-to-check-when-comparing-generations-brief.webp",
-    "alt": "Variant shortlist — Model year / Engine and seating",
-    "kind": "checklist"
+    "src": "/images/editorial/used-honda-cr-v-in-manila-what-to-check-when-comparing-generations-cover.webp",
+    "alt": "A buyer opens the back hatch of a used crossover and examines the rear-seat release lever.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "buying-a-used-toyota-hiace-for-group-transport-in-metro-manila": {
-    "src": "/images/editorial/buying-a-used-toyota-hiace-for-group-transport-in-metro-manila-brief.webp",
-    "alt": "Van walkthrough — Group size / Aisle and boot",
-    "kind": "checklist"
+    "src": "/images/editorial/buying-a-used-toyota-hiace-for-group-transport-in-metro-manila-cover.webp",
+    "alt": "A group of adults and soft-sided bags next to the long sliding door of a white passenger van.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-suzuki-ertiga-in-manila-for-school-runs-and-grandparents": {
-    "src": "/images/editorial/used-suzuki-ertiga-in-manila-for-school-runs-and-grandparents-brief.webp",
-    "alt": "Family viewing — School bags / Rear-seat access",
-    "kind": "checklist"
+    "src": "/images/editorial/used-suzuki-ertiga-in-manila-for-school-runs-and-grandparents-cover.webp",
+    "alt": "Older adult using a grab handle to get into the second row of a small MPV, a school backpack resting on the adjacent seat, candid, respectful, focus on entry.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-nissan-navara-in-manila-will-your-equipment-fit-the-pickup-bed": {
-    "src": "/images/editorial/used-nissan-navara-in-manila-will-your-equipment-fit-the-pickup-bed-brief.webp",
-    "alt": "Bed clearance — Largest box / Wheel-arch gap",
-    "kind": "checklist"
+    "src": "/images/editorial/used-nissan-navara-in-manila-will-your-equipment-fit-the-pickup-bed-cover.webp",
+    "alt": "A carpenter's toolbox and folded ladder lying in a pickup bed.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "buying-a-used-hybrid-in-manila-request-the-right-battery-evidence": {
-    "src": "/images/editorial/buying-a-used-hybrid-in-manila-request-the-right-battery-evidence-brief.webp",
-    "alt": "Hybrid inspection — Diagnostic date / Coverage terms",
-    "kind": "checklist"
+    "src": "/images/editorial/buying-a-used-hybrid-in-manila-request-the-right-battery-evidence-cover.webp",
+    "alt": "A hybrid specialist holding a diagnostic tablet facing away from the camera, cables and an open bonnet soft behind it.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "second-hand-cars-in-manila-buying-a-vehicle-formerly-used-by-a-company": {
-    "src": "/images/editorial/second-hand-cars-in-manila-buying-a-vehicle-formerly-used-by-a-company-brief.webp",
-    "alt": "Company-car history — Mileage sequence / Workshop entries",
-    "kind": "checklist"
+    "src": "/images/editorial/second-hand-cars-in-manila-buying-a-vehicle-formerly-used-by-a-company-cover.webp",
+    "alt": "Former company vehicle returning to a parking area, two sets of unbranded keys and plain folder on the bonnet in foreground, office loading bay behind.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-car-with-a-sunroof-in-manila-request-a-weather-seal-inspection": {
-    "src": "/images/editorial/used-car-with-a-sunroof-in-manila-request-a-weather-seal-inspection-brief.webp",
-    "alt": "Seal inspection — Roof operation / Headliner condition",
-    "kind": "checklist"
+    "src": "/images/editorial/used-car-with-a-sunroof-in-manila-request-a-weather-seal-inspection-cover.webp",
+    "alt": "Close detail of a rubber sunroof seal and water droplets on the glass roof of a parked car, inspection flashlight at frame edge, no lettering.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy": {
-    "src": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-brief.webp",
-    "alt": "Two-driver fit — Front seat travel / Rear legroom",
-    "kind": "checklist"
+    "src": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-cover.webp",
+    "alt": "Driver's seat and available legroom viewed through the open door",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377256222008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-detail.webp",
+      "alt": "Position of the driver's seat relative to the steering wheel",
+      "width": 900,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122377253414008877"
+    }
   },
   "buying-a-used-car-in-manila-when-a-sibling-will-inspect-it-for-you": {
-    "src": "/images/editorial/buying-a-used-car-in-manila-when-a-sibling-will-inspect-it-for-you-brief.webp",
-    "alt": "Remote inspection — Live walkthrough / Unresolved items",
-    "kind": "checklist"
+    "src": "/images/editorial/buying-a-used-car-in-manila-when-a-sibling-will-inspect-it-for-you-cover.webp",
+    "alt": "Reference photograph of the dashboard for an absent buyer",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377266668008877",
+    "kind": "photo"
   },
   "selling-a-car-in-manila-after-replacing-the-engine-or-transmission": {
-    "src": "/images/editorial/selling-a-car-in-manila-after-replacing-the-engine-or-transmission-brief.webp",
-    "alt": "Repair timeline — Component replaced / Workshop record",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-a-car-in-manila-after-replacing-the-engine-or-transmission-cover.webp",
+    "alt": "Underside of a vehicle raised for a workshop inspection",
+    "width": 1200,
+    "height": 854,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360308008877",
+    "kind": "photo"
   },
   "sell-a-car-in-manila-with-an-outstanding-repair-estimate": {
-    "src": "/images/editorial/sell-a-car-in-manila-with-an-outstanding-repair-estimate-brief.webp",
-    "alt": "Net proceeds — As-is offer / Repair estimate",
-    "kind": "checklist"
+    "src": "/images/editorial/sell-a-car-in-manila-with-an-outstanding-repair-estimate-cover.webp",
+    "alt": "Vehicle raised on a workshop lift during an inspection",
+    "width": 1200,
+    "height": 800,
+    "source": "https://www.facebook.com/photo.php?fbid=122373360272008877",
+    "kind": "photo"
   },
   "selling-a-rarely-driven-second-car-in-metro-manila": {
-    "src": "/images/editorial/selling-a-rarely-driven-second-car-in-metro-manila-brief.webp",
-    "alt": "Storage history — Last regular use / Current condition",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-a-rarely-driven-second-car-in-metro-manila-cover.webp",
+    "alt": "Dark SUV parked under cover",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122384861204008877",
+    "kind": "photo"
   },
   "sell-a-used-car-after-body-repairs-how-to-present-before-and-after-photos": {
-    "src": "/images/editorial/sell-a-used-car-after-body-repairs-how-to-present-before-and-after-photos-brief.webp",
-    "alt": "Body repair record — Panel location / Repair photos",
-    "kind": "checklist"
+    "src": "/images/editorial/sell-a-used-car-after-body-repairs-how-to-present-before-and-after-photos-cover.webp",
+    "alt": "An inspection light picks out reflections on a repaired vehicle door.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-pickup-with-a-business-logo-in-the-philippines": {
-    "src": "/images/editorial/selling-a-pickup-with-a-business-logo-in-the-philippines-brief.webp",
-    "alt": "Pickup handover — Graphics fitted / Removal cost",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-a-pickup-with-a-business-logo-in-the-philippines-cover.webp",
+    "alt": "Tailgate and rear panel of a parked pickup",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122374363160008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/selling-a-pickup-with-a-business-logo-in-the-philippines-detail.webp",
+      "alt": "Side and rear bodywork of a pickup",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122374362968008877"
+    }
   },
   "car-appraisal-before-an-overseas-move-what-if-your-moving-date-changes": {
-    "src": "/images/editorial/car-appraisal-before-an-overseas-move-what-if-your-moving-date-changes-brief.webp",
-    "alt": "Moving calendar — Last essential trip / Release date",
-    "kind": "checklist"
+    "src": "/images/editorial/car-appraisal-before-an-overseas-move-what-if-your-moving-date-changes-cover.webp",
+    "alt": "Full side view of a parked white SUV",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377258742008877",
+    "kind": "photo"
   },
   "selling-two-cars-but-keeping-one-compare-separate-appraisal-offers": {
-    "src": "/images/editorial/selling-two-cars-but-keeping-one-compare-separate-appraisal-offers-brief.webp",
-    "alt": "Which car to keep — Offer for car A / Offer for car B",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-two-cars-but-keeping-one-compare-separate-appraisal-offers-cover.webp",
+    "alt": "Dark SUV photographed at an outdoor viewing",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122384853650008877",
+    "kind": "photo"
   },
   "selling-a-car-with-an-aftermarket-sound-system-in-manila": {
-    "src": "/images/editorial/selling-a-car-with-an-aftermarket-sound-system-in-manila-brief.webp",
-    "alt": "Audio handover — System installed / Restoration cost",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-a-car-with-an-aftermarket-sound-system-in-manila-cover.webp",
+    "alt": "Centre display and console in the front cabin",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377268102008877",
+    "kind": "photo"
   },
   "selling-a-used-ev-in-manila-prepare-the-charging-kit-for-appraisal": {
-    "src": "/images/editorial/selling-a-used-ev-in-manila-prepare-the-charging-kit-for-appraisal-brief.webp",
-    "alt": "EV accessory list — Portable equipment / Fixed installation",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-a-used-ev-in-manila-prepare-the-charging-kit-for-appraisal-cover.webp",
+    "alt": "A portable charging cable, connector and protective pouch neatly laid inside an open electric-car boot, soft morning light, overhead three-quarter angle.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-car-from-a-condo-basement-in-metro-manila": {
-    "src": "/images/editorial/selling-a-car-from-a-condo-basement-in-metro-manila-brief.webp",
-    "alt": "Condo inspection — Building access / Daylight location",
-    "kind": "checklist"
+    "src": "/images/editorial/selling-a-car-from-a-condo-basement-in-metro-manila-cover.webp",
+    "alt": "Front of a white car in a covered residential parking bay",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377266524008877",
+    "kind": "photo"
   },
   "vinfast-vf-5-for-apartment-renters-compare-charging-options-before-a-quote": {
-    "src": "/images/editorial/vinfast-vf-5-for-apartment-renters-compare-charging-options-before-a-quote-brief.webp",
-    "alt": "Weekly charging — Overnight parking / Backup charger",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf-5-for-apartment-renters-compare-charging-options-before-a-quote-cover.webp",
+    "alt": "White VinFast in a showroom",
+    "width": 1200,
+    "height": 1063,
+    "source": "https://www.facebook.com/photo.php?fbid=122371519478008877",
+    "kind": "photo"
   },
   "vinfast-vf-6-for-a-household-with-two-different-commutes": {
-    "src": "/images/editorial/vinfast-vf-6-for-a-household-with-two-different-commutes-brief.webp",
-    "alt": "Shared commute — Driver A trips / Driver B trips",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf-6-for-a-household-with-two-different-commutes-cover.webp",
+    "alt": "Two commuter backpacks and two distinct key rings on a hall table beside a window overlooking an urban Philippine street at morning rush hour.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-vf-8-or-vf-7-compare-cabin-access-for-an-older-passenger": {
-    "src": "/images/editorial/vinfast-vf-8-or-vf-7-compare-cabin-access-for-an-older-passenger-brief.webp",
-    "alt": "Passenger access — Seat entry / Walking-aid space",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf-8-or-vf-7-compare-cabin-access-for-an-older-passenger-cover.webp",
+    "alt": "An older passenger testing the height of an SUV's seat cushion at the open door, one hand holding the actual grab handle, companion waiting beside them.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-vf-3-colour-availability-what-to-confirm-before-reserving": {
-    "src": "/images/editorial/vinfast-vf-3-colour-availability-what-to-confirm-before-reserving-brief.webp",
-    "alt": "Allocation status — Preferred colour / Second choice",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf-3-colour-availability-what-to-confirm-before-reserving-cover.webp",
+    "alt": "Yellow and darker VF 3 colour choices on display",
+    "width": 800,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=1006911172454887",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/vinfast-vf-3-colour-availability-what-to-confirm-before-reserving-detail.webp",
+      "alt": "Red VF 3 among other colours in an outdoor line-up",
+      "width": 800,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=1006911112454893"
+    }
   },
   "vinfast-for-a-small-business-one-demonstration-car-before-a-fleet-order": {
-    "src": "/images/editorial/vinfast-for-a-small-business-one-demonstration-car-before-a-fleet-order-brief.webp",
-    "alt": "Fleet quotation — Pilot route / Later quantity",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-for-a-small-business-one-demonstration-car-before-a-fleet-order-cover.webp",
+    "alt": "Dark VinFast displayed inside a showroom",
+    "width": 1200,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122371527200008877",
+    "kind": "photo"
   },
   "vinfast-mpv-for-hotel-transfers-test-luggage-space-before-ordering": {
-    "src": "/images/editorial/vinfast-mpv-for-hotel-transfers-test-luggage-space-before-ordering-brief.webp",
-    "alt": "Hotel transfer trial — Occupied seats / Largest suitcase",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-mpv-for-hotel-transfers-test-luggage-space-before-ordering-cover.webp",
+    "alt": "Open tailgate showing the load space behind the passenger seats",
+    "width": 909,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122371525562008877",
+    "kind": "photo"
   },
   "vinfast-home-delivery-or-dealer-collection-compare-handover-arrangements": {
-    "src": "/images/editorial/vinfast-home-delivery-or-dealer-collection-compare-handover-arrangements-brief.webp",
-    "alt": "Handover choice — Collection point / Delivery charge",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-home-delivery-or-dealer-collection-compare-handover-arrangements-cover.webp",
+    "alt": "White VinFast prepared for handover with a ribbon",
+    "width": 1200,
+    "height": 897,
+    "source": "https://www.facebook.com/photo.php?fbid=122366835770008877",
+    "kind": "photo"
   },
   "vinfast-quotations-for-a-company-purchase-which-name-goes-on-the-paperwork": {
-    "src": "/images/editorial/vinfast-quotations-for-a-company-purchase-which-name-goes-on-the-paperwork-brief.webp",
-    "alt": "Company purchase — Approval period / Quote expiry",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-quotations-for-a-company-purchase-which-name-goes-on-the-paperwork-cover.webp",
+    "alt": "Two representatives signing documents at a table",
+    "width": 1200,
+    "height": 891,
+    "kind": "photo"
   },
   "vinfast-trade-in-with-a-second-family-car-which-vehicle-should-fund-the-upgrade": {
-    "src": "/images/editorial/vinfast-trade-in-with-a-second-family-car-which-vehicle-should-fund-the-upgrade-brief.webp",
-    "alt": "Trade-in options — Appraisal A / Appraisal B",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-trade-in-with-a-second-family-car-which-vehicle-should-fund-the-upgrade-cover.webp",
+    "alt": "White electric vehicle seen from the front at the showroom",
+    "width": 800,
+    "height": 600,
+    "source": "https://www.facebook.com/photo.php?fbid=122371518770008877",
+    "kind": "photo"
   },
   "vinfast-vf-5-for-a-move-from-petrol-take-your-last-fuel-log-to-the-demo": {
-    "src": "/images/editorial/vinfast-vf-5-for-a-move-from-petrol-take-your-last-fuel-log-to-the-demo-brief.webp",
-    "alt": "Energy comparison — Monthly kilometres / Fuel receipts",
-    "kind": "checklist"
+    "src": "/images/editorial/vinfast-vf-5-for-a-move-from-petrol-take-your-last-fuel-log-to-the-demo-cover.webp",
+    "alt": "White VinFast display vehicle ready for viewing",
+    "width": 534,
+    "height": 590,
+    "source": "https://www.facebook.com/photo.php?fbid=122371519250008877",
+    "kind": "photo"
   },
   "tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet": {
-    "src": "/images/editorial/tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet-brief.webp",
-    "alt": "Lịch Tagaytay — Điểm chính / Giờ về Manila",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet-cover.webp",
+    "alt": "Hồ và miệng núi lửa Taal nhìn từ trên cao",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122192738564790161",
+    "kind": "photo"
   },
   "tour-manila-cho-khach-viet-co-chuyen-bay-toi": {
-    "src": "/images/editorial/tour-manila-cho-khach-viet-co-chuyen-bay-toi-brief.webp",
-    "alt": "Ngày bay về — Chỗ gửi vali / Giờ tới nhà ga",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-manila-cho-khach-viet-co-chuyen-bay-toi-cover.webp",
+    "alt": "Khách kéo vali vào sảnh khách sạn tại Manila vào buổi tối.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "xe-dua-don-hoi-cho-tai-manila-cho-doan-doanh-nghiep-viet": {
-    "src": "/images/editorial/xe-dua-don-hoi-cho-tai-manila-cho-doan-doanh-nghiep-viet-brief.webp",
-    "alt": "Xe cho đoàn — Cổng sự kiện / Giờ tan hội chợ",
-    "kind": "checklist"
+    "src": "/images/editorial/xe-dua-don-hoi-cho-tai-manila-cho-doan-doanh-nghiep-viet-cover.webp",
+    "alt": "Đoàn công tác mang thẻ hội nghị và hành lý ra xe đưa đón.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien": {
-    "src": "/images/editorial/du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien-brief.webp",
-    "alt": "Một ngày ở Cebu — Điểm xuất phát / Giờ về khách sạn",
-    "kind": "checklist"
+    "src": "/images/editorial/du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien-cover.webp",
+    "alt": "Cảnh dưới nước trong chuyến tham quan Oslob, Cebu",
+    "width": 821,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122189980358790161",
+    "kind": "photo"
   },
   "tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao": {
-    "src": "/images/editorial/tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao-brief.webp",
-    "alt": "Lịch Bohol — Giờ ngủ trưa / Điểm có thể bỏ",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao-cover.webp",
+    "alt": "Vùng nước nông bên dải cát Virgin Island ở Bohol",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122190995582790161",
+    "kind": "photo"
   },
   "dat-xe-rieng-o-manila-cho-khach-mang-xe-day-va-ghe-tre-em": {
-    "src": "/images/editorial/dat-xe-rieng-o-manila-cho-khach-mang-xe-day-va-ghe-tre-em-brief.webp",
-    "alt": "Xe cho gia đình — Cỡ xe đẩy gấp / Số vali lớn",
-    "kind": "checklist"
+    "src": "/images/editorial/dat-xe-rieng-o-manila-cho-khach-mang-xe-day-va-ghe-tre-em-cover.webp",
+    "alt": "Xe đẩy trẻ em và ghế an toàn cạnh cửa xe đưa đón.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "dat-xe-manila-cho-doan-viet-di-an-cuoi-roi-ve-hai-khach-san": {
-    "src": "/images/editorial/dat-xe-manila-cho-doan-viet-di-an-cuoi-roi-ve-hai-khach-san-brief.webp",
-    "alt": "Xe đi đám cưới — Giờ tan tiệc / Hai điểm trả",
-    "kind": "checklist"
+    "src": "/images/editorial/dat-xe-manila-cho-doan-viet-di-an-cuoi-roi-ve-hai-khach-san-cover.webp",
+    "alt": "Khách dự tiệc cưới đứng chờ xe riêng buổi tối.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tour-manila-cho-khach-viet-lan-dau-o-makati-hay-gan-diem-tham-quan": {
-    "src": "/images/editorial/tour-manila-cho-khach-viet-lan-dau-o-makati-hay-gan-diem-tham-quan-brief.webp",
-    "alt": "So tuyến Manila — Khách sạn A / Khách sạn B",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-manila-cho-khach-viet-lan-dau-o-makati-hay-gan-diem-tham-quan-cover.webp",
+    "alt": "Khung cảnh đô thị Manila nhìn từ phòng khách sạn.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi": {
-    "src": "/images/editorial/di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi-brief.webp",
-    "alt": "Chia giá tour — Chi phí xe chung / Vé từng khách",
-    "kind": "checklist"
+    "src": "/images/editorial/di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi-cover.webp",
+    "alt": "Các gia đình nghỉ trên bờ cát trong album DT Tour",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122193230024790161",
+    "kind": "photo"
   },
   "don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho": {
-    "src": "/images/editorial/don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho-brief.webp",
-    "alt": "Hành lý thể thao — Kiện dài nhất / Chỗ dỡ đồ",
-    "kind": "checklist"
+    "src": "/images/editorial/don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho-cover.webp",
+    "alt": "Du khách chuẩn bị đưa túi dụng cụ thể thao dài vào xe.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tour-philippines-cho-doan-viet-co-nguoi-den-muon-mot-ngay": {
-    "src": "/images/editorial/tour-philippines-cho-doan-viet-co-nguoi-den-muon-mot-ngay-brief.webp",
-    "alt": "Hai ngày bay — Ngày đoàn tới / Điểm nhập đoàn",
-    "kind": "checklist"
+    "src": "/images/editorial/tour-philippines-cho-doan-viet-co-nguoi-den-muon-mot-ngay-cover.webp",
+    "alt": "Bờ biển có hàng dừa trong nắng",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122192084954790161",
+    "kind": "photo"
   },
   "thue-xe-manila-di-gap-doi-tac-o-cavite-roi-ve-trong-ngay": {
-    "src": "/images/editorial/thue-xe-manila-di-gap-doi-tac-o-cavite-roi-ve-trong-ngay-brief.webp",
-    "alt": "Manila – Cavite — Cổng đối tác / Giờ phải về",
-    "kind": "checklist"
+    "src": "/images/editorial/thue-xe-manila-di-gap-doi-tac-o-cavite-roi-ve-trong-ngay-cover.webp",
+    "alt": "Khách công tác xuống xe tại khu công nghiệp ở Cavite.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai": {
-    "src": "/images/editorial/hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai-brief.webp",
-    "alt": "Buổi lái đầu tiên — Loại xe tập / Ngôn ngữ dạy",
-    "kind": "checklist"
+    "src": "/images/editorial/hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai-cover.webp",
+    "alt": "Học viên trao đổi với giáo viên về buổi học lái xe số tự động.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "lop-tap-do-xe-cho-nguoi-viet-song-o-condo-tai-manila": {
-    "src": "/images/editorial/lop-tap-do-xe-cho-nguoi-viet-song-o-condo-tai-manila-brief.webp",
-    "alt": "Bài tập đỗ xe — Bề rộng lối vào / Vị trí cột",
-    "kind": "checklist"
+    "src": "/images/editorial/lop-tap-do-xe-cho-nguoi-viet-song-o-condo-tai-manila-cover.webp",
+    "alt": "Học viên quan sát gương khi tập đưa xe vào chỗ đỗ.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-lai-o-philippines-sau-nhieu-nam-nghi-lai": {
-    "src": "/images/editorial/hoc-lai-lai-o-philippines-sau-nhieu-nam-nghi-lai-brief.webp",
-    "alt": "Buổi đánh giá — Kỹ năng đã có / Tình huống ngại lái",
-    "kind": "checklist"
+    "src": "/images/editorial/hoc-lai-lai-o-philippines-sau-nhieu-nam-nghi-lai-cover.webp",
+    "alt": "Giáo viên ngồi bên cạnh học viên tập lái trở lại.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-xe-o-manila-cho-nguoi-lam-ca-xoay": {
-    "src": "/images/editorial/hoc-lai-xe-o-manila-cho-nguoi-lam-ca-xoay-brief.webp",
-    "alt": "Lịch thực hành — Tuần ca sớm / Tuần ca muộn",
-    "kind": "checklist"
+    "src": "/images/editorial/hoc-lai-xe-o-manila-cho-nguoi-lam-ca-xoay-cover.webp",
+    "alt": "Học viên và giáo viên trao đổi về lịch học lái theo ca.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hai-vo-chong-nguoi-viet-cung-hoc-lai-o-philippines-hoi-gia-the-nao": {
-    "src": "/images/editorial/hai-vo-chong-nguoi-viet-cung-hoc-lai-o-philippines-hoi-gia-the-nao-brief.webp",
-    "alt": "Hai người học — Trình độ từng người / Phút thực cầm lái",
-    "kind": "checklist"
+    "src": "/images/editorial/hai-vo-chong-nguoi-viet-cung-hoc-lai-o-philippines-hoi-gia-the-nao-cover.webp",
+    "alt": "Hai vợ chồng cùng trao đổi với người tư vấn khóa học lái.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "nguoi-viet-da-co-bang-lai-muon-hoi-thu-tuc-o-philippines-bat-dau-tu-dau": {
-    "src": "/images/editorial/nguoi-viet-da-co-bang-lai-muon-hoi-thu-tuc-o-philippines-bat-dau-tu-dau-brief.webp",
-    "alt": "Hỏi đúng thủ tục — Bằng hiện có / Mục đích sử dụng",
-    "kind": "checklist"
+    "src": "/images/editorial/nguoi-viet-da-co-bang-lai-muon-hoi-thu-tuc-o-philippines-bat-dau-tu-dau-cover.webp",
+    "alt": "Người lái chuẩn bị giấy tờ trước khi hỏi thủ tục tại Philippines.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-thuc-hanh-hay-can-chung-nhan-cho-ho-so-bang-lai-philippines": {
-    "src": "/images/editorial/hoc-thuc-hanh-hay-can-chung-nhan-cho-ho-so-bang-lai-philippines-brief.webp",
-    "alt": "Kiểm tra chứng nhận — Tên khoá học / Cơ sở đào tạo",
-    "kind": "checklist"
+    "src": "/images/editorial/hoc-thuc-hanh-hay-can-chung-nhan-cho-ho-so-bang-lai-philippines-cover.webp",
+    "alt": "Học viên và người hướng dẫn trao đổi về tài liệu của khóa học.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "doc-bao-gia-tu-van-bang-lai-o-philippines-khoan-nao-tra-cho-ai": {
-    "src": "/images/editorial/doc-bao-gia-tu-van-bang-lai-o-philippines-khoan-nao-tra-cho-ai-brief.webp",
-    "alt": "So bảng phí — Nội dung thu / Đơn vị nhận tiền",
-    "kind": "checklist"
+    "src": "/images/editorial/doc-bao-gia-tu-van-bang-lai-o-philippines-khoan-nao-tra-cho-ai-cover.webp",
+    "alt": "Người tư vấn giải thích các khoản trong báo giá cho khách.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "nguoi-viet-chuyen-noi-o-tai-philippines-khi-dang-hoc-hoac-chuan-bi-ho-so-lai-xe": {
-    "src": "/images/editorial/nguoi-viet-chuyen-noi-o-tai-philippines-khi-dang-hoc-hoac-chuan-bi-ho-so-lai-xe-brief.webp",
-    "alt": "Tiếp tục khoá học — Phần đã học / Nơi chuyển đến",
-    "kind": "checklist"
+    "src": "/images/editorial/nguoi-viet-chuyen-noi-o-tai-philippines-khi-dang-hoc-hoac-chuan-bi-ho-so-lai-xe-cover.webp",
+    "alt": "Học viên xem lại hồ sơ khi thay đổi địa chỉ.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoi-tu-van-bang-lai-philippines-khi-ten-tren-cac-giay-to-viet-khac-nhau": {
-    "src": "/images/editorial/hoi-tu-van-bang-lai-philippines-khi-ten-tren-cac-giay-to-viet-khac-nhau-brief.webp",
-    "alt": "Đối chiếu họ tên — Dạng khác biệt / Nơi tiếp nhận",
-    "kind": "checklist"
+    "src": "/images/editorial/hoi-tu-van-bang-lai-philippines-khi-ten-tren-cac-giay-to-viet-khac-nhau-cover.webp",
+    "alt": "Hai người đối chiếu thông tin trên các giấy tờ trong buổi tư vấn.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-toyota-yaris-in-manila-for-a-narrow-gate": {
-    "src": "/images/editorial/used-toyota-yaris-in-manila-for-a-narrow-gate-brief.webp",
-    "kind": "checklist",
-    "alt": "Gate clearance — Mirror clearance / Turning space"
+    "src": "/images/editorial/used-toyota-yaris-in-manila-for-a-narrow-gate-cover.webp",
+    "alt": "Narrow residential driveway entrance with concrete gate pillars and a folding rule showing clearance near the side mirror of a small hatchback, close oblique composition.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch": {
-    "src": "/images/editorial/used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch-brief.webp",
-    "kind": "checklist",
-    "alt": "Towing history — Previous loads / Workshop findings"
+    "src": "/images/editorial/used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch-cover.webp",
+    "alt": "A used SUV's tow hitch receiver and trailer wiring socket, mechanic examining them with a work light in a dry service bay, very tight clean image.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-toyota-avanza-or-a-sedan-for-manila-carpools": {
-    "src": "/images/editorial/used-toyota-avanza-or-a-sedan-for-manila-carpools-brief.webp",
-    "kind": "checklist",
-    "alt": "Carpool seating — Daily riders / Weekly full load"
+    "src": "/images/editorial/used-toyota-avanza-or-a-sedan-for-manila-carpools-cover.webp",
+    "alt": "Dashboard and front cabin of a 2023 Toyota Avanza E automatic",
+    "width": 1200,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122361280436008877",
+    "kind": "photo"
   },
   "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim": {
-    "src": "/images/editorial/used-ford-territory-in-manila-check-the-technology-on-the-actual-trim-brief.webp",
-    "kind": "checklist",
-    "alt": "Cabin controls — Phone pairing / Actual trim"
+    "src": "/images/editorial/used-ford-territory-in-manila-check-the-technology-on-the-actual-trim-cover.webp",
+    "alt": "Front view of a Ford Territory in the DT Car vehicle archive",
+    "width": 900,
+    "height": 1200,
+    "kind": "photo"
   },
   "used-kia-carnival-for-an-airport-pickup-business": {
-    "src": "/images/editorial/used-kia-carnival-for-an-airport-pickup-business-brief.webp",
-    "kind": "checklist",
-    "alt": "Van turnaround — Door clearance / Bag loading"
+    "src": "/images/editorial/used-kia-carnival-for-an-airport-pickup-business-cover.webp",
+    "alt": "A hotel porter loading two large hard cases through the open rear hatch of a passenger van, airport shuttle context, crop out vehicle badges.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-hyundai-staria-for-a-hotel-shuttle-what-to-ask-before-viewing": {
-    "src": "/images/editorial/used-hyundai-staria-for-a-hotel-shuttle-what-to-ask-before-viewing-brief.webp",
-    "kind": "checklist",
-    "alt": "Hotel access — Entry height / Boarding step"
+    "src": "/images/editorial/used-hyundai-staria-for-a-hotel-shuttle-what-to-ask-before-viewing-cover.webp",
+    "alt": "The low sliding-door threshold of a tall silver hotel shuttle van, ridged boarding step and a guest's carry-on bag, shaded forecourt.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims": {
-    "src": "/images/editorial/used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims-brief.webp",
-    "kind": "checklist",
-    "alt": "Trim evidence — Original equipment / Added equipment"
+    "src": "/images/editorial/used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims-cover.webp",
+    "alt": "A customer inspecting wheel and suspension equipment on two parked SUVs, close shot with two distinct wheel designs in the same frame, no grilles or badges.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-honda-brio-for-a-first-apartment-parking-space": {
-    "src": "/images/editorial/used-honda-brio-for-a-first-apartment-parking-space-brief.webp",
-    "kind": "checklist",
-    "alt": "Parking fit — Ramp turn / Door opening"
+    "src": "/images/editorial/used-honda-brio-for-a-first-apartment-parking-space-cover.webp",
+    "alt": "A compact hatchback's wing mirror just clearing a concrete apartment parking pillar, view from an open driver window, bright afternoon.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-toyota-wigo-in-manila-for-deliveries-with-small-parcels": {
-    "src": "/images/editorial/used-toyota-wigo-in-manila-for-deliveries-with-small-parcels-brief.webp",
-    "kind": "checklist",
-    "alt": "Parcel layout — Box footprint / Daily stops"
+    "src": "/images/editorial/used-toyota-wigo-in-manila-for-deliveries-with-small-parcels-cover.webp",
+    "alt": "Reusable delivery totes and small cardboard parcels arranged in a compact hatchback's boot with the back seats upright, overhead perspective.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-subaru-forester-reviewing-a-set-of-replacement-tyres": {
-    "src": "/images/editorial/used-subaru-forester-reviewing-a-set-of-replacement-tyres-brief.webp",
-    "kind": "checklist",
-    "alt": "Tyre history — Tyre markings / Service invoices"
+    "src": "/images/editorial/used-subaru-forester-reviewing-a-set-of-replacement-tyres-cover.webp",
+    "alt": "Four replacement tyres at a tyre shop, technician comparing tread depth with a small gauge, black rubber lit from the side, no lettering.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-mazda-3-hatchback-or-sedan-for-a-folding-bicycle": {
-    "src": "/images/editorial/used-mazda-3-hatchback-or-sedan-for-a-folding-bicycle-brief.webp",
-    "kind": "checklist",
-    "alt": "Bike loading — Folded dimensions / Boot opening"
+    "src": "/images/editorial/used-mazda-3-hatchback-or-sedan-for-a-folding-bicycle-cover.webp",
+    "alt": "A folded commuter bicycle partly inside an open car boot, close shot of folded pedals, protective mat and luggage opening, realistic proportions.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila": {
-    "src": "/images/editorial/used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Rear cabin — Seat position / Entry angle"
+    "src": "/images/editorial/used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila-cover.webp",
+    "alt": "Sunlight falling across a roomy sedan rear bench with broad armrest lowered, passenger's shoes on the floor mat showing knee space, camera at door height.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "buying-a-used-diesel-suv-after-seeing-a-dashboard-warning-in-the-listing": {
-    "src": "/images/editorial/buying-a-used-diesel-suv-after-seeing-a-dashboard-warning-in-the-listing-brief.webp",
-    "kind": "checklist",
-    "alt": "Warning evidence — Warning symbol / Diagnostic result"
+    "src": "/images/editorial/buying-a-used-diesel-suv-after-seeing-a-dashboard-warning-in-the-listing-cover.webp",
+    "alt": "Parked diesel vehicle with a mechanic studying a single amber instrument warning in the dark cabin, focus on hand and instrument light, no readable text.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "buying-a-used-car-with-only-one-registered-key": {
-    "src": "/images/editorial/buying-a-used-car-with-only-one-registered-key-brief.webp",
-    "kind": "checklist",
-    "alt": "Replacement key — Working key / Written estimate"
+    "src": "/images/editorial/buying-a-used-car-with-only-one-registered-key-cover.webp",
+    "alt": "A driver and adviser examine a single car key beside a vehicle.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "buying-a-used-car-with-a-changed-instrument-cluster": {
-    "src": "/images/editorial/buying-a-used-car-with-a-changed-instrument-cluster-brief.webp",
-    "kind": "checklist",
-    "alt": "Mileage trail — Last recorded mileage / Replacement date"
+    "src": "/images/editorial/buying-a-used-car-with-a-changed-instrument-cluster-cover.webp",
+    "alt": "A technician and owner check the instrument cluster from inside a car.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "used-cars-with-fresh-undercoating-what-should-the-inspection-cover": {
-    "src": "/images/editorial/used-cars-with-fresh-undercoating-what-should-the-inspection-cover-brief.webp",
-    "kind": "checklist",
-    "alt": "Underside condition — Treatment date / Inspection access"
+    "src": "/images/editorial/used-cars-with-fresh-undercoating-what-should-the-inspection-cover-cover.webp",
+    "alt": "A mechanic inspects the underside of a raised vehicle.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "buying-a-pre-owned-car-after-a-long-distance-move-to-cebu": {
-    "src": "/images/editorial/buying-a-pre-owned-car-after-a-long-distance-move-to-cebu-brief.webp",
-    "kind": "checklist",
-    "alt": "Remote handover — Viewing city / Receiving city"
+    "src": "/images/editorial/buying-a-pre-owned-car-after-a-long-distance-move-to-cebu-cover.webp",
+    "alt": "Sedan shown from the front at an outdoor inspection",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377261874008877",
+    "kind": "photo"
   },
   "which-used-car-works-for-a-wheelchair-that-folds-into-the-boot": {
-    "src": "/images/editorial/which-used-car-works-for-a-wheelchair-that-folds-into-the-boot-brief.webp",
-    "kind": "checklist",
-    "alt": "Mobility equipment — Folded chair size / Loading height"
+    "src": "/images/editorial/which-used-car-works-for-a-wheelchair-that-folds-into-the-boot-cover.webp",
+    "alt": "Folded wheelchair alongside the open boot of a hatchback.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "buying-a-second-hand-car-with-roof-rails-for-a-surfboard": {
-    "src": "/images/editorial/buying-a-second-hand-car-with-roof-rails-for-a-surfboard-brief.webp",
-    "kind": "checklist",
-    "alt": "Roof equipment — Rail type / Rack compatibility"
+    "src": "/images/editorial/buying-a-second-hand-car-with-roof-rails-for-a-surfboard-cover.webp",
+    "alt": "A roof-mounted carrier viewed from the side",
+    "width": 675,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122361743318008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/buying-a-second-hand-car-with-roof-rails-for-a-surfboard-detail.webp",
+      "alt": "Outdoor example of luggage carried on the roof of a vehicle",
+      "width": 675,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122361743354008877"
+    }
   },
   "used-car-in-manila-for-two-child-restraints-side-by-side": {
-    "src": "/images/editorial/used-car-in-manila-for-two-child-restraints-side-by-side-brief.webp",
-    "kind": "checklist",
-    "alt": "Seat layout — Restraint footprint / Buckle access"
+    "src": "/images/editorial/used-car-in-manila-for-two-child-restraints-side-by-side-cover.webp",
+    "alt": "A family tries two child restraints side by side on a rear bench.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-car-with-a-lost-service-booklet-in-manila": {
-    "src": "/images/editorial/selling-a-car-with-a-lost-service-booklet-in-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Service trail — Workshop dates / Remaining records"
+    "src": "/images/editorial/selling-a-car-with-a-lost-service-booklet-in-manila-cover.webp",
+    "alt": "An empty glove compartment document sleeve beside a plain maintenance folder and a car key on a desk, angled daylight, no printed pages.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-car-fitted-with-a-removable-roof-box": {
-    "src": "/images/editorial/selling-a-car-fitted-with-a-removable-roof-box-brief.webp",
-    "kind": "checklist",
-    "alt": "Roof accessories — Box included / Mounting kit"
+    "src": "/images/editorial/selling-a-car-fitted-with-a-removable-roof-box-cover.webp",
+    "alt": "Two people examine a removable roof box on top of a car.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "car-appraisal-after-switching-from-stock-to-larger-wheels": {
-    "src": "/images/editorial/car-appraisal-after-switching-from-stock-to-larger-wheels-brief.webp",
-    "kind": "checklist",
-    "alt": "Wheel change — Stock wheel size / Fitted wheel size"
+    "src": "/images/editorial/car-appraisal-after-switching-from-stock-to-larger-wheels-cover.webp",
+    "alt": "Alloy wheel and tyre shown close up",
+    "width": 1200,
+    "height": 899,
+    "source": "https://www.facebook.com/photo.php?fbid=122371525370008877",
+    "kind": "photo"
   },
   "selling-a-used-van-with-removable-passenger-seats": {
-    "src": "/images/editorial/selling-a-used-van-with-removable-passenger-seats-brief.webp",
-    "kind": "checklist",
-    "alt": "Seat inventory — Seats fitted / Seats stored"
+    "src": "/images/editorial/selling-a-used-van-with-removable-passenger-seats-cover.webp",
+    "alt": "Worker unlatching the removable passenger bench of a parked van, strong view of floor mounting tracks and seat legs, no people seated.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-car-while-its-replacement-is-being-repaired": {
-    "src": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-brief.webp",
-    "kind": "checklist",
-    "alt": "Release window — Workshop update / Last use date"
+    "src": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-cover.webp",
+    "alt": "Rear three-quarter view of a grey vehicle",
+    "width": 768,
+    "height": 1024,
+    "source": "https://www.facebook.com/photo.php?fbid=122377250306008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-detail.webp",
+      "alt": "Tailgate photographed directly from the rear",
+      "width": 768,
+      "height": 1024,
+      "source": "https://www.facebook.com/photo.php?fbid=122377250396008877"
+    }
   },
   "selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history": {
-    "src": "/images/editorial/selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history-brief.webp",
-    "kind": "checklist",
-    "alt": "Work history — Typical shift / Maintenance interval"
+    "src": "/images/editorial/selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history-cover.webp",
+    "alt": "Rear seat and passenger footwell in a used vehicle.",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=1580646017161025",
+    "kind": "photo"
   },
   "selling-a-car-with-window-film-which-details-affect-inspection": {
-    "src": "/images/editorial/selling-a-car-with-window-film-which-details-affect-inspection-brief.webp",
-    "kind": "checklist",
-    "alt": "Window film — Film invoice / Glass condition"
+    "src": "/images/editorial/selling-a-car-with-window-film-which-details-affect-inspection-cover.webp",
+    "alt": "Parked SUV viewed in profile with its side windows visible",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377256096008877",
+    "kind": "photo"
   },
   "selling-a-used-delivery-van-with-shelves-installed": {
-    "src": "/images/editorial/selling-a-used-delivery-van-with-shelves-installed-brief.webp",
-    "kind": "checklist",
-    "alt": "Cargo shelving — Fixing points / Bare cargo floor"
+    "src": "/images/editorial/selling-a-used-delivery-van-with-shelves-installed-cover.webp",
+    "alt": "A worker checks storage shelves inside a delivery van.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-your-car-after-the-windscreen-was-replaced": {
-    "src": "/images/editorial/selling-your-car-after-the-windscreen-was-replaced-brief.webp",
-    "kind": "checklist",
-    "alt": "Glass replacement — Repair invoice / Equipment checks"
+    "src": "/images/editorial/selling-your-car-after-the-windscreen-was-replaced-cover.webp",
+    "alt": "A vehicle owner and adviser inspect a replacement windscreen.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "appraising-a-car-with-a-recently-repaired-air-conditioner": {
-    "src": "/images/editorial/appraising-a-car-with-a-recently-repaired-air-conditioner-brief.webp",
-    "kind": "checklist",
-    "alt": "Cooling repair — Parts replaced / Follow-up visit"
+    "src": "/images/editorial/appraising-a-car-with-a-recently-repaired-air-conditioner-cover.webp",
+    "alt": "A technician checks the air-conditioning controls inside a car.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-two-family-cars-registered-to-different-owners": {
-    "src": "/images/editorial/selling-two-family-cars-registered-to-different-owners-brief.webp",
-    "kind": "checklist",
-    "alt": "Ownership contacts — Inspection contact / Handover contact"
+    "src": "/images/editorial/selling-two-family-cars-registered-to-different-owners-cover.webp",
+    "alt": "Rear exterior photograph of a white vehicle",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377253900008877",
+    "kind": "photo"
   },
   "selling-a-car-whose-finance-was-settled-recently": {
-    "src": "/images/editorial/selling-a-car-whose-finance-was-settled-recently-brief.webp",
-    "kind": "checklist",
-    "alt": "Release records — Settlement date / Document status"
+    "src": "/images/editorial/selling-a-car-whose-finance-was-settled-recently-cover.webp",
+    "alt": "Front of a parked sedan photographed for a seller enquiry",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122384852768008877",
+    "kind": "photo"
   },
   "selling-an-inherited-vehicle-requesting-a-preliminary-appraisal": {
-    "src": "/images/editorial/selling-an-inherited-vehicle-requesting-a-preliminary-appraisal-brief.webp",
-    "kind": "checklist",
-    "alt": "Preliminary value — Vehicle condition / Authority to sell"
+    "src": "/images/editorial/selling-an-inherited-vehicle-requesting-a-preliminary-appraisal-cover.webp",
+    "alt": "A small stack of closed manila folders and two older car keys on a quiet dining table, a family member considering the papers in warm window light.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-car-with-different-paint-shades-on-two-doors": {
-    "src": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-brief.webp",
-    "kind": "checklist",
-    "alt": "Paint history — Panel photos / Repair record"
+    "src": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-cover.webp",
+    "alt": "Side profile showing both exterior doors and their paint finish",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122377253078008877",
+    "kind": "photo"
   },
   "selling-a-company-vehicle-with-employee-belongings-and-installed-devices": {
-    "src": "/images/editorial/selling-a-company-vehicle-with-employee-belongings-and-installed-devices-brief.webp",
-    "kind": "checklist",
-    "alt": "Handover inventory — Company devices / Items to remove"
+    "src": "/images/editorial/selling-a-company-vehicle-with-employee-belongings-and-installed-devices-cover.webp",
+    "alt": "Rear passenger cabin before a vehicle handover",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377268156008877",
+    "kind": "photo"
   },
   "selling-a-non-running-car-from-a-private-garage": {
-    "src": "/images/editorial/selling-a-non-running-car-from-a-private-garage-brief.webp",
-    "kind": "checklist",
-    "alt": "Recovery access — Garage clearance / Vehicle mobility"
+    "src": "/images/editorial/selling-a-non-running-car-from-a-private-garage-cover.webp",
+    "alt": "An older car stands in a private garage with a flat tyre and a portable jump pack nearby.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-car-when-the-spare-tyre-or-repair-kit-is-missing": {
-    "src": "/images/editorial/selling-a-car-when-the-spare-tyre-or-repair-kit-is-missing-brief.webp",
-    "kind": "checklist",
-    "alt": "Boot inventory — Factory equipment / Missing items"
+    "src": "/images/editorial/selling-a-car-when-the-spare-tyre-or-repair-kit-is-missing-cover.webp",
+    "alt": "An owner inspects the spare-wheel compartment and repair equipment.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-a-car-previously-used-near-the-coast": {
-    "src": "/images/editorial/selling-a-car-previously-used-near-the-coast-brief.webp",
-    "kind": "checklist",
-    "alt": "Coastal use — Storage location / Underside inspection"
+    "src": "/images/editorial/selling-a-car-previously-used-near-the-coast-cover.webp",
+    "alt": "Rear corner and lower bodywork of a parked sedan",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377262768008877",
+    "kind": "photo"
   },
   "selling-a-car-with-an-approaching-major-service": {
-    "src": "/images/editorial/selling-a-car-with-an-approaching-major-service-brief.webp",
-    "kind": "checklist",
-    "alt": "Upcoming service — Service due / Workshop quote"
+    "src": "/images/editorial/selling-a-car-with-an-approaching-major-service-cover.webp",
+    "alt": "An oil filter and service parts wait on a mechanic's workbench.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "selling-an-suv-while-keeping-your-personalised-accessories": {
-    "src": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-brief.webp",
-    "kind": "checklist",
-    "alt": "Release inventory — Included fittings / Retained items"
+    "src": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-cover.webp",
+    "alt": "Pickup accessory and mounting area viewed up close",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122374363244008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-detail.webp",
+      "alt": "Removable interior trim accessory on a vehicle door",
+      "width": 1200,
+      "height": 800,
+      "source": "https://www.facebook.com/photo.php?fbid=122370438788008877"
+    }
   },
   "vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences": {
-    "src": "/images/editorial/vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences-brief.webp",
-    "kind": "checklist",
-    "alt": "Battery price gap — VF 3 gap / VF 5 Plus gap"
+    "src": "/images/editorial/vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences-cover.webp",
+    "alt": "Two differently shaped portable EV charging plugs with separate unmarked key fobs on a showroom counter, muted backdrop and intentional negative space.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost": {
-    "src": "/images/editorial/vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost-brief.webp",
-    "kind": "checklist",
-    "alt": "Eco comparison — Subscription quote / Battery-included quote"
+    "src": "/images/editorial/vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost-cover.webp",
+    "alt": "Two SUVs parked side by side, framed tightly from the open rear doors to compare knee clearance and cabin width, no exterior body styling visible.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vf-6-plus-versus-vf-7-plus-compare-like-for-like-battery-terms": {
-    "src": "/images/editorial/vf-6-plus-versus-vf-7-plus-compare-like-for-like-battery-terms-brief.webp",
-    "kind": "checklist",
-    "alt": "Plus comparison — Upfront gap / Included equipment"
+    "src": "/images/editorial/vf-6-plus-versus-vf-7-plus-compare-like-for-like-battery-terms-cover.webp",
+    "alt": "Two automotive paint and interior material samples beside plain unmarked key fobs, close tabletop composition with cool diffused light.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist": {
-    "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-brief.webp",
-    "kind": "checklist",
-    "alt": "MPV comparison — Occupied rows / Price difference"
+    "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-cover.webp",
+    "alt": "VinFast MPV 7 and Limo Green shown side by side in the DT Car comparison",
+    "width": 1200,
+    "height": 800,
+    "source": "https://www.facebook.com/photo.php?fbid=122361430250008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-detail.webp",
+      "alt": "Rear views of the MPV 7 and Limo Green in the same comparison",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122361430238008877"
+    }
   },
   "herio-green-or-vf-5-plus-for-a-predictable-daily-route": {
-    "src": "/images/editorial/herio-green-or-vf-5-plus-for-a-predictable-daily-route-brief.webp",
-    "kind": "checklist",
-    "alt": "Route comparison — Daily mileage / Parking duration"
+    "src": "/images/editorial/herio-green-or-vf-5-plus-for-a-predictable-daily-route-cover.webp",
+    "alt": "Parked electric VinFast seen from the front corner",
+    "width": 800,
+    "height": 600,
+    "source": "https://www.facebook.com/photo.php?fbid=122371518572008877",
+    "kind": "photo"
   },
   "vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods": {
-    "src": "/images/editorial/vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods-brief.webp",
-    "kind": "checklist",
-    "alt": "Ownership periods — Three-year costs / Five-year costs"
+    "src": "/images/editorial/vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods-cover.webp",
+    "alt": "A premium EV parked in a garage viewed from the charging port side, home charger cable attached, late afternoon shadows and rich wood trim inside.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-family-ev-for-a-household-with-two-parking-locations": {
-    "src": "/images/editorial/vinfast-family-ev-for-a-household-with-two-parking-locations-brief.webp",
-    "kind": "checklist",
-    "alt": "Two parking sites — Weekday parking / Weekend parking"
+    "src": "/images/editorial/vinfast-family-ev-for-a-household-with-two-parking-locations-cover.webp",
+    "alt": "White VinFast crossover on display",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371937084008877",
+    "kind": "photo"
   },
   "buying-a-vinfast-ev-before-a-change-of-workplace": {
-    "src": "/images/editorial/buying-a-vinfast-ev-before-a-change-of-workplace-brief.webp",
-    "kind": "checklist",
-    "alt": "Commute change — Current distance / New distance"
+    "src": "/images/editorial/buying-a-vinfast-ev-before-a-change-of-workplace-cover.webp",
+    "alt": "Red VinFast on the showroom floor",
+    "width": 600,
+    "height": 588,
+    "source": "https://www.facebook.com/photo.php?fbid=122371519034008877",
+    "kind": "photo"
   },
   "vinfast-test-drive-for-two-adults-who-share-one-phone-connection": {
-    "src": "/images/editorial/vinfast-test-drive-for-two-adults-who-share-one-phone-connection-brief.webp",
-    "kind": "checklist",
-    "alt": "Cabin setup — Driver profile / Phone setup"
+    "src": "/images/editorial/vinfast-test-drive-for-two-adults-who-share-one-phone-connection-cover.webp",
+    "alt": "Steering wheel and centre display in an electric vehicle",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371525790008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/vinfast-test-drive-for-two-adults-who-share-one-phone-connection-detail.webp",
+      "alt": "Centre display and dashboard as seen from between the front seats",
+      "width": 1200,
+      "height": 800,
+      "source": "https://www.facebook.com/photo.php?fbid=122370438872008877"
+    }
   },
   "ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal": {
-    "src": "/images/editorial/ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal-brief.webp",
-    "kind": "checklist",
-    "alt": "Basement use — Signal coverage / Offline access"
+    "src": "/images/editorial/ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal-cover.webp",
+    "alt": "Front cabin and screen of an electric vehicle, viewed through the door",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371936958008877",
+    "kind": "photo"
   },
   "vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs": {
-    "src": "/images/editorial/vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs-brief.webp",
-    "kind": "checklist",
-    "alt": "Charger quote — Equipment price / Installation scope"
+    "src": "/images/editorial/vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs-cover.webp",
+    "alt": "A residential AC wallbox with coiled charging cable beside a parked car.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger": {
-    "src": "/images/editorial/vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger-brief.webp",
-    "kind": "checklist",
-    "alt": "Existing charger — Connector details / Installer check"
+    "src": "/images/editorial/vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger-cover.webp",
+    "alt": "An EV owner holds a charging connector near a home wallbox.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "shopping-for-a-vinfast-for-an-island-based-business": {
-    "src": "/images/editorial/shopping-for-a-vinfast-for-an-island-based-business-brief.webp",
-    "kind": "checklist",
-    "alt": "Island handover — Receiving point / Service arrangements"
+    "src": "/images/editorial/shopping-for-a-vinfast-for-an-island-based-business-cover.webp",
+    "alt": "A small car-carrying ferry alongside a Philippine island port, one unbranded electric crossover waiting near the ramp, palms and blue water in background.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "vinfast-for-sales-representatives-visiting-several-branches": {
-    "src": "/images/editorial/vinfast-for-sales-representatives-visiting-several-branches-brief.webp",
-    "kind": "checklist",
-    "alt": "Branch route — Longest day / Depot dwell"
+    "src": "/images/editorial/vinfast-for-sales-representatives-visiting-several-branches-cover.webp",
+    "alt": "White display vehicle viewed from the side",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371518464008877",
+    "kind": "photo"
   },
   "comparing-two-vinfast-dealer-quotes-with-different-accessories": {
-    "src": "/images/editorial/comparing-two-vinfast-dealer-quotes-with-different-accessories-brief.webp",
-    "kind": "checklist",
-    "alt": "Accessory bundle — Mandatory items / Optional items"
+    "src": "/images/editorial/comparing-two-vinfast-dealer-quotes-with-different-accessories-cover.webp",
+    "alt": "Dark VinFast crossover inside a showroom",
+    "width": 960,
+    "height": 720,
+    "source": "https://www.facebook.com/photo.php?fbid=122371525124008877",
+    "kind": "photo"
   },
   "vinfast-ev-as-a-pool-car-handing-over-between-employees": {
-    "src": "/images/editorial/vinfast-ev-as-a-pool-car-handing-over-between-employees-brief.webp",
-    "kind": "checklist",
-    "alt": "Pool-car setup — Key control / Vehicle log"
+    "src": "/images/editorial/vinfast-ev-as-a-pool-car-handing-over-between-employees-cover.webp",
+    "alt": "Driver's seating area in a VinFast display vehicle",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371519292008877",
+    "kind": "photo"
   },
   "buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city": {
-    "src": "/images/editorial/buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city-brief.webp",
-    "kind": "checklist",
-    "alt": "Move timing — Delivery city / Future service city"
+    "src": "/images/editorial/buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city-cover.webp",
+    "alt": "Grey electric crossover beside a showroom entrance",
+    "width": 800,
+    "height": 600,
+    "source": "https://www.facebook.com/photo.php?fbid=122371937234008877",
+    "kind": "photo"
   },
   "ordering-two-vinfast-cars-for-family-members-in-different-cities": {
-    "src": "/images/editorial/ordering-two-vinfast-cars-for-family-members-in-different-cities-brief.webp",
-    "kind": "checklist",
-    "alt": "Two-city order — Separate owners / Separate handovers"
+    "src": "/images/editorial/ordering-two-vinfast-cars-for-family-members-in-different-cities-cover.webp",
+    "alt": "Two compact VinFast vehicles in adjacent parking spaces",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371511036008877",
+    "kind": "photo"
   },
   "choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim": {
-    "src": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-brief.webp",
-    "kind": "checklist",
-    "alt": "Stock versus wait — Delivery window / Must-have features"
+    "src": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-cover.webp",
+    "alt": "Rows of compact VinFast vehicles in different colours",
+    "width": 1200,
+    "height": 799,
+    "source": "https://www.facebook.com/photo.php?fbid=1006911235788214",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-detail.webp",
+      "alt": "Another exterior colour and trim on a compact VinFast",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122371510580008877"
+    }
   },
   "vinfast-for-a-business-with-seasonal-mileage-peaks": {
-    "src": "/images/editorial/vinfast-for-a-business-with-seasonal-mileage-peaks-brief.webp",
-    "kind": "checklist",
-    "alt": "Seasonal mileage — Quiet months / Peak months"
+    "src": "/images/editorial/vinfast-for-a-business-with-seasonal-mileage-peaks-cover.webp",
+    "alt": "Driver's seat and front passenger area in an electric vehicle",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371527344008877",
+    "kind": "photo"
   },
   "lich-manila-cho-khach-viet-den-sau-nua-dem": {
-    "src": "/images/editorial/lich-manila-cho-khach-viet-den-sau-nua-dem-brief.webp",
-    "kind": "checklist",
-    "alt": "Đón đêm — Ngày hạ cánh / Ngày nhận phòng"
+    "src": "/images/editorial/lich-manila-cho-khach-viet-den-sau-nua-dem-cover.webp",
+    "alt": "Khách kéo vali từ điểm đón vào sảnh khách sạn sau nửa đêm.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "xe-rieng-tu-manila-den-clark-cho-nhom-viet-co-chuyen-bay": {
-    "src": "/images/editorial/xe-rieng-tu-manila-den-clark-cho-nhom-viet-co-chuyen-bay-brief.webp",
-    "kind": "checklist",
-    "alt": "Đi Clark — Điểm đón / Giờ phải tới"
+    "src": "/images/editorial/xe-rieng-tu-manila-den-clark-cho-nhom-viet-co-chuyen-bay-cover.webp",
+    "alt": "Góc nhìn từ xe riêng trên đường cao tốc đi về phía Clark.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila": {
-    "src": "/images/editorial/dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Đón tại Clark — Mã chuyến / Điểm trả"
+    "src": "/images/editorial/dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila-cover.webp",
+    "alt": "Gia đình gặp nhau tại khu đón khách của sân bay.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc": {
-    "src": "/images/editorial/tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc-brief.webp",
-    "kind": "checklist",
-    "alt": "Góc chụp kiến trúc — Điểm ưu tiên / Thời gian đi bộ"
+    "src": "/images/editorial/tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc-cover.webp",
+    "alt": "Mặt tiền nhà thờ với cửa vòm và họa tiết đá",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122190087068790161",
+    "kind": "photo"
   },
   "lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam": {
-    "src": "/images/editorial/lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam-brief.webp",
-    "kind": "checklist",
-    "alt": "Lịch ngày mưa — Điểm trong nhà / Giờ quyết định"
+    "src": "/images/editorial/lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam-cover.webp",
+    "alt": "Gia đình trú mưa dưới mái hiên trên đường phố Manila.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "di-bao-tang-o-manila-voi-tre-em-dat-lich-xe-rieng-the-nao": {
-    "src": "/images/editorial/di-bao-tang-o-manila-voi-tre-em-dat-lich-xe-rieng-the-nao-brief.webp",
-    "kind": "checklist",
-    "alt": "Buổi bảo tàng — Giờ vào cửa / Giờ trẻ cần nghỉ"
+    "src": "/images/editorial/di-bao-tang-o-manila-voi-tre-em-dat-lich-xe-rieng-the-nao-cover.webp",
+    "alt": "Phụ huynh và trẻ em xem tác phẩm trong phòng trưng bày.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tour-manila-cho-khach-viet-can-an-chay": {
-    "src": "/images/editorial/tour-manila-cho-khach-viet-can-an-chay-brief.webp",
-    "kind": "checklist",
-    "alt": "Bữa ăn chay — Kiểu ăn / Thời gian dùng bữa"
+    "src": "/images/editorial/tour-manila-cho-khach-viet-can-an-chay-cover.webp",
+    "alt": "Bữa ăn gồm cơm, cà tím và rau củ theo phong cách Philippines.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "dat-tour-manila-cho-doan-cong-ty-can-hoa-don-va-bao-gia": {
-    "src": "/images/editorial/dat-tour-manila-cho-doan-cong-ty-can-hoa-don-va-bao-gia-brief.webp",
-    "kind": "checklist",
-    "alt": "Hồ sơ công tác — Tên đơn vị / Hạn duyệt chi"
+    "src": "/images/editorial/dat-tour-manila-cho-doan-cong-ty-can-hoa-don-va-bao-gia-cover.webp",
+    "alt": "Đoàn khách công ty chuẩn bị lịch trình và giấy tờ chuyến đi.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "thue-xe-rieng-cho-nhom-viet-di-khao-sat-nha-o-metro-manila": {
-    "src": "/images/editorial/thue-xe-rieng-cho-nhom-viet-di-khao-sat-nha-o-metro-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Xem căn hộ — Lịch từng toà / Cổng đón khách"
+    "src": "/images/editorial/thue-xe-rieng-cho-nhom-viet-di-khao-sat-nha-o-metro-manila-cover.webp",
+    "alt": "Khách đi xe riêng đến xem một khu nhà ở Metro Manila.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "xe-rieng-cho-phu-huynh-viet-di-tham-truong-tai-manila": {
-    "src": "/images/editorial/xe-rieng-cho-phu-huynh-viet-di-tham-truong-tai-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Thăm trường — Lịch tiếp phụ huynh / Điểm đón sau buổi"
+    "src": "/images/editorial/xe-rieng-cho-phu-huynh-viet-di-tham-truong-tai-manila-cover.webp",
+    "alt": "Phụ huynh mang hồ sơ đến cổng trường trong chuyến đi thăm trường.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "don-doan-viet-o-ben-cang-manila-cho-chuyen-tham-quan-ngan": {
-    "src": "/images/editorial/don-doan-viet-o-ben-cang-manila-cho-chuyen-tham-quan-ngan-brief.webp",
-    "kind": "checklist",
-    "alt": "Đón ở cảng — Cửa ra / Hạn trở lại tàu"
+    "src": "/images/editorial/don-doan-viet-o-ben-cang-manila-cho-chuyen-tham-quan-ngan-cover.webp",
+    "alt": "Du khách mang vali từ bến tàu đến khu xe đón của cảng.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "di-cebu-roi-noi-chuyen-sang-bohol-nen-dat-xe-tung-chang-the-nao": {
-    "src": "/images/editorial/di-cebu-roi-noi-chuyen-sang-bohol-nen-dat-xe-tung-chang-the-nao-brief.webp",
-    "kind": "checklist",
-    "alt": "Nối Cebu – Bohol — Cảng khởi hành / Cảng đến"
+    "src": "/images/editorial/di-cebu-roi-noi-chuyen-sang-bohol-nen-dat-xe-tung-chang-the-nao-cover.webp",
+    "alt": "Hành khách đợi tại cầu lên phà trong hành trình giữa các đảo.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tour-bohol-cho-cap-doi-viet-chi-co-mot-ngay-ranh": {
-    "src": "/images/editorial/tour-bohol-cho-cap-doi-viet-chi-co-mot-ngay-ranh-brief.webp",
-    "kind": "checklist",
-    "alt": "Một ngày Bohol — Ưu tiên chính / Giờ về"
+    "src": "/images/editorial/tour-bohol-cho-cap-doi-viet-chi-co-mot-ngay-ranh-cover.webp",
+    "alt": "Hai du khách đi bộ dọc bãi biển ở Bohol vào buổi sáng.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "dat-xe-o-philippines-cho-doan-viet-can-hai-xe-di-cung": {
-    "src": "/images/editorial/dat-xe-o-philippines-cho-doan-viet-can-hai-xe-di-cung-brief.webp",
-    "kind": "checklist",
-    "alt": "Điều phối hai xe — Danh sách từng xe / Điểm gặp lại"
+    "src": "/images/editorial/dat-xe-o-philippines-cho-doan-viet-can-hai-xe-di-cung-cover.webp",
+    "alt": "Hai xe đưa đón chờ đoàn tại sảnh có mái che.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam": {
-    "src": "/images/editorial/thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam-brief.webp",
-    "kind": "checklist",
-    "alt": "Chọn gói xe — Khoảng nghỉ / Số lần lấy đồ"
+    "src": "/images/editorial/thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam-cover.webp",
+    "alt": "Không gian mua sắm trong nhà từ album DT Tour",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122170257980790161",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam-detail.webp",
+      "alt": "Lối đi giữa các cửa hàng trong trung tâm thương mại",
+      "width": 900,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122170257950790161"
+    }
   },
   "dat-xe-manila-cho-khach-viet-can-lam-viec-ngay-sau-khi-ha-canh": {
-    "src": "/images/editorial/dat-xe-manila-cho-khach-viet-can-lam-viec-ngay-sau-khi-ha-canh-brief.webp",
-    "kind": "checklist",
-    "alt": "Sân bay đến cuộc họp — Địa chỉ họp / Nơi gửi vali"
+    "src": "/images/editorial/dat-xe-manila-cho-khach-viet-can-lam-viec-ngay-sau-khi-ha-canh-cover.webp",
+    "alt": "Khách mở máy tính làm việc tại khách sạn sau chuyến bay.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "du-lich-manila-dip-sinh-nhat-gia-dinh-gom-lich-an-toi-va-dua-don": {
-    "src": "/images/editorial/du-lich-manila-dip-sinh-nhat-gia-dinh-gom-lich-an-toi-va-dua-don-brief.webp",
-    "kind": "checklist",
-    "alt": "Tiệc sinh nhật — Giờ đặt bàn / Nhóm về sớm"
+    "src": "/images/editorial/du-lich-manila-dip-sinh-nhat-gia-dinh-gom-lich-an-toi-va-dua-don-cover.webp",
+    "alt": "Không gian bàn ăn ngoài trời vào buổi tối",
+    "width": 797,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122190087284790161",
+    "kind": "photo"
   },
   "thue-xe-cho-nhom-viet-mang-dung-cu-quay-phim-o-manila": {
-    "src": "/images/editorial/thue-xe-cho-nhom-viet-mang-dung-cu-quay-phim-o-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Chở thiết bị — Va-li cứng / Điểm bốc dỡ"
+    "src": "/images/editorial/thue-xe-cho-nhom-viet-mang-dung-cu-quay-phim-o-manila-cover.webp",
+    "alt": "Đoàn quay phim xếp chân máy và thùng thiết bị lên xe.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tour-philippines-cho-nhom-ban-viet-muon-tach-mot-ngay-tu-do": {
-    "src": "/images/editorial/tour-philippines-cho-nhom-ban-viet-muon-tach-mot-ngay-tu-do-brief.webp",
-    "kind": "checklist",
-    "alt": "Ngày tự do — Chặng dùng chung / Điểm nhập lại"
+    "src": "/images/editorial/tour-philippines-cho-nhom-ban-viet-muon-tach-mot-ngay-tu-do-cover.webp",
+    "alt": "Bóng dừa đổ trên bãi cát ven biển",
+    "width": 812,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122191736450790161",
+    "kind": "photo"
   },
   "dat-xe-tour-manila-khi-khach-san-nam-o-pho-kho-dung-xe": {
-    "src": "/images/editorial/dat-xe-tour-manila-khi-khach-san-nam-o-pho-kho-dung-xe-brief.webp",
-    "kind": "checklist",
-    "alt": "Điểm hẹn thay thế — Sảnh thực tế / Chỗ dừng hợp lệ"
+    "src": "/images/editorial/dat-xe-tour-manila-khi-khach-san-nam-o-pho-kho-dung-xe-cover.webp",
+    "alt": "Du khách kéo vali từ phố nhỏ đến điểm xe có thể dừng.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-so-san-o-manila-khi-da-quen-xe-tu-dong": {
-    "src": "/images/editorial/hoc-lai-so-san-o-manila-khi-da-quen-xe-tu-dong-brief.webp",
-    "kind": "checklist",
-    "alt": "Chuyển sang số sàn — Loại xe tập / Kỹ năng cần luyện"
+    "src": "/images/editorial/hoc-lai-so-san-o-manila-khi-da-quen-xe-tu-dong-cover.webp",
+    "alt": "Cần số sàn trong khoang lái của xe tập lái.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tim-lop-lai-xe-o-manila-co-ho-tro-tieng-viet-cho-nguoi-it-tieng-anh": {
-    "src": "/images/editorial/tim-lop-lai-xe-o-manila-co-ho-tro-tieng-viet-cho-nguoi-it-tieng-anh-brief.webp",
-    "kind": "checklist",
-    "alt": "Ngôn ngữ buổi học — Giáo viên trực tiếp / Người hỗ trợ"
+    "src": "/images/editorial/tim-lop-lai-xe-o-manila-co-ho-tro-tieng-viet-cho-nguoi-it-tieng-anh-cover.webp",
+    "alt": "Học viên trao đổi với giáo viên trong xe thực hành.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-cuoi-tuan-o-manila-so-lop-sang-thu-bay-voi-chieu-chu-nhat": {
-    "src": "/images/editorial/hoc-lai-cuoi-tuan-o-manila-so-lop-sang-thu-bay-voi-chieu-chu-nhat-brief.webp",
-    "kind": "checklist",
-    "alt": "Hai ca cuối tuần — Thời gian đi lại / Phút thực hành"
+    "src": "/images/editorial/hoc-lai-cuoi-tuan-o-manila-so-lop-sang-thu-bay-voi-chieu-chu-nhat-cover.webp",
+    "alt": "Học viên so sánh các buổi học cuối tuần với người hướng dẫn.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines": {
-    "src": "/images/editorial/dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines-brief.webp",
-    "kind": "checklist",
-    "alt": "Buổi trải nghiệm — Học phí từng buổi / Khoản trừ vào gói"
+    "src": "/images/editorial/dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines-cover.webp",
+    "alt": "Học viên thử thao tác tay lái trong buổi học đầu tiên.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong": {
-    "src": "/images/editorial/hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong-brief.webp",
-    "kind": "checklist",
-    "alt": "Nút giao khó — Mức kinh nghiệm / Mục tiêu buổi tập"
+    "src": "/images/editorial/hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong-cover.webp",
+    "alt": "Học viên quan sát vòng xuyến từ trong xe tập lái.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-ban-ngay-hay-buoi-toi-tai-manila-cho-nguoi-da-biet-lai": {
-    "src": "/images/editorial/hoc-lai-ban-ngay-hay-buoi-toi-tai-manila-cho-nguoi-da-biet-lai-brief.webp",
-    "kind": "checklist",
-    "alt": "Chọn ca luyện — Tuyến đi làm / Điều kiện ánh sáng"
+    "src": "/images/editorial/hoc-lai-ban-ngay-hay-buoi-toi-tai-manila-cho-nguoi-da-biet-lai-cover.webp",
+    "alt": "Học viên và giáo viên ngồi trong xe lúc chạng vạng.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "tim-lop-lai-xe-thuc-hanh-gan-cho-lam-thay-vi-gan-nha-o-manila": {
-    "src": "/images/editorial/tim-lop-lai-xe-thuc-hanh-gan-cho-lam-thay-vi-gan-nha-o-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Chọn điểm tập — Điểm xuất phát / Giờ tan ca"
+    "src": "/images/editorial/tim-lop-lai-xe-thuc-hanh-gan-cho-lam-thay-vi-gan-nha-o-manila-cover.webp",
+    "alt": "Học viên xem vị trí tập lái trên điện thoại sau giờ làm.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien": {
-    "src": "/images/editorial/hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien-brief.webp",
-    "kind": "checklist",
-    "alt": "Tuyến đưa con — Điểm dừng / Chỗ quay đầu"
+    "src": "/images/editorial/hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien-cover.webp",
+    "alt": "Giáo viên cùng học viên xem lại đường đi trong buổi tập lái.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "chon-giua-giao-vien-co-dinh-va-hoc-nhieu-giao-vien-o-manila": {
-    "src": "/images/editorial/chon-giua-giao-vien-co-dinh-va-hoc-nhieu-giao-vien-o-manila-brief.webp",
-    "kind": "checklist",
-    "alt": "Theo dõi tiến bộ — Người phụ trách / Nhật ký buổi học"
+    "src": "/images/editorial/chon-giua-giao-vien-co-dinh-va-hoc-nhieu-giao-vien-o-manila-cover.webp",
+    "alt": "Học viên trao đổi với giáo viên về cách theo dõi tiến độ.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoc-lai-xe-tai-philippines-khi-chi-ranh-trong-mot-dot-nghi-ngan": {
-    "src": "/images/editorial/hoc-lai-xe-tai-philippines-khi-chi-ranh-trong-mot-dot-nghi-ngan-brief.webp",
-    "kind": "checklist",
-    "alt": "Đợt học ngắn — Ngày có mặt / Lịch trường xác nhận"
+    "src": "/images/editorial/hoc-lai-xe-tai-philippines-khi-chi-ranh-trong-mot-dot-nghi-ngan-cover.webp",
+    "alt": "Học viên ghi lại thời gian có thể sắp xếp các buổi học lái.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "nguoi-viet-hoi-bang-lai-philippines-lan-dau-phan-biet-truong-tu-van-va-lto": {
-    "src": "/images/editorial/nguoi-viet-hoi-bang-lai-philippines-lan-dau-phan-biet-truong-tu-van-va-lto-brief.webp",
-    "kind": "checklist",
-    "alt": "Ba đầu mối — Đơn vị đào tạo / Cơ quan quyết định"
+    "src": "/images/editorial/nguoi-viet-hoi-bang-lai-philippines-lan-dau-phan-biet-truong-tu-van-va-lto-cover.webp",
+    "alt": "Người tư vấn giải thích quy trình cho khách hỏi bằng lái lần đầu.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao": {
-    "src": "/images/editorial/dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao-brief.webp",
-    "kind": "checklist",
-    "alt": "Giấy tờ đang chờ — Tình trạng hiện tại / Ngày dự kiến"
+    "src": "/images/editorial/dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao-cover.webp",
+    "alt": "Người phụ nữ chuẩn bị tập hồ sơ và lịch hẹn tại nhà.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "muon-tu-van-bang-lai-tai-philippines-nhung-ho-chieu-sap-doi": {
-    "src": "/images/editorial/muon-tu-van-bang-lai-tai-philippines-nhung-ho-chieu-sap-doi-brief.webp",
-    "kind": "checklist",
-    "alt": "Đổi hộ chiếu — Lịch đổi giấy / Lịch nộp hồ sơ"
+    "src": "/images/editorial/muon-tu-van-bang-lai-tai-philippines-nhung-ho-chieu-sap-doi-cover.webp",
+    "alt": "Người đi tư vấn kiểm tra lại lịch và giấy tờ trước khi đổi hộ chiếu.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "nguoi-viet-co-bang-lai-het-han-muon-hoi-huong-xu-ly-tai-philippines": {
-    "src": "/images/editorial/nguoi-viet-co-bang-lai-het-han-muon-hoi-huong-xu-ly-tai-philippines-brief.webp",
-    "kind": "checklist",
-    "alt": "Bằng đã hết hạn — Nơi cấp / Giao dịch mong muốn"
+    "src": "/images/editorial/nguoi-viet-co-bang-lai-het-han-muon-hoi-huong-xu-ly-tai-philippines-cover.webp",
+    "alt": "Người lái mang giấy tờ đến trao đổi về bằng đã hết hạn.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoi-ho-so-lai-xe-o-philippines-khi-da-doi-ho-sau-ket-hon": {
-    "src": "/images/editorial/hoi-ho-so-lai-xe-o-philippines-khi-da-doi-ho-sau-ket-hon-brief.webp",
-    "kind": "checklist",
-    "alt": "Đổi họ — Tên trên bằng / Tên trên giấy tờ mới"
+    "src": "/images/editorial/hoi-ho-so-lai-xe-o-philippines-khi-da-doi-ho-sau-ket-hon-cover.webp",
+    "alt": "Khách đối chiếu giấy tờ với người tư vấn sau khi đổi họ.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "nguoi-viet-muon-hoi-hang-bang-phu-hop-voi-loai-xe-tai-philippines": {
-    "src": "/images/editorial/nguoi-viet-muon-hoi-hang-bang-phu-hop-voi-loai-xe-tai-philippines-brief.webp",
-    "kind": "checklist",
-    "alt": "Loại xe dự kiến — Xe muốn lái / Tình trạng bằng"
+    "src": "/images/editorial/nguoi-viet-muon-hoi-hang-bang-phu-hop-voi-loai-xe-tai-philippines-cover.webp",
+    "alt": "Người tư vấn và khách xem hình các loại phương tiện.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "doi-noi-thi-hoac-noi-nop-ho-so-lai-xe-philippines-can-xac-minh-gi": {
-    "src": "/images/editorial/doi-noi-thi-hoac-noi-nop-ho-so-lai-xe-philippines-can-xac-minh-gi-brief.webp",
-    "kind": "checklist",
-    "alt": "Đổi địa điểm — Lịch đã đặt / Nơi muốn chuyển"
+    "src": "/images/editorial/doi-noi-thi-hoac-noi-nop-ho-so-lai-xe-philippines-can-xac-minh-gi-cover.webp",
+    "alt": "Khách kiểm tra thông tin địa điểm hẹn trên hồ sơ.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "muon-hoi-giay-to-lai-xe-bi-that-lac-tai-philippines-bang-tieng-viet": {
-    "src": "/images/editorial/muon-hoi-giay-to-lai-xe-bi-that-lac-tai-philippines-bang-tieng-viet-brief.webp",
-    "kind": "checklist",
-    "alt": "Giấy tờ thất lạc — Nơi cấp / Loại giấy mất"
+    "src": "/images/editorial/muon-hoi-giay-to-lai-xe-bi-that-lac-tai-philippines-bang-tieng-viet-cover.webp",
+    "alt": "Người phụ nữ tìm giấy tờ trong túi cạnh bộ chìa khóa xe.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "da-hoc-ly-thuyet-o-mot-truong-tai-philippines-hoi-buoc-thuc-hanh-o-dau": {
-    "src": "/images/editorial/da-hoc-ly-thuyet-o-mot-truong-tai-philippines-hoi-buoc-thuc-hanh-o-dau-brief.webp",
-    "kind": "checklist",
-    "alt": "Chuyển sang thực hành — Chứng nhận đã có / Khoá định học"
+    "src": "/images/editorial/da-hoc-ly-thuyet-o-mot-truong-tai-philippines-hoi-buoc-thuc-hanh-o-dau-cover.webp",
+    "alt": "Học viên trao đổi về việc chuyển từ học lý thuyết sang thực hành.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   },
   "hoi-tu-van-bang-lai-khi-sap-ve-viet-nam-mot-thoi-gian": {
-    "src": "/images/editorial/hoi-tu-van-bang-lai-khi-sap-ve-viet-nam-mot-thoi-gian-brief.webp",
-    "kind": "checklist",
-    "alt": "Lịch vắng mặt — Ngày rời Philippines / Ngày quay lại"
+    "src": "/images/editorial/hoi-tu-van-bang-lai-khi-sap-ve-viet-nam-mot-thoi-gian-cover.webp",
+    "alt": "Người đi tư vấn xem lịch và chuẩn bị giấy tờ trước chuyến về Việt Nam.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
+  },
+  "vinfast-vf3-price-philippines": {
+    "src": "/images/editorial/vinfast-vf3-price-philippines-cover.webp",
+    "alt": "Green VinFast VF 3 seen from the front",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371510760008877",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/vinfast-vf3-price-philippines-detail.webp",
+      "alt": "Close-up of the front corner of the green VF 3",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122371510466008877"
+    }
+  },
+  "vinfast-vf5-price-philippines": {
+    "src": "/images/editorial/vinfast-vf5-price-philippines-cover.webp",
+    "alt": "White VinFast VF 5 viewed from the side in the showroom",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371518482008877",
+    "kind": "photo"
+  },
+  "vinfast-battery-subscription-comparison": {
+    "src": "/images/editorial/vinfast-battery-subscription-comparison-cover.webp",
+    "alt": "Green compact electric vehicle at a display",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=122371511390008877",
+    "kind": "photo"
+  },
+  "green-gsm-driver-application-guide": {
+    "src": "/images/editorial/green-gsm-driver-application-guide-cover.webp",
+    "alt": "Electric taxis at a Green GSM fleet location",
+    "width": 720,
+    "height": 960,
+    "source": "https://www.facebook.com/photo.php?fbid=122105618295380235",
+    "kind": "photo"
+  },
+  "green-gsm-rental-guide-filipino": {
+    "src": "/images/editorial/green-gsm-rental-guide-filipino-cover.webp",
+    "alt": "Electric fleet parked under cover",
+    "width": 960,
+    "height": 588,
+    "source": "https://www.facebook.com/photo.php?fbid=122374729058008877",
+    "kind": "photo"
+  },
+  "vinfast-service-appointment-checklist": {
+    "src": "/images/editorial/vinfast-service-appointment-checklist-cover.webp",
+    "alt": "A service adviser inspecting a parked electric vehicle's dashboard with its owner in a well-lit service reception bay, no readable diagnostic screen or branding.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
+  },
+  "charging-site-proposal-checklist": {
+    "src": "/images/editorial/charging-site-proposal-checklist-cover.webp",
+    "alt": "Outdoor site approach and parking layout",
+    "width": 1200,
+    "height": 583,
+    "source": "https://www.facebook.com/photo.php?fbid=122384488412008877",
+    "kind": "photo"
+  },
+  "fleet-dashcam-meter-installation": {
+    "src": "/images/editorial/fleet-dashcam-meter-installation-cover.webp",
+    "alt": "Team working on an installation inside a vehicle cabin",
+    "width": 900,
+    "height": 1200,
+    "kind": "photo"
+  },
+  "vinfast-vf3-vs-vf5": {
+    "src": "/images/editorial/vinfast-vf3-vs-vf5-cover.webp",
+    "alt": "Several compact VinFast cars in an outdoor line-up",
+    "width": 800,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=1006910835788254",
+    "kind": "photo"
+  },
+  "electric-vs-gasoline-car-cost": {
+    "src": "/images/editorial/electric-vs-gasoline-car-cost-cover.webp",
+    "alt": "Instrument panel and controls viewed from the driver's seat",
+    "width": 900,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=122377260434008877",
+    "kind": "photo"
+  },
+  "ev-home-charging-philippines": {
+    "src": "/images/editorial/ev-home-charging-philippines-cover.webp",
+    "alt": "An electrician and homeowner discuss a garage charging point.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
+  },
+  "vinfast-price-list-philippines": {
+    "src": "/images/editorial/vinfast-price-list-philippines-cover.webp",
+    "alt": "VinFast compact EV photographed in daylight",
+    "width": 800,
+    "height": 1200,
+    "source": "https://www.facebook.com/photo.php?fbid=1006911422454862",
+    "kind": "photo"
   }
 }
