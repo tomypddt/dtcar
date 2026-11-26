@@ -1,3 +1,6 @@
+import enquiryGuides from "./enquiry-guides.json";
+import enquiryAnswers from "./enquiry-answers.json";
+import readingLinks from "./guide-reading-links.json";
 import buyerQuestions from "./buyer-questions.json";
 import customerGuides from "./customer-guides.json";
 import salesGuides from "./sales-guides.json";
@@ -6,8 +9,9 @@ import practicalGuides from "./practical-guides.json";
 import fieldGuides from "./field-guides.json";
 
 type InlinePhoto = { src: string; alt: string; source: string; width?: number; height?: number };
-export type Guide = { photoWidth?: number; photoHeight?: number; photoKind?: string; inlinePhoto?: InlinePhoto; enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
+export type Guide = { photoCredit?: string; updated?: string; photoWidth?: number; photoHeight?: number; photoKind?: string; inlinePhoto?: InlinePhoto; enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 const content: Guide[] = [
+  ...enquiryGuides,
   ...buyerQuestions,
   ...customerGuides,
   ...salesGuides,
@@ -1158,7 +1162,18 @@ const content: Guide[] = [
   }
 ];
 const covers: Record<string, { src: string; alt?: string; source?: string; kind?: string; width?: number; height?: number; inlinePhoto?: InlinePhoto }> = media;
-export const guides: Guide[] = content.map(guide => {
+const answersByGuide: Record<string, Guide["sections"]> = enquiryAnswers;
+const linksByGuide: Record<string, string[]> = readingLinks;
+
+export const guides: Guide[] = content.map(original => {
+  const answers = answersByGuide[original.slug] ?? [];
+  const additionalLinks = linksByGuide[original.slug] ?? [];
+  const guide = {
+    ...original,
+    updated: answers.length || additionalLinks.length ? "2026-11-26" : original.date,
+    sections: [...original.sections, ...answers],
+    related: [...new Set([...additionalLinks, ...original.related])],
+  };
   const cover = covers[guide.slug];
   return cover ? { ...guide, photo: cover.src, photoAlt: cover.alt, photoSource: cover.source, photoKind: cover.kind, photoWidth: cover.width, photoHeight: cover.height, inlinePhoto: cover.inlinePhoto } : guide;
 });

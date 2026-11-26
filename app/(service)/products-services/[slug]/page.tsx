@@ -1,3 +1,4 @@
+import serviceReading from "@/app/data/service-reading.json";
 import { adPreview } from "@/app/data/ad-preview";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -75,6 +76,11 @@ export default async function AdLandingPage({ params }: Props) {
     </div><div><MessageLink page={page}/><Link className={styles.more} href={page.details.href}>{page.details.label} →</Link></div></section></>}
     <section className={styles.section}><h2>{vi ? "Câu hỏi thường gặp" : "Frequently asked questions"}</h2>
       <div className={styles.faq}>{page.questions.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div>
+    </section>
+    <section className={styles.section}><h2>{vi ? "Hướng dẫn theo nhu cầu" : "Guides for your next step"}</h2>
+      <ul>{(serviceReading[page.slug as keyof typeof serviceReading] ?? []).map(item =>
+        <li key={item.href}><Link href={item.href}>{item.title}</Link></li>
+      )}</ul>
     </section>
     {extra && <p className={styles.more}><Link href={page.details.href}>{page.details.label} →</Link></p>}
   </article></SubPage>;

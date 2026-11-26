@@ -20,6 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...services.map((service) => servicePath(service.slug)),
     ...articles.map((article) => "/news/" + article.slug + "/"),
   ];
-  const guideDates = new Map(guides.map(guide => [guidePath(guide.slug), guide.date]));
+  const guideDates = new Map(guides.map(guide => [guidePath(guide.slug), guide.updated ?? guide.date]));
   return paths.map(path => ({ url: origin + path, lastModified: guideDates.get(path) }));
 }
