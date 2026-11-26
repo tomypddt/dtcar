@@ -106,7 +106,7 @@ export const adLandings: AdLanding[] = [
     slug: "tu-van-bang-lai", campaign: "dtcar_licence", lang: "vi",
     label: "Tư vấn thủ tục bằng lái", area: "Philippines · Hỗ trợ bằng tiếng Việt",
     title: "Tìm hiểu thủ tục bằng lái Philippines bằng tiếng Việt",
-    summary: "DT Car tư vấn bằng tiếng Việt về hồ sơ làm bằng mới, đổi bằng nước ngoài, gia hạn hoặc cấp lại. Hỏi checklist LTO, bước cần có mặt và báo phí từng khoản."
+    summary: "DT Car tư vấn bằng tiếng Việt về hồ sơ làm bằng mới, đổi bằng nước ngoài, gia hạn hoặc cấp lại. Hỏi checklist LTO, bước cần có mặt và báo phí từng khoản.",
     imageAlt: "Hình minh họa buổi tư vấn hồ sơ tại bàn",
     imageNote: "Hình minh họa. DT Car không phải cơ quan cấp bằng.",
     messenger: "dtcarphil", action: "Hỏi trường hợp của mình",
