@@ -59,5 +59,5 @@ const existing:Tour[]=[
 
 export const tours:Tour[]=[...existing,...extraTours].map(t=>{
  const photos=tourMedia[t.slug]??[];
- return {...t,photo:photos[0],gallery:photos.slice(1),brochure:{href:"/documents/dt-tour/"+t.slug+".pdf",label:"Tải lịch trình tham khảo"}};
+ return {...t,photo:photos[0],gallery:photos.slice(1),brochure:{href:"/documents/dt-tour/"+t.slug+".pdf?revision=00ee4bf",label:"Tải lịch trình tham khảo"}};
 });
