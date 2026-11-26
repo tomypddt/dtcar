@@ -33,7 +33,7 @@ const warm=own("hot-0","hot-19","hot-30");
 const sant=own("santorini-1","santorini-8","santorini-38");
 const luzon=[little[0],tag[0],subic[0],warm[0],...manila.slice(0,1)];
 export const tourMedia:Record<string,TourPhoto[]>={
- "south-cebu":cebu,"cebu-4n3d":[cebu[2],cebu[0],cebu[1],cebu[3],cebu[4]],"manila-boracay":[...boracay,...manila],"boracay-3n2d":boracay,
+ "south-cebu":cebu,"cebu-4n3d":[cebu[2],cebu[0],cebu[1],cebu[3],cebu[4]],"manila-boracay":[...boracay,...manila],"boracay-3n2d":boracay,"manila-boracay-4ngay":[...boracay,...manila],
  "el-nido":nido,"el-nido-3n2d":nido,"coron":coron,"coron-3n2d":coron,
  "luzon":luzon,"bohol":bohol,"tagaytay-trong-ngay":tag,
  "hidden-valley":[hot,detail(hot,"Chi tiết hồ nước ở Hidden Valley Springs · cắt từ ảnh toàn cảnh")],
