@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SubPage } from "@/app/components/Subpage";
 import { adHubPath, adImage, adLandings, adMessenger, adPath, type AdLanding } from "@/app/data/ad-landings";
+import { peso, vinfastAdModels, vinfastModelImage, vinfastModelPath } from "@/app/data/vinfast-ad-models";
 import { pageMetadata } from "@/app/data/site";
 import styles from "../landing.module.css";
 
@@ -34,10 +35,16 @@ export default async function AdLandingPage({ params }: Props) {
       <div className={styles.heroText}>
         <p className={styles.kicker}>{page.area}</p>
         <h1>{page.title}</h1><p className={styles.lead}>{page.summary}</p>
-        <MessageLink page={page}/><p className={styles.hint}>{vi ? "Mở Messenger của đội tư vấn" : "Opens Messenger for the service team"}</p>
+        {page.slug === "vinfast" ? <a className={styles.button} href="#vinfast-models">See the three models ↓</a> : <MessageLink page={page}/>}<p className={styles.hint}>{page.slug === "vinfast" ? "Model photos, prices and offers below" : vi ? "Mở Messenger của đội tư vấn" : "Opens Messenger for the service team"}</p>
       </div>
       <figure className={styles.heroPhoto}><img src={adImage(page.slug)} alt={page.imageAlt} width={1200} height={720} fetchPriority="high"/><figcaption>{page.imageNote}</figcaption></figure>
     </header>
+    {page.slug === "vinfast" && <section className={styles.section} id="vinfast-models" style={{scrollMarginTop: "100px"}}>
+      <h2>Choose your VinFast model</h2>
+      <div className={styles.directoryGrid}>{vinfastAdModels.map((model) => <Link key={model.slug} href={vinfastModelPath(model.slug)} className={styles.card}>
+        <img src={vinfastModelImage(model.slug,model.photos[0].key)} alt={model.photos[0].caption} width={1200} height={720} loading="lazy"/>
+        <div><p className={styles.kicker}>{model.segment}</p><h2>{model.name}</h2><p>From {peso(model.withPlan)} with battery subscription</p><span>Photos, prices and offers →</span></div>
+      </Link>)}</div></section>}
     <section className={styles.section}>
       <h2>{vi ? "Đội tư vấn có thể hỗ trợ gì?" : "What can we help you with?"}</h2>
       <div className={styles.options}>{page.options.map(([title, copy], index) => <div key={title}><span className={styles.kicker}>0{index+1}</span><h3>{title}</h3><p>{copy}</p></div>)}</div>

@@ -1,5 +1,8 @@
 const campaigns = new Set([
   "dtcar_vinfast",
+  "dtcar_vinfast_limo_green",
+  "dtcar_vinfast_mpv7",
+  "dtcar_vinfast_vf3",
   "dtcar_sell_your_car",
   "dtcar_used_cars",
   "dtcar_driving",
