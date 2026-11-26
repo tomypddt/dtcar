@@ -1,0 +1,38 @@
+.wrap{width:min(1200px,calc(100% - clamp(40px,10vw,140px)));margin:0 auto;padding:clamp(18px,3vw,38px) 0 clamp(45px,7vw,84px);color:#121722}
+.crumb{display:flex;flex-wrap:wrap;gap:8px 11px;font-size:.875rem;color:#545d6b;margin:0 0 1.25rem}
+.crumb a{text-decoration:underline;text-underline-offset:.2em}
+.kicker{margin:0;color:#b21529;font-size:.76rem;line-height:1.45;letter-spacing:.09em;font-weight:750;text-transform:uppercase}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(18px,4vw,54px);align-items:center;padding:clamp(16px,3.6vw,44px);background:#f5f2ef;border-radius:22px}
+.hero h1,.directoryIntro h1{font-size:clamp(2rem,4vw,3.65rem);line-height:1.06;letter-spacing:-.04em;margin:.6rem 0 1rem;font-weight:780;text-wrap:balance}
+.lead,.directoryIntro>p:last-child{font-size:clamp(1rem,1.55vw,1.2rem);line-height:1.55;margin:0 0 1.25rem;color:#414a58}
+.heroPhoto{margin:0;min-width:0}
+.heroPhoto img{aspect-ratio:5/3;width:100%;height:auto;object-fit:cover;border-radius:13px;display:block}
+.heroPhoto figcaption{font-size:.76rem;color:#4b5563;margin:.55rem 0 0;line-height:1.35}
+.button{display:inline-flex;align-items:center;justify-content:center;text-align:center;gap:.4em;min-height:48px;background:#b8132b;color:white;padding:.75rem 1.1rem;border-radius:9px;font-weight:750;line-height:1.3}
+.button:hover{background:#970e21;color:#fff}
+.button:focus-visible,.crumb a:focus-visible,.card:focus-visible,.more:focus-visible,.faq summary:focus-visible{outline:3px solid #0c60b0;outline-offset:3px}
+.hint{font-size:.82rem;color:#4b5563;margin:.6rem 0 0}
+.section{margin-top:clamp(30px,6vw,64px)}
+.section h2,.panel h2{font-size:clamp(1.5rem,2.8vw,2.25rem);font-weight:760;letter-spacing:-.025em;line-height:1.15;margin:0 0 1.15rem}
+.options,.directoryGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.options>div{border:1px solid #e1e4e9;padding:1.05rem;border-radius:12px}
+.options h3{font-size:1.1rem;font-weight:750;line-height:1.3;margin:.5rem 0 .45rem}
+.options p,.panel li,.faq p{margin:0;color:#414a58;line-height:1.55}
+.panel{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px 36px;align-items:center;margin-top:clamp(30px,6vw,64px);border-top:3px solid #b8132b;padding:clamp(18px,3vw,35px);background:#f5f2ef;border-radius:12px}
+.panel ul{padding-left:1.25rem;list-style:disc;margin:0}
+.panel li+li{margin-top:.35rem}
+.more{display:block;font-size:.94rem;text-decoration:underline;text-underline-offset:.2em;font-weight:700;margin:.75rem 0 0}
+.faq{max-width:800px}
+.faq details{border-bottom:1px solid #e1e4e9}
+.faq summary{cursor:pointer;font-weight:730;padding:.85rem 0}
+.faq p{padding:0 0 .85rem}
+.directoryIntro{max-width:680px;padding:1rem 0 1.2rem}
+.card{display:block;border:1px solid #e1e4e9;border-radius:14px;overflow:hidden;color:#121722}
+.card:hover{box-shadow:0 4px 18px #11172218}
+.card img{width:100%;height:auto;aspect-ratio:5/3;object-fit:cover;display:block}
+.card>div{padding:1rem 1.15rem 1.2rem}
+.card h2{font-size:clamp(1.05rem,2vw,1.35rem);margin:.55rem 0;font-weight:760;line-height:1.22}
+.card span{color:#a31125;font-weight:700;font-size:.875rem}
+@media(max-width:850px){.hero{gap:22px}.directoryGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:670px){.hero,.options,.panel{grid-template-columns:minmax(0,1fr)}.hero .button,.panel .button{width:100%}.hero h1{text-wrap:initial}}
+@media(max-width:440px){.directoryGrid{grid-template-columns:minmax(0,1fr)}}
