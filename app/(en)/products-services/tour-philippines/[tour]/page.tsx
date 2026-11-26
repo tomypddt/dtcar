@@ -1,4 +1,3 @@
-import TourPricing from "../../components/TourPricing";
 import TourPhotoCredit from "../../components/TourPhotoCredit";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -25,7 +24,6 @@ export default async function TourDetail({params}:Props){
 
    <a className={styles.button} href={adMessenger(campaign)} target="_blank" rel="noopener noreferrer" data-enquiry-service={campaign.campaign}>Hỏi lịch và báo giá ↗</a>{t.brochure&&<a className={css.pdfLink} href={t.brochure.href} download>{t.brochure.label} (PDF) ↓</a>}
   </div>{t.photo&&<figure className={styles.heroPhoto}><img src={t.photo.src} alt={t.photo.caption} width={1200} height={720} fetchPriority="high"/><figcaption><TourPhotoCredit photo={t.photo}/></figcaption></figure>}</header>
-  {t.rates&&<TourPricing rates={t.rates}/>}
   <section className={styles.section}><h2>{["coron","bohol"].includes(t.slug)?"Điểm và trải nghiệm để lên lịch":"Lịch trình mẫu"}</h2><p className={css.stockNote}>{t.note} Giờ bay, thời tiết và xác nhận địa phương có thể làm thay đổi chương trình.</p><ol className={css.steps}>{t.stops.map(([title,body],i)=><li key={title}><span aria-hidden="true">{i+1}</span><div><h3>{title}</h3><p>{body}</p></div></li>)}</ol></section>
   {t.gallery&&t.gallery.length>0&&<section className={styles.section}><h2>Hình ảnh trên tuyến</h2><div className={css.postGallery}>{t.gallery.map(photo=><figure key={photo.src}><a href={photo.src}><img src={photo.src} alt={photo.caption} width={1200} height={900} loading="lazy" decoding="async"/></a><figcaption><TourPhotoCredit photo={photo}/></figcaption></figure>)}</div></section>}
   <section className={styles.section}><h2>Báo giá cần ghi rõ những gì?</h2><div className={css.cards}>

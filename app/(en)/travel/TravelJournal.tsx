@@ -5,7 +5,7 @@ import styles from "./journal.module.css";
 
 export default function TravelJournal(){
  return <section id="dt-tour-journal" className={styles.wrap} lang="vi">
-  <header className={styles.intro}><p className={styles.eyebrow}>DT TOUR · CẨM NANG PHILIPPINES</p><h2>Chọn điểm đến, lên lịch cùng DT Tour</h2><p>Những bài viết từ các chia sẻ và hình ảnh của Page DT Tour, sắp theo điểm đến để bạn dễ tìm.</p><p><Link href="/products-services/tour-philippines/">Xem danh sách tour và lịch trình →</Link> · <a href="#bang-gia-tham-khao">Bảng giá tham khảo</a></p></header>
+  <header className={styles.intro}><p className={styles.eyebrow}>DT TOUR · CẨM NANG PHILIPPINES</p><h2>Chọn điểm đến, lên lịch cùng DT Tour</h2><p>Những bài viết từ các chia sẻ và hình ảnh của Page DT Tour, sắp theo điểm đến để bạn dễ tìm.</p><p><Link href="/products-services/tour-philippines/">Xem danh sách tour và lịch trình →</Link></p></header>
   <nav aria-label="Chủ đề cẩm nang" className={styles.jump}>{journalGroups.map((group,i)=><a href={"#travel-group-"+i} key={group}>{group}</a>)}</nav>
   {journalGroups.map((group,i)=><section className={styles.topic} id={"travel-group-"+i} key={group}><h3>{group}</h3><div className={styles.grid}>{journal.filter(x=>x.group===group).map(x=>{
    const photo=journalMedia(x)[0];return <Link className={styles.card} href={journalPath(x.slug)} key={x.slug}>

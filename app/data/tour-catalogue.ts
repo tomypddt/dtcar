@@ -1,10 +1,9 @@
 import {extraTours} from "./dt-tour-extra";
 import {tourMedia,type TourPhoto} from "./dt-tour-media";
-import {findTourRates} from "./dt-tour-prices";
 export const tourRoot="/products-services/tour-philippines/";
 export const tourPath=(slug:string)=>tourRoot+slug+"/";
 type TourBrochure={href:string;label:string};
-type Tour={slug:string;name:string;heading:string;duration:string;summary:string;stops:[string,string][];photo?:TourPhoto;gallery?:TourPhoto[];rates?:readonly [number,number,number];brochure?:TourBrochure;note:string};
+type Tour={slug:string;name:string;heading:string;duration:string;summary:string;stops:[string,string][];photo?:TourPhoto;gallery?:TourPhoto[];brochure?:TourBrochure;note:string};
 const existing:Tour[]=[
  {slug:"south-cebu",name:"Nam Cebu",heading:"Tour riêng Nam Cebu 3 ngày 2 đêm",duration:"3 ngày 2 đêm",summary:"Moalboal, Kawasan và Oslob, chọn hoạt động theo tuổi, khả năng bơi và lịch bay của cả nhóm.",
  brochure:{href:"/documents/dt-tour/south-cebu.pdf",label:"Tải lịch trình tham khảo"},
@@ -60,5 +59,5 @@ const existing:Tour[]=[
 
 export const tours:Tour[]=[...existing,...extraTours].map(t=>{
  const photos=tourMedia[t.slug]??[];
- return {...t,photo:photos[0],gallery:photos.slice(1),rates:findTourRates(t.slug),brochure:{href:"/documents/dt-tour/"+t.slug+".pdf",label:"Tải lịch trình tham khảo"}};
+ return {...t,photo:photos[0],gallery:photos.slice(1),brochure:{href:"/documents/dt-tour/"+t.slug+".pdf",label:"Tải lịch trình tham khảo"}};
 });
