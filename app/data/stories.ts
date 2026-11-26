@@ -7,21 +7,6 @@ export const travel=["3B201622-AA7A-4A05-B30C-C22C209A3814.jpeg","91526570-951A-
 const vf3BestSellerHero=I("vf3-pink-lisa-highres-2026.webp");
 export const articles:Article[]=[
 {
-  slug: "selling-a-ford-everest-manila",
-  category: "USED CARS",
-  title: "Selling a used Ford Everest in Manila",
-  dek: "A 2024 Everest Titanium 4x4 marked sold on DT Car’s We Buy Cars page illustrates two routes owners can discuss when selling an SUV.",
-  date: "25 November 2026",
-  hero: I("everest-2024-we-buy-cars.webp"),
-  images: [],
-  source: {label: "See the original Everest sale photo and post on DT Car – We Buy Cars", url: "https://www.facebook.com/photo/?fbid=122105863467548166"},
-  sections: [
-    {heading: "What happened with the Everest?", paragraphs: ["DT Car shared a photo of a white 2024 Ford Everest Titanium 4x4 and marked the vehicle sold. The post thanked the seller and explained that the team can also introduce a vehicle to clients when its own purchase offer falls short of the owner’s asking price. The parties kept the sale price private."]},
-    {heading: "A direct offer or a buyer introduction?", paragraphs: ["If you want to sell an SUV, ask who would buy it. For a direct purchase, request the amount DT Car can offer after inspection and the proposed payment and handover dates. If you prefer an introduction to another buyer, agree on your asking price, who will arrange viewings, any fee and who will pay you. Ask which arrangement is available for your vehicle."]},
-    {heading: "What to send for an appraisal", paragraphs: ["DT Car’s seller page asks for the make, model, year, mileage, location, asking price and clear photos. For an Everest, include the exact trim and drivetrain. A photo showing the badge and a dashboard photo showing the odometer help the team identify which version it is evaluating.", "If a loan is outstanding, mention it when you enquire. The Page offers settlement assistance. Request the outstanding amount and instructions directly from your lender before agreeing on the sum you will receive or a handover date."]}
-  ]
-},
-{
   slug: "dtcar-welcomes-prime-minister-le-minh-hung",
   category: "VIET NAM–PHILIPPINES",
   title: "DT Car helps welcome Prime Minister Le Minh Hung to Manila",
