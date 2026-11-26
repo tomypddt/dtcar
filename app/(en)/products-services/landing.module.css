@@ -43,3 +43,8 @@
 .catalogue{scroll-margin-top:92px;margin-bottom:clamp(24px,5vw,55px)}.catalogue>h2{font-size:clamp(1.45rem,3vw,2.3rem);margin:.5rem 0 .75rem;font-weight:760;line-height:1.2}.catalogue>p{margin:0 0 .9rem;font-size:.93rem;font-weight:720}.catalogue>p a{text-decoration:underline;text-underline-offset:.2em}.card h3{font-size:clamp(1.05rem,2vw,1.35rem);margin:.55rem 0;font-weight:760;line-height:1.22}.card div>p:not(:first-child){font-size:.85rem;color:#414a58;margin:.35rem 0 .6rem}
 
 .card .cardPrice{color:#941024}
+
+.categoryCard{display:flex;flex-direction:column}
+.categoryCard>div{display:flex;flex:1;flex-direction:column}
+.categoryCard>div>p{line-height:1.45}
+.categoryCard>div>span{margin-top:auto}
