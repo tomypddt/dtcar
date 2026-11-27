@@ -1,3 +1,10 @@
+import vExpansion from "./guide-expansion-v.json";
+import bExpansion from "./guide-expansion-b.json";
+import sExpansion from "./guide-expansion-s.json";
+import hExpansion from "./guide-expansion-h.json";
+import lExpansion from "./guide-expansion-l.json";
+import tExpansion from "./guide-expansion-t.json";
+import expansionArt from "./guide-expansion-art.json";
 import marketGuides from "./market-guides.json";
 import enquiryGuides from "./enquiry-guides.json";
 import enquiryAnswers from "./enquiry-answers.json";
@@ -13,6 +20,12 @@ type InlinePhoto = { src: string; alt: string; source: string; credit?: string; 
 export type Guide = { photoCredit?: string; updated?: string; photoWidth?: number; photoHeight?: number; photoKind?: string; inlinePhoto?: InlinePhoto; enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 const content: Guide[] = [
   ...marketGuides,
+  ...vExpansion,
+  ...bExpansion,
+  ...sExpansion,
+  ...hExpansion,
+  ...lExpansion,
+  ...tExpansion,
   ...enquiryGuides,
   ...buyerQuestions,
   ...customerGuides,
@@ -1164,6 +1177,7 @@ const content: Guide[] = [
   }
 ];
 const covers: Record<string, { src: string; alt: string; source?: string; credit?: string; kind: string; width: number; height: number; inlinePhoto?: InlinePhoto }> = media;
+const detailGraphics: Record<string, { title: string; context: string; scenario: string; action: string }> = expansionArt;
 const answersByGuide: Record<string, Guide["sections"]> = enquiryAnswers;
 const linksByGuide: Record<string, string[]> = readingLinks;
 
@@ -1177,6 +1191,15 @@ export const guides = content.map(original => {
     related: [...new Set([...additionalLinks, ...original.related])],
   };
   const cover = covers[guide.slug];
+  const detail = detailGraphics[guide.slug];
+  const graphics = detail && {
+    src: `/images/gallery/guide-details/${guide.slug}.webp`,
+    alt: [detail.title, detail.scenario, detail.action].join(". "),
+    source: "/editorial-policy/",
+    credit: guide.lang === "vi" ? "Đồ họa hướng dẫn · DT Car" : "Checklist graphic · DT Car",
+    width: 1200,
+    height: 800,
+  };
   return {
     ...guide,
     photo: cover?.src ?? `/images/gallery/guide-covers/${guide.slug}.webp`,
@@ -1186,7 +1209,7 @@ export const guides = content.map(original => {
     photoKind: cover?.kind ?? "graphic",
     photoWidth: cover?.width ?? 1200,
     photoHeight: cover?.height ?? 800,
-    inlinePhoto: cover?.inlinePhoto,
+    inlinePhoto: cover?.inlinePhoto ?? graphics,
   };
 });
 export const guidePath = (slug: string) => `/guides/${slug}/`;

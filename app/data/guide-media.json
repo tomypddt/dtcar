@@ -3020,5 +3020,50 @@
       "source": "/editorial-policy/",
       "credit": "Ảnh minh họa tạo bằng AI · DT Car"
     }
+  },
+  "pickup-removed-accessories-field-guide": {
+    "src": "/images/editorial/guide-expansion/pickup-removed-accessories-field-guide.webp",
+    "alt": "Side view of a pickup from the DT Car photo archive.",
+    "source": "https://www.facebook.com/photo.php?fbid=122189332412953146",
+    "credit": "Dong Huyen · Facebook",
+    "kind": "photo",
+    "width": 1200,
+    "height": 672
+  },
+  "compact-car-owner-photos-prep-field-guide": {
+    "src": "/images/editorial/guide-expansion/compact-car-owner-photos-prep-field-guide.webp",
+    "alt": "Front view of a silver car from the DT Car photography archive.",
+    "source": "https://www.facebook.com/photo.php?fbid=122384852960008877",
+    "credit": "DT Car Philippines · Facebook",
+    "kind": "photo",
+    "width": 1200,
+    "height": 900
+  },
+  "boracay-comfort-stop-field-guide": {
+    "src": "/images/editorial/guide-expansion/boracay-comfort-stop-field-guide.webp",
+    "alt": "Ảnh minh họa chung về chuyến đi biển, từ kho DT Tour.",
+    "source": "https://www.facebook.com/photo.php?fbid=122194755050790161",
+    "credit": "DT Tour · Facebook",
+    "kind": "photo",
+    "width": 1050,
+    "height": 1400
+  },
+  "cebu-activity-options-field-guide": {
+    "src": "/images/editorial/guide-expansion/cebu-activity-options-field-guide.webp",
+    "alt": "Ảnh minh họa chung cho việc chọn điểm dừng, từ kho DT Tour.",
+    "source": "https://www.facebook.com/photo.php?fbid=122199915950790161",
+    "credit": "DT Tour · Facebook",
+    "kind": "photo",
+    "width": 960,
+    "height": 1280
+  },
+  "coron-activity-options-field-guide": {
+    "src": "/images/editorial/guide-expansion/coron-activity-options-field-guide.webp",
+    "alt": "Ảnh minh họa chung cho hoạt động dưới nước, từ kho DT Tour.",
+    "source": "https://www.facebook.com/photo.php?fbid=122199915866790161",
+    "credit": "DT Tour · Facebook",
+    "kind": "photo",
+    "width": 930,
+    "height": 1400
   }
 }

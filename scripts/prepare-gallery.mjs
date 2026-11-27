@@ -2,7 +2,7 @@ import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import sharp from "sharp";
 import { articleImages, articles, travel } from "../app/data/stories.ts";
-import { createGuideGraphics } from "./guide-graphics.mjs";
+import { createGuideGraphics, createGuideDetails } from "./guide-graphics.mjs";
 
 const directory = "public/images";
 const destination = join(directory, "gallery");
@@ -30,12 +30,14 @@ for (const name of await readdir(artDirectory)) {
 }
 
 const guideMedia = JSON.parse(await readFile("app/data/guide-media.json", "utf8"));
-const guideFiles = ["enquiry-guides", "buyer-questions", "customer-guides", "sales-guides", "practical-guides", "field-guides"];
+const guideFiles = ["enquiry-guides", "buyer-questions", "customer-guides", "sales-guides", "practical-guides", "field-guides", "guide-expansion-v", "guide-expansion-b", "guide-expansion-s", "guide-expansion-h", "guide-expansion-l", "guide-expansion-t"];
 const guideArticles = (await Promise.all(guideFiles.map(async name =>
   JSON.parse(await readFile(`app/data/${name}.json`, "utf8"))
 ))).flat();
 const coverDirectory = join(destination, "guide-covers");
 await createGuideGraphics(guideArticles, guideMedia, coverDirectory);
+const detailArt = JSON.parse(await readFile("app/data/guide-expansion-art.json", "utf8"));
+await createGuideDetails(guideArticles, detailArt, join(destination, "guide-details"));
 
 const cardDirectory = join(destination, "guide-cards");
 await mkdir(cardDirectory, { recursive: true });

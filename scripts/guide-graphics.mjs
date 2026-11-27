@@ -81,3 +81,39 @@ export async function createGuideGraphics(guides, media, directory) {
       .toFile(cover);
   }
 }
+
+export async function createGuideDetails(guides, specifications, directory) {
+  await mkdir(directory, { recursive: true });
+  const logo = await sharp(await readFile("public/images/dtcar-logo.png"))
+    .resize({ width: 152 }).png().toBuffer();
+  for (const guide of guides) {
+    const spec = specifications[guide.slug];
+    if (!spec) continue;
+    const [background, accent, pictogram] = themes[guide.service] ?? themes.brand;
+    const labels = guide.lang === "vi"
+      ? ["TÌNH HUỐNG", "VIỆC CẦN CHUẨN BỊ"]
+      : ["WORKED EXAMPLE", "WHAT TO PREPARE"];
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
+      <rect width="1200" height="800" fill="#f5f6f4"/>
+      <path d="M0 0H1200V204H0Z" fill="${background}"/>
+      <path d="M1006 0H1200V204H960Z" fill="${accent}" opacity=".21"/>
+      <rect x="67" y="45" width="188" height="69" rx="10" fill="#fff"/>
+      <path d="${pictogram}" transform="translate(1040 40) scale(1.5)" fill="none" stroke="${accent}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="67" y="252" width="1066" height="208" rx="18" fill="#fff"/>
+      <rect x="67" y="490" width="1066" height="240" rx="18" fill="${accent}"/>
+    </svg>`;
+    const layers = await Promise.all([
+      textLayer(spec.title, "#fff", 49, 900, 64, true),
+      textLayer(labels[0], background, 23, 890, 41, true),
+      textLayer(spec.scenario, background, 34, 960, 113),
+      textLayer(labels[1], background, 23, 890, 41, true),
+      textLayer(spec.action, background, 34, 960, 146),
+    ]);
+    const [title, contextLabel, scenario, actionLabel, action] = layers;
+    await sharp(Buffer.from(svg)).composite([
+      {input:logo,left:85,top:57}, {input:title,left:67,top:126},
+      {input:contextLabel,left:105,top:282}, {input:scenario,left:105,top:329},
+      {input:actionLabel,left:105,top:520}, {input:action,left:105,top:566},
+    ]).webp({quality:84}).toFile(join(directory, guide.slug+".webp"));
+  }
+}
