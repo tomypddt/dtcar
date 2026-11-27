@@ -1141,11 +1141,13 @@
     "kind": "illustration"
   },
   "hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai": {
-    "src": "/images/editorial/hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai-cover.webp",
-    "alt": "Học viên trao đổi với giáo viên về buổi học lái xe số tự động.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
+    "src": "/images/editorial/facebook-refresh/hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai-photo.webp",
+    "alt": "Góc chụp trong xe khi người lái cầm vô-lăng, với bảng điều khiển và cần số bên cạnh.",
+    "width": 1020,
+    "height": 1400,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo.php?fbid=122201394026332853",
+    "credit": "Lisa Dong · Facebook"
   },
   "lop-tap-do-xe-cho-nguoi-viet-song-o-condo-tai-manila": {
     "src": "/images/editorial/lop-tap-do-xe-cho-nguoi-viet-song-o-condo-tai-manila-cover.webp",
@@ -1743,11 +1745,13 @@
     "kind": "illustration"
   },
   "dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines": {
-    "src": "/images/editorial/dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines-cover.webp",
-    "alt": "Học viên thử thao tác tay lái trong buổi học đầu tiên.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
+    "src": "/images/editorial/facebook-refresh/dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines-photo.webp",
+    "alt": "Góc nhìn từ ghế lái về tay đặt trên vô-lăng và cụm đồng hồ, trích từ bài giới thiệu lớp lái xe.",
+    "width": 934,
+    "height": 1400,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo.php?fbid=122221900688332853",
+    "credit": "Lisa Dong · Facebook"
   },
   "hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong": {
     "src": "/images/editorial/hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong-cover.webp",
@@ -3174,6 +3178,24 @@
     "height": 1280,
     "source": "https://www.facebook.com/photo.php?fbid=122377266668008877",
     "credit": "DT Car - Quality Car Manila · Facebook",
+    "kind": "photo"
+  },
+  "ev-fleet-pilot-driver-log": {
+    "src": "/images/editorial/facebook-refresh/ev-fleet-pilot-driver-log-photo.webp",
+    "alt": "A row of turquoise electric taxis parked together, from the VinFast – Green GSM album.",
+    "width": 1200,
+    "height": 799,
+    "source": "https://www.facebook.com/photo.php?fbid=1230054785553485",
+    "credit": "Duong Nguyen · Facebook",
+    "kind": "photo"
+  },
+  "finding-an-ev-charging-station-before-leaving-manila": {
+    "src": "/images/editorial/facebook-refresh/finding-an-ev-charging-station-before-leaving-manila-photo.webp",
+    "alt": "A blue EV charger installed at the edge of a marked parking bay.",
+    "width": 1050,
+    "height": 1400,
+    "source": "https://www.facebook.com/photo.php?fbid=1230054848886812",
+    "credit": "Duong Nguyen · Facebook",
     "kind": "photo"
   }
 }
