@@ -21,7 +21,7 @@ function closedGuideDescription(g: typeof guides[number]) {
 }
 export async function generateMetadata({params}: Props) {
  const g = getGuide((await params).slug);
- return pageMetadata({path: guidePath(g.slug), title: guideSearchTitles[g.slug] ?? g.title + " | DT Car", description:closedGuideDescription(g), languages:guideAlternates(g.slug), image:g.photo ?? `/images/guides/${g.slug}.png`, published:g.date, locale:guideLocale(g.lang)});
+ return pageMetadata({path: guidePath(g.slug), title: guideSearchTitles[g.slug] ?? g.title + " | DT Car", description:closedGuideDescription(g), languages:guideAlternates(g.slug), image:g.photo, published:g.date, locale:guideLocale(g.lang)});
 }
 export default async function GuidePage({params}: Props) {
  const g=getGuide((await params).slug), service=services.find(s=>s.slug===g.service), url=origin+guidePath(g.slug);
@@ -52,20 +52,27 @@ export default async function GuidePage({params}: Props) {
  const direct = g.related.map(slug => guides.find(other => other.slug === slug)).filter(other => other !== undefined);
  const related = [...direct, ...guides.filter(other => other.related.includes(g.slug) && !g.related.includes(other.slug))].slice(0, 6);
  const illustrationCredit = ({vi:"Ảnh minh họa do AI tạo · DT Car", "fil-PH":"Larawang likha ng AI · DT Car", "zh-Hans":"AI 插图 · DT Car", ko:"AI 제작 일러스트 · DT Car"} as Record<string, string>)[g.lang] ?? "AI-generated illustration · DT Car";
- return <SubPage><JsonLd data={{"@graph":[{"@type":"Article","@id":url+'#article',headline:g.title,description:g.description,abstract:closed ? status : g.summary,articleSection:g.category,mainEntityOfPage:url,url,datePublished:g.date,dateModified:g.updated ?? g.date,inLanguage:g.lang,image:[origin+(g.photo ?? `/images/guides/${g.slug}.png`)],author:{"@type":"Organization",name:brand,url:origin+'/about/'},publisher:organization},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:'Home',item:origin+'/'},{"@type":"ListItem",position:2,name:'Guides',item:origin+'/guides/'},{"@type":"ListItem",position:3,name:g.title,item:url}]}]}}/>
+ return <SubPage><JsonLd data={{"@graph":[{"@type":"Article","@id":url+'#article',headline:g.title,description:g.description,abstract:closed ? status : g.summary,articleSection:g.category,mainEntityOfPage:url,url,datePublished:g.date,dateModified:g.updated ?? g.date,inLanguage:g.lang,image:[origin+g.photo],author:{"@type":"Organization",name:brand,url:origin+'/about/'},publisher:organization},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:'Home',item:origin+'/'},{"@type":"ListItem",position:2,name:'Guides',item:origin+'/guides/'},{"@type":"ListItem",position:3,name:g.title,item:url}]}]}}/>
  <article className="serviceGuide knowledgeArticle" lang={g.lang}>
  <nav className="guideCrumbs" aria-label="Breadcrumb"><Link href="/">{labels.home}</Link><span>/</span><Link href="/guides/">{labels.guides}</Link><span>/</span><span>{g.category}</span></nav>
  <header className="knowledgeHead"><p className="eyebrow">{g.category}</p><h1>{g.title}</h1><p>{g.description}</p><small>DT Car Philippines · <time dateTime={g.date}>{formattedDate}</time></small></header>
  <div className="guideLayout"><div className="guideContent">
  <aside id="quick-answer" className="answerBox"><strong>{labels.quick}</strong><p>{closed ? status : g.summary}</p></aside>
- <figure className="checklistGraphic leadVisual"><img src={g.photo ?? `/images/guides/${g.slug}.svg`} fetchPriority="high" srcSet={!g.photoCredit && g.photo?.startsWith("/images/editorial/") ? [480, 800].filter(width => width < (g.photoWidth ?? 1200)).map(width => `/images/gallery/guide-cards/${g.slug}-${width}.webp ${width}w`).concat(`${g.photo} ${g.photoWidth ?? 1200}w`).join(", ") : undefined} sizes="(max-width: 850px) 94vw, 780px" width={g.photoWidth ?? 1200} height={g.photoHeight ?? 630} lang={g.photoAlt ? g.lang : undefined} alt={g.photo ? (g.photoAlt ?? '') : g.lang==='vi'?'Danh sách chuẩn bị được trình bày đầy đủ bên dưới':g.lang==='fil-PH'?'Checklist na nakasulat din sa ibaba':'Preparation checklist, also listed in full below'} />{g.photoCredit && <figcaption>{g.photoAlt} · {g.photoSource ? <a href={g.photoSource}>{g.photoCredit}</a> : g.photoCredit}</figcaption>}{!g.photoCredit && g.photoSource && <figcaption><a href={g.photoSource}>{isTravel ? "DT Tour" : "DT Car"} · Facebook</a></figcaption>}{g.photoKind === "illustration" && <figcaption>{illustrationCredit}</figcaption>}</figure>
+ <figure className="checklistGraphic leadVisual">
+   <img src={g.photo} fetchPriority="high"
+     srcSet={g.photoWidth > 480 ? [480, 800].filter(width => width < g.photoWidth).map(width => `/images/gallery/guide-cards/${g.slug}-${width}.webp ${width}w`).concat(`${g.photo} ${g.photoWidth}w`).join(", ") : undefined}
+     sizes="(max-width: 850px) 94vw, 780px" width={g.photoWidth} height={g.photoHeight} alt={g.photoAlt} />
+   {g.photoSource && <figcaption><a href={g.photoSource}>{g.photoCredit ?? (isTravel ? "DT Tour · Facebook" : "DT Car · Facebook")}</a></figcaption>}
+   {!g.photoSource && g.photoCredit && <figcaption>{g.photoCredit}</figcaption>}
+   {g.photoKind === "illustration" && <figcaption>{illustrationCredit}</figcaption>}
+ </figure>
  {!closed && g.enquiry && <SalesEnquiry initialMessage={g.enquiry} topic={g.title} vietnamese={g.lang === "vi"} team={isTravel ? "DT Tour" : "DT Car"} messenger={enquiryLink} buttonLabel={salesLabel} service={g.service} />}
  {closed && <p><strong>{g.lang === "fil-PH" ? "Makasaysayang gabay · Dating proseso bago isinara ang intake" : "Archive · The sections below describe the previous programme"}</strong></p>}
  <nav className="articleContents" aria-label={labels.contents}><strong>{labels.contents}</strong><ol>{g.sections.map((s,i)=><li key={s.heading}><a href={'#section-'+i}>{s.heading}</a></li>)}</ol></nav>
 
  {g.sections.map((s,i)=><section id={'section-'+i} key={s.heading}><h2>{s.heading}</h2>{s.paragraphs.map(p=><p key={p}>{p}</p>)}{i === 1 && g.inlinePhoto && <figure className="checklistGraphic supportingVisual">
    <img src={g.inlinePhoto.src} alt={g.inlinePhoto.alt} width={g.inlinePhoto.width} height={g.inlinePhoto.height} loading="lazy" decoding="async" />
-   <figcaption><a href={g.inlinePhoto.source}>{isTravel ? "DT Tour" : "DT Car"} · Facebook</a></figcaption>
+   <figcaption><a href={g.inlinePhoto.source}>{g.inlinePhoto.credit ?? (isTravel ? "DT Tour · Facebook" : "DT Car · Facebook")}</a></figcaption>
  </figure>}</section>)}
  {g.checklist.length > 0 && <section className="takeaway"><h2>{labels.checklist}</h2><ul>{g.checklist.map(c=><li key={c}>{c}</li>)}</ul></section>}
  {g.references.length>0&&<section className="sourceList"><h2>{labels.sources}</h2><ul>{g.references.filter(r => !closed || !/m\.me|platform\.greengsm|facebook\.com/.test(r.href)).map(r=><li key={r.href}><a href={r.href}>{r.label}</a></li>)}</ul><p>{labels.checked} · {formattedDate}</p></section>}

@@ -33,26 +33,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/compare-used-car-offers-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "White sedan photographed from the front corner for comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-mitsubishi-xpander-manila-viewing",
       "a-used-toyota-vios-with-two-different-trim-descriptions",
       "comparing-two-used-honda-city-adverts-with-different-years"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Toyota Vios used prices in Manila by year and trim.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384861624008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/compare-used-car-offers-manila-detail.webp",
-      "alt": "Second exterior angle showing the rear of the same white sedan",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122377267844008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Toyota Vios used prices in Manila by year and trim."
   },
   {
     "slug": "a-used-toyota-rush-for-a-family-with-a-stroller",
@@ -84,26 +70,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-seven-seater-manila-family-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 885,
-    "photoAlt": "Passenger seats and headrests in the rear cabin",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use",
       "a-second-hand-sedan-for-a-wheelchair-in-the-boot",
       "a-used-toyota-vios-with-two-different-trim-descriptions"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A used Toyota Rush for a family with a stroller.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377265666008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-seven-seater-manila-family-detail.webp",
-      "alt": "Rear seating viewed through the passenger door",
-      "width": 1200,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122361280364008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: A used Toyota Rush for a family with a stroller."
   },
   {
     "slug": "a-used-honda-br-v-for-school-pickup",
@@ -135,26 +107,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Driver's seat and available legroom viewed through the open door",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "a-used-seven-seater-with-missing-rear-headrests",
       "used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila",
       "used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A used Honda BR-V for school pickup.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377256222008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-detail.webp",
-      "alt": "Position of the driver's seat relative to the steering wheel",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122377253414008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: A used Honda BR-V for school pickup."
   },
   {
     "slug": "nissan-terra-second-hand-listings-with-different-drivetrains",
@@ -186,19 +144,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-viewing-from-another-city-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Rear three-quarter reference photo for a remote vehicle viewing",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-honda-cr-v-in-manila-what-to-check-when-comparing-generations",
       "buying-a-second-hand-car-with-roof-rails-for-a-surfboard",
       "comparing-two-used-diesel-suvs-with-different-tyre-sizes"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Nissan Terra second-hand listings with different drivetrains.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377267886008877"
+    "enquiry": "I would like to ask DT Car about this guide: Nissan Terra second-hand listings with different drivetrains."
   },
   {
     "slug": "mitsubishi-mirage-g4-as-a-first-used-automatic",
@@ -230,19 +181,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-workshop-warning-message-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 902,
-    "photoAlt": "Driver's view of the dashboard and centre display",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "buying-a-used-car-after-an-independent-inspection-flags-leaks",
       "used-cars-with-a-private-seller-and-no-second-key",
       "used-car-in-pasay-viewed-after-work"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Mitsubishi Mirage G4 as a first used automatic.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525718008877"
+    "enquiry": "I would like to ask DT Car about this guide: Mitsubishi Mirage G4 as a first used automatic."
   },
   {
     "slug": "used-isuzu-mu-x-for-a-full-passenger-load",
@@ -274,26 +218,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-seven-seater-manila-family-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 885,
-    "photoAlt": "Passenger seats and headrests in the rear cabin",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims",
       "used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use",
       "used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Used Isuzu mu-X for a full passenger load.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377265666008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-seven-seater-manila-family-detail.webp",
-      "alt": "Rear seating viewed through the passenger door",
-      "width": 1200,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122361280364008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Used Isuzu mu-X for a full passenger load."
   },
   {
     "slug": "checking-a-used-fortuner-advertised-as-a-g-trim",
@@ -325,19 +255,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/latest-used-cars/car-02.webp",
-    "photoWidth": 443,
-    "photoHeight": 590,
-    "photoAlt": "Toyota Fortuner in the DT Car listing archive.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim",
       "buying-a-car-advertised-below-comparable-manila-listings",
       "toyota-vios-used-prices-in-manila-by-year-and-trim"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Checking a used Fortuner advertised as a G trim.",
-    "photoSource": "https://www.facebook.com/61550266324189/posts/122384855516008877/"
+    "enquiry": "I would like to ask DT Car about this guide: Checking a used Fortuner advertised as a G trim."
   },
   {
     "slug": "toyota-avanza-or-innova-for-daily-pickups",
@@ -369,19 +292,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/latest-used-cars/car-04.webp",
-    "photoWidth": 443,
-    "photoHeight": 590,
-    "photoAlt": "Toyota Avanza in the DT Car listing archive.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-toyota-avanza-or-a-sedan-for-manila-carpools",
       "used-seven-seater-manila-family",
       "used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Toyota Avanza or Innova for daily pickups.",
-    "photoSource": "https://www.facebook.com/61550266324189/posts/122384855516008877/"
+    "enquiry": "I would like to ask DT Car about this guide: Toyota Avanza or Innova for daily pickups."
   },
   {
     "slug": "used-toyota-wigo-with-a-tight-parking-approach",
@@ -413,19 +329,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/green-gsm-rental-parking-photo-cover.webp",
-    "photoWidth": 960,
-    "photoHeight": 654,
-    "photoAlt": "Sheltered parking area with a row of vehicles",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-seven-seater-manila-family",
       "used-honda-brio-for-a-first-apartment-parking-space",
       "used-toyota-wigo-in-manila-for-deliveries-with-small-parcels"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Used Toyota Wigo with a tight parking approach.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374729208008877"
+    "enquiry": "I would like to ask DT Car about this guide: Used Toyota Wigo with a tight parking approach."
   },
   {
     "slug": "comparing-two-used-honda-city-adverts-with-different-years",
@@ -457,26 +366,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/compare-used-car-offers-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "White sedan photographed from the front corner for comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-honda-city-manila-viewing",
       "comparing-two-used-diesel-suvs-with-different-tyre-sizes",
       "toyota-vios-used-prices-in-manila-by-year-and-trim"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing two used Honda City adverts with different years.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384861624008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/compare-used-car-offers-manila-detail.webp",
-      "alt": "Second exterior angle showing the rear of the same white sedan",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122377267844008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Comparing two used Honda City adverts with different years."
   },
   {
     "slug": "how-to-inspect-a-used-car-for-past-flooding",
@@ -508,26 +403,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-inspection-checklist-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Open engine bay for a used-car inspection",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch",
       "used-car-viewing-from-another-city",
       "used-car-adverts-with-one-photo-for-several-available-units"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: How to inspect a used car for past flooding.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377264250008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-car-inspection-checklist-detail.webp",
-      "alt": "Steering wheel and driver's dashboard during an interior check",
-      "width": 1200,
-      "height": 892,
-      "source": "https://www.facebook.com/photo.php?fbid=122377265540008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: How to inspect a used car for past flooding."
   },
   {
     "slug": "a-used-car-budget-under-php300-000-in-the-philippines",
@@ -559,26 +440,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/compare-used-car-offers-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "White sedan photographed from the front corner for comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-500k-manila-shortlist",
       "mazda-cx5-used-price-manila",
       "used-toyota-fortuner-g-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A used-car budget under ₱300,000 in the Philippines.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384861624008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/compare-used-car-offers-manila-detail.webp",
-      "alt": "Second exterior angle showing the rear of the same white sedan",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122377267844008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: A used-car budget under ₱300,000 in the Philippines."
   },
   {
     "slug": "shopping-for-used-cars-below-php400-000",
@@ -610,19 +477,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-service-records-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front view of a vehicle during a workshop visit",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "shopping-for-a-used-suv-from-cebu",
       "a-used-car-budget-under-php300-000-in-the-philippines",
       "used-automatic-car-manila-first-viewing"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Shopping for used cars below ₱400,000.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374362878008877"
+    "enquiry": "I would like to ask DT Car about this guide: Shopping for used cars below ₱400,000."
   },
   {
     "slug": "what-php700-000-buys-in-a-used-car-comparison",
@@ -654,19 +514,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/reserved-used-car-listing-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "White vehicle parked under cover",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use",
       "toyota-vios-used-prices-in-manila-by-year-and-trim",
       "a-used-toyota-vios-with-two-different-trim-descriptions"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: What ₱700,000 buys in a used-car comparison.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384853062008877"
+    "enquiry": "I would like to ask DT Car about this guide: What ₱700,000 buys in a used-car comparison."
   },
   {
     "slug": "used-car-in-pasay-viewed-after-work",
@@ -698,19 +551,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/green-gsm-rental-parking-photo-cover.webp",
-    "photoWidth": 960,
-    "photoHeight": 654,
-    "photoAlt": "Sheltered parking area with a row of vehicles",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "viewing-a-used-car-after-a-price-reduction",
       "an-suv-with-a-tow-hitch-on-a-used-car-shortlist",
       "buying-a-used-car-after-an-independent-inspection-flags-leaks"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Used car in Pasay viewed after work.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374729208008877"
+    "enquiry": "I would like to ask DT Car about this guide: Used car in Pasay viewed after work."
   },
   {
     "slug": "shortlisting-a-used-car-in-makati-from-an-office",
@@ -742,19 +588,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/green-gsm-rental-parking-photo-cover.webp",
-    "photoWidth": 960,
-    "photoHeight": 654,
-    "photoAlt": "Sheltered parking area with a row of vehicles",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-in-pasay-viewed-after-work",
       "used-car-viewing-when-the-original-owner-is-abroad",
       "buying-a-used-car-after-an-independent-inspection-flags-leaks"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Shortlisting a used car in Makati from an office.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374729208008877"
+    "enquiry": "I would like to ask DT Car about this guide: Shortlisting a used car in Makati from an office."
   },
   {
     "slug": "quezon-city-used-car-viewings-on-the-same-day",
@@ -786,19 +625,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/buy-used-car-manila.webp",
-    "photoWidth": 750,
-    "photoHeight": 1000,
-    "photoAlt": "White used vehicle parked outdoors",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "reserved-used-car-listing-manila",
       "used-honda-city-manila-viewing",
       "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Quezon City used-car viewings on the same day.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384853158008877"
+    "enquiry": "I would like to ask DT Car about this guide: Quezon City used-car viewings on the same day."
   },
   {
     "slug": "buying-a-manila-car-from-davao",
@@ -830,19 +662,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-viewing-from-another-city-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Rear three-quarter reference photo for a remote vehicle viewing",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "checking-a-used-fortuner-advertised-as-a-g-trim",
       "used-car-viewing-from-another-city",
       "used-car-adverts-with-one-photo-for-several-available-units"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Buying a Manila car from Davao.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377267886008877"
+    "enquiry": "I would like to ask DT Car about this guide: Buying a Manila car from Davao."
   },
   {
     "slug": "shopping-for-a-used-suv-from-cebu",
@@ -874,19 +699,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-pair-manila-inspection-budget-cover.webp",
-    "photoWidth": 768,
-    "photoHeight": 1024,
-    "photoAlt": "Grey SUV photographed from its front corner for a viewing",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "buying-a-pre-owned-car-after-a-long-distance-move-to-cebu",
       "used-car-viewing-when-the-original-owner-is-abroad",
       "used-honda-brio-for-a-first-apartment-parking-space"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Shopping for a used SUV from Cebu.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384853746008877"
+    "enquiry": "I would like to ask DT Car about this guide: Shopping for a used SUV from Cebu."
   },
   {
     "slug": "used-ford-everest-with-incomplete-service-history",
@@ -918,19 +736,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-service-records-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front view of a vehicle during a workshop visit",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-service-records-manila",
       "buying-a-used-hybrid-in-manila-request-the-right-battery-evidence",
       "a-used-car-with-a-gap-in-its-odometer-history"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Used Ford Everest with incomplete service history.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374362878008877"
+    "enquiry": "I would like to ask DT Car about this guide: Used Ford Everest with incomplete service history."
   },
   {
     "slug": "used-cars-with-a-private-seller-and-no-second-key",
@@ -962,12 +773,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "buying-a-used-car-after-an-independent-inspection-flags-leaks",
       "buying-a-used-car-with-only-one-registered-key",
@@ -1005,19 +810,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/car-appraisal-after-switching-from-stock-to-larger-wheels-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 899,
-    "photoAlt": "Alloy wheel and tyre shown close up",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "comparing-two-used-honda-city-adverts-with-different-years",
       "a-toyota-vios-previously-used-for-ride-hailing",
       "used-toyota-innova-in-manila-can-everyone-fit-with-the-last-row-in-use"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Checking a used Honda Civic with aftermarket suspension.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525370008877"
+    "enquiry": "I would like to ask DT Car about this guide: Checking a used Honda Civic with aftermarket suspension."
   },
   {
     "slug": "comparing-a-used-xpander-and-a-seven-seat-suv",
@@ -1049,26 +847,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Driver's seat and available legroom viewed through the open door",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "a-used-seven-seater-with-missing-rear-headrests",
       "used-seven-seater-manila-family",
       "a-used-toyota-vios-with-two-different-trim-descriptions"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing a used Xpander and a seven-seat SUV.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377256222008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-detail.webp",
-      "alt": "Position of the driver's seat relative to the steering wheel",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122377253414008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Comparing a used Xpander and a seven-seat SUV."
   },
   {
     "slug": "a-used-car-with-a-gap-in-its-odometer-history",
@@ -1100,19 +884,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-workshop-warning-message-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 902,
-    "photoAlt": "Driver's view of the dashboard and centre display",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "comparing-used-vehicles-with-mismatched-service-dates",
       "used-ford-everest-with-incomplete-service-history",
       "buying-a-used-car-with-a-changed-instrument-cluster"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A used car with a gap in its odometer history.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525718008877"
+    "enquiry": "I would like to ask DT Car about this guide: A used car with a gap in its odometer history."
   },
   {
     "slug": "buying-a-car-advertised-below-comparable-manila-listings",
@@ -1144,19 +921,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-500k-manila-shortlist-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Yellow compact car photographed on a residential street",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "checking-a-used-fortuner-advertised-as-a-g-trim",
       "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim",
       "used-car-viewing-from-another-city"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Buying a car advertised below comparable Manila listings.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377260518008877"
+    "enquiry": "I would like to ask DT Car about this guide: Buying a car advertised below comparable Manila listings."
   },
   {
     "slug": "what-to-photograph-at-a-second-hand-vehicle-inspection",
@@ -1188,19 +958,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Side profile showing both exterior doors and their paint finish",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-pair-manila-inspection-budget",
       "how-to-evaluate-a-used-vehicle-after-a-repaint",
       "used-hyundai-staria-for-a-hotel-shuttle-what-to-ask-before-viewing"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: What to photograph at a second-hand vehicle inspection.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377253078008877"
+    "enquiry": "I would like to ask DT Car about this guide: What to photograph at a second-hand vehicle inspection."
   },
   {
     "slug": "picking-an-automatic-used-car-for-stop-and-go-traffic",
@@ -1232,12 +995,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-honda-brio-for-a-first-apartment-parking-space",
       "a-second-hand-sedan-for-a-wheelchair-in-the-boot",
@@ -1279,12 +1036,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-cars-with-a-private-seller-and-no-second-key",
       "a-used-toyota-vios-with-two-different-trim-descriptions",
@@ -1326,19 +1077,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/manila-gongsi-cheliang-piliang-chushou-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Vehicles parked together in a shared lot.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "second-hand-cars-in-manila-buying-a-vehicle-formerly-used-by-a-company",
       "used-car-viewing-when-the-original-owner-is-abroad",
       "buying-a-used-car-in-manila-when-a-sibling-will-inspect-it-for-you"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Buying a used vehicle from a company in Manila.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371518620008877"
+    "enquiry": "I would like to ask DT Car about this guide: Buying a used vehicle from a company in Manila."
   },
   {
     "slug": "buying-a-second-hand-car-with-a-repaired-windscreen",
@@ -1370,19 +1114,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-service-records-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front view of a vehicle during a workshop visit",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "buying-a-second-hand-car-with-roof-rails-for-a-surfboard",
       "a-used-toyota-vios-with-two-different-trim-descriptions",
       "used-car-in-pasay-viewed-after-work"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Buying a second-hand car with a repaired windscreen.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374362878008877"
+    "enquiry": "I would like to ask DT Car about this guide: Buying a second-hand car with a repaired windscreen."
   },
   {
     "slug": "comparing-two-used-diesel-suvs-with-different-tyre-sizes",
@@ -1414,19 +1151,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/car-appraisal-after-switching-from-stock-to-larger-wheels-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 899,
-    "photoAlt": "Alloy wheel and tyre shown close up",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "comparing-two-used-honda-city-adverts-with-different-years",
       "used-subaru-forester-reviewing-a-set-of-replacement-tyres",
       "nissan-terra-second-hand-listings-with-different-drivetrains"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing two used diesel SUVs with different tyre sizes.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525370008877"
+    "enquiry": "I would like to ask DT Car about this guide: Comparing two used diesel SUVs with different tyre sizes."
   },
   {
     "slug": "how-to-evaluate-a-used-vehicle-after-a-repaint",
@@ -1458,19 +1188,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Side profile showing both exterior doors and their paint finish",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-listings-that-describe-a-vehicle-as-fresh",
       "buying-a-second-hand-car-with-a-repaired-windscreen",
       "used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: How to evaluate a used vehicle after a repaint.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377253078008877"
+    "enquiry": "I would like to ask DT Car about this guide: How to evaluate a used vehicle after a repaint."
   },
   {
     "slug": "a-used-vehicle-with-limited-access-for-inspection",
@@ -1502,19 +1225,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-in-manila-after-replacing-the-engine-or-transmission-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 854,
-    "photoAlt": "Underside of a vehicle raised for a workshop inspection",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-viewing-from-another-city",
       "shortlisting-a-used-car-in-makati-from-an-office",
       "a-used-car-budget-under-php300-000-in-the-philippines"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A used vehicle with limited access for inspection.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122373360308008877"
+    "enquiry": "I would like to ask DT Car about this guide: A used vehicle with limited access for inspection."
   },
   {
     "slug": "used-vehicle-finance-adverts-and-the-cash-comparison",
@@ -1546,12 +1262,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "comparing-two-used-honda-city-adverts-with-different-years",
       "buying-a-used-vehicle-from-a-company-in-manila",
@@ -1589,19 +1299,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Side profile showing both exterior doors and their paint finish",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "which-used-car-works-for-a-wheelchair-that-folds-into-the-boot",
       "used-honda-brio-for-a-first-apartment-parking-space",
       "used-mazda-3-hatchback-or-sedan-for-a-folding-bicycle"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A second-hand sedan for a wheelchair in the boot.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377253078008877"
+    "enquiry": "I would like to ask DT Car about this guide: A second-hand sedan for a wheelchair in the boot."
   },
   {
     "slug": "a-toyota-vios-previously-used-for-ride-hailing",
@@ -1633,19 +1336,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Rear seat and passenger footwell in a used vehicle.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch",
       "checking-a-used-honda-civic-with-aftermarket-suspension",
       "a-used-toyota-vios-with-two-different-trim-descriptions"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A Toyota Vios previously used for ride-hailing.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1580646017161025"
+    "enquiry": "I would like to ask DT Car about this guide: A Toyota Vios previously used for ride-hailing."
   },
   {
     "slug": "used-car-listings-that-describe-a-vehicle-as-fresh",
@@ -1677,19 +1373,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Side profile showing both exterior doors and their paint finish",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "buying-a-used-diesel-suv-after-seeing-a-dashboard-warning-in-the-listing",
       "mitsubishi-mirage-g4-as-a-first-used-automatic",
       "how-to-evaluate-a-used-vehicle-after-a-repaint"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Used-car listings that describe a vehicle as fresh.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377253078008877"
+    "enquiry": "I would like to ask DT Car about this guide: Used-car listings that describe a vehicle as fresh."
   },
   {
     "slug": "viewing-a-used-car-after-a-price-reduction",
@@ -1721,19 +1410,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-pair-manila-inspection-budget-cover.webp",
-    "photoWidth": 768,
-    "photoHeight": 1024,
-    "photoAlt": "Grey SUV photographed from its front corner for a viewing",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-in-pasay-viewed-after-work",
       "buying-a-used-car-after-an-independent-inspection-flags-leaks",
       "used-car-spare-key-handover"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Viewing a used car after a price reduction.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384853746008877"
+    "enquiry": "I would like to ask DT Car about this guide: Viewing a used car after a price reduction."
   },
   {
     "slug": "an-suv-with-a-tow-hitch-on-a-used-car-shortlist",
@@ -1765,26 +1447,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Pickup accessory and mounting area viewed up close",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-mitsubishi-montero-sport-inspecting-a-family-suv-with-a-tow-hitch",
       "used-car-in-pasay-viewed-after-work",
       "buying-a-used-car-after-an-independent-inspection-flags-leaks"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: An SUV with a tow hitch on a used-car shortlist.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374363244008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-detail.webp",
-      "alt": "Removable interior trim accessory on a vehicle door",
-      "width": 1200,
-      "height": 800,
-      "source": "https://www.facebook.com/photo.php?fbid=122370438788008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: An SUV with a tow hitch on a used-car shortlist."
   },
   {
     "slug": "a-used-seven-seater-with-missing-rear-headrests",
@@ -1816,26 +1484,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-seven-seater-manila-family-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 885,
-    "photoAlt": "Passenger seats and headrests in the rear cabin",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "comparing-a-used-xpander-and-a-seven-seat-suv",
       "used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila",
       "a-used-honda-br-v-for-school-pickup"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A used seven-seater with missing rear headrests.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377265666008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-seven-seater-manila-family-detail.webp",
-      "alt": "Rear seating viewed through the passenger door",
-      "width": 1200,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122361280364008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: A used seven-seater with missing rear headrests."
   },
   {
     "slug": "deed-of-sale-and-transfer-of-ownership-for-a-philippine-used-car",
@@ -1871,12 +1525,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-quotations-for-a-company-purchase-which-name-goes-on-the-paperwork-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 891,
-    "photoAlt": "Two representatives signing documents at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-car-with-a-company-gps-device",
       "car-consignment-vs-direct-sale-manila",
@@ -1914,19 +1562,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/manila-trade-in-korean.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Front view of a grey car in a covered area",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "compare-used-car-offers-manila",
       "sell-a-car-in-manila-with-an-outstanding-repair-estimate",
       "sell-financed-car-appraisal-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing cash offers for a car in Manila.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384852960008877"
+    "enquiry": "I would like to ask DT Car about this guide: Comparing cash offers for a car in Manila."
   },
   {
     "slug": "selling-your-car-in-pasay-around-a-departure-flight",
@@ -1958,19 +1599,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-before-leaving-philippines-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Rear three-quarter photograph of a white SUV",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-car-before-leaving-philippines",
       "selling-a-used-car-after-settling-the-last-instalment",
       "car-appraisal-before-an-overseas-move-what-if-your-moving-date-changes"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling your car in Pasay around a departure flight.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377259660008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling your car in Pasay around a departure flight."
   },
   {
     "slug": "selling-a-car-in-makati-with-restricted-parking-access",
@@ -2002,19 +1636,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/green-gsm-rental-parking-photo-cover.webp",
-    "photoWidth": 960,
-    "photoHeight": 654,
-    "photoAlt": "Sheltered parking area with a row of vehicles",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-non-running-car-from-a-private-garage",
       "sell-car-with-two-sets-of-wheels-manila",
       "selling-a-car-from-a-condo-basement-in-metro-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling a car in Makati with restricted parking access.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374729208008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling a car in Makati with restricted parking access."
   },
   {
     "slug": "selling-two-cars-before-relocating-overseas",
@@ -2046,19 +1673,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-two-family-cars-registered-to-different-owners-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Rear exterior photograph of a white vehicle",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-two-cars-but-keeping-one-compare-separate-appraisal-offers",
       "selling-two-family-cars-registered-to-different-owners",
       "selling-an-inherited-vehicle-requesting-a-preliminary-appraisal"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling two cars before relocating overseas.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377253900008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling two cars before relocating overseas."
   },
   {
     "slug": "what-to-send-for-a-remote-suv-valuation",
@@ -2090,19 +1710,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/manila-maiche-zhongwen-yugu.webp",
-    "photoWidth": 800,
-    "photoHeight": 1000,
-    "photoAlt": "White SUV photographed head-on",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-appraisal-photos-manila",
       "how-to-compare-a-dealer-offer-with-an-online-asking-price",
       "selling-a-car-before-leaving-philippines"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: What to send for a remote SUV valuation.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1580636477161979"
+    "enquiry": "I would like to ask DT Car about this guide: What to send for a remote SUV valuation."
   },
   {
     "slug": "selling-a-used-car-after-settling-the-last-instalment",
@@ -2134,19 +1747,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-whose-finance-was-settled-recently-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front of a parked sedan photographed for a seller enquiry",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-car-whose-finance-was-settled-recently",
       "selling-your-car-in-pasay-around-a-departure-flight",
       "selling-a-non-running-car-from-a-private-garage"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling a used car after settling the last instalment.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384852768008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling a used car after settling the last instalment."
   },
   {
     "slug": "trade-in-or-sell-first-when-your-replacement-is-delayed",
@@ -2178,26 +1784,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-cover.webp",
-    "photoWidth": 768,
-    "photoHeight": 1024,
-    "photoAlt": "Rear three-quarter view of a grey vehicle",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-trade-in-philippines",
       "two-owners-comparing-direct-sale-and-a-replacement-purchase",
       "trade-in-when-replacement-car-is-delayed"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Trade-in or sell first when your replacement is delayed.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377250306008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-detail.webp",
-      "alt": "Tailgate photographed directly from the rear",
-      "width": 768,
-      "height": 1024,
-      "source": "https://www.facebook.com/photo.php?fbid=122377250396008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Trade-in or sell first when your replacement is delayed."
   },
   {
     "slug": "a-consignment-enquiry-with-a-minimum-payout",
@@ -2229,19 +1821,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/car-consignment-vs-direct-sale-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Dark SUV parked outdoors for a vehicle appraisal",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-consignment-vs-direct-sale-manila",
       "selling-a-car-when-a-relative-attends-the-viewing",
       "selling-a-car-with-a-company-gps-device"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A consignment enquiry with a minimum payout.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384853248008877"
+    "enquiry": "I would like to ask DT Car about this guide: A consignment enquiry with a minimum payout."
   },
   {
     "slug": "documenting-an-appraisal-after-a-panel-repair",
@@ -2273,19 +1858,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Side profile showing both exterior doors and their paint finish",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "appraising-a-car-with-a-recently-repaired-air-conditioner",
       "sell-a-used-car-after-body-repairs-how-to-present-before-and-after-photos",
       "sell-a-car-in-manila-with-an-outstanding-repair-estimate"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Documenting an appraisal after a panel repair.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377253078008877"
+    "enquiry": "I would like to ask DT Car about this guide: Documenting an appraisal after a panel repair."
   },
   {
     "slug": "selling-a-car-when-a-relative-attends-the-viewing",
@@ -2321,12 +1899,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-car-with-a-company-gps-device",
       "car-sourcing-agent-referral-philippines",
@@ -2364,26 +1936,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/compare-used-car-offers-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "White sedan photographed from the front corner for comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "what-to-send-for-a-remote-suv-valuation",
       "car-valuation-when-online-listings-are-months-old",
       "used-car-valuation-philippines"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: How to compare a dealer offer with an online asking price.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384861624008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/compare-used-car-offers-manila-detail.webp",
-      "alt": "Second exterior angle showing the rear of the same white sedan",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122377267844008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: How to compare a dealer offer with an online asking price."
   },
   {
     "slug": "appraising-a-pickup-with-removable-accessories",
@@ -2415,26 +1973,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Pickup accessory and mounting area viewed up close",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-pickup-with-a-business-logo-in-the-philippines",
       "selling-your-car-with-original-and-aftermarket-wheels",
       "selling-a-car-fitted-with-a-removable-roof-box"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Appraising a pickup with removable accessories.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374363244008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/selling-an-suv-while-keeping-your-personalised-accessories-detail.webp",
-      "alt": "Removable interior trim accessory on a vehicle door",
-      "width": 1200,
-      "height": 800,
-      "source": "https://www.facebook.com/photo.php?fbid=122370438788008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Appraising a pickup with removable accessories."
   },
   {
     "slug": "selling-a-car-with-a-company-gps-device",
@@ -2466,19 +2010,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-company-vehicle-with-employee-belongings-and-installed-devices-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Rear passenger cabin before a vehicle handover",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-car-when-a-relative-attends-the-viewing",
       "car-consignment-vs-direct-sale-manila",
       "deed-of-sale-and-transfer-of-ownership-for-a-philippine-used-car"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling a car with a company GPS device.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377268156008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling a car with a company GPS device."
   },
   {
     "slug": "using-photos-to-disclose-wheel-damage-before-appraisal",
@@ -2510,19 +2047,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/car-appraisal-after-switching-from-stock-to-larger-wheels-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 899,
-    "photoAlt": "Alloy wheel and tyre shown close up",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-photo-damage-disclosure",
       "selling-two-cars-but-keeping-one-compare-separate-appraisal-offers",
       "sell-a-used-car-after-body-repairs-how-to-present-before-and-after-photos"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Using photos to disclose wheel damage before appraisal.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525370008877"
+    "enquiry": "I would like to ask DT Car about this guide: Using photos to disclose wheel damage before appraisal."
   },
   {
     "slug": "selling-a-vehicle-with-a-recent-insurance-claim",
@@ -2554,19 +2084,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/selling-a-car-with-different-paint-shades-on-two-doors-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Side profile showing both exterior doors and their paint finish",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history",
       "selling-your-car-in-pasay-around-a-departure-flight",
       "selling-a-car-with-a-lost-service-booklet-in-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling a vehicle with a recent insurance claim.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377253078008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling a vehicle with a recent insurance claim."
   },
   {
     "slug": "selling-a-philippine-car-with-a-pending-duplicate-key",
@@ -2598,12 +2121,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-ev-handover-checklist.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "People gathered beside a vehicle at a handover",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-consignment-vs-direct-sale-manila",
       "selling-a-car-with-a-company-gps-device",
@@ -2641,12 +2158,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-appraisal-photos-manila",
       "car-sourcing-agent-referral-philippines",
@@ -2684,19 +2195,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vgreen-charging-payment-philippines-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Public charging posts beside a parking lane",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-used-ev-in-manila-prepare-the-charging-kit-for-appraisal",
       "selling-a-used-car-after-settling-the-last-instalment",
       "sell-financed-car-appraisal-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling a used EV with a separate battery agreement.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361118322008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling a used EV with a separate battery agreement."
   },
   {
     "slug": "two-owners-comparing-direct-sale-and-a-replacement-purchase",
@@ -2728,12 +2232,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/paano-ikumpara-trade-in-kotse.webp",
-    "photoWidth": 750,
-    "photoHeight": 1000,
-    "photoAlt": "Front exterior of a silver used car",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "trade-in-or-sell-first-when-your-replacement-is-delayed",
       "car-trade-in-philippines",
@@ -2771,19 +2269,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/feilvbin-ershouche-zhongwen-kanche.webp",
-    "photoWidth": 800,
-    "photoHeight": 1000,
-    "photoAlt": "Rear three-quarter exterior inspection view",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "sell-two-company-cars-manila",
       "selling-a-pickup-with-a-business-logo-in-the-philippines",
       "selling-a-car-from-a-condo-basement-in-metro-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A sale price subject to inspection in Metro Manila.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1580637113828582"
+    "enquiry": "I would like to ask DT Car about this guide: A sale price subject to inspection in Metro Manila."
   },
   {
     "slug": "selling-a-vehicle-after-replacing-its-engine",
@@ -2819,19 +2310,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-service-records-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front view of a vehicle during a workshop visit",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-car-in-manila-after-replacing-the-engine-or-transmission",
       "deed-of-sale-and-transfer-of-ownership-for-a-philippine-used-car",
       "selling-a-used-car-after-settling-the-last-instalment"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling a vehicle after replacing its engine.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374362878008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling a vehicle after replacing its engine."
   },
   {
     "slug": "appraisal-of-an-ex-fleet-vehicle-sold-individually",
@@ -2863,19 +2347,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-fleet-pilot-driver-log-cover.webp",
-    "photoWidth": 800,
-    "photoHeight": 1200,
-    "photoAlt": "Fleet vehicles lined up outdoors",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "requesting-a-preliminary-valuation-for-a-company-fleet",
       "selling-a-car-with-an-approaching-major-service",
       "selling-an-inherited-vehicle-requesting-a-preliminary-appraisal"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Appraisal of an ex-fleet vehicle sold individually.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122363779202008877"
+    "enquiry": "I would like to ask DT Car about this guide: Appraisal of an ex-fleet vehicle sold individually."
   },
   {
     "slug": "selling-a-car-while-keeping-the-dashcam-recordings",
@@ -2907,19 +2384,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Front cabin and screen of an electric vehicle, viewed through the door",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-valuation-when-online-listings-are-months-old",
       "selling-a-car-while-its-replacement-is-being-repaired",
       "used-car-accessories-resale"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling a car while keeping the dashcam recordings.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371936958008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling a car while keeping the dashcam recordings."
   },
   {
     "slug": "setting-an-expiry-date-on-a-used-car-offer",
@@ -2951,19 +2421,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/paano-magpa-appraise-ng-kotse.webp",
-    "photoWidth": 1200,
-    "photoHeight": 880,
-    "photoAlt": "White SUV photographed in side profile",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-appraisal-before-an-overseas-move-what-if-your-moving-date-changes",
       "used-car-valuation-philippines",
       "car-valuation-when-online-listings-are-months-old"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Setting an expiry date on a used-car offer.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1591878022704491"
+    "enquiry": "I would like to ask DT Car about this guide: Setting an expiry date on a used-car offer."
   },
   {
     "slug": "preparing-a-payment-and-collection-receipt",
@@ -2995,12 +2458,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "car-consignment-vs-direct-sale-manila",
       "selling-a-used-car-after-settling-the-last-instalment",
@@ -3046,26 +2503,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "VinFast MPV 7 and Limo Green shown side by side in the DT Car comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "limo-green-and-vf-mpv-7-under-subscription",
       "vinfast-vf8-philippines-price",
       "limo-green-herio-green-purchase-price"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Limo Green and VF MPV 7 with the battery included.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361430250008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-detail.webp",
-      "alt": "Rear views of the MPV 7 and Limo Green in the same comparison",
-      "width": 1200,
-      "height": 900,
-      "source": "https://www.facebook.com/photo.php?fbid=122361430238008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Limo Green and VF MPV 7 with the battery included."
   },
   {
     "slug": "limo-green-and-vf-mpv-7-under-subscription",
@@ -3105,26 +2548,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "VinFast MPV 7 and Limo Green shown side by side in the DT Car comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "limo-green-and-vf-mpv-7-with-the-battery-included",
       "vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist",
       "vf-3-price-with-battery-versus-subscription-over-three-years"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Limo Green and VF MPV 7 under subscription.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361430250008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-detail.webp",
-      "alt": "Rear views of the MPV 7 and Limo Green in the same comparison",
-      "width": 1200,
-      "height": 900,
-      "source": "https://www.facebook.com/photo.php?fbid=122361430238008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Limo Green and VF MPV 7 under subscription."
   },
   {
     "slug": "a-monthly-limo-green-budget-for-irregular-mileage",
@@ -3164,12 +2593,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/limo-green-lisa-coast.webp",
-    "photoWidth": 590,
-    "photoHeight": 394,
-    "photoAlt": "Lisa Dong beside a white VinFast Limo Green on the coast",
-    "photoCredit": "Lisa Dong – DT Car Facebook",
-    "photoKind": "photo",
     "related": [
       "vinfast-for-a-business-with-seasonal-mileage-peaks",
       "comparing-a-vinfast-lease-like-battery-fee-with-ownership",
@@ -3215,19 +2638,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/mpv-7-lisa-front.webp",
-    "photoWidth": 394,
-    "photoHeight": 590,
-    "photoAlt": "Lisa Dong alongside a silver VF MPV 7, front view",
-    "photoCredit": "Lisa Dong – DT Car Facebook",
-    "photoKind": "photo",
     "related": [
       "comparing-vf-3-cash-purchase-and-financed-purchase",
       "vinfast-finance-quotes-with-a-final-balloon-payment",
       "confirming-the-payment-recipient-for-a-vinfast-order"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: VF MPV 7 quote with a bank loan.",
-    "photoSource": "https://www.facebook.com/61572413993211/posts/122184144518747133/"
+    "enquiry": "I would like to ask DT Car about this guide: VF MPV 7 quote with a bank loan."
   },
   {
     "slug": "booking-a-limo-green-demonstration-in-metro-manila",
@@ -3271,12 +2687,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/limo-green-lisa-coast.webp",
-    "photoWidth": 590,
-    "photoHeight": 394,
-    "photoAlt": "Lisa Dong beside a white VinFast Limo Green on the coast",
-    "photoCredit": "Lisa Dong – DT Car Facebook",
-    "photoKind": "photo",
     "related": [
       "vinfast-test-drive-metro-manila",
       "arranging-a-vinfast-test-drive-in-cebu",
@@ -3326,19 +2736,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/comparing-two-vinfast-dealer-quotes-with-different-accessories-cover.webp",
-    "photoWidth": 960,
-    "photoHeight": 720,
-    "photoAlt": "Dark VinFast crossover inside a showroom",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "booking-a-limo-green-demonstration-in-metro-manila",
       "booking-vf-3-and-vf-5-back-to-back",
       "buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Arranging a VinFast test drive in Cebu.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525124008877"
+    "enquiry": "I would like to ask DT Car about this guide: Arranging a VinFast test drive in Cebu."
   },
   {
     "slug": "requesting-a-vinfast-quote-from-davao",
@@ -3378,19 +2781,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city-cover.webp",
-    "photoWidth": 800,
-    "photoHeight": 600,
-    "photoAlt": "Grey electric crossover beside a showroom entrance",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "booking-a-limo-green-demonstration-in-metro-manila",
       "a-vinfast-quotation-for-a-company-registered-outside-manila",
       "requesting-a-vinfast-insurance-comparison"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Requesting a VinFast quote from Davao.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371937234008877"
+    "enquiry": "I would like to ask DT Car about this guide: Requesting a VinFast quote from Davao."
   },
   {
     "slug": "vf-3-price-with-battery-versus-subscription-over-three-years",
@@ -3430,12 +2826,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/vf3-green.webp",
-    "photoWidth": 1200,
-    "photoHeight": 720,
-    "photoAlt": "VF 3 in green, front three-quarter view",
-    "photoCredit": "DT Car photo library",
-    "photoKind": "photo",
     "related": [
       "vinfast-vf3-price-philippines",
       "limo-green-and-vf-mpv-7-under-subscription",
@@ -3481,12 +2871,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/vf5-front.webp",
-    "photoWidth": 1200,
-    "photoHeight": 720,
-    "photoAlt": "White VF 5 in the showroom",
-    "photoCredit": "DT Car photo library",
-    "photoKind": "photo",
     "related": [
       "choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim",
       "requesting-a-vinfast-insurance-comparison",
@@ -3532,12 +2916,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-test-drive-metro-manila.webp",
-    "photoWidth": 1200,
-    "photoHeight": 716,
-    "photoAlt": "VinFast display vehicles in a showroom",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-vf5-plus-vs-vf6-eco-quote",
       "vinfast-vf6-plus-vs-vf7-eco-manila",
@@ -3583,12 +2961,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/vf7-lisa-front.webp",
-    "photoWidth": 590,
-    "photoHeight": 382,
-    "photoAlt": "Lisa Dong with the VinFast VF 7",
-    "photoCredit": "DT Car Quality Car Manila Facebook",
-    "photoKind": "photo",
     "related": [
       "vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost",
       "vinfast-vf6-plus-vs-vf7-eco-manila",
@@ -3634,12 +3006,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-test-drive-metro-manila.webp",
-    "photoWidth": 1200,
-    "photoHeight": 716,
-    "photoAlt": "VinFast display vehicles in a showroom",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "verifying-a-vinfast-battery-warranty-before-purchase",
       "choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim",
@@ -3685,12 +3051,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/vf9-lisa-cover.webp",
-    "photoWidth": 562,
-    "photoHeight": 1000,
-    "photoAlt": "Lisa Dong in front of the VinFast VF 9",
-    "photoCredit": "DT Car Facebook reel cover",
-    "photoKind": "photo",
     "related": [
       "vf-mpv-7-for-airport-transfer-luggage",
       "vinfast-vf7-family-test-drive-child-seats",
@@ -3736,26 +3096,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 799,
-    "photoAlt": "Rows of compact VinFast vehicles in different colours",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-vf-3-colour-availability-what-to-confirm-before-reserving",
       "vinfast-reservation-delivery-questions",
       "vinfast-vf3-vs-vf5"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: VinFast reservation while waiting for a preferred colour.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1006911235788214",
-    "inlinePhoto": {
-      "src": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-detail.webp",
-      "alt": "Another exterior colour and trim on a compact VinFast",
-      "width": 1200,
-      "height": 900,
-      "source": "https://www.facebook.com/photo.php?fbid=122371510580008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: VinFast reservation while waiting for a preferred colour."
   },
   {
     "slug": "confirming-the-payment-recipient-for-a-vinfast-order",
@@ -3795,12 +3141,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vf-mpv-7-quote-with-a-bank-loan",
       "shopping-for-a-vinfast-for-an-island-based-business",
@@ -3846,19 +3186,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-fleet-pilot-driver-log-cover.webp",
-    "photoWidth": 800,
-    "photoHeight": 1200,
-    "photoAlt": "Fleet vehicles lined up outdoors",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-for-a-small-business-one-demonstration-car-before-a-fleet-order",
       "vinfast-fleet-battery-costs-when-shift-patterns-change",
       "vinfast-vf-mpv-7-for-two-households-sharing-one-car"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A VinFast fleet quote for staggered deliveries.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122363779202008877"
+    "enquiry": "I would like to ask DT Car about this guide: A VinFast fleet quote for staggered deliveries."
   },
   {
     "slug": "comparing-a-vinfast-quote-with-and-without-a-wall-charger",
@@ -3898,19 +3231,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vgreen-charging-payment-philippines-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Public charging posts beside a parking lane",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs",
       "vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger",
       "vinfast-price-list-philippines"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing a VinFast quote with and without a wall charger.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361118322008877"
+    "enquiry": "I would like to ask DT Car about this guide: Comparing a VinFast quote with and without a wall charger."
   },
   {
     "slug": "vinfast-home-charging-when-the-parking-space-is-rented",
@@ -3950,26 +3276,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-charging-site-parking-layout-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 581,
-    "photoAlt": "Approach to an outdoor EV charging site",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal",
       "ev-home-charging-philippines",
       "requesting-a-vinfast-quote-from-davao"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: VinFast home charging when the parking space is rented.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488394008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/ev-charging-site-parking-layout-detail.webp",
-      "alt": "Night-time view of a vehicle site and the approach road",
-      "width": 960,
-      "height": 588,
-      "source": "https://www.facebook.com/photo.php?fbid=122374729118008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: VinFast home charging when the parking space is rented."
   },
   {
     "slug": "how-to-estimate-a-vinfast-charging-stop-on-a-road-trip",
@@ -4009,19 +3321,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vgreen-charging-payment-philippines-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Public charging posts beside a parking lane",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "how-to-read-vinfast-charging-session-charges",
       "ev-charging-philippines-cost",
       "ev-range-commute-buffer"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: How to estimate a VinFast charging stop on a road trip.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361118322008877"
+    "enquiry": "I would like to ask DT Car about this guide: How to estimate a VinFast charging stop on a road trip."
   },
   {
     "slug": "limo-green-fleet-energy-budget-per-shift",
@@ -4061,19 +3366,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/electric-fleet-spare-vehicle-planning.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Electric taxis travelling along a curved road",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "limo-green-range-figures-for-a-loaded-passenger-route",
       "electric-vs-gasoline-car-cost",
       "vinfast-vf-mpv-7-for-two-households-sharing-one-car"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Limo Green fleet energy budget per shift.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122106484071380235"
+    "enquiry": "I would like to ask DT Car about this guide: Limo Green fleet energy budget per shift."
   },
   {
     "slug": "pairing-limo-green-and-vf-mpv-7-for-a-luggage-test",
@@ -4113,26 +3411,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "VinFast MPV 7 and Limo Green shown side by side in the DT Car comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "limo-green-and-vf-mpv-7-under-subscription",
       "vinfast-mpv-for-hotel-transfers-test-luggage-space-before-ordering",
       "limo-green-and-vf-mpv-7-with-the-battery-included"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Pairing Limo Green and VF MPV 7 for a luggage test.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361430250008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-detail.webp",
-      "alt": "Rear views of the MPV 7 and Limo Green in the same comparison",
-      "width": 1200,
-      "height": 900,
-      "source": "https://www.facebook.com/photo.php?fbid=122361430238008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Pairing Limo Green and VF MPV 7 for a luggage test."
   },
   {
     "slug": "requesting-a-vinfast-insurance-comparison",
@@ -4172,12 +3456,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "comparing-two-vinfast-dealer-quotes-with-different-accessories",
       "a-vf-5-plus-quotation-for-a-first-ev-purchase",
@@ -4223,12 +3501,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vf-mpv-7-quote-with-a-bank-loan",
       "comparing-two-vinfast-dealer-quotes-with-different-accessories",
@@ -4274,19 +3546,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/mpv-7-lisa-rear.webp",
-    "photoWidth": 394,
-    "photoHeight": 590,
-    "photoAlt": "Lisa Dong beside a VF MPV 7, rear three-quarter view",
-    "photoCredit": "Lisa Dong – DT Car Facebook",
-    "photoKind": "photo",
     "related": [
       "budgeting-a-vf-9-for-family-and-luggage",
       "vinfast-mpv-for-hotel-transfers-test-luggage-space-before-ordering",
       "vinfast-vf7-family-test-drive-child-seats"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: VF MPV 7 for airport-transfer luggage.",
-    "photoSource": "https://www.facebook.com/61572413993211/posts/122184144518747133/"
+    "enquiry": "I would like to ask DT Car about this guide: VF MPV 7 for airport-transfer luggage."
   },
   {
     "slug": "verifying-a-vinfast-battery-warranty-before-purchase",
@@ -4326,19 +3591,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-service-records-resale-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Workshop consultation next to a vehicle on a lift",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vf-8-buyers-comparing-launch-and-current-prices",
       "choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim",
       "vinfast-vf3-price-philippines"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Verifying a VinFast battery warranty before purchase.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122373360230008877"
+    "enquiry": "I would like to ask DT Car about this guide: Verifying a VinFast battery warranty before purchase."
   },
   {
     "slug": "a-vinfast-quotation-for-a-company-registered-outside-manila",
@@ -4378,12 +3636,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Two people reviewing paperwork at a table",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "shopping-for-a-vinfast-for-an-island-based-business",
       "vinfast-quotations-for-a-company-purchase-which-name-goes-on-the-paperwork",
@@ -4429,26 +3681,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 799,
-    "photoAlt": "Rows of compact VinFast vehicles in different colours",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "arranging-a-vinfast-test-drive-in-cebu",
       "ev-home-charging-philippines",
       "vinfast-condo-parking-before-order"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Checking stock before a VinFast test-drive trip.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1006911235788214",
-    "inlinePhoto": {
-      "src": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-detail.webp",
-      "alt": "Another exterior colour and trim on a compact VinFast",
-      "width": 1200,
-      "height": 900,
-      "source": "https://www.facebook.com/photo.php?fbid=122371510580008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Checking stock before a VinFast test-drive trip."
   },
   {
     "slug": "comparing-a-vinfast-lease-like-battery-fee-with-ownership",
@@ -4488,19 +3726,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-battery-subscription-comparison-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Green compact electric vehicle at a display",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-vf8-philippines-price",
       "limo-green-and-vf-mpv-7-with-the-battery-included",
       "vinfast-battery-subscription-comparison"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing a VinFast lease-like battery fee with ownership.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371511390008877"
+    "enquiry": "I would like to ask DT Car about this guide: Comparing a VinFast lease-like battery fee with ownership."
   },
   {
     "slug": "a-vinfast-viewing-for-a-buyer-who-cannot-charge-at-work",
@@ -4540,19 +3771,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-charger-host-opening-hours-cover.webp",
-    "photoWidth": 872,
-    "photoHeight": 1200,
-    "photoAlt": "Roadside entrance to a charging location",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-fleet-battery-costs-when-shift-patterns-change",
       "vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger",
       "planning-a-return-trip-when-your-usual-ev-charger-is-occupied"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A VinFast viewing for a buyer who cannot charge at work.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488568008877"
+    "enquiry": "I would like to ask DT Car about this guide: A VinFast viewing for a buyer who cannot charge at work."
   },
   {
     "slug": "booking-vf-3-and-vf-5-back-to-back",
@@ -4592,19 +3816,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-vf3-vs-vf5-cover.webp",
-    "photoWidth": 800,
-    "photoHeight": 1200,
-    "photoAlt": "Several compact VinFast cars in an outdoor line-up",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "arranging-a-vinfast-test-drive-in-cebu",
       "vinfast-vf6-plus-vs-vf7-eco-manila",
       "vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Booking VF 3 and VF 5 back-to-back.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1006910835788254"
+    "enquiry": "I would like to ask DT Car about this guide: Booking VF 3 and VF 5 back-to-back."
   },
   {
     "slug": "dat-xe-tu-san-bay-manila-ve-makati-cho-gia-dinh-viet",
@@ -4636,12 +3853,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "don-san-bay-manila-hai-chuyen-bay",
       "don-khach-viet-ha-canh-o-manila-sau-nua-dem",
@@ -4679,12 +3890,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "don-san-bay-manila-hai-chuyen-bay",
       "dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila",
@@ -4722,12 +3927,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "thue-xe-co-tai-xe-manila",
       "thue-xe-hop-nhieu-diem-tai-bgc-va-makati",
@@ -4765,12 +3964,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "lich-manila-cho-khach-viet-den-sau-nua-dem",
       "dat-xe-tu-san-bay-manila-ve-makati-cho-gia-dinh-viet",
@@ -4808,12 +4001,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "xe-rieng-tu-manila-den-clark-cho-nhom-viet-co-chuyen-bay",
       "dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila",
@@ -4851,12 +4038,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho",
       "dat-xe-rieng-o-manila-cho-khach-mang-xe-day-va-ghe-tre-em",
@@ -4894,12 +4075,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "dat-xe-tour-manila-khi-khach-san-nam-o-pho-kho-dung-xe",
       "thue-xe-co-tai-xe-o-manila-tinh-theo-gio-hay-theo-ngay",
@@ -4937,12 +4112,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "dat-xe-cho-khach-viet-tu-khach-san-ra-naia-luc-sang-som",
       "don-san-bay-manila-hai-chuyen-bay",
@@ -4980,19 +4149,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-manila-3-ngay-2-dem-tu-viet-nam-cover.webp",
-    "photoWidth": 797,
-    "photoHeight": 1200,
-    "photoAlt": "Phố di sản lúc hoàng hôn trong album DT Tour",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "tour-manila-va-boracay-cho-hai-nhom-bay-ve-khac-ngay",
       "di-philippines-bon-ngay-nen-o-manila-hay-them-mot-dao",
       "di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về dự trù chi phí Philippines bốn ngày từ Việt Nam.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122190086960790161"
+    "enquiry": "Mình muốn hỏi DT Tour về dự trù chi phí Philippines bốn ngày từ Việt Nam."
   },
   {
     "slug": "tour-tu-ha-noi-va-tp-hcm-ghep-doan-o-manila",
@@ -5024,19 +4186,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Mặt tiền nhà thờ với cửa vòm và họa tiết đá",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "boracay-hay-el-nido-cho-doan-tu-tp-hcm-co-nguoi-lon-tuoi",
       "don-khach-viet-ha-canh-o-manila-sau-nua-dem",
       "so-gia-tour-philippines-khi-mot-ben-chua-gom-hanh-ly"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về tour từ Hà Nội và TP.HCM ghép đoàn ở Manila.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122190087068790161"
+    "enquiry": "Mình muốn hỏi DT Tour về tour từ Hà Nội và TP.HCM ghép đoàn ở Manila."
   },
   {
     "slug": "di-philippines-bon-ngay-nen-o-manila-hay-them-mot-dao",
@@ -5068,19 +4223,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-philippines-tu-viet-nam-bao-gia-nhom-rieng-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Hàng dừa và bãi biển trong album hành trình Philippines của DT Tour",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "tour-manila-3-ngay-2-dem-tu-viet-nam",
       "thue-xe-manila-doi-khach-san-trong-ngay",
       "du-tru-chi-phi-philippines-bon-ngay-tu-viet-nam"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về đi Philippines bốn ngày nên ở Manila hay thêm một đảo.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122193035114790161"
+    "enquiry": "Mình muốn hỏi DT Tour về đi Philippines bốn ngày nên ở Manila hay thêm một đảo."
   },
   {
     "slug": "di-philippines-lan-dau-cung-bo-me-lon-tuoi",
@@ -5112,26 +4260,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Mặt tiền nhà thờ đá trong khu phố cổ",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "boracay-hay-el-nido-cho-doan-tu-tp-hcm-co-nguoi-lon-tuoi",
       "kawasan-cho-nguoi-muon-tham-quan-ma-khong-tham-gia-canyoneering",
       "tour-el-nido-a-va-c-cho-nguoi-lan-dau-di-palawan"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về đi Philippines lần đầu cùng bố mẹ lớn tuổi.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122190087002790161",
-    "inlinePhoto": {
-      "src": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-detail.webp",
-      "alt": "Lối vào nhà thờ với các chi tiết chạm khắc trên mặt đá",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122190087134790161"
-    }
+    "enquiry": "Mình muốn hỏi DT Tour về đi Philippines lần đầu cùng bố mẹ lớn tuổi."
   },
   {
     "slug": "tagaytay-cuoi-tuan-tu-manila-cho-nhom-co-gio-ve-co-dinh",
@@ -5163,12 +4297,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/tagaytay-4-71960c5cbe.webp",
-    "photoWidth": 1080,
-    "photoHeight": 810,
-    "photoAlt": "Lối đi giữa hàng thông trong album Tagaytay",
-    "photoCredit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet",
       "tagaytay-hay-cebu-cho-nguoi-viet-chi-ranh-hai-ngay",
@@ -5206,19 +4334,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Hồ và miệng núi lửa Taal nhìn từ trên cao",
-    "photoCredit": "Page DT Tour",
-    "photoKind": "photo",
     "related": [
       "tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet",
       "tagaytay-cuoi-tuan-tu-manila-cho-nhom-co-gio-ve-co-dinh",
       "cebu-hay-bohol-du-lich-tu-viet-nam"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về tagaytay hay Cebu cho người Việt chỉ rảnh hai ngày.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122192738564790161"
+    "enquiry": "Mình muốn hỏi DT Tour về tagaytay hay Cebu cho người Việt chỉ rảnh hai ngày."
   },
   {
     "slug": "boracay-voi-tre-nho-va-xe-day-tu-caticlan",
@@ -5250,19 +4371,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/fb-boracay-sailboats-at-sunset-992708a120.webp",
-    "photoWidth": 788,
-    "photoHeight": 1050,
-    "photoAlt": "Thuyền buồm trên biển Boracay lúc hoàng hôn.",
-    "photoCredit": "Page Du lịch Philippines – DT Tour",
-    "photoKind": "photo",
     "related": [
       "dat-xe-rieng-o-manila-cho-khach-mang-xe-day-va-ghe-tre-em",
       "tu-san-bay-clark-ve-metro-manila-khi-mang-nhieu-vali",
       "dat-xe-o-philippines-cho-doan-viet-can-hai-xe-di-cung"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về boracay với trẻ nhỏ và xe đẩy từ Caticlan.",
-    "photoSource": "https://www.facebook.com/photo?fbid=122191084610790161&set=pcb.122191084976790161"
+    "enquiry": "Mình muốn hỏi DT Tour về boracay với trẻ nhỏ và xe đẩy từ Caticlan."
   },
   {
     "slug": "du-lich-boracay-ba-ngay-hai-dem-nen-dat-hoat-dong-ngay-nao",
@@ -5294,12 +4408,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/boracay-18-c008d9654c.webp",
-    "photoWidth": 735,
-    "photoHeight": 980,
-    "photoAlt": "Lối đi dưới hàng dừa dọc bờ biển Boracay",
-    "photoCredit": "DT Tour · kho ảnh Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "tour-manila-3-ngay-2-dem-tu-viet-nam",
       "tour-tu-manila-di-boracay-khi-hai-gia-dinh-khac-ngan-sach",
@@ -5337,19 +4445,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/fb-el-nido-aerial-boats-in-cove-52700ade69.webp",
-    "photoWidth": 1080,
-    "photoHeight": 607,
-    "photoAlt": "Thuyền nhìn từ trên cao trong vịnh đá vôi El Nido.",
-    "photoCredit": "Page Du lịch Philippines – DT Tour",
-    "photoKind": "photo",
     "related": [
       "tour-tu-ha-noi-va-tp-hcm-ghep-doan-o-manila",
       "di-philippines-lan-dau-cung-bo-me-lon-tuoi",
       "so-sanh-balicasag-va-mot-ngay-nghi-o-panglao"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về boracay hay El Nido cho đoàn từ TP.HCM có người lớn tuổi.",
-    "photoSource": "https://www.facebook.com/photo?fbid=122191256414790161&set=pcb.122191256660790161"
+    "enquiry": "Mình muốn hỏi DT Tour về boracay hay El Nido cho đoàn từ TP.HCM có người lớn tuổi."
   },
   {
     "slug": "tour-el-nido-a-va-c-cho-nguoi-lan-dau-di-palawan",
@@ -5381,19 +4482,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/fb-el-nido-cliffside-boats-0974c217ea.webp",
-    "photoWidth": 980,
-    "photoHeight": 980,
-    "photoAlt": "Những chiếc thuyền nhỏ neo dưới vách đá vôi El Nido.",
-    "photoCredit": "Page Du lịch Philippines – DT Tour",
-    "photoKind": "photo",
     "related": [
       "coron-hay-el-nido-cho-nhom-thich-chup-canh-hon-boi",
       "moalboal-nua-ngay-cho-nguoi-chi-muon-ngam-bien",
       "kawasan-cho-nguoi-muon-tham-quan-ma-khong-tham-gia-canyoneering"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về tour El Nido A và C cho người lần đầu đi Palawan.",
-    "photoSource": "https://www.facebook.com/photo?fbid=122191826366790161&set=pcb.122191826768790161"
+    "enquiry": "Mình muốn hỏi DT Tour về tour El Nido A và C cho người lần đầu đi Palawan."
   },
   {
     "slug": "di-el-nido-qua-puerto-princesa-nen-tinh-ngay-dau-the-nao",
@@ -5425,12 +4519,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/tele-el-nido-aerial-c391dcfc0f.webp",
-    "photoWidth": 800,
-    "photoHeight": 450,
-    "photoAlt": "Các góc nhìn từ trên cao và bãi biển trong bộ ảnh El Nido",
-    "photoCredit": "DT Tour · bộ ảnh Telegram ngày 1/8/2025",
-    "photoKind": "photo",
     "related": [
       "di-cebu-roi-noi-chuyen-sang-bohol-nen-dat-xe-tung-chang-the-nao",
       "tour-manila-3-ngay-2-dem-tu-viet-nam",
@@ -5468,19 +4556,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/fb-el-nido-turquoise-kayak-lagoon-0e9adf487d.webp",
-    "photoWidth": 784,
-    "photoHeight": 980,
-    "photoAlt": "Thuyền kayak giữa làn nước xanh và vách đá vôi ở El Nido.",
-    "photoCredit": "Page Du lịch Philippines – DT Tour",
-    "photoKind": "photo",
     "related": [
       "tour-el-nido-a-va-c-cho-nguoi-lan-dau-di-palawan",
       "kawasan-cho-nguoi-muon-tham-quan-ma-khong-tham-gia-canyoneering",
       "boracay-hay-el-nido-cho-doan-tu-tp-hcm-co-nguoi-lon-tuoi"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về coron hay El Nido cho nhóm thích chụp cảnh hơn bơi.",
-    "photoSource": "https://www.facebook.com/photo?fbid=122191826420790161&set=pcb.122191826768790161"
+    "enquiry": "Mình muốn hỏi DT Tour về coron hay El Nido cho nhóm thích chụp cảnh hơn bơi."
   },
   {
     "slug": "dat-tour-coron-khi-trong-nhom-co-nguoi-khong-boi",
@@ -5512,12 +4593,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe đưa đón của DT Tour. Ảnh minh họa phần di chuyển trong lịch trình.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "so-sanh-balicasag-va-mot-ngay-nghi-o-panglao",
       "lich-bien-philippines-vao-ngay-thoi-tiet-thay-doi",
@@ -5555,19 +4630,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Vùng nước nông bên dải cát Virgin Island ở Bohol",
-    "photoCredit": "Page DT Tour",
-    "photoKind": "photo",
     "related": [
       "bohol-va-cebu-cho-nhom-co-mot-nguoi-ve-som",
       "du-thuyen-subic-cho-doan-nho-can-chot-gio-don",
       "xe-dua-don-hoi-cho-tai-manila-cho-doan-doanh-nghiep-viet"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về tour Cebu và Bohol cho đoàn Việt đi bằng phà.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122190995582790161"
+    "enquiry": "Mình muốn hỏi DT Tour về tour Cebu và Bohol cho đoàn Việt đi bằng phà."
   },
   {
     "slug": "bohol-mot-ngay-cho-gia-dinh-dang-nghi-o-panglao",
@@ -5599,19 +4667,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/fb-bohol-pamilacan-boats-offshore-20fda3f38f.webp",
-    "photoWidth": 787,
-    "photoHeight": 1050,
-    "photoAlt": "Thuyền neo ngoài bờ biển xanh trong ở Pamilacan, Bohol.",
-    "photoCredit": "Page Du lịch Philippines – DT Tour",
-    "photoKind": "photo",
     "related": [
       "lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam",
       "tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet",
       "tour-bohol-panglao-gia-dinh-tu-viet-nam"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về bohol một ngày cho gia đình đang nghỉ ở Panglao.",
-    "photoSource": "https://www.facebook.com/photo?fbid=122194755080790161&set=pcb.122194755248790161"
+    "enquiry": "Mình muốn hỏi DT Tour về bohol một ngày cho gia đình đang nghỉ ở Panglao."
   },
   {
     "slug": "so-sanh-balicasag-va-mot-ngay-nghi-o-panglao",
@@ -5643,19 +4704,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-bohol-panglao-gia-dinh-tu-viet-nam-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Dải cát trắng ở Virgin Island, Bohol",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "dat-tour-coron-khi-trong-nhom-co-nguoi-khong-boi",
       "tour-bohol-panglao-gia-dinh-tu-viet-nam",
       "tour-philippines-cho-nhom-ban-viet-muon-tach-mot-ngay-tu-do"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về so sánh Balicasag và một ngày nghỉ ở Panglao.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122190995594790161"
+    "enquiry": "Mình muốn hỏi DT Tour về so sánh Balicasag và một ngày nghỉ ở Panglao."
   },
   {
     "slug": "di-oslob-tu-cebu-ma-van-kip-chuyen-bay-hom-sau",
@@ -5687,19 +4741,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/cebu-hay-bohol-du-lich-tu-viet-nam-cover.webp",
-    "photoWidth": 820,
-    "photoHeight": 1200,
-    "photoAlt": "Cá mập voi ở Oslob, Cebu, theo album DT Tour",
-    "photoCredit": "Page DT Tour",
-    "photoKind": "photo",
     "related": [
       "hai-khach-san-o-manila-co-nen-di-chung-xe-ra-san-bay",
       "du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien",
       "dat-xe-tu-san-bay-cebu-ve-moalboal-sau-chuyen-bay-toi"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về đi Oslob từ Cebu mà vẫn kịp chuyến bay hôm sau.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122189980394790161"
+    "enquiry": "Mình muốn hỏi DT Tour về đi Oslob từ Cebu mà vẫn kịp chuyến bay hôm sau."
   },
   {
     "slug": "moalboal-nua-ngay-cho-nguoi-chi-muon-ngam-bien",
@@ -5731,12 +4778,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/cebu-3-47d6f62660.webp",
-    "photoWidth": 744,
-    "photoHeight": 1050,
-    "photoAlt": "Đàn cá mòi nhìn từ dưới nước, Moalboal",
-    "photoCredit": "DT Tour · kho ảnh Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "thue-xe-co-tai-xe-manila",
       "tour-el-nido-a-va-c-cho-nguoi-lan-dau-di-palawan",
@@ -5774,12 +4815,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/cebu-0-000948cc4c.webp",
-    "photoWidth": 725,
-    "photoHeight": 980,
-    "photoAlt": "Ảnh các góc nước xanh và hoạt động tại Kawasan",
-    "photoCredit": "DT Tour · kho ảnh Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "coron-hay-el-nido-cho-nhom-thich-chup-canh-hon-boi",
       "thue-xe-rieng-manila-khi-doan-can-hoa-don-cong-ty",
@@ -5817,19 +4852,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Mặt tiền nhà thờ với cửa vòm và họa tiết đá",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet",
       "lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam",
       "lich-manila-nua-ngay-intramuros-khach-viet"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về intramuros nửa ngày cho gia đình chỉ có một buổi ở Manila.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122190087068790161"
+    "enquiry": "Mình muốn hỏi DT Tour về intramuros nửa ngày cho gia đình chỉ có một buổi ở Manila."
   },
   {
     "slug": "hidden-valley-cho-gia-dinh-muon-nghi-gan-manila",
@@ -5861,12 +4889,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe đưa đón của DT Tour. Ảnh minh họa phần di chuyển trong lịch trình.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam",
       "bohol-mot-ngay-cho-gia-dinh-dang-nghi-o-panglao",
@@ -5904,12 +4926,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/subic-3-ae097c36bb.webp",
-    "photoWidth": 1080,
-    "photoHeight": 600,
-    "photoAlt": "Lisa đứng trên boong tàu giữa vịnh Subic",
-    "photoCredit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "don-doan-viet-o-ben-cang-manila-cho-chuyen-tham-quan-ngan",
       "dat-xe-cho-khach-viet-tu-khach-san-ra-naia-luc-sang-som",
@@ -5947,12 +4963,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/little-22-ccbce675e3.webp",
-    "photoWidth": 787,
-    "photoHeight": 1050,
-    "photoAlt": "Toàn cảnh vùng nước nông và bầu trời Little Boracay",
-    "photoCredit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "thue-xe-manila-di-gap-doi-tac-o-cavite-roi-ve-trong-ngay",
       "tagaytay-hay-cebu-cho-nguoi-viet-chi-ranh-hai-ngay",
@@ -5990,12 +5000,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe đưa đón của DT Tour. Ảnh minh họa phần di chuyển trong lịch trình.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "so-sanh-balicasag-va-mot-ngay-nghi-o-panglao",
       "tour-intramuros-cho-nguoi-viet-thich-chup-anh-kien-truc",
@@ -6033,12 +5037,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/boracay-9-f11204a8ee.webp",
-    "photoWidth": 791,
-    "photoHeight": 1050,
-    "photoAlt": "Thuyền buồm và hoàng hôn trong album Boracay",
-    "photoCredit": "DT Tour · kho ảnh Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "du-lich-boracay-ba-ngay-hai-dem-nen-dat-hoat-dong-ngay-nao",
       "hai-khach-san-o-manila-co-nen-di-chung-xe-ra-san-bay",
@@ -6076,19 +5074,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Các gia đình nghỉ trên bờ cát trong album DT Tour",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi",
       "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng",
       "du-lich-manila-dip-sinh-nhat-gia-dinh-gom-lich-an-toi-va-dua-don"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về tour Philippines cho gia đình có phòng ba người.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122193230024790161"
+    "enquiry": "Mình muốn hỏi DT Tour về tour Philippines cho gia đình có phòng ba người."
   },
   {
     "slug": "so-gia-tour-philippines-khi-mot-ben-chua-gom-hanh-ly",
@@ -6120,19 +5111,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Các gia đình nghỉ trên bờ cát trong album DT Tour",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi",
       "tour-tu-ha-noi-va-tp-hcm-ghep-doan-o-manila",
       "du-tru-chi-phi-philippines-bon-ngay-tu-viet-nam"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về so giá tour Philippines khi một bên chưa gồm hành lý.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122193230024790161"
+    "enquiry": "Mình muốn hỏi DT Tour về so giá tour Philippines khi một bên chưa gồm hành lý."
   },
   {
     "slug": "thue-xe-rieng-manila-khi-doan-can-hoa-don-cong-ty",
@@ -6164,12 +5148,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "dat-tour-manila-cho-doan-cong-ty-can-hoa-don-va-bao-gia",
       "kawasan-cho-nguoi-muon-tham-quan-ma-khong-tham-gia-canyoneering",
@@ -6207,19 +5185,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/tour-philippines-cho-doan-viet-co-nguoi-den-muon-mot-ngay-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Bờ biển có hàng dừa trong nắng",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "dat-tour-coron-khi-trong-nhom-co-nguoi-khong-boi",
       "lich-tham-quan-manila-khi-troi-mua-cho-gia-dinh-tu-viet-nam",
       "tour-manila-cho-khach-viet-lan-dau-o-makati-hay-gan-diem-tham-quan"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về lịch biển Philippines vào ngày thời tiết thay đổi.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122192084954790161"
+    "enquiry": "Mình muốn hỏi DT Tour về lịch biển Philippines vào ngày thời tiết thay đổi."
   },
   {
     "slug": "dat-xe-cho-khach-viet-tu-khach-san-ra-naia-luc-sang-som",
@@ -6251,12 +5222,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "hai-khach-san-o-manila-co-nen-di-chung-xe-ra-san-bay",
       "tour-manila-cho-khach-viet-co-chuyen-bay-toi",
@@ -6298,12 +5263,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Học viên tập điều khiển vô-lăng trên đường.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "lop-lai-mot-kem-mot-hay-hoc-chung-o-metro-manila",
       "hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai",
@@ -6345,12 +5304,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên ở ghế lái trong buổi thực hành.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "hoc-lai-xe-o-manila-cho-nguoi-lam-ca-xoay",
       "hoc-ly-thuyet-lai-xe-tai-philippines-bang-ngon-ngu-nao",
@@ -6392,12 +5345,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Học viên tập điều khiển vô-lăng trên đường.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "tim-lop-lai-cuoi-tuan-cho-nguoi-viet-lam-ca-dem",
       "hoc-lai-xe-so-tu-dong-o-manila-khi-chua-tung-cam-lai",
@@ -6439,12 +5386,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên ở ghế lái trong buổi thực hành.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien",
       "hoc-lai-so-san-o-manila-khi-da-quen-xe-tu-dong",
@@ -6486,12 +5427,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Học viên tập điều khiển vô-lăng trên đường.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "hoc-phi-lai-xe-so-tu-dong-o-manila-gom-nhung-khoan-nao",
       "hai-vo-chong-nguoi-viet-cung-hoc-lai-o-philippines-hoi-gia-the-nao",
@@ -6533,12 +5468,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên ở ghế lái trong buổi thực hành.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "hoc-lai-so-san-o-manila-khi-da-quen-xe-tu-dong",
       "luyen-lai-o-manila-truoc-khi-tu-dua-con-di-hoc",
@@ -6580,12 +5509,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Học viên tập điều khiển vô-lăng trên đường.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "lop-tap-do-xe-cho-nguoi-viet-song-o-condo-tai-manila",
       "hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien",
@@ -6627,12 +5550,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên ở ghế lái trong buổi thực hành.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "hoc-lai-lai-o-philippines-sau-nhieu-nam-nghi-lai",
       "hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien",
@@ -6674,12 +5591,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Học viên tập điều khiển vô-lăng trên đường.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "hoc-lai-o-philippines-de-tu-dua-con-di-hoc-len-muc-tieu-cho-giao-vien",
       "hoc-lai-o-metro-manila-khi-ngai-di-vao-bung-binh-hoac-nut-giao-dong",
@@ -6721,12 +5632,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên ở ghế lái trong buổi thực hành.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "hoc-lai-xe-o-manila-cho-nguoi-lam-ca-xoay",
       "dat-buoi-hoc-lai-thu-truoc-khi-mua-goi-o-philippines",
@@ -6768,12 +5673,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Học viên tập điều khiển vô-lăng trên đường.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "tim-lop-lai-xe-thuc-hanh-gan-cho-lam-thay-vi-gan-nha-o-manila",
       "phan-biet-hoc-thuc-hanh-de-tu-tin-va-hoc-pdc-de-lam-ho-so",
@@ -6815,12 +5714,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên ở ghế lái trong buổi thực hành.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "tim-lop-lai-xe-o-manila-co-ho-tro-tieng-viet-cho-nguoi-it-tieng-anh",
       "chon-giua-giao-vien-co-dinh-va-hoc-nhieu-giao-vien-o-manila",
@@ -6866,12 +5759,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Buổi tập lái trong kho ảnh DT Car.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "nguoi-viet-da-co-bang-lai-muon-hoi-thu-tuc-o-philippines-bat-dau-tu-dau",
       "nguoi-viet-co-bang-lai-het-han-muon-hoi-huong-xu-ly-tai-philippines",
@@ -6917,12 +5804,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên trong xe tập của DT Car.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "nguoi-viet-hoi-bang-lai-philippines-lan-dau-phan-biet-truong-tu-van-va-lto",
       "hoi-lto-ve-giay-phep-hoc-lai-cho-nguoi-nuoc-ngoai",
@@ -6968,12 +5849,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Buổi tập lái trong kho ảnh DT Car.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "nguoi-viet-co-bang-lai-het-han-muon-hoi-huong-xu-ly-tai-philippines",
       "doi-bang-lai-viet-nam-sang-bang-philippines-bat-dau-tu-dau",
@@ -7019,12 +5894,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Hai người đối chiếu giấy tờ tại bàn. Ảnh tư liệu DT Car.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "hoi-tu-van-bang-lai-philippines-khi-ten-tren-cac-giay-to-viet-khac-nhau",
       "hoi-ho-so-lai-xe-o-philippines-khi-da-doi-ho-sau-ket-hon",
@@ -7070,12 +5939,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Hai người đối chiếu giấy tờ tại bàn. Ảnh tư liệu DT Car.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao",
       "nguoi-viet-hoi-bang-lai-philippines-lan-dau-phan-biet-truong-tu-van-va-lto",
@@ -7121,12 +5984,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên trong xe tập của DT Car.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao",
       "nguoi-viet-lan-dau-xin-bang-lai-o-philippines",
@@ -7172,12 +6029,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-2.webp",
-    "photoWidth": 574,
-    "photoHeight": 590,
-    "photoAlt": "Buổi tập lái trong kho ảnh DT Car.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "doc-bao-gia-tu-van-bang-lai-o-philippines-khoan-nao-tra-cho-ai",
       "nguoi-viet-lan-dau-xin-bang-lai-o-philippines",
@@ -7223,12 +6074,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Hai người đối chiếu giấy tờ tại bàn. Ảnh tư liệu DT Car.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "muon-tu-van-bang-lai-tai-philippines-nhung-ho-chieu-sap-doi",
       "nguoi-viet-chuyen-noi-o-tai-philippines-khi-dang-hoc-hoac-chuan-bi-ho-so-lai-xe",
@@ -7274,12 +6119,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/driving-students/oct-8-3.webp",
-    "photoWidth": 590,
-    "photoHeight": 332,
-    "photoAlt": "Học viên trong xe tập của DT Car.",
-    "photoCredit": "DT Car",
-    "photoKind": "photo",
     "related": [
       "nguoi-viet-da-co-bang-lai-muon-hoi-thu-tuc-o-philippines-bat-dau-tu-dau",
       "bang-viet-nam-sap-het-han-khi-dang-o-manila",
@@ -7325,12 +6164,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Hai người đối chiếu giấy tờ tại bàn. Ảnh tư liệu DT Car.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "hoi-lto-ve-giay-phep-hoc-lai-cho-nguoi-nuoc-ngoai",
       "doi-bang-lai-viet-nam-sang-bang-philippines-bat-dau-tu-dau",
@@ -7376,12 +6209,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Hai người đối chiếu giấy tờ tại bàn. Ảnh tư liệu DT Car.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "hoc-thuc-hanh-hay-can-chung-nhan-cho-ho-so-bang-lai-philippines",
       "da-hoc-ly-thuyet-o-mot-truong-tai-philippines-hoi-buoc-thuc-hanh-o-dau",
@@ -7427,12 +6254,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Hai người đối chiếu giấy tờ tại bàn. Ảnh tư liệu DT Car.",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "nguoi-viet-lan-dau-xin-bang-lai-o-philippines",
       "nguoi-viet-chuyen-noi-o-tai-philippines-khi-dang-hoc-hoac-chuan-bi-ho-so-lai-xe",
@@ -7474,18 +6295,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-service-records-resale-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Workshop consultation next to a vehicle on a lift",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-service-appointment-checklist",
       "electric-car-maintenance-schedule-philippines",
       "arranging-an-ev-workshop-visit-in-cavite"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122373360230008877",
     "enquiry": "I would like to ask DT Car about this guide: Requesting a VinFast maintenance estimate in Metro Manila."
   },
   {
@@ -7522,18 +6336,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-service-records-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front view of a vehicle during a workshop visit",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "electric-car-maintenance-schedule-philippines",
       "vinfast-service-appointment-checklist",
       "arranging-an-ev-workshop-visit-in-cavite"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374362878008877",
     "enquiry": "I would like to ask DT Car about this guide: A VinFast warranty enquiry before booking repairs."
   },
   {
@@ -7570,18 +6377,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-workshop-repeat-visit-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 825,
-    "photoAlt": "Workshop visit beside an open service bay",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "compare-ev-workshop-estimates",
       "ev-workshop-warning-message",
       "electric-car-maintenance-schedule-philippines"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122373360356008877",
     "enquiry": "I would like to ask DT Car about this guide: Comparing two estimates for the same EV warning."
   },
   {
@@ -7618,18 +6418,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/fleet-installation-rework-log-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 825,
-    "photoAlt": "Workshop team alongside vehicles in service bays",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ev-workshop-repeat-visit",
       "requesting-a-vinfast-maintenance-estimate-in-metro-manila",
       "ev-workshop-warning-message"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122373360044008877",
     "enquiry": "I would like to ask DT Car about this guide: Arranging an EV workshop visit in Cavite."
   },
   {
@@ -7666,18 +6459,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-service-records-resale-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "Workshop consultation next to a vehicle on a lift",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-service-records-resale",
       "electric-car-maintenance-schedule-philippines",
       "requesting-a-vinfast-maintenance-estimate-in-metro-manila"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122373360230008877",
     "enquiry": "I would like to ask DT Car about this guide: Organising VinFast service evidence for resale."
   },
   {
@@ -7714,18 +6500,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-workshop-warning-message-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 902,
-    "photoAlt": "Driver's view of the dashboard and centre display",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ev-workshop-repeat-visit",
       "ev-workshop-warning-message",
       "electric-car-maintenance-schedule-philippines"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525718008877",
     "enquiry": "I would like to ask DT Car about this guide: A recurring EV dashboard message after collection."
   },
   {
@@ -7766,18 +6545,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vgreen-charging-payment-philippines-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Public charging posts beside a parking lane",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ev-charger-host-opening-hours",
       "ev-charging-site-restaurant-hotel",
       "ev-charging-site-survey-preparation"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361118322008877",
     "enquiry": "I would like to ask DT Car about this guide: Finding an EV charging station before leaving Manila."
   },
   {
@@ -7810,25 +6582,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-charging-site-parking-layout-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 581,
-    "photoAlt": "Approach to an outdoor EV charging site",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ev-charging-site-survey-preparation",
       "ev-charging-site-restaurant-hotel",
       "preparing-for-a-commercial-charger-site-survey"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488394008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/ev-charging-site-parking-layout-detail.webp",
-      "alt": "Night-time view of a vehicle site and the approach road",
-      "width": 960,
-      "height": 588,
-      "source": "https://www.facebook.com/photo.php?fbid=122374729118008877"
-    },
     "enquiry": "I would like to ask DT Car about this guide: An EV charger installation enquiry for a Philippine property."
   },
   {
@@ -7861,18 +6619,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/charging-site-proposal-checklist-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 583,
-    "photoAlt": "Outdoor site approach and parking layout",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "preparing-for-a-commercial-charger-site-survey",
       "ev-charger-host-opening-hours",
       "ev-charging-proposals-for-sites-with-paid-parking"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488412008877",
     "enquiry": "I would like to ask DT Car about this guide: Comparing two possible EV charging sites for a landlord."
   },
   {
@@ -7905,18 +6656,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-charger-host-opening-hours-cover.webp",
-    "photoWidth": 872,
-    "photoHeight": 1200,
-    "photoAlt": "Roadside entrance to a charging location",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ev-charging-site-parking-layout",
       "ev-charging-site-restaurant-hotel",
       "ev-charging-site-survey-preparation"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488568008877",
     "enquiry": "I would like to ask DT Car about this guide: EV charging proposals for sites with paid parking."
   },
   {
@@ -7949,25 +6693,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-charging-site-parking-layout-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 581,
-    "photoAlt": "Approach to an outdoor EV charging site",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ev-charging-site-survey-preparation",
       "ev-charger-host-opening-hours",
       "charging-site-proposal-checklist"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488394008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/ev-charging-site-parking-layout-detail.webp",
-      "alt": "Night-time view of a vehicle site and the approach road",
-      "width": 960,
-      "height": 588,
-      "source": "https://www.facebook.com/photo.php?fbid=122374729118008877"
-    },
     "enquiry": "I would like to ask DT Car about this guide: Preparing for a commercial charger site survey."
   },
   {
@@ -8000,18 +6730,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vgreen-charging-payment-philippines-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Public charging posts beside a parking lane",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "charging-site-proposal-checklist",
       "ev-charging-site-survey-preparation",
       "ev-charger-host-opening-hours"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361118322008877",
     "enquiry": "I would like to ask DT Car about this guide: What a hotel should ask before offering charging bays."
   },
   {
@@ -8044,18 +6767,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-fleet-pilot-driver-log-cover.webp",
-    "photoWidth": 800,
-    "photoHeight": 1200,
-    "photoAlt": "Fleet vehicles lined up outdoors",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "taxi-meter-installation-batch-planning",
       "fleet-decal-installation-with-several-depot-locations",
       "fleet-dashcam-handover-checklist"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122363779202008877",
     "enquiry": "I would like to ask DT Car about this guide: Budgeting depot time for taxi meter installations."
   },
   {
@@ -8088,12 +6804,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/fleet-dashcam-meter-installation-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Team working on an installation inside a vehicle cabin",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "fleet-dashcam-meter-installation",
       "fleet-installation-rfq-philippines",
@@ -8131,12 +6841,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/fleet-dashcam-meter-installation-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Team working on an installation inside a vehicle cabin",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "fleet-dashcam-night-footage-handover",
       "fleet-dashcam-sim-inventory",
@@ -8174,18 +6878,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-fleet-pilot-driver-log-cover.webp",
-    "photoWidth": 800,
-    "photoHeight": 1200,
-    "photoAlt": "Fleet vehicles lined up outdoors",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "fleet-dashcam-meter-installation",
       "matching-dashcam-sims-to-the-right-fleet-vehicle",
       "budgeting-depot-time-for-taxi-meter-installations"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122363779202008877",
     "enquiry": "I would like to ask DT Car about this guide: Fleet decal installation with several depot locations."
   },
   {
@@ -8218,18 +6915,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/fleet-home-public-charging-mix-cover.webp",
-    "photoWidth": 960,
-    "photoHeight": 588,
-    "photoAlt": "Electric fleet parked under lights in the evening",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "fleet-dashcam-night-acceptance",
       "matching-dashcam-sims-to-the-right-fleet-vehicle",
       "fleet-dashcam-handover-checklist"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374728974008877",
     "enquiry": "I would like to ask DT Car about this guide: Fleet dashcam night footage handover."
   },
   {
@@ -8262,18 +6952,11 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/fleet-installation-rework-log-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 825,
-    "photoAlt": "Workshop team alongside vehicles in service bays",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "fleet-dashcam-night-footage-handover",
       "fleet-dashcam-handover-checklist",
       "matching-dashcam-sims-to-the-right-fleet-vehicle"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122373360044008877",
     "enquiry": "I would like to ask DT Car about this guide: A fleet repair ticket after an installation fails acceptance."
   },
   {
@@ -8314,12 +6997,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/limo-green-lisa-coast.webp",
-    "photoWidth": 590,
-    "photoHeight": 394,
-    "photoAlt": "Lisa Dong beside a white VinFast Limo Green on the coast",
-    "photoCredit": "Lisa Dong – DT Car Facebook",
-    "photoKind": "photo",
     "related": [
       "limo-green-fleet-energy-budget-per-shift",
       "ev-range-commute-buffer",
@@ -8365,19 +7042,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/mpv-7-lisa-cargo.webp",
-    "photoWidth": 394,
-    "photoHeight": 590,
-    "photoAlt": "Lisa Dong at the open tailgate of a VF MPV 7",
-    "photoCredit": "Lisa Dong – DT Car Facebook",
-    "photoKind": "photo",
     "related": [
       "vinfast-ev-as-a-pool-car-handing-over-between-employees",
       "vinfast-vf-6-for-a-household-with-two-different-commutes",
       "vinfast-trade-in-with-a-second-family-car-which-vehicle-should-fund-the-upgrade"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: VinFast VF MPV 7 for two households sharing one car.",
-    "photoSource": "https://www.facebook.com/61572413993211/posts/122184144518747133/"
+    "enquiry": "I would like to ask DT Car about this guide: VinFast VF MPV 7 for two households sharing one car."
   },
   {
     "slug": "comparing-vf-3-cash-purchase-and-financed-purchase",
@@ -8417,12 +7087,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/ads/vinfast/vf3-front.webp",
-    "photoWidth": 960,
-    "photoHeight": 576,
-    "photoAlt": "VF 3 from the front",
-    "photoCredit": "DT Car photo library",
-    "photoKind": "photo",
     "related": [
       "vf-mpv-7-quote-with-a-bank-loan",
       "requesting-a-vinfast-insurance-comparison",
@@ -8468,19 +7132,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-charger-host-opening-hours-cover.webp",
-    "photoWidth": 872,
-    "photoHeight": 1200,
-    "photoAlt": "Roadside entrance to a charging location",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "a-vinfast-viewing-for-a-buyer-who-cannot-charge-at-work",
       "vinfast-quotation-for-a-buyer-who-already-has-an-ev-charger",
       "vinfast-ev-handover-checklist"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Planning a return trip when your usual EV charger is occupied.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488568008877"
+    "enquiry": "I would like to ask DT Car about this guide: Planning a return trip when your usual EV charger is occupied."
   },
   {
     "slug": "vinfast-fleet-battery-costs-when-shift-patterns-change",
@@ -8520,19 +7177,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/fleet-home-public-charging-mix-cover.webp",
-    "photoWidth": 960,
-    "photoHeight": 588,
-    "photoAlt": "Electric fleet parked under lights in the evening",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "a-vinfast-viewing-for-a-buyer-who-cannot-charge-at-work",
       "vinfast-battery-subscription-comparison",
       "ev-charging-philippines-cost"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: VinFast fleet battery costs when shift patterns change.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374728974008877"
+    "enquiry": "I would like to ask DT Car about this guide: VinFast fleet battery costs when shift patterns change."
   },
   {
     "slug": "requesting-two-written-vinfast-delivery-options",
@@ -8572,12 +7222,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-ev-handover-checklist.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "People gathered beside a vehicle at a handover",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-home-delivery-or-dealer-collection-compare-handover-arrangements",
       "vinfast-ev-handover-checklist",
@@ -8623,26 +7267,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-seven-seater-manila-family-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 885,
-    "photoAlt": "Passenger seats and headrests in the rear cabin",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "vinfast-mpv7-price-seven-seats-philippines",
       "vf-6-eco-or-plus-for-two-drivers",
       "booking-a-limo-green-demonstration-in-metro-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Testing third-row access in a Limo Green before reserving.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377265666008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-seven-seater-manila-family-detail.webp",
-      "alt": "Rear seating viewed through the passenger door",
-      "width": 1200,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122361280364008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Testing third-row access in a Limo Green before reserving."
   },
   {
     "slug": "how-to-read-vinfast-charging-session-charges",
@@ -8690,19 +7320,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vgreen-charging-payment-philippines-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "Public charging posts beside a parking lane",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "ev-charging-philippines-cost",
       "confirming-the-payment-recipient-for-a-vinfast-order",
       "vinfast-ev-handover-checklist"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: How to read VinFast charging session charges.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122361118322008877"
+    "enquiry": "I would like to ask DT Car about this guide: How to read VinFast charging session charges."
   },
   {
     "slug": "used-car-adverts-with-one-photo-for-several-available-units",
@@ -8740,26 +7363,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 799,
-    "photoAlt": "Rows of compact VinFast vehicles in different colours",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "comparing-used-vehicles-with-mismatched-service-dates",
       "buying-a-manila-car-from-davao",
       "used-mitsubishi-xpander-manila-viewing"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Used-car adverts with one photo for several available units.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1006911235788214",
-    "inlinePhoto": {
-      "src": "/images/editorial/choosing-between-an-available-vinfast-trim-and-a-later-preferred-trim-detail.webp",
-      "alt": "Another exterior colour and trim on a compact VinFast",
-      "width": 1200,
-      "height": 900,
-      "source": "https://www.facebook.com/photo.php?fbid=122371510580008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Used-car adverts with one photo for several available units."
   },
   {
     "slug": "a-used-toyota-vios-with-two-different-trim-descriptions",
@@ -8791,26 +7400,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/compare-used-car-offers-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "White sedan photographed from the front corner for comparison",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim",
       "toyota-vios-used-prices-in-manila-by-year-and-trim",
       "comparing-a-used-xpander-and-a-seven-seat-suv"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: A used Toyota Vios with two different trim descriptions.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384861624008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/compare-used-car-offers-manila-detail.webp",
-      "alt": "Second exterior angle showing the rear of the same white sedan",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122377267844008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: A used Toyota Vios with two different trim descriptions."
   },
   {
     "slug": "buying-a-used-car-after-an-independent-inspection-flags-leaks",
@@ -8842,19 +7437,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-service-records-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front view of a vehicle during a workshop visit",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-cars-with-a-private-seller-and-no-second-key",
       "used-car-in-pasay-viewed-after-work",
       "viewing-a-used-car-after-a-price-reduction"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Buying a used car after an independent inspection flags leaks.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374362878008877"
+    "enquiry": "I would like to ask DT Car about this guide: Buying a used car after an independent inspection flags leaks."
   },
   {
     "slug": "comparing-used-vehicles-with-mismatched-service-dates",
@@ -8886,19 +7474,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-service-records-manila-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Front view of a vehicle during a workshop visit",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "a-used-car-with-a-gap-in-its-odometer-history",
       "used-car-adverts-with-one-photo-for-several-available-units",
       "buying-a-used-car-with-a-changed-instrument-cluster"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing used vehicles with mismatched service dates.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122374362878008877"
+    "enquiry": "I would like to ask DT Car about this guide: Comparing used vehicles with mismatched service dates."
   },
   {
     "slug": "comparing-a-seven-seat-mpv-with-a-used-sedan-under-one-budget",
@@ -8930,26 +7511,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-seven-seater-manila-family-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 885,
-    "photoAlt": "Passenger seats and headrests in the rear cabin",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "used-car-pair-manila-inspection-budget",
       "used-seven-seater-manila-family",
       "used-car-500k-manila-shortlist"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Comparing a seven-seat MPV with a used sedan under one budget.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377265666008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/used-seven-seater-manila-family-detail.webp",
-      "alt": "Rear seating viewed through the passenger door",
-      "width": 1200,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122361280364008877"
-    }
+    "enquiry": "I would like to ask DT Car about this guide: Comparing a seven-seat MPV with a used sedan under one budget."
   },
   {
     "slug": "used-car-viewing-when-the-original-owner-is-abroad",
@@ -8985,19 +7552,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/used-car-viewing-from-another-city-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Rear three-quarter reference photo for a remote vehicle viewing",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "buying-a-used-vehicle-from-a-company-in-manila",
       "second-hand-cars-in-manila-buying-a-vehicle-formerly-used-by-a-company",
       "shortlisting-a-used-car-in-makati-from-an-office"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Used car viewing when the original owner is abroad.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122377267886008877"
+    "enquiry": "I would like to ask DT Car about this guide: Used car viewing when the original owner is abroad."
   },
   {
     "slug": "car-valuation-when-online-listings-are-months-old",
@@ -9029,19 +7589,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/paano-magpa-appraise-ng-kotse.webp",
-    "photoWidth": 1200,
-    "photoHeight": 880,
-    "photoAlt": "White SUV photographed in side profile",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "trade-in-when-replacement-car-is-delayed",
       "used-car-valuation-philippines",
       "how-to-compare-a-dealer-offer-with-an-online-asking-price"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Car valuation when online listings are months old.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1591878022704491"
+    "enquiry": "I would like to ask DT Car about this guide: Car valuation when online listings are months old."
   },
   {
     "slug": "selling-your-car-with-original-and-aftermarket-wheels",
@@ -9073,19 +7626,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/car-appraisal-after-switching-from-stock-to-larger-wheels-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 899,
-    "photoAlt": "Alloy wheel and tyre shown close up",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-a-car-with-different-paint-shades-on-two-doors",
       "appraising-a-pickup-with-removable-accessories",
       "selling-your-car-after-the-windscreen-was-replaced"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Selling your car with original and aftermarket wheels.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371525370008877"
+    "enquiry": "I would like to ask DT Car about this guide: Selling your car with original and aftermarket wheels."
   },
   {
     "slug": "how-to-document-a-manila-vehicle-pickup-after-a-sale",
@@ -9117,12 +7663,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/vinfast-ev-handover-checklist.webp",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoAlt": "People gathered beside a vehicle at a handover",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "sell-car-with-two-sets-of-wheels-manila",
       "selling-a-car-with-a-company-gps-device",
@@ -9160,19 +7700,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/manila-gongsi-cheliang-piliang-chushou-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 800,
-    "photoAlt": "同一停车场内排列的多辆汽车",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "selling-an-inherited-vehicle-requesting-a-preliminary-appraisal",
       "appraisal-of-an-ex-fleet-vehicle-sold-individually",
       "sell-two-company-cars-manila"
     ],
-    "enquiry": "I would like to ask DT Car about this guide: Requesting a preliminary valuation for a company fleet.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122371518620008877"
+    "enquiry": "I would like to ask DT Car about this guide: Requesting a preliminary valuation for a company fleet."
   },
   {
     "slug": "tour-tu-manila-di-boracay-khi-hai-gia-dinh-khac-ngan-sach",
@@ -9204,12 +7737,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/boracay-39-86848d2463.webp",
-    "photoWidth": 735,
-    "photoHeight": 980,
-    "photoAlt": "Bữa ăn bên bãi biển trong album Boracay",
-    "photoCredit": "DT Tour · kho ảnh Ami chia sẻ",
-    "photoKind": "photo",
     "related": [
       "di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi",
       "du-lich-boracay-ba-ngay-hai-dem-nen-dat-hoat-dong-ngay-nao",
@@ -9247,12 +7774,6 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/travel-transport.jpeg",
-    "photoWidth": 1536,
-    "photoHeight": 1116,
-    "photoAlt": "Xe phục vụ hành trình riêng trong bộ ảnh DT Tour.",
-    "photoCredit": "DT Tour",
-    "photoKind": "photo",
     "related": [
       "xe-rieng-tu-manila-den-clark-cho-nhom-viet-co-chuyen-bay",
       "dat-xe-tu-san-bay-manila-ve-makati-cho-gia-dinh-viet",
@@ -9290,19 +7811,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/dt-tour/2025-26/fb-bohol-pamilacan-shoreline-and-boats-abea6162ec.webp",
-    "photoWidth": 787,
-    "photoHeight": 1050,
-    "photoAlt": "Bờ cát và thuyền tại Pamilacan, Bohol.",
-    "photoCredit": "Page Du lịch Philippines – DT Tour",
-    "photoKind": "photo",
     "related": [
       "tour-cebu-va-bohol-cho-doan-viet-di-bang-pha",
       "tagaytay-cuoi-tuan-tu-manila-cho-nhom-co-gio-ve-co-dinh",
       "tagaytay-hay-cebu-cho-nguoi-viet-chi-ranh-hai-ngay"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về bohol và Cebu cho nhóm có một người về sớm.",
-    "photoSource": "https://www.facebook.com/photo?fbid=122194755122790161&set=pcb.122194755248790161"
+    "enquiry": "Mình muốn hỏi DT Tour về bohol và Cebu cho nhóm có một người về sớm."
   },
   {
     "slug": "tour-cho-khach-viet-da-o-philippines-va-khach-bay-tu-viet-nam",
@@ -9334,26 +7848,12 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam-cover.webp",
-    "photoWidth": 900,
-    "photoHeight": 1200,
-    "photoAlt": "Không gian mua sắm trong nhà từ album DT Tour",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "dat-xe-don-nguoi-nha-o-clark-roi-ve-metro-manila",
       "don-san-bay-manila-hai-chuyen-bay",
       "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng"
     ],
-    "enquiry": "Mình muốn hỏi DT Tour về tour cho khách Việt đã ở Philippines và khách bay từ Việt Nam.",
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122170257980790161",
-    "inlinePhoto": {
-      "src": "/images/editorial/thue-xe-nguyen-ngay-o-manila-hay-tinh-theo-tung-luot-cho-lich-mua-sam-detail.webp",
-      "alt": "Lối đi giữa các cửa hàng trong trung tâm thương mại",
-      "width": 900,
-      "height": 1200,
-      "source": "https://www.facebook.com/photo.php?fbid=122170257950790161"
-    }
+    "enquiry": "Mình muốn hỏi DT Tour về tour cho khách Việt đã ở Philippines và khách bay từ Việt Nam."
   },
   {
     "slug": "contacting-dt-car-philippines-about-buying-or-selling-a-car",
@@ -9385,16 +7885,9 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/car-appraisal-photos-manila.webp",
-    "photoWidth": 750,
-    "photoHeight": 1000,
-    "photoAlt": "Rear quarter panel and side profile of a vehicle",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "finding-the-right-dt-car-team-for-a-fleet-or-property-proposal"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=1580645953827698",
     "enquiry": "I would like to ask DT Car about this guide: Contacting DT Car Philippines about buying or selling a car."
   },
   {
@@ -9427,23 +7920,9 @@
       }
     ],
     "date": "2026-11-26",
-    "photo": "/images/editorial/ev-charging-site-parking-layout-cover.webp",
-    "photoWidth": 1200,
-    "photoHeight": 581,
-    "photoAlt": "Approach to an outdoor EV charging site",
-    "photoCredit": "DT Car Philippines",
-    "photoKind": "photo",
     "related": [
       "contacting-dt-car-philippines-about-buying-or-selling-a-car"
     ],
-    "photoSource": "https://www.facebook.com/photo.php?fbid=122384488394008877",
-    "inlinePhoto": {
-      "src": "/images/editorial/ev-charging-site-parking-layout-detail.webp",
-      "alt": "Night-time view of a vehicle site and the approach road",
-      "width": 960,
-      "height": 588,
-      "source": "https://www.facebook.com/photo.php?fbid=122374729118008877"
-    },
     "enquiry": "I would like to ask DT Car about this guide: Finding the right DT Car team for a fleet or property proposal."
   }
 ]

@@ -76,7 +76,8 @@
       "width": 900,
       "height": 1200,
       "source": "https://www.facebook.com/photo.php?fbid=122377267844008877"
-    }
+    },
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "used-ford-everest-appraisal-manila": {
     "src": "/images/editorial/used-ford-everest-appraisal-manila-cover.webp",
@@ -144,13 +145,6 @@
     "height": 800,
     "kind": "illustration"
   },
-  "vinfast-reservation-delivery-questions": {
-    "src": "/images/editorial/vinfast-reservation-delivery-questions.webp",
-    "kind": "photo",
-    "alt": "Two people reviewing paperwork at a table",
-    "width": 1200,
-    "height": 800
-  },
   "vinfast-demo-parking-space": {
     "src": "/images/editorial/vinfast-demo-parking-space-cover.webp",
     "alt": "Compact white VF 3 parked indoors",
@@ -209,7 +203,8 @@
       "width": 960,
       "height": 588,
       "source": "https://www.facebook.com/photo.php?fbid=122374729118008877"
-    }
+    },
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "ev-charger-host-opening-hours": {
     "src": "/images/editorial/ev-charger-host-opening-hours-cover.webp",
@@ -217,15 +212,8 @@
     "width": 872,
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122384488568008877",
-    "kind": "photo"
-  },
-  "fleet-home-public-charging-mix": {
-    "src": "/images/editorial/fleet-home-public-charging-mix-cover.webp",
-    "alt": "Electric fleet parked under lights in the evening",
-    "width": 960,
-    "height": 588,
-    "source": "https://www.facebook.com/photo.php?fbid=122374728974008877",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "fleet-dashcam-sim-inventory": {
     "src": "/images/editorial/fleet-dashcam-sim-inventory-cover.webp",
@@ -263,14 +251,6 @@
     "alt": "Electric taxis travelling along a curved road",
     "width": 1200,
     "height": 800
-  },
-  "ev-fleet-pilot-driver-log": {
-    "src": "/images/editorial/ev-fleet-pilot-driver-log-cover.webp",
-    "alt": "Fleet vehicles lined up outdoors",
-    "width": 800,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122363779202008877",
-    "kind": "photo"
   },
   "ev-workshop-warning-message": {
     "src": "/images/editorial/ev-workshop-warning-message-cover.webp",
@@ -325,7 +305,8 @@
     "source": "https://www.facebook.com/photo.php?fbid=1580636477161979",
     "alt": "White SUV photographed head-on",
     "width": 800,
-    "height": 1000
+    "height": 1000,
+    "credit": "Duong Nguyen · Facebook"
   },
   "feilvbin-ershouche-zhongwen-kanche": {
     "src": "/images/editorial/feilvbin-ershouche-zhongwen-kanche.webp",
@@ -333,7 +314,8 @@
     "source": "https://www.facebook.com/photo.php?fbid=1580637113828582",
     "alt": "Rear three-quarter exterior inspection view",
     "width": 800,
-    "height": 1000
+    "height": 1000,
+    "credit": "Duong Nguyen · Facebook"
   },
   "manila-gongsi-cheliang-piliang-chushou": {
     "src": "/images/editorial/manila-gongsi-cheliang-piliang-chushou-cover.webp",
@@ -350,21 +332,14 @@
     "height": 800,
     "kind": "illustration"
   },
-  "feilvbin-vinfast-dianchi-baojia": {
-    "src": "/images/editorial/feilvbin-vinfast-dianchi-baojia-cover.webp",
-    "alt": "展厅外的白色电动车",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122371518590008877",
-    "kind": "photo"
-  },
   "manila-used-car-korean-appraisal": {
     "src": "/images/editorial/manila-used-car-korean-appraisal.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=122384853416008877",
     "alt": "White SUV photographed outdoors",
     "width": 750,
-    "height": 1000
+    "height": 1000,
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "philippines-used-car-deposit-korean": {
     "src": "/images/editorial/philippines-used-car-deposit-korean-cover.webp",
@@ -380,21 +355,14 @@
     "height": 800,
     "kind": "illustration"
   },
-  "manila-trade-in-korean": {
-    "src": "/images/editorial/manila-trade-in-korean.webp",
-    "kind": "photo",
-    "source": "https://www.facebook.com/photo.php?fbid=122384852960008877",
-    "alt": "Front view of a grey car in a covered area",
-    "width": 1200,
-    "height": 900
-  },
   "lai-thu-vinfast-pasay-tieng-viet": {
     "src": "/images/editorial/lai-thu-vinfast-pasay-tieng-viet.webp",
     "kind": "photo",
     "source": "https://www.facebook.com/photo.php?fbid=122381860550008877",
     "alt": "Pink VinFast compact EV photographed outdoors",
     "width": 1200,
-    "height": 798
+    "height": 798,
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "kiem-tra-xe-cu-tu-xa-manila": {
     "src": "/images/editorial/kiem-tra-xe-cu-tu-xa-manila-cover.webp",
@@ -440,7 +408,8 @@
     "source": "https://www.facebook.com/photo.php?fbid=1591878022704491",
     "alt": "White SUV photographed in side profile",
     "width": 1200,
-    "height": 880
+    "height": 880,
+    "credit": "Duong Nguyen · Facebook"
   },
   "paano-ikumpara-trade-in-kotse": {
     "src": "/images/editorial/paano-ikumpara-trade-in-kotse.webp",
@@ -479,7 +448,8 @@
     "width": 900,
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122384853248008877",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "selling-a-car-before-leaving-philippines": {
     "src": "/images/editorial/selling-a-car-before-leaving-philippines-cover.webp",
@@ -519,14 +489,6 @@
     "height": 800,
     "kind": "illustration"
   },
-  "ev-charging-site-restaurant-hotel": {
-    "src": "/images/editorial/ev-charging-site-restaurant-hotel-cover.webp",
-    "alt": "Sheltered seats adjacent to a vehicle site",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122384488478008877",
-    "kind": "photo"
-  },
   "electric-fleet-pilot-route": {
     "src": "/images/editorial/electric-fleet-pilot-route-cover.webp",
     "alt": "Row of fleet vehicles parked outdoors",
@@ -534,13 +496,6 @@
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122368142612008877",
     "kind": "photo"
-  },
-  "vinfast-vf8-philippines-price": {
-    "src": "/images/editorial/vinfast-vf8-philippines-price-cover.webp",
-    "alt": "A driver checks the charging flap on a dark electric SUV parked under a modern concrete canopy.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
   },
   "limo-green-herio-green-purchase-price": {
     "src": "/images/editorial/limo-green-herio-green-purchase-price-cover.webp",
@@ -577,7 +532,8 @@
     "width": 900,
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122384853062008877",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "car-sourcing-agent-referral-philippines": {
     "src": "/images/editorial/car-sourcing-agent-referral-philippines.webp",
@@ -585,21 +541,6 @@
     "alt": "People beside a car at a vehicle handover",
     "width": 1200,
     "height": 800
-  },
-  "sell-financed-car-appraisal-manila": {
-    "src": "/images/editorial/sell-financed-car-appraisal-manila-cover.webp",
-    "alt": "Front view of a dark pre-owned sedan",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122377261904008877",
-    "kind": "photo"
-  },
-  "vinfast-mpv7-price-seven-seats-philippines": {
-    "src": "/images/editorial/vinfast-mpv7-price-seven-seats-philippines-cover.webp",
-    "alt": "A seven-seat passenger vehicle seen from its open rear hatch, showing how much space remains with the back row upright, two suitcases on the ground.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
   },
   "electric-car-maintenance-schedule-philippines": {
     "src": "/images/editorial/electric-car-maintenance-schedule-philippines-cover.webp",
@@ -644,7 +585,8 @@
     "alt": "Rear quarter panel and side profile of a vehicle",
     "source": "https://www.facebook.com/photo.php?fbid=1580645953827698",
     "width": 750,
-    "height": 1000
+    "height": 1000,
+    "credit": "Duong Nguyen · Facebook"
   },
   "used-car-inspection-checklist": {
     "src": "/images/editorial/used-car-inspection-checklist-cover.webp",
@@ -674,7 +616,8 @@
     "alt": "Dark SUV parked outdoors",
     "source": "https://www.facebook.com/photo.php?fbid=1574063907819236",
     "width": 750,
-    "height": 1000
+    "height": 1000,
+    "credit": "Duong Nguyen · Facebook"
   },
   "buy-used-car-manila": {
     "src": "/images/editorial/buy-used-car-manila.webp",
@@ -682,7 +625,8 @@
     "alt": "White used vehicle parked outdoors",
     "source": "https://www.facebook.com/photo.php?fbid=122384853158008877",
     "width": 750,
-    "height": 1000
+    "height": 1000,
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "car-trade-in-philippines": {
     "src": "/images/editorial/car-trade-in-philippines.webp",
@@ -705,7 +649,8 @@
     "alt": "Dark car parked beside a building",
     "source": "https://www.facebook.com/photo.php?fbid=122384861330008877",
     "width": 750,
-    "height": 1000
+    "height": 1000,
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "used-car-500k-manila-shortlist": {
     "src": "/images/editorial/used-car-500k-manila-shortlist-cover.webp",
@@ -761,22 +706,6 @@
     "source": "https://www.facebook.com/photo.php?fbid=122374363136008877",
     "kind": "photo"
   },
-  "sell-low-mileage-car-manila": {
-    "src": "/images/editorial/sell-low-mileage-car-manila-cover.webp",
-    "alt": "Rear bodywork of a dark sedan at the kerb",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122377264076008877",
-    "kind": "photo"
-  },
-  "sell-two-company-cars-manila": {
-    "src": "/images/editorial/sell-two-company-cars-manila-cover.webp",
-    "alt": "Side profile of a car during an exterior appraisal",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122377262678008877",
-    "kind": "photo"
-  },
   "thu-mua-xe-cu-manila-vao-cuoi-tuan": {
     "src": "/images/editorial/thu-mua-xe-cu-manila-vao-cuoi-tuan-cover.webp",
     "alt": "Góc sau của xe nhỏ màu vàng khi chuẩn bị định giá",
@@ -808,14 +737,6 @@
     "source": "https://www.facebook.com/photo.php?fbid=122371510994008877",
     "kind": "photo"
   },
-  "vinfast-trade-in-quote-manila": {
-    "src": "/images/editorial/vinfast-trade-in-quote-manila-cover.webp",
-    "alt": "White VinFast beside an outdoor vehicle viewing",
-    "width": 725,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122370780722008877",
-    "kind": "photo"
-  },
   "mua-vinfast-philippines-bao-gia-tieng-viet": {
     "src": "/images/editorial/mua-vinfast-philippines-bao-gia-tieng-viet-cover.webp",
     "alt": "Xe điện VinFast màu đỏ trong khu trưng bày",
@@ -840,12 +761,21 @@
     "kind": "photo"
   },
   "cebu-hay-bohol-du-lich-tu-viet-nam": {
-    "src": "/images/editorial/cebu-hay-bohol-du-lich-tu-viet-nam-cover.webp",
-    "alt": "Cá mập voi ở Oslob, Cebu, theo album DT Tour",
-    "width": 820,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122189980394790161",
-    "kind": "photo"
+    "src": "/images/dt-tour/2025-26/fb-bohol-pamilacan-boats-offshore-20fda3f38f.webp",
+    "alt": "Thuyền neo ngoài bờ biển xanh trong ở Pamilacan, Bohol.",
+    "width": 787,
+    "height": 1050,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo?fbid=122194755080790161&set=pcb.122194755248790161",
+    "credit": "Page Du lịch Philippines – DT Tour",
+    "inlinePhoto": {
+      "src": "/images/editorial/du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien-cover.webp",
+      "alt": "Cảnh dưới nước trong chuyến tham quan Oslob, Cebu.",
+      "width": 821,
+      "height": 1200,
+      "source": "https://www.facebook.com/photo.php?fbid=122189980358790161",
+      "credit": "DT Tour · Facebook"
+    }
   },
   "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng": {
     "src": "/images/editorial/tour-philippines-tu-viet-nam-bao-gia-nhom-rieng-cover.webp",
@@ -853,7 +783,8 @@
     "width": 900,
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122193035114790161",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Tour · Facebook"
   },
   "lich-manila-nua-ngay-intramuros-khach-viet": {
     "src": "/images/editorial/lich-manila-nua-ngay-intramuros-khach-viet-cover.webp",
@@ -892,28 +823,6 @@
     "height": 800,
     "kind": "illustration"
   },
-  "vinfast-vf5-plus-vs-vf6-eco-quote": {
-    "src": "/images/editorial/vinfast-vf5-plus-vs-vf6-eco-quote-cover.webp",
-    "alt": "EV charging connector on a table between two unmarked sample vehicle keys, sunlit showroom windows, low-angle product still life.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
-  },
-  "vinfast-vf6-plus-vs-vf7-eco-manila": {
-    "src": "/images/editorial/vinfast-vf6-plus-vs-vf7-eco-manila-cover.webp",
-    "alt": "Overhead close-up of two different rear-seat cushions in contrasting neutral materials beside two colour swatches on a showroom table, clean and tactile.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
-  },
-  "used-car-pair-manila-inspection-budget": {
-    "src": "/images/editorial/used-car-pair-manila-inspection-budget-cover.webp",
-    "alt": "Grey SUV photographed from its front corner for a viewing",
-    "width": 768,
-    "height": 1024,
-    "source": "https://www.facebook.com/photo.php?fbid=122384853746008877",
-    "kind": "photo"
-  },
   "used-automatic-car-manila-first-viewing": {
     "src": "/images/editorial/used-automatic-car-manila-first-viewing-cover.webp",
     "alt": "Driver's seat and centre console of a used automatic car",
@@ -928,14 +837,6 @@
     "width": 900,
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122374363298008877",
-    "kind": "photo"
-  },
-  "trade-in-when-replacement-car-is-delayed": {
-    "src": "/images/editorial/trade-in-when-replacement-car-is-delayed-cover.webp",
-    "alt": "Interior view of a vehicle before a potential trade-in",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122377268312008877",
     "kind": "photo"
   },
   "vinfast-vf3-quote-two-commute-patterns": {
@@ -1038,14 +939,6 @@
       "source": "https://www.facebook.com/photo.php?fbid=122377253414008877"
     }
   },
-  "buying-a-used-car-in-manila-when-a-sibling-will-inspect-it-for-you": {
-    "src": "/images/editorial/buying-a-used-car-in-manila-when-a-sibling-will-inspect-it-for-you-cover.webp",
-    "alt": "Reference photograph of the dashboard for an absent buyer",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122377266668008877",
-    "kind": "photo"
-  },
   "selling-a-car-in-manila-after-replacing-the-engine-or-transmission": {
     "src": "/images/editorial/selling-a-car-in-manila-after-replacing-the-engine-or-transmission-cover.webp",
     "alt": "Underside of a vehicle raised for a workshop inspection",
@@ -1068,7 +961,8 @@
     "width": 1200,
     "height": 900,
     "source": "https://www.facebook.com/photo.php?fbid=122384861204008877",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "sell-a-used-car-after-body-repairs-how-to-present-before-and-after-photos": {
     "src": "/images/editorial/sell-a-used-car-after-body-repairs-how-to-present-before-and-after-photos-cover.webp",
@@ -1076,37 +970,6 @@
     "width": 1200,
     "height": 800,
     "kind": "illustration"
-  },
-  "selling-a-pickup-with-a-business-logo-in-the-philippines": {
-    "src": "/images/editorial/selling-a-pickup-with-a-business-logo-in-the-philippines-cover.webp",
-    "alt": "Tailgate and rear panel of a parked pickup",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122374363160008877",
-    "kind": "photo",
-    "inlinePhoto": {
-      "src": "/images/editorial/selling-a-pickup-with-a-business-logo-in-the-philippines-detail.webp",
-      "alt": "Side and rear bodywork of a pickup",
-      "width": 1200,
-      "height": 900,
-      "source": "https://www.facebook.com/photo.php?fbid=122374362968008877"
-    }
-  },
-  "car-appraisal-before-an-overseas-move-what-if-your-moving-date-changes": {
-    "src": "/images/editorial/car-appraisal-before-an-overseas-move-what-if-your-moving-date-changes-cover.webp",
-    "alt": "Full side view of a parked white SUV",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122377258742008877",
-    "kind": "photo"
-  },
-  "selling-two-cars-but-keeping-one-compare-separate-appraisal-offers": {
-    "src": "/images/editorial/selling-two-cars-but-keeping-one-compare-separate-appraisal-offers-cover.webp",
-    "alt": "Dark SUV photographed at an outdoor viewing",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122384853650008877",
-    "kind": "photo"
   },
   "selling-a-car-with-an-aftermarket-sound-system-in-manila": {
     "src": "/images/editorial/selling-a-car-with-an-aftermarket-sound-system-in-manila-cover.webp",
@@ -1130,21 +993,6 @@
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122377266524008877",
     "kind": "photo"
-  },
-  "vinfast-vf-5-for-apartment-renters-compare-charging-options-before-a-quote": {
-    "src": "/images/editorial/vinfast-vf-5-for-apartment-renters-compare-charging-options-before-a-quote-cover.webp",
-    "alt": "White VinFast in a showroom",
-    "width": 1200,
-    "height": 1063,
-    "source": "https://www.facebook.com/photo.php?fbid=122371519478008877",
-    "kind": "photo"
-  },
-  "vinfast-vf-6-for-a-household-with-two-different-commutes": {
-    "src": "/images/editorial/vinfast-vf-6-for-a-household-with-two-different-commutes-cover.webp",
-    "alt": "Two commuter backpacks and two distinct key rings on a hall table beside a window overlooking an urban Philippine street at morning rush hour.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
   },
   "vinfast-vf-8-or-vf-7-compare-cabin-access-for-an-older-passenger": {
     "src": "/images/editorial/vinfast-vf-8-or-vf-7-compare-cabin-access-for-an-older-passenger-cover.webp",
@@ -1199,29 +1047,14 @@
     "height": 891,
     "kind": "photo"
   },
-  "vinfast-trade-in-with-a-second-family-car-which-vehicle-should-fund-the-upgrade": {
-    "src": "/images/editorial/vinfast-trade-in-with-a-second-family-car-which-vehicle-should-fund-the-upgrade-cover.webp",
-    "alt": "White electric vehicle seen from the front at the showroom",
-    "width": 800,
-    "height": 600,
-    "source": "https://www.facebook.com/photo.php?fbid=122371518770008877",
-    "kind": "photo"
-  },
-  "vinfast-vf-5-for-a-move-from-petrol-take-your-last-fuel-log-to-the-demo": {
-    "src": "/images/editorial/vinfast-vf-5-for-a-move-from-petrol-take-your-last-fuel-log-to-the-demo-cover.webp",
-    "alt": "White VinFast display vehicle ready for viewing",
-    "width": 534,
-    "height": 590,
-    "source": "https://www.facebook.com/photo.php?fbid=122371519250008877",
-    "kind": "photo"
-  },
   "tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet": {
     "src": "/images/editorial/tour-tagaytay-trong-ngay-tu-manila-cho-gia-dinh-viet-cover.webp",
     "alt": "Hồ và miệng núi lửa Taal nhìn từ trên cao",
     "width": 1200,
     "height": 900,
     "source": "https://www.facebook.com/photo.php?fbid=122192738564790161",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Tour · Facebook"
   },
   "tour-manila-cho-khach-viet-co-chuyen-bay-toi": {
     "src": "/images/editorial/tour-manila-cho-khach-viet-co-chuyen-bay-toi-cover.webp",
@@ -1238,12 +1071,12 @@
     "kind": "illustration"
   },
   "du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien": {
-    "src": "/images/editorial/du-lich-cebu-cho-nguoi-viet-chon-ngay-di-thanh-pho-hay-ngay-nghi-bien-cover.webp",
-    "alt": "Cảnh dưới nước trong chuyến tham quan Oslob, Cebu",
-    "width": 821,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122189980358790161",
-    "kind": "photo"
+    "src": "/images/dt-tour/2025-26/cebu-6-b9df89b3e1.webp",
+    "alt": "Góc kiến trúc nhà thờ ở Cebu",
+    "width": 612,
+    "height": 408,
+    "kind": "photo",
+    "credit": "DT Tour · kho ảnh Ami chia sẻ"
   },
   "tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao": {
     "src": "/images/editorial/tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao-cover.webp",
@@ -1280,7 +1113,8 @@
     "width": 900,
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122193230024790161",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Tour · Facebook"
   },
   "don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho": {
     "src": "/images/editorial/don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho-cover.webp",
@@ -1288,14 +1122,6 @@
     "width": 1200,
     "height": 800,
     "kind": "illustration"
-  },
-  "tour-philippines-cho-doan-viet-co-nguoi-den-muon-mot-ngay": {
-    "src": "/images/editorial/tour-philippines-cho-doan-viet-co-nguoi-den-muon-mot-ngay-cover.webp",
-    "alt": "Bờ biển có hàng dừa trong nắng",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122192084954790161",
-    "kind": "photo"
   },
   "thue-xe-manila-di-gap-doi-tac-o-cavite-roi-ve-trong-ngay": {
     "src": "/images/editorial/thue-xe-manila-di-gap-doi-tac-o-cavite-roi-ve-trong-ngay-cover.webp",
@@ -1487,14 +1313,6 @@
     "height": 800,
     "kind": "illustration"
   },
-  "buying-a-pre-owned-car-after-a-long-distance-move-to-cebu": {
-    "src": "/images/editorial/buying-a-pre-owned-car-after-a-long-distance-move-to-cebu-cover.webp",
-    "alt": "Sedan shown from the front at an outdoor inspection",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122377261874008877",
-    "kind": "photo"
-  },
   "which-used-car-works-for-a-wheelchair-that-folds-into-the-boot": {
     "src": "/images/editorial/which-used-car-works-for-a-wheelchair-that-folds-into-the-boot-cover.webp",
     "alt": "Folded wheelchair alongside the open boot of a hatchback.",
@@ -1553,28 +1371,14 @@
     "height": 800,
     "kind": "illustration"
   },
-  "selling-a-car-while-its-replacement-is-being-repaired": {
-    "src": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-cover.webp",
-    "alt": "Rear three-quarter view of a grey vehicle",
-    "width": 768,
-    "height": 1024,
-    "source": "https://www.facebook.com/photo.php?fbid=122377250306008877",
-    "kind": "photo",
-    "inlinePhoto": {
-      "src": "/images/editorial/selling-a-car-while-its-replacement-is-being-repaired-detail.webp",
-      "alt": "Tailgate photographed directly from the rear",
-      "width": 768,
-      "height": 1024,
-      "source": "https://www.facebook.com/photo.php?fbid=122377250396008877"
-    }
-  },
   "selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history": {
     "src": "/images/editorial/selling-a-vehicle-used-for-ride-hailing-how-to-disclose-the-work-history-cover.webp",
     "alt": "Rear seat and passenger footwell in a used vehicle.",
     "width": 900,
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=1580646017161025",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "Duong Nguyen · Facebook"
   },
   "selling-a-car-with-window-film-which-details-affect-inspection": {
     "src": "/images/editorial/selling-a-car-with-window-film-which-details-affect-inspection-cover.webp",
@@ -1605,22 +1409,6 @@
     "height": 800,
     "kind": "illustration"
   },
-  "selling-two-family-cars-registered-to-different-owners": {
-    "src": "/images/editorial/selling-two-family-cars-registered-to-different-owners-cover.webp",
-    "alt": "Rear exterior photograph of a white vehicle",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122377253900008877",
-    "kind": "photo"
-  },
-  "selling-a-car-whose-finance-was-settled-recently": {
-    "src": "/images/editorial/selling-a-car-whose-finance-was-settled-recently-cover.webp",
-    "alt": "Front of a parked sedan photographed for a seller enquiry",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122384852768008877",
-    "kind": "photo"
-  },
   "selling-an-inherited-vehicle-requesting-a-preliminary-appraisal": {
     "src": "/images/editorial/selling-an-inherited-vehicle-requesting-a-preliminary-appraisal-cover.webp",
     "alt": "A small stack of closed manila folders and two older car keys on a quiet dining table, a family member considering the papers in warm window light.",
@@ -1636,14 +1424,6 @@
     "source": "https://www.facebook.com/photo.php?fbid=122377253078008877",
     "kind": "photo"
   },
-  "selling-a-company-vehicle-with-employee-belongings-and-installed-devices": {
-    "src": "/images/editorial/selling-a-company-vehicle-with-employee-belongings-and-installed-devices-cover.webp",
-    "alt": "Rear passenger cabin before a vehicle handover",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122377268156008877",
-    "kind": "photo"
-  },
   "selling-a-non-running-car-from-a-private-garage": {
     "src": "/images/editorial/selling-a-non-running-car-from-a-private-garage-cover.webp",
     "alt": "An older car stands in a private garage with a flat tyre and a portable jump pack nearby.",
@@ -1657,14 +1437,6 @@
     "width": 1200,
     "height": 800,
     "kind": "illustration"
-  },
-  "selling-a-car-previously-used-near-the-coast": {
-    "src": "/images/editorial/selling-a-car-previously-used-near-the-coast-cover.webp",
-    "alt": "Rear corner and lower bodywork of a parked sedan",
-    "width": 900,
-    "height": 1200,
-    "source": "https://www.facebook.com/photo.php?fbid=122377262768008877",
-    "kind": "photo"
   },
   "selling-a-car-with-an-approaching-major-service": {
     "src": "/images/editorial/selling-a-car-with-an-approaching-major-service-cover.webp",
@@ -1688,26 +1460,13 @@
       "source": "https://www.facebook.com/photo.php?fbid=122370438788008877"
     }
   },
-  "vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences": {
-    "src": "/images/editorial/vinfast-vf-3-and-vf-5-plus-compare-the-upfront-battery-price-differences-cover.webp",
-    "alt": "Two differently shaped portable EV charging plugs with separate unmarked key fobs on a showroom counter, muted backdrop and intentional negative space.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
-  },
   "vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost": {
-    "src": "/images/editorial/vf-6-eco-versus-vf-7-eco-what-does-the-larger-model-upgrade-cost-cover.webp",
-    "alt": "Two SUVs parked side by side, framed tightly from the open rear doors to compare knee clearance and cabin width, no exterior body styling visible.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
-  },
-  "vf-6-plus-versus-vf-7-plus-compare-like-for-like-battery-terms": {
-    "src": "/images/editorial/vf-6-plus-versus-vf-7-plus-compare-like-for-like-battery-terms-cover.webp",
-    "alt": "Two automotive paint and interior material samples beside plain unmarked key fobs, close tabletop composition with cool diffused light.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
+    "src": "/images/ads/vinfast/vf6-seats.webp",
+    "alt": "Rear seating and cabin of a VinFast VF 6 for comparison.",
+    "width": 900,
+    "height": 540,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
   },
   "vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist": {
     "src": "/images/editorial/vinfast-vf-mpv-7-versus-limo-green-for-a-seven-seat-shortlist-cover.webp",
@@ -1732,29 +1491,6 @@
     "source": "https://www.facebook.com/photo.php?fbid=122371518572008877",
     "kind": "photo"
   },
-  "vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods": {
-    "src": "/images/editorial/vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods-cover.webp",
-    "alt": "A premium EV parked in a garage viewed from the charging port side, home charger cable attached, late afternoon shadows and rich wood trim inside.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
-  },
-  "vinfast-family-ev-for-a-household-with-two-parking-locations": {
-    "src": "/images/editorial/vinfast-family-ev-for-a-household-with-two-parking-locations-cover.webp",
-    "alt": "White VinFast crossover on display",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122371937084008877",
-    "kind": "photo"
-  },
-  "buying-a-vinfast-ev-before-a-change-of-workplace": {
-    "src": "/images/editorial/buying-a-vinfast-ev-before-a-change-of-workplace-cover.webp",
-    "alt": "Red VinFast on the showroom floor",
-    "width": 600,
-    "height": 588,
-    "source": "https://www.facebook.com/photo.php?fbid=122371519034008877",
-    "kind": "photo"
-  },
   "vinfast-test-drive-for-two-adults-who-share-one-phone-connection": {
     "src": "/images/editorial/vinfast-test-drive-for-two-adults-who-share-one-phone-connection-cover.webp",
     "alt": "Steering wheel and centre display in an electric vehicle",
@@ -1769,14 +1505,6 @@
       "height": 800,
       "source": "https://www.facebook.com/photo.php?fbid=122370438872008877"
     }
-  },
-  "ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal": {
-    "src": "/images/editorial/ordering-a-vinfast-when-the-parking-bay-has-no-mobile-signal-cover.webp",
-    "alt": "Front cabin and screen of an electric vehicle, viewed through the door",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122371936958008877",
-    "kind": "photo"
   },
   "vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs": {
     "src": "/images/editorial/vinfast-ev-quotation-with-an-optional-wall-charger-separate-the-costs-cover.webp",
@@ -1799,36 +1527,12 @@
     "height": 800,
     "kind": "illustration"
   },
-  "vinfast-for-sales-representatives-visiting-several-branches": {
-    "src": "/images/editorial/vinfast-for-sales-representatives-visiting-several-branches-cover.webp",
-    "alt": "White display vehicle viewed from the side",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122371518464008877",
-    "kind": "photo"
-  },
-  "comparing-two-vinfast-dealer-quotes-with-different-accessories": {
-    "src": "/images/editorial/comparing-two-vinfast-dealer-quotes-with-different-accessories-cover.webp",
-    "alt": "Dark VinFast crossover inside a showroom",
-    "width": 960,
-    "height": 720,
-    "source": "https://www.facebook.com/photo.php?fbid=122371525124008877",
-    "kind": "photo"
-  },
   "vinfast-ev-as-a-pool-car-handing-over-between-employees": {
     "src": "/images/editorial/vinfast-ev-as-a-pool-car-handing-over-between-employees-cover.webp",
     "alt": "Driver's seating area in a VinFast display vehicle",
     "width": 1200,
     "height": 900,
     "source": "https://www.facebook.com/photo.php?fbid=122371519292008877",
-    "kind": "photo"
-  },
-  "buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city": {
-    "src": "/images/editorial/buying-a-vinfast-when-you-will-soon-move-to-another-philippine-city-cover.webp",
-    "alt": "Grey electric crossover beside a showroom entrance",
-    "width": 800,
-    "height": 600,
-    "source": "https://www.facebook.com/photo.php?fbid=122371937234008877",
     "kind": "photo"
   },
   "ordering-two-vinfast-cars-for-family-members-in-different-cities": {
@@ -1853,14 +1557,6 @@
       "height": 900,
       "source": "https://www.facebook.com/photo.php?fbid=122371510580008877"
     }
-  },
-  "vinfast-for-a-business-with-seasonal-mileage-peaks": {
-    "src": "/images/editorial/vinfast-for-a-business-with-seasonal-mileage-peaks-cover.webp",
-    "alt": "Driver's seat and front passenger area in an electric vehicle",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.facebook.com/photo.php?fbid=122371527344008877",
-    "kind": "photo"
   },
   "lich-manila-cho-khach-viet-den-sau-nua-dem": {
     "src": "/images/editorial/lich-manila-cho-khach-viet-den-sau-nua-dem-cover.webp",
@@ -2213,7 +1909,8 @@
     "width": 1200,
     "height": 583,
     "source": "https://www.facebook.com/photo.php?fbid=122384488412008877",
-    "kind": "photo"
+    "kind": "photo",
+    "credit": "DT Car – Quality Car Manila · Facebook"
   },
   "fleet-dashcam-meter-installation": {
     "src": "/images/editorial/fleet-dashcam-meter-installation-cover.webp",
@@ -2252,5 +1949,329 @@
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=1006911422454862",
     "kind": "photo"
+  },
+  "checking-a-used-fortuner-advertised-as-a-g-trim": {
+    "src": "/images/ads/latest-used-cars/car-02.webp",
+    "alt": "Toyota Fortuner from the DT Car used-vehicle archive.",
+    "width": 443,
+    "height": 590,
+    "kind": "photo",
+    "credit": "DT Car · vehicle archive"
+  },
+  "toyota-avanza-or-innova-for-daily-pickups": {
+    "src": "/images/ads/latest-used-cars/car-04.webp",
+    "alt": "Toyota Avanza from the DT Car used-vehicle archive.",
+    "width": 443,
+    "height": 590,
+    "kind": "photo",
+    "credit": "DT Car · vehicle archive"
+  },
+  "used-ford-everest-with-incomplete-service-history": {
+    "src": "/images/everest-2024-we-buy-cars.webp",
+    "alt": "Ford Everest photographed for a DT Car appraisal.",
+    "width": 696,
+    "height": 928,
+    "kind": "photo",
+    "credit": "DT Car · vehicle archive"
+  },
+  "a-monthly-limo-green-budget-for-irregular-mileage": {
+    "src": "/images/ads/vinfast/limo-green-dash.webp",
+    "alt": "Limo Green dashboard and driver display used to monitor a route.",
+    "width": 960,
+    "height": 576,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vf-mpv-7-quote-with-a-bank-loan": {
+    "src": "/images/ads/vinfast/mpv-7-front.webp",
+    "alt": "Front three-quarter view of the VinFast VF MPV 7.",
+    "width": 1200,
+    "height": 720,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "booking-a-limo-green-demonstration-in-metro-manila": {
+    "src": "/images/ads/vinfast/limo-green-lisa-coast.webp",
+    "alt": "Lisa Dong with a white VinFast Limo Green.",
+    "width": 590,
+    "height": 394,
+    "kind": "photo",
+    "credit": "Lisa Dong – DT Car · Facebook"
+  },
+  "vf-3-price-with-battery-versus-subscription-over-three-years": {
+    "src": "/images/ads/vinfast/vf3-cabin.webp",
+    "alt": "VinFast VF 3 dashboard and front cabin.",
+    "width": 960,
+    "height": 576,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "a-vf-5-plus-quotation-for-a-first-ev-purchase": {
+    "src": "/images/ads/vinfast/vf5-road.webp",
+    "alt": "Red VinFast VF 5 seen from the rear three-quarter angle.",
+    "width": 900,
+    "height": 540,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vf-6-eco-or-plus-for-two-drivers": {
+    "src": "/images/ads/vinfast/vf6-cabin.webp",
+    "alt": "Dashboard, driver controls and front cabin of a VinFast VF 6.",
+    "width": 900,
+    "height": 540,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vf-7-eco-versus-plus-for-an-intercity-routine": {
+    "src": "/images/ads/vinfast/vf7-front.webp",
+    "alt": "Red VinFast VF 7 in a rear three-quarter view.",
+    "width": 1200,
+    "height": 720,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vf-8-buyers-comparing-launch-and-current-prices": {
+    "src": "/images/ads/vinfast/vf8-road.webp",
+    "alt": "VinFast VF 8 on a coastal road.",
+    "width": 900,
+    "height": 540,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "budgeting-a-vf-9-for-family-and-luggage": {
+    "src": "/images/ads/vinfast/vf9-cabin.webp",
+    "alt": "Front cabin and passenger seating of a VinFast VF 9.",
+    "width": 900,
+    "height": 540,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vf-mpv-7-for-airport-transfer-luggage": {
+    "src": "/images/ads/vinfast/mpv-7-lisa-cargo.webp",
+    "alt": "Lisa Dong showing the open cargo area of a VF MPV 7.",
+    "width": 394,
+    "height": 590,
+    "kind": "photo",
+    "source": "https://www.facebook.com/61572413993211/posts/122184144518747133/",
+    "credit": "Lisa Dong – DT Car · Facebook"
+  },
+  "limo-green-range-figures-for-a-loaded-passenger-route": {
+    "src": "/images/ads/vinfast/limo-green-road.webp",
+    "alt": "White Limo Green in motion, shown in VinFast product imagery.",
+    "width": 1200,
+    "height": 720,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vinfast-vf-mpv-7-for-two-households-sharing-one-car": {
+    "src": "/images/ads/vinfast/mpv-7-family.webp",
+    "alt": "VinFast VF MPV 7 on the road.",
+    "width": 960,
+    "height": 576,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "comparing-vf-3-cash-purchase-and-financed-purchase": {
+    "src": "/images/ads/vinfast/vf3-front.webp",
+    "alt": "Green VinFast VF 3 photographed head-on.",
+    "width": 960,
+    "height": 576,
+    "kind": "photo",
+    "credit": "DT Car · vehicle archive"
+  },
+  "vf-9-plus-compare-a-premium-ev-quote-for-two-ownership-periods": {
+    "src": "/images/ads/vinfast/vf9-front.webp",
+    "alt": "Blue VinFast VF 9, front three-quarter product photograph.",
+    "width": 1200,
+    "height": 720,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vinfast-vf8-philippines-price": {
+    "src": "/images/ads/vinfast/vf8-front.webp",
+    "alt": "Front three-quarter product image of the all-new VinFast VF 8.",
+    "width": 1200,
+    "height": 720,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "vinfast-mpv7-price-seven-seats-philippines": {
+    "src": "/images/ads/vinfast/mpv-7-launch.webp",
+    "alt": "White VinFast VF MPV 7 at the Philippine model launch.",
+    "width": 960,
+    "height": 576,
+    "kind": "photo",
+    "credit": "VinFast Philippines · product imagery"
+  },
+  "tagaytay-cuoi-tuan-tu-manila-cho-nhom-co-gio-ve-co-dinh": {
+    "src": "/images/dt-tour/2025-26/tagaytay-4-71960c5cbe.webp",
+    "alt": "Lối đi giữa hàng thông trong album Tagaytay",
+    "width": 1080,
+    "height": 810,
+    "kind": "photo",
+    "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+  },
+  "du-lich-boracay-ba-ngay-hai-dem-nen-dat-hoat-dong-ngay-nao": {
+    "src": "/images/dt-tour/2025-26/boracay-18-c008d9654c.webp",
+    "alt": "Lối đi dưới hàng dừa dọc bờ biển Boracay",
+    "width": 735,
+    "height": 980,
+    "kind": "photo",
+    "credit": "DT Tour · kho ảnh Ami chia sẻ"
+  },
+  "tour-el-nido-a-va-c-cho-nguoi-lan-dau-di-palawan": {
+    "src": "/images/dt-tour/2025-26/fb-el-nido-cliffside-boats-0974c217ea.webp",
+    "alt": "Những chiếc thuyền nhỏ neo dưới vách đá vôi El Nido.",
+    "width": 980,
+    "height": 980,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo?fbid=122191826366790161&set=pcb.122191826768790161",
+    "credit": "Page Du lịch Philippines – DT Tour"
+  },
+  "coron-hay-el-nido-cho-nhom-thich-chup-canh-hon-boi": {
+    "src": "/images/dt-tour/2025-26/fb-el-nido-turquoise-kayak-lagoon-0e9adf487d.webp",
+    "alt": "Thuyền kayak giữa làn nước xanh và vách đá vôi ở El Nido.",
+    "width": 784,
+    "height": 980,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo?fbid=122191826420790161&set=pcb.122191826768790161",
+    "credit": "Page Du lịch Philippines – DT Tour"
+  },
+  "moalboal-nua-ngay-cho-nguoi-chi-muon-ngam-bien": {
+    "src": "/images/dt-tour/2025-26/cebu-3-47d6f62660.webp",
+    "alt": "Đàn cá mòi nhìn từ dưới nước, Moalboal",
+    "width": 744,
+    "height": 1050,
+    "kind": "photo",
+    "credit": "DT Tour · kho ảnh Ami chia sẻ"
+  },
+  "kawasan-cho-nguoi-muon-tham-quan-ma-khong-tham-gia-canyoneering": {
+    "src": "/images/dt-tour/2025-26/cebu-1-8d2c90adb1.webp",
+    "alt": "Cảnh núi rừng trong bộ ảnh Kawasan",
+    "width": 653,
+    "height": 980,
+    "kind": "photo",
+    "credit": "DT Tour · kho ảnh Ami chia sẻ"
+  },
+  "intramuros-nua-ngay-cho-gia-dinh-chi-co-mot-buoi-o-manila": {
+    "src": "/images/dt-tour/2025-26/cc-intramuros-fort-santiago-gate-ecdfcdc3cd.webp",
+    "alt": "Cổng Fort Santiago ở Intramuros, Manila",
+    "width": 1080,
+    "height": 810,
+    "kind": "photo",
+    "source": "https://commons.wikimedia.org/wiki/File:Fort_Santiago,_Intramuros,_Manila.jpg",
+    "credit": "Markadan · CC BY 4.0"
+  },
+  "hidden-valley-cho-gia-dinh-muon-nghi-gan-manila": {
+    "src": "/images/dt-tour/2025-26/cc-hidden-valley-waterfall-july-2025-0ded37851c.webp",
+    "alt": "Thác trong Hidden Valley Springs, Laguna · ảnh tháng 7/2025, đã cắt khung",
+    "width": 845,
+    "height": 853,
+    "kind": "photo",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Participate_in_MWR_Tour_(9169874).jpg",
+    "credit": "U.S. Navy photo by Seaman Apprentice Nicolas Quezada · Public Domain Mark 1.0"
+  },
+  "du-thuyen-subic-cho-doan-nho-can-chot-gio-don": {
+    "src": "/images/dt-tour/2025-26/subic-3-ae097c36bb.webp",
+    "alt": "Lisa đứng trên boong tàu giữa vịnh Subic",
+    "width": 1080,
+    "height": 600,
+    "kind": "photo",
+    "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+  },
+  "little-boracay-batangas-co-phu-hop-cho-chuyen-di-trong-ngay": {
+    "src": "/images/dt-tour/2025-26/little-22-ccbce675e3.webp",
+    "alt": "Toàn cảnh vùng nước nông và bầu trời Little Boracay",
+    "width": 787,
+    "height": 1050,
+    "kind": "photo",
+    "credit": "DT Tour · ảnh Lisa trong kho Ami chia sẻ"
+  },
+  "fortune-island-cho-doan-muon-chu-yeu-chup-anh": {
+    "src": "/images/dt-tour/2025-26/cc-fortune-island-path-to-greece-412a543880.webp",
+    "alt": "Bờ biển và hàng cột nhìn từ lối đi trên Fortune Island",
+    "width": 1080,
+    "height": 715,
+    "kind": "photo",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Path_to_Greece_(Fortune_Island).jpg",
+    "credit": "Oliver Mercader · CC BY 2.0"
+  },
+  "tour-manila-va-boracay-cho-hai-nhom-bay-ve-khac-ngay": {
+    "src": "/images/dt-tour/2025-26/boracay-9-f11204a8ee.webp",
+    "alt": "Thuyền buồm và hoàng hôn trong album Boracay",
+    "width": 791,
+    "height": 1050,
+    "kind": "photo",
+    "credit": "DT Tour · kho ảnh Ami chia sẻ"
+  },
+  "tour-tu-manila-di-boracay-khi-hai-gia-dinh-khac-ngan-sach": {
+    "src": "/images/dt-tour/2025-26/boracay-39-86848d2463.webp",
+    "alt": "Bữa ăn bên bãi biển trong album Boracay",
+    "width": 735,
+    "height": 980,
+    "kind": "photo",
+    "credit": "DT Tour · kho ảnh Ami chia sẻ"
+  },
+  "bohol-va-cebu-cho-nhom-co-mot-nguoi-ve-som": {
+    "src": "/images/dt-tour/2025-26/fb-bohol-pamilacan-shoreline-and-boats-abea6162ec.webp",
+    "alt": "Bờ cát và thuyền tại Pamilacan, Bohol.",
+    "width": 787,
+    "height": 1050,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo?fbid=122194755122790161&set=pcb.122194755248790161",
+    "credit": "Page Du lịch Philippines – DT Tour"
+  },
+  "so-sanh-balicasag-va-mot-ngay-nghi-o-panglao": {
+    "src": "/images/dt-tour/bohol-balicasag-reef.webp",
+    "alt": "San hô và đàn cá dưới nước ở Balicasag, Bohol.",
+    "width": 1024,
+    "height": 768,
+    "kind": "photo",
+    "source": "https://commons.wikimedia.org/wiki/File:Balicasag_Reef.jpg",
+    "credit": "Thomas Brown · CC BY 2.0"
+  },
+  "di-oslob-tu-cebu-ma-van-kip-chuyen-bay-hom-sau": {
+    "src": "/images/editorial/cebu-hay-bohol-du-lich-tu-viet-nam-cover.webp",
+    "alt": "Cá mập voi trong chuyến Oslob, Cebu.",
+    "width": 820,
+    "height": 1200,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo.php?fbid=122189980394790161",
+    "credit": "DT Tour · Facebook"
+  },
+  "how-to-inspect-a-used-car-for-past-flooding": {
+    "src": "/images/editorial/how-to-inspect-a-used-car-for-past-flooding-illustration.webp",
+    "alt": "An inspector examines a seat rail and carpet for sediment and corrosion.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
+  },
+  "dat-xe-manila-cho-doan-choi-golf-mang-tui-gay": {
+    "src": "/images/editorial/dat-xe-manila-cho-doan-choi-golf-mang-tui-gay-illustration.webp",
+    "alt": "Hai túi gậy golf được đưa vào khoang hành lý xe đưa đón.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
+  },
+  "boracay-voi-tre-nho-va-xe-day-tu-caticlan": {
+    "src": "/images/editorial/boracay-voi-tre-nho-va-xe-day-tu-caticlan-illustration.webp",
+    "alt": "Xe đẩy trẻ em đã gấp gọn và vali tại khu chờ tàu.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
+  },
+  "dat-tour-coron-khi-trong-nhom-co-nguoi-khong-boi": {
+    "src": "/images/editorial/dat-tour-coron-khi-trong-nhom-co-nguoi-khong-boi-illustration.webp",
+    "alt": "Khách mặc áo phao ngồi trên thuyền ngắm vịnh đá vôi.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
+  },
+  "preparing-for-a-commercial-charger-site-survey": {
+    "src": "/images/editorial/preparing-for-a-commercial-charger-site-survey-illustration.webp",
+    "alt": "A site surveyor measures a parking aisle before charger installation.",
+    "width": 1200,
+    "height": 800,
+    "kind": "illustration"
   }
 }

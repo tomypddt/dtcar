@@ -2,6 +2,7 @@ import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import sharp from "sharp";
 import { articleImages, articles, travel } from "../app/data/stories.ts";
+import { createGuideGraphics } from "./guide-graphics.mjs";
 
 const directory = "public/images";
 const destination = join(directory, "gallery");
@@ -29,11 +30,20 @@ for (const name of await readdir(artDirectory)) {
 }
 
 const guideMedia = JSON.parse(await readFile("app/data/guide-media.json", "utf8"));
+const guideFiles = ["enquiry-guides", "buyer-questions", "customer-guides", "sales-guides", "practical-guides", "field-guides"];
+const guideArticles = (await Promise.all(guideFiles.map(async name =>
+  JSON.parse(await readFile(`app/data/${name}.json`, "utf8"))
+))).flat();
+const coverDirectory = join(destination, "guide-covers");
+await createGuideGraphics(guideArticles, guideMedia, coverDirectory);
+
 const cardDirectory = join(destination, "guide-cards");
 await mkdir(cardDirectory, { recursive: true });
-for (const [slug, cover] of Object.entries(guideMedia)) {
-  const source = join("public", cover.src.slice(1));
-  for (const width of [480, 800].filter(width => width < (cover.width ?? 1200))) {
+const guideSlugs = new Set([...Object.keys(guideMedia), ...guideArticles.map(guide => guide.slug)]);
+for (const slug of guideSlugs) {
+  const cover = guideMedia[slug];
+  const source = cover ? join("public", cover.src.slice(1)) : join(coverDirectory, slug + ".webp");
+  for (const width of [480, 800].filter(width => width < (cover?.width ?? 1200))) {
     await sharp(source)
       .resize({ width })
       .webp({ quality: 78 })

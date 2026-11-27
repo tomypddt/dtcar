@@ -8,7 +8,7 @@ import media from "./guide-media.json";
 import practicalGuides from "./practical-guides.json";
 import fieldGuides from "./field-guides.json";
 
-type InlinePhoto = { src: string; alt: string; source: string; width?: number; height?: number };
+type InlinePhoto = { src: string; alt: string; source: string; credit?: string; width?: number; height?: number };
 export type Guide = { photoCredit?: string; updated?: string; photoWidth?: number; photoHeight?: number; photoKind?: string; inlinePhoto?: InlinePhoto; enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 const content: Guide[] = [
   ...enquiryGuides,
@@ -1161,11 +1161,11 @@ const content: Guide[] = [
     "date": "2026-11-25"
   }
 ];
-const covers: Record<string, { src: string; alt?: string; source?: string; kind?: string; width?: number; height?: number; inlinePhoto?: InlinePhoto }> = media;
+const covers: Record<string, { src: string; alt: string; source?: string; credit?: string; kind: string; width: number; height: number; inlinePhoto?: InlinePhoto }> = media;
 const answersByGuide: Record<string, Guide["sections"]> = enquiryAnswers;
 const linksByGuide: Record<string, string[]> = readingLinks;
 
-export const guides: Guide[] = content.map(original => {
+export const guides = content.map(original => {
   const answers = answersByGuide[original.slug] ?? [];
   const additionalLinks = linksByGuide[original.slug] ?? [];
   const guide = {
@@ -1175,6 +1175,16 @@ export const guides: Guide[] = content.map(original => {
     related: [...new Set([...additionalLinks, ...original.related])],
   };
   const cover = covers[guide.slug];
-  return cover ? { ...guide, photo: cover.src, photoAlt: cover.alt, photoSource: cover.source, photoKind: cover.kind, photoWidth: cover.width, photoHeight: cover.height, inlinePhoto: cover.inlinePhoto } : guide;
+  return {
+    ...guide,
+    photo: cover?.src ?? `/images/gallery/guide-covers/${guide.slug}.webp`,
+    photoAlt: cover?.alt ?? guide.summary,
+    photoSource: cover?.source,
+    photoCredit: cover?.credit,
+    photoKind: cover?.kind ?? "graphic",
+    photoWidth: cover?.width ?? 1200,
+    photoHeight: cover?.height ?? 800,
+    inlinePhoto: cover?.inlinePhoto,
+  };
 });
 export const guidePath = (slug: string) => `/guides/${slug}/`;

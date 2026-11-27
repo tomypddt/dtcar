@@ -12,8 +12,8 @@ export const metadata = pageMetadata({
 });
 
 export default function GuidesPage() {
-  const cards = guides.map(({slug,title,description,category,service,lang,photo,photoWidth,photoCredit})=>({
-    slug,title,description,category,service,lang,photoWidth,originalCover:!photoCredit,image:photo ?? "/images/guides/"+slug+".svg",read:guideLabels(lang).read
+  const cards = guides.map(({slug,title,description,category,service,lang,photo,photoWidth})=>({
+    slug,title,description,category,service,lang,photoWidth,image:photo,read:guideLabels(lang).read
   }));
   return <SubPage><section className="knowledgeHub">
     <header className="knowledgeHead"><p className="eyebrow">DT CAR FIELD GUIDE</p>
