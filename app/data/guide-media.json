@@ -1317,11 +1317,13 @@
     "kind": "illustration"
   },
   "used-cars-with-fresh-undercoating-what-should-the-inspection-cover": {
-    "src": "/images/editorial/used-cars-with-fresh-undercoating-what-should-the-inspection-cover-cover.webp",
-    "alt": "A mechanic inspects the underside of a raised vehicle.",
+    "src": "/images/editorial/facebook-refresh/used-cars-with-fresh-undercoating-what-should-the-inspection-cover-cover.webp",
+    "alt": "Real workshop photo showing the underside of a vehicle raised on a lift.",
     "width": 1200,
-    "height": 800,
-    "kind": "illustration"
+    "height": 803,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo.php?fbid=122188770242953146",
+    "credit": "Dong Huyen (tích xanh) · Facebook"
   },
   "which-used-car-works-for-a-wheelchair-that-folds-into-the-boot": {
     "src": "/images/editorial/which-used-car-works-for-a-wheelchair-that-folds-into-the-boot-cover.webp",
@@ -3128,6 +3130,42 @@
     "height": 1053,
     "source": "https://www.facebook.com/photo.php?fbid=122185163372953146",
     "credit": "Dong Huyen · Facebook",
+    "kind": "photo"
+  },
+  "lich-bien-philippines-vao-ngay-thoi-tiet-thay-doi": {
+    "src": "/images/editorial/facebook-refresh/lich-bien-philippines-vao-ngay-thoi-tiet-thay-doi-cover.webp",
+    "alt": "Ảnh từ tư liệu DT Tour, nhìn từ mũi thuyền ra vùng nước ven bờ dưới trời nhiều mây.",
+    "width": 960,
+    "height": 1280,
+    "source": "https://www.facebook.com/photo.php?fbid=122193696908790161",
+    "credit": "Du Lịch Philippines - DT Tour · Facebook",
+    "kind": "photo"
+  },
+  "di-philippines-bon-ngay-nen-o-manila-hay-them-mot-dao": {
+    "src": "/images/editorial/facebook-refresh/di-philippines-bon-ngay-nen-o-manila-hay-them-mot-dao-cover.webp",
+    "alt": "Ảnh từ tư liệu DT Tour, nhìn từ boong thuyền ra mặt nước lúc chiều muộn.",
+    "width": 1023,
+    "height": 1280,
+    "source": "https://www.facebook.com/photo.php?fbid=122193697154790161",
+    "credit": "Du Lịch Philippines - DT Tour · Facebook",
+    "kind": "photo"
+  },
+  "boracay-activity-options-field-guide": {
+    "src": "/images/editorial/facebook-refresh/boracay-activity-options-field-guide-cover.webp",
+    "alt": "Mỏm đá Willy’s Rock nhìn từ vùng nước nông cạnh White Beach, Boracay.",
+    "width": 1080,
+    "height": 721,
+    "source": "https://www.facebook.com/photo.php?fbid=122154950930780615",
+    "credit": "DT Tour 菲信旅行社 · Facebook",
+    "kind": "photo"
+  },
+  "what-to-photograph-at-a-second-hand-vehicle-inspection": {
+    "src": "/images/editorial/facebook-refresh/what-to-photograph-at-a-second-hand-vehicle-inspection-cover.webp",
+    "alt": "A used car’s dashboard, steering wheel and front seat photographed through the open door.",
+    "width": 960,
+    "height": 1280,
+    "source": "https://www.facebook.com/photo.php?fbid=122377266668008877",
+    "credit": "DT Car - Quality Car Manila · Facebook",
     "kind": "photo"
   }
 }
