@@ -1,3 +1,4 @@
+import marketGuides from "./market-guides.json";
 import enquiryGuides from "./enquiry-guides.json";
 import enquiryAnswers from "./enquiry-answers.json";
 import readingLinks from "./guide-reading-links.json";
@@ -11,6 +12,7 @@ import fieldGuides from "./field-guides.json";
 type InlinePhoto = { src: string; alt: string; source: string; credit?: string; width?: number; height?: number };
 export type Guide = { photoCredit?: string; updated?: string; photoWidth?: number; photoHeight?: number; photoKind?: string; inlinePhoto?: InlinePhoto; enquiry?: string; photoAlt?: string; photoSource?: string; photo?: string; slug: string; title: string; description: string; category: string; service: string; summary: string; sections: { heading: string; paragraphs: string[] }[]; checklist: string[]; references: { label: string; href: string }[]; lang: string; related: string[]; date: string };
 const content: Guide[] = [
+  ...marketGuides,
   ...enquiryGuides,
   ...buyerQuestions,
   ...customerGuides,
