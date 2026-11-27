@@ -3088,13 +3088,21 @@
     "kind": "photo"
   },
   "family-sedan-owner-photos-prep-field-guide": {
-    "src": "/images/editorial/facebook-refresh/family-sedan-owner-photos-prep-field-guide-cover.webp",
-    "alt": "Rear exterior view of a used sedan illustrating one angle to include for appraisal.",
-    "width": 960,
-    "height": 1280,
-    "source": "https://www.facebook.com/photo.php?fbid=122148655275059737",
-    "credit": "DT Car 필리핀 명차 · Facebook",
-    "kind": "photo"
+    "src": "/images/editorial/facebook-refresh/sedan-appraisal-2024-cover.webp",
+    "alt": "Front three-quarter view of a silver Lexus sedan showing the front bumper, headlamp and near-side body panels.",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.facebook.com/photo.php?fbid=1043757044183261",
+    "credit": "Duong Nguyen · Facebook",
+    "kind": "photo",
+    "inlinePhoto": {
+      "src": "/images/editorial/facebook-refresh/sedan-appraisal-2024-inline.webp",
+      "alt": "Rear three-quarter view of the same silver Lexus sedan showing the tail lamps, rear bumper and the left side.",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=1043757264183239",
+      "credit": "Duong Nguyen · Facebook"
+    }
   },
   "family-sedan-paint-repair-disclosure-field-guide": {
     "src": "/images/editorial/facebook-refresh/family-sedan-paint-repair-disclosure-field-guide-cover.webp",
