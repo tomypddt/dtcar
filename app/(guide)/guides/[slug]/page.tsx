@@ -9,7 +9,7 @@ import { SubPage } from "@/app/components/Subpage";
 import { JsonLd } from "@/app/components/JsonLd";
 import { guides, guidePath } from "@/app/data/guides";
 import { services, servicePath } from "@/app/data/services";
-import { brand, organization, origin, pageMetadata } from "@/app/data/site";
+import { organization, organizationId, origin, pageMetadata } from "@/app/data/site";
 import "@/app/(en)/business/[slug]/service.css";
 import "@/app/(en)/guides/guides.css";
 type Props = { params: Promise<{ slug: string }> };
@@ -52,7 +52,40 @@ export default async function GuidePage({params}: Props) {
  const direct = g.related.map(slug => guides.find(other => other.slug === slug)).filter(other => other !== undefined);
  const related = [...direct, ...guides.filter(other => other.related.includes(g.slug) && !g.related.includes(other.slug))].slice(0, 6);
  const illustrationCredit = ({vi:"Ảnh minh họa do AI tạo · DT Car", "fil-PH":"Larawang likha ng AI · DT Car", "zh-Hans":"AI 插图 · DT Car", ko:"AI 제작 일러스트 · DT Car"} as Record<string, string>)[g.lang] ?? "AI-generated illustration · DT Car";
- return <SubPage><JsonLd data={{"@graph":[{"@type":"Article","@id":url+'#article',headline:g.title,description:g.description,abstract:closed ? status : g.summary,articleSection:g.category,mainEntityOfPage:url,url,datePublished:g.date,dateModified:g.updated ?? g.date,inLanguage:g.lang,image:[origin+g.photo],author:{"@type":"Organization",name:brand,url:origin+'/about/'},publisher:organization},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:'Home',item:origin+'/'},{"@type":"ListItem",position:2,name:'Guides',item:origin+'/guides/'},{"@type":"ListItem",position:3,name:g.title,item:url}]}]}}/>
+ const references = g.references.filter(reference =>
+   !closed || !/m\.me|platform\.greengsm|facebook\.com/.test(reference.href)
+ );
+ const structuredData = {
+   "@graph": [
+     {
+       "@type": "Article",
+       "@id": url + "#article",
+       headline: g.title,
+       description: closedGuideDescription(g),
+       abstract: closed ? status : g.summary,
+       articleSection: g.category,
+       mainEntityOfPage: { "@type": "WebPage", "@id": url },
+       url,
+       datePublished: g.date,
+       dateModified: g.updated ?? g.date,
+       inLanguage: g.lang,
+       image: [origin + g.photo],
+       author: { "@id": organizationId },
+       publisher: { "@id": organizationId },
+       ...(references.length ? { citation: references.map(reference => reference.href) } : {}),
+     },
+     organization,
+     {
+       "@type": "BreadcrumbList",
+       itemListElement: [
+         { "@type": "ListItem", position: 1, name: labels.home, item: origin + "/" },
+         { "@type": "ListItem", position: 2, name: labels.guides, item: origin + "/guides/" },
+         { "@type": "ListItem", position: 3, name: g.title, item: url },
+       ],
+     },
+   ],
+ };
+ return <SubPage><JsonLd data={structuredData}/>
  <article className="serviceGuide knowledgeArticle" lang={g.lang}>
  <nav className="guideCrumbs" aria-label="Breadcrumb"><Link href="/">{labels.home}</Link><span>/</span><Link href="/guides/">{labels.guides}</Link><span>/</span><span>{g.category}</span></nav>
  <header className="knowledgeHead"><p className="eyebrow">{g.category}</p><h1>{g.title}</h1><p>{g.description}</p><small>DT Car Philippines · <time dateTime={g.date}>{formattedDate}</time></small></header>
@@ -75,8 +108,8 @@ export default async function GuidePage({params}: Props) {
    <figcaption><a href={g.inlinePhoto.source}>{g.inlinePhoto.credit ?? (isTravel ? "DT Tour · Facebook" : "DT Car · Facebook")}</a></figcaption>
  </figure>}</section>)}
  {g.checklist.length > 0 && <section className="takeaway"><h2>{labels.checklist}</h2><ul>{g.checklist.map(c=><li key={c}>{c}</li>)}</ul></section>}
- {g.references.length>0&&<section className="sourceList"><h2>{labels.sources}</h2><ul>{g.references.filter(r => !closed || !/m\.me|platform\.greengsm|facebook\.com/.test(r.href)).map(r=><li key={r.href}><a href={r.href}>{r.label}</a></li>)}</ul><p>{labels.checked} · {formattedDate}</p></section>}
+ {references.length>0&&<section className="sourceList"><h2>{labels.sources}</h2><ul>{references.map(r=><li key={r.href}><a href={r.href}>{r.label}</a></li>)}</ul><p>{labels.checked} · {formattedDate}</p></section>}
  <section><h2>{labels.next}</h2>{!closed && !g.enquiry && actionText && <p>{actionText}</p>}<a className="guideAction" href={closed ? servicePath(g.service) : g.enquiry ? enquiryLink : action.href} data-enquiry-service={g.enquiry ? g.service : undefined}>{closed ? (g.lang === "fil-PH" ? "Tingnan ang kasalukuyang status" : "Check current programme status") : g.enquiry ? salesLabel : action.label} →</a></section>
- </div><aside className="guideAside"><h2>{labels.services}</h2><ul>{landing && (!isTravel || g.lang === "vi") && <li><Link href={adPath(landing.slug)} lang={landing.lang}>{landing.label}</Link></li>}{isTravel && g.lang !== "vi" && <li><Link href="/travel/">{labels.travel}</Link></li>}{service&&<li><Link href={servicePath(service.slug)}>{service.name}</Link></li>}<li><Link href="/contact/">{labels.contact}</Link></li>{(isCalculator || g.service.includes("vinfast") || g.service.includes("charging")) && <li><Link href="/tools/ev-cost-calculator/">{labels.calculator}</Link></li>}<li><Link href="/guides/">{labels.guides}</Link></li></ul>{related.length>0&&<div><strong>{labels.related}</strong>{related.map(r=><Link key={r.slug} href={guidePath(r.slug)}>{r.title}</Link>)}</div>}<div><strong>{labels.about}</strong><p>DT Car Philippines · <Link href="/editorial-policy/">{labels.policy}</Link></p></div></aside></div>
+ </div><aside className="guideAside"><h2>{labels.services}</h2><ul>{landing && (!isTravel || g.lang === "vi") && <li><Link href={adPath(landing.slug)} lang={landing.lang}>{landing.label}</Link></li>}{isTravel && g.lang !== "vi" && <li><Link href="/travel/">{labels.travel}</Link></li>}{service&&<li><Link href={servicePath(service.slug)}>{service.name}</Link></li>}<li><Link href="/contact/">{labels.contact}</Link></li>{(isCalculator || g.service.includes("vinfast") || g.service.includes("charging")) && <li><Link href="/tools/ev-cost-calculator/">{labels.calculator}</Link></li>}<li><Link href="/guides/">{labels.guides}</Link></li></ul>{related.length>0&&<div><strong>{labels.related}</strong>{related.map(r=><Link key={r.slug} prefetch={false} href={guidePath(r.slug)}>{r.title}</Link>)}</div>}<div><strong>{labels.about}</strong><p>DT Car Philippines · <Link href="/editorial-policy/">{labels.policy}</Link></p></div></aside></div>
  </article></SubPage>
 }

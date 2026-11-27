@@ -6,7 +6,7 @@ import { brand, organization, origin, pageMetadata } from "@/app/data/site";
 export const metadata = pageMetadata({
   path: "/",
   title: "DT Car Philippines | VinFast, Used Cars & Fleet Services",
-  description: "Request a VinFast test drive or a used-car appraisal. DT Car in Pasay also assists Green GSM drivers, fleet operators and EV charging site partners.",
+  description: "Explore VinFast models, buy or sell a used car, book a private Philippine tour, or ask DT Car in Metro Manila about driving lessons and licence assistance.",
 });
 
 export default function HomePage() {
