@@ -513,11 +513,13 @@
     }
   },
   "used-toyota-fortuner-g-manila": {
-    "src": "/images/editorial/used-toyota-fortuner-g-manila-cover.webp",
-    "alt": "Inspection of the running boards and ground clearance of a used midsize SUV in a sunlit Philippine driveway, a tape measure and work shoes at the edge of frame, closeup.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
+    "src": "/images/editorial/facebook-refresh/used-toyota-fortuner-g-manila-photo.webp",
+    "alt": "Front three-quarter exterior photo of a black Toyota Fortuner from DT Car’s used-car page.",
+    "width": 960,
+    "height": 1280,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo.php?fbid=122104564701548166",
+    "credit": "DT Car - We Buy Cars · Facebook"
   },
   "mazda-cx5-used-price-manila": {
     "src": "/images/editorial/mazda-cx5-used-price-manila-cover.webp",
