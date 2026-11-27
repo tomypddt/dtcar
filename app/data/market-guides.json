@@ -1,5 +1,748 @@
 [
   {
+    "slug": "limo-green-demo-kerb-access-passenger",
+    "title": "VinFast Limo Green test drive: can passengers reach the second row from the kerb?",
+    "description": "Ask for a stationary demonstration beside an approved kerb.",
+    "summary": "Ask for a stationary demonstration beside an approved kerb. Compare how far each passenger has to step, where they can hold on, and how much space the open door needs.",
+    "category": "VINFAST",
+    "service": "vinfast-test-drive",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Bring the passenger who finds boarding hardest",
+        "paragraphs": [
+          "Let that passenger try entering and leaving on their usual side while the vehicle is parked. Check whether they can reach a fixed handhold before stepping in and whether the floor height changes how they board. Then repeat with a normal shoulder bag in hand."
+        ]
+      },
+      {
+        "heading": "Check access when the kerb is close",
+        "paragraphs": [
+          "Ask the adviser to demonstrate the actual door swing and leave enough clearance to open the door normally. A kerb can shorten the step up but may leave a passenger standing close to the door. If a route uses two different stops, note the more restrictive one."
+        ]
+      },
+      {
+        "heading": "Can DT Car arrange this check before I order?",
+        "paragraphs": [
+          "Send the model, city and the access issue you want to test. Ask for the Philippine demonstrator you intend to buy and for a stationary boarding check during your appointment."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "VinFast Philippines",
+        "href": "https://vinfastauto.ph/en"
+      },
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/vinfast/"
+      },
+      {
+        "label": "DT Car · Limo Green",
+        "href": "/products-services/vinfast/limo-green/"
+      }
+    ],
+    "related": [
+      "limo-green-demo-pickup-bay-passenger-turnaround",
+      "arranging-a-vinfast-test-drive-in-cebu",
+      "pairing-limo-green-and-vf-mpv-7-for-a-luggage-test"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: VinFast Limo Green test drive: can passengers reach the second row from the kerb?."
+  },
+  {
+    "slug": "compare-used-crossovers-front-visibility-manila",
+    "title": "Comparing front visibility on two used crossovers in Manila",
+    "description": "Sit in both cars after adjusting the seat to your normal position, and compare what the driver can actually see at a low-speed turn.",
+    "summary": "Sit in both cars after adjusting the seat to your normal position, and compare what the driver can actually see at a low-speed turn. Identify the blind area created by the windscreen pillars and bonnet before putting one model on your shortlist.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Set up both cars the same way",
+        "paragraphs": [
+          "Check that each front seat moves freely and use your preferred height and backrest position. Compare the near corner of the bonnet with a fixed marker placed at a safe distance in a private viewing area. Ask the dealer before positioning any marker and use a spotter if a vehicle needs to move."
+        ]
+      },
+      {
+        "heading": "Use a route with one meaningful turn",
+        "paragraphs": [
+          "Ask for an approved test route that includes a narrow turn or driveway similar to yours. Have the regular driver note which pillar or mirror blocks the first view of the exit. Record observed visibility separately from any camera features you need the seller to demonstrate."
+        ]
+      },
+      {
+        "heading": "What should I tell DT Car before I view either car?",
+        "paragraphs": [
+          "Give the budget, body style and location, describe the turn or driveway you struggle with, and ask to test both cars from the same driving position."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/used-cars/"
+      }
+    ],
+    "related": [
+      "used-honda-cr-v-in-manila-what-to-check-when-comparing-generations",
+      "used-toyota-fortuner-g-manila",
+      "toyota-vios-used-prices-in-manila-by-year-and-trim"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Comparing front visibility on two used crossovers in Manila."
+  },
+  {
+    "slug": "used-car-manila-compare-drivers-side-bolster",
+    "title": "Used car in Manila: compare wear on the driver's seat bolster",
+    "description": "Look at how the driver's seat holds you as you sit, then compare its side bolster with the passenger seat.",
+    "summary": "Look at how the driver's seat holds you as you sit, then compare its side bolster with the passenger seat. Photograph any torn cover, exposed foam or collapsed padding and ask the seller about prior upholstery work.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Check more than the seat surface",
+        "paragraphs": [
+          "With the car parked, sit down and move the seat through your usable range. Observe whether you slide toward a damaged edge and whether the fabric catches when getting out. Ask for a workshop assessment if the seat moves unexpectedly or a fitting has been changed."
+        ]
+      },
+      {
+        "heading": "Separate discomfort from repair cost",
+        "paragraphs": [
+          "If the cover is intact but the foam no longer supports you, ask for a line item for the inspection and any proposed repair. Check whether the quote includes the individual cushion or a full-seat re-cover. Do the same assessment on the second car before comparing values."
+        ]
+      },
+      {
+        "heading": "Can I ask for a better interior photo before driving to the viewing?",
+        "paragraphs": [
+          "Yes. Ask DT Car to request the full seat, a close-up of the side edge and an image with the door open from your usual entry direction."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/used-cars/"
+      }
+    ],
+    "related": [
+      "used-isuzu-mu-x-in-manila-how-to-compare-two-different-trims",
+      "used-toyota-camry-for-a-rear-seat-passenger-in-metro-manila",
+      "used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Used car in Manila: compare wear on the driver's seat bolster."
+  },
+  {
+    "slug": "manila-used-sedan-night-view-repeat-in-daylight",
+    "title": "Viewed a used sedan at night in Manila? What to check in daylight",
+    "description": "Revisit the same unit in daylight before paying, especially if you could not inspect paint finish, windscreen marks or exterior trim.",
+    "summary": "Revisit the same unit in daylight before paying, especially if you could not inspect paint finish, windscreen marks or exterior trim. Ask the seller to confirm the same vehicle will be available for the second visit.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Keep a list of what the evening hid",
+        "paragraphs": [
+          "Note which panels were in shadow and which could only be seen under coloured lights. At the second viewing, compare each side from a few steps away and then look closely at suspect paint, trim, glass and lamp housings. Keep the paint check separate from a mechanical inspection."
+        ]
+      },
+      {
+        "heading": "Avoid paying twice for the same uncertainty",
+        "paragraphs": [
+          "Ask whether an independent inspector can attend the daylight viewing. Confirm the seller's policy on holding the car until you can return and get any fee, deadline and refund conditions in writing. If they will not hold it, decide whether to continue searching while it remains unconfirmed."
+        ]
+      },
+      {
+        "heading": "What photos should I request between appointments?",
+        "paragraphs": [
+          "Ask for two opposite front and rear angles in open shade, plus any panel or trim you marked during the first visit. Give DT Car the listing reference and the time of your evening viewing."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/used-cars/"
+      }
+    ],
+    "related": [
+      "used-honda-cr-v-in-manila-what-to-check-when-comparing-generations",
+      "used-toyota-avanza-or-a-sedan-for-manila-carpools",
+      "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Viewed a used sedan at night in Manila? What to check in daylight."
+  },
+  {
+    "slug": "sell-used-suv-rear-step-appraisal",
+    "title": "Selling a used SUV with a marked bumper step in Manila",
+    "description": "For a preliminary appraisal, photograph the top and rear edge of the bumper separately.",
+    "summary": "For a preliminary appraisal, photograph the top and rear edge of the bumper separately. Tell the buyer whether the mark came from loading, a prior repair or an event whose cause you do not know.",
+    "category": "Selling a car",
+    "service": "sell-my-car-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Show where the damage begins and ends",
+        "paragraphs": [
+          "Take one photo far enough back to show the complete rear and then a closer picture of the bumper edge. If the mark touches the tailgate or an added trim piece, show that join too. A written description helps when reflections in the photo make the depth uncertain."
+        ]
+      },
+      {
+        "heading": "Ask how the appraisal treats cosmetic work",
+        "paragraphs": [
+          "Request a figure for the SUV in its current condition. If a separate workshop has quoted a repair, ask the appraiser whether that estimate addresses the same part and extent of damage. Avoid promising an undamaged bumper when you can see an untreated mark."
+        ]
+      },
+      {
+        "heading": "Can DT Car review the pictures first?",
+        "paragraphs": [
+          "Send the year, mileage and the two rear views, and ask which area the appraiser still needs to examine at the appointment."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/sell-your-car/"
+      }
+    ],
+    "related": [
+      "sell-used-car-keyless-entry-intermittent-manila",
+      "selling-a-used-ev-with-a-separate-battery-agreement",
+      "selling-a-car-with-a-lost-service-booklet-in-manila"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Selling a used SUV with a marked bumper step in Manila."
+  },
+  {
+    "slug": "used-car-appraisal-oxidised-windscreen-trim-manila",
+    "title": "Selling a car with faded windscreen trim in Metro Manila",
+    "description": "Show the trim and adjacent glass in separate photos and tell the appraiser if the issue is only cosmetic or if you also noticed moisture.",
+    "summary": "Show the trim and adjacent glass in separate photos and tell the appraiser if the issue is only cosmetic or if you also noticed moisture. An isolated close-up can obscure which edge of the windscreen needs checking.",
+    "category": "Selling a car",
+    "service": "sell-my-car-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Photograph the edge before polishing it",
+        "paragraphs": [
+          "Use even daylight and take one view showing the windscreen corner and one taken close enough to show the finish. Mention any glass work you have receipts for and say whether you have seen dampness at the same corner. Do not treat a visual photo as proof of the source of a leak."
+        ]
+      },
+      {
+        "heading": "Ask what the appraisal is conditional on",
+        "paragraphs": [
+          "Have the appraiser record whether the trim is purely an appearance issue, whether a workshop check is needed, and whether the preliminary offer assumes any related repair. Keep the vehicle valuation separate from a new repair quote."
+        ]
+      },
+      {
+        "heading": "How can I get started with DT Car?",
+        "paragraphs": [
+          "Send overall pictures, model year, reading and the two trim images. Tell DT Car whether you want to sell as-is or are still deciding on a repair."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/sell-your-car/"
+      }
+    ],
+    "related": [
+      "used-car-appraisal-manila-uneven-cabin-trim",
+      "selling-a-car-with-a-lost-service-booklet-in-manila",
+      "selling-a-rarely-driven-second-car-in-metro-manila"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Selling a car with faded windscreen trim in Metro Manila."
+  },
+  {
+    "slug": "tour-du-thuyen-philippines-ngam-hoang-hon-hay-an-toi",
+    "title": "Tour du thuyền Philippines nên chọn ngắm hoàng hôn hay ăn tối?",
+    "description": "Đặt mục tiêu chính cho buổi đi, rồi hỏi giờ tàu rời bến và thời gian dùng bữa.",
+    "summary": "Đặt mục tiêu chính cho buổi đi, rồi hỏi giờ tàu rời bến và thời gian dùng bữa. Nếu nhóm muốn tận hưởng cả hai, đề nghị bên tour cho biết lúc nào khách có thể ngắm cảnh mà không phải ngồi tại bàn.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "lang": "vi",
+    "sections": [
+      {
+        "heading": "Chốt thời điểm cả nhóm phải có mặt",
+        "paragraphs": [
+          "Hỏi giờ lên tàu, điểm đón ở bến và giờ dự kiến về. Tính thời gian từ khách sạn đến đúng cổng bến thay vì dựa vào tên khu vực. Nếu một người đến trễ, hỏi chuyến có thể chờ hay phải đổi sang lịch khác."
+        ]
+      },
+      {
+        "heading": "So các khoản hiện trên báo giá",
+        "paragraphs": [
+          "Xin hai lịch với cùng số khách và ngày đi, một lịch ưu tiên ngắm cảnh và một lịch gồm bữa tối. Ghi rõ đồ uống, thực đơn và phí di chuyển. Hỏi nhà tour xử lý thế nào nếu điều kiện biển buộc đổi giờ hoặc đổi tuyến."
+        ]
+      },
+      {
+        "heading": "Gửi gì để DT Tour tư vấn lịch tàu?",
+        "paragraphs": [
+          "Gửi ngày đi, địa chỉ khách sạn, số người và giờ muộn nhất nhóm cần quay về. Cho biết bạn cần dành thời gian chụp cảnh hay ưu tiên ăn tối cùng nhau."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Thông tin dịch vụ",
+        "href": "/products-services/tour-philippines/"
+      }
+    ],
+    "related": [
+      "chon-tour-ngam-san-ho-philippines-cho-nhom-trinh-do-khac-nhau",
+      "goi-tour-bien-philippines-cho-nhom-mang-may-anh",
+      "tour-philippines-cho-gia-dinh-co-phong-ba-nguoi"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Chào DT Car, mình muốn hỏi thêm về bài «Tour du thuyền Philippines nên chọn ngắm hoàng hôn hay ăn tối?»."
+  },
+  {
+    "slug": "du-lich-philippines-anh-hoang-hon-chon-bo-hay-tau",
+    "title": "Du lịch Philippines ngắm hoàng hôn từ bờ hay trên tàu?",
+    "description": "Chọn ngắm từ bờ nếu nhóm cần giờ về linh hoạt hoặc có người muốn tránh lên xuống tàu.",
+    "summary": "Chọn ngắm từ bờ nếu nhóm cần giờ về linh hoạt hoặc có người muốn tránh lên xuống tàu. Hỏi lịch tàu nếu bạn muốn đổi góc nhìn và có thể dành trọn khung giờ nhà tour xác nhận.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "lang": "vi",
+    "sections": [
+      {
+        "heading": "So đoạn đường đi bộ và điểm hẹn",
+        "paragraphs": [
+          "Hỏi bao xa từ điểm xe dừng đến điểm ngắm cảnh hoặc nơi lên tàu. Gửi yêu cầu riêng nếu có người đi chậm hoặc mang thiết bị chụp. Với lịch tàu, hỏi khoảng thời gian đến bến để làm thủ tục và lúc quay về thực tế."
+        ]
+      },
+      {
+        "heading": "Đặt trước cách xử lý khi mây hoặc mưa che cảnh",
+        "paragraphs": [
+          "Hỏi nhà tour có đổi giờ hay chỉ tiếp tục hành trình theo lịch khi vẫn đủ điều kiện chạy. Nếu chọn ngắm từ bờ, đặt điểm đón thứ hai có mái che hoặc gần nơi cả nhóm có thể chờ."
+        ]
+      },
+      {
+        "heading": "DT Tour cần biết gì trước khi so hai lịch?",
+        "paragraphs": [
+          "Gửi điểm lưu trú, ngày đi, số khách và giờ ăn tối hoặc giờ phải về. Nêu rõ người nào chỉ ngắm từ bờ để được tư vấn lịch phù hợp."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Thông tin dịch vụ",
+        "href": "/products-services/tour-philippines/"
+      }
+    ],
+    "related": [
+      "lich-bien-philippines-vao-ngay-thoi-tiet-thay-doi",
+      "du-lich-manila-dip-sinh-nhat-gia-dinh-gom-lich-an-toi-va-dua-don",
+      "cebu-hay-bohol-du-lich-tu-viet-nam"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Chào DT Car, mình muốn hỏi thêm về bài «Du lịch Philippines ngắm hoàng hôn từ bờ hay trên tàu?»."
+  },
+  {
+    "slug": "tour-vinh-da-voi-philippines-ngam-canh-it-doi-tau",
+    "title": "Tour vịnh đá vôi Philippines cho đoàn muốn ít đổi phương tiện",
+    "description": "Xin sơ đồ từng chặng từ khách sạn đến bến, điểm ngắm vịnh và chiều về.",
+    "summary": "Xin sơ đồ từng chặng từ khách sạn đến bến, điểm ngắm vịnh và chiều về. Đếm số lần chuyển xe, chuyển tàu hoặc xuống nước để so hai lịch đi trong ngày.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "lang": "vi",
+    "sections": [
+      {
+        "heading": "Chốt điều cả đoàn cần cùng làm",
+        "paragraphs": [
+          "Chọn một khoảng cả nhóm có thể ngắm vịnh cùng nhau, rồi đánh dấu hoạt động tự chọn. Hỏi điểm nào xem được ngay từ tàu và nếu có đổi sang thuyền nhỏ thì người không tham gia sẽ đợi ở đâu."
+        ]
+      },
+      {
+        "heading": "Kiểm tra điểm lên tàu và khung giờ về",
+        "paragraphs": [
+          "Đề nghị nhà tour nêu tên bến, thời gian nhận khách và nơi xe đón chiều về. Hỏi có thể bỏ bớt điểm nào khi việc tập trung kéo dài, và khoản nào vẫn tính nếu đổi chương trình trong ngày."
+        ]
+      },
+      {
+        "heading": "Gửi gì để xin một lịch ít chặng hơn?",
+        "paragraphs": [
+          "Gửi nơi ở, số người, số người hạn chế đi bộ và khung giờ phải về. Nhờ DT Tour đề xuất số lần đổi phương tiện và điểm ngắm chính trên từng phương án."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Thông tin dịch vụ",
+        "href": "/products-services/tour-philippines/"
+      }
+    ],
+    "related": [
+      "tour-philippines-cho-nhom-ban-viet-muon-tach-mot-ngay-tu-do",
+      "tour-philippines-cho-doan-viet-co-nguoi-den-muon-mot-ngay",
+      "tour-tu-ha-noi-va-tp-hcm-ghep-doan-o-manila"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Chào DT Car, mình muốn hỏi thêm về bài «Tour vịnh đá vôi Philippines cho đoàn muốn ít đổi phương tiện»."
+  },
+  {
+    "slug": "hoc-lai-manila-chinh-ghe-va-guong-truoc-buoi-dau",
+    "title": "Học lái ở Manila hỏi gì về tư thế ngồi và gương trước buổi đầu?",
+    "description": "Nhờ giáo viên dành thời gian chỉnh ghế, dây an toàn và gương khi xe còn đứng yên.",
+    "summary": "Nhờ giáo viên dành thời gian chỉnh ghế, dây an toàn và gương khi xe còn đứng yên. Bạn cần tự chỉnh lại được khi đổi xe hoặc đổi buổi học.",
+    "category": "HỌC LÁI XE",
+    "service": "driving-lessons",
+    "lang": "vi",
+    "sections": [
+      {
+        "heading": "Nói rõ điều bạn không nhìn thấy",
+        "paragraphs": [
+          "Sau khi ngồi vào chỗ, mô tả với giáo viên khu vực bạn thấy khó quan sát phía trước hoặc hai bên. Nhờ họ cho bạn biết khi nào cần dừng và hỏi trong buổi thực hành. Tránh thay đổi vị trí ngồi hoặc chỉnh gương lúc đang xử lý một thao tác khó."
+        ]
+      },
+      {
+        "heading": "Chọn một việc để tự làm lại",
+        "paragraphs": [
+          "Cuối buổi đầu, nhờ giáo viên cho bạn làm lại phần chỉnh ghế và gương trong xe đỗ. Ghi điều dễ quên và xin trường bố trí vài phút đầu buổi sau để tự thiết lập trước khi thực hành."
+        ]
+      },
+      {
+        "heading": "Nhắn DT Car thế nào nếu chưa từng cầm lái?",
+        "paragraphs": [
+          "Gửi khu vực, thời gian rảnh và kiểu xe định học. Nói rõ bạn muốn giáo viên hướng dẫn các bước thiết lập tư thế trước phần tập điều khiển xe."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Thông tin dịch vụ",
+        "href": "/products-services/hoc-lai-xe/"
+      }
+    ],
+    "related": [
+      "hoc-lai-philippines-thu-trinh-do-o-bai-tap",
+      "luyen-lai-o-manila-truoc-khi-tu-dua-con-di-hoc",
+      "hoi-giao-vien-ho-tro-tieng-viet-truoc-buoi-thuc-hanh"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Chào DT Car, mình muốn hỏi thêm về bài «Học lái ở Manila hỏi gì về tư thế ngồi và gương trước buổi đầu?»."
+  },
+  {
+    "slug": "bang-lai-philippines-lich-khoa-hoc-va-lich-nop-ho-so",
+    "title": "Xếp lịch học và lịch nộp hồ sơ bằng lái Philippines khi có kỳ nghỉ dài",
+    "description": "Xác định bạn đang xin loại giấy phép nào, hỏi trường ngày có thể hoàn tất khóa học, rồi xác nhận với LTO yêu cầu và thời điểm tiếp nhận áp dụng cho hồ sơ của bạn.",
+    "summary": "Xác định bạn đang xin loại giấy phép nào, hỏi trường ngày có thể hoàn tất khóa học, rồi xác nhận với LTO yêu cầu và thời điểm tiếp nhận áp dụng cho hồ sơ của bạn.",
+    "category": "TƯ VẤN BẰNG LÁI",
+    "service": "licence",
+    "lang": "vi",
+    "sections": [
+      {
+        "heading": "Ghi riêng mốc của trường và của LTO",
+        "paragraphs": [
+          "Hỏi trường về lịch học, khả năng đổi buổi và thời điểm có thể xác nhận hoàn thành. Dùng hướng dẫn công khai của LTO để xác định tên thủ tục. Trao đổi lại với nơi tiếp nhận nếu ngày đi học, ngày kết thúc hoặc lịch cá nhân thay đổi."
+        ]
+      },
+      {
+        "heading": "Giữ thời gian để xử lý giấy tờ sai hoặc chậm",
+        "paragraphs": [
+          "Nếu ngày cuối khóa sát lịch nộp dự kiến, hỏi trường đầu mối kiểm tra thông tin. Xác nhận tên trên giấy tờ, điểm tiếp nhận và việc có cần đặt hẹn ở đâu. Đừng đặt các dịch vụ không hoàn tiền dựa trên ngày cấp bằng chưa được xác nhận."
+        ]
+      },
+      {
+        "heading": "DT Car hỗ trợ được phần nào bằng tiếng Việt?",
+        "paragraphs": [
+          "DT Car có thể giúp bạn chuẩn bị câu hỏi và đối chiếu các mốc dự kiến. LTO xác nhận yêu cầu và xử lý hồ sơ theo thủ tục chính thức."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "LTO Philippines · Hồ sơ xin bằng lái không chuyên",
+        "href": "https://lto.gov.ph/wp-content/uploads/2023/09/2-CC2024-DL-NP.pdf"
+      },
+      {
+        "label": "DT Car · Thông tin dịch vụ",
+        "href": "/products-services/tu-van-bang-lai/"
+      }
+    ],
+    "related": [
+      "doi-bang-lai-viet-nam-sang-bang-philippines-bat-dau-tu-dau",
+      "dang-cho-giay-to-cu-tru-hoi-lich-tu-van-bang-lai-o-philippines-the-nao",
+      "nguoi-viet-lan-dau-xin-bang-lai-o-philippines"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Chào DT Car, mình muốn hỏi thêm về bài «Xếp lịch học và lịch nộp hồ sơ bằng lái Philippines khi có kỳ nghỉ dài»."
+  },
+  {
+    "slug": "used-suv-manila-boot-lip-loading-height",
+    "title": "Used SUV in Manila: measure the boot lip before you buy",
+    "description": "Compare the height from the ground to the boot opening and from the opening down to the floor.",
+    "summary": "Compare the height from the ground to the boot opening and from the opening down to the floor. Try lifting a representative box with the permission of the seller and with the car parked.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Test the awkward part of the lift",
+        "paragraphs": [
+          "Bring a light empty box the same size as your regular load. Check whether you can stand close enough to the bumper and keep the box level as it clears the sill. If the floor sits below the sill, repeat the exercise when unloading."
+        ]
+      },
+      {
+        "heading": "Check whether the floor shown is the one you will get",
+        "paragraphs": [
+          "Ask whether there is a removable floor board, under-floor storage or an aftermarket liner. Measure with those pieces in their normal position. Check that anything stored beneath the floor can still be reached on a full day."
+        ]
+      },
+      {
+        "heading": "How can DT Car use these details to shortlist cars?",
+        "paragraphs": [
+          "Send your budget, typical load dimensions and the maximum lift height that works for you. Ask to compare the actual cars with their tailgates open before reserving."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/used-cars/"
+      }
+    ],
+    "related": [
+      "used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy",
+      "used-suv-manila-compare-rear-vents-and-controls",
+      "toyota-vios-used-prices-in-manila-by-year-and-trim"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Used SUV in Manila: measure the boot lip before you buy."
+  },
+  {
+    "slug": "check-used-car-dashboard-glare-manila",
+    "title": "Used-car viewing in Manila: check dashboard glare on your usual route",
+    "description": "Look at the instruments with the front windows and sun coming from more than one direction.",
+    "summary": "Look at the instruments with the front windows and sun coming from more than one direction. Before you commit, see whether the cluster and controls remain usable from your normal driving position.",
+    "category": "USED CARS",
+    "service": "used-cars-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Separate reflections from weak or failing equipment",
+        "paragraphs": [
+          "With the car stationary, compare what the display looks like with the door open, then closed. Ask the seller to demonstrate any brightness setting and check whether the screen is obscured by a protective film or damaged cover. Photograph the issue without putting personal information in the shot."
+        ]
+      },
+      {
+        "heading": "Pick the right appointment time",
+        "paragraphs": [
+          "If glare matters most during a particular commute, request a viewing around the same time of day. During the approved test drive focus on driving and have a passenger take notes after each stop. An independent inspector can check whether a display problem remains indoors."
+        ]
+      },
+      {
+        "heading": "What details should I mention when booking?",
+        "paragraphs": [
+          "Tell DT Car when you usually drive, if you wear polarised lenses and whether the vital information is in the main cluster or head-up display on the trim you want to see."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/used-cars/"
+      }
+    ],
+    "related": [
+      "used-ford-territory-in-manila-check-the-technology-on-the-actual-trim",
+      "used-honda-cr-v-in-manila-what-to-check-when-comparing-generations",
+      "used-nissan-navara-in-manila-will-your-equipment-fit-the-pickup-bed"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Used-car viewing in Manila: check dashboard glare on your usual route."
+  },
+  {
+    "slug": "sell-used-car-mixed-tyre-age-manila",
+    "title": "Selling a used car with tyres of different ages in Manila",
+    "description": "Give the appraiser the tyre sizes and receipts you still have.",
+    "summary": "Give the appraiser the tyre sizes and receipts you still have. Explain which tyres were fitted together and which were replaced separately, and ask how the condition of the whole set is reflected in the offer.",
+    "category": "Selling a car",
+    "service": "sell-my-car-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Collect the details without lifting the car",
+        "paragraphs": [
+          "Take a clear photo of each accessible sidewall and mark the wheel position in your message. If the marking is on the inward side or you are unsure how to read it, ask a tyre professional. Record any uneven wear or pressure loss you have noticed without diagnosing its cause."
+        ]
+      },
+      {
+        "heading": "Ask for the offer before ordering new tyres",
+        "paragraphs": [
+          "Request an appraisal in current condition and ask whether any deductions depend on inspection. If you plan to replace the tyres before selling, get the proposed size and work in writing and compare the actual replacement cost with any updated offer."
+        ]
+      },
+      {
+        "heading": "What should I send with the tyre photos?",
+        "paragraphs": [
+          "Send the year, variant and mileage, an overview of the car and a clear label for each tyre photo. Disclose any related issue and ask DT Car how to arrange the inspection."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/sell-your-car/"
+      }
+    ],
+    "related": [
+      "sell-used-car-keyless-entry-intermittent-manila",
+      "selling-a-used-ev-with-a-separate-battery-agreement",
+      "selling-a-car-with-a-lost-service-booklet-in-manila"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Selling a used car with tyres of different ages in Manila."
+  },
+  {
+    "slug": "sell-used-car-manila-two-remote-keys-one-emergency-blade",
+    "title": "Selling a used car when the spare key is incomplete",
+    "description": "Tell the appraiser which remote, physical blade or removable insert is missing.",
+    "summary": "Tell the appraiser which remote, physical blade or removable insert is missing. Present both items you have and agree exactly what will be handed over before accepting the final offer.",
+    "category": "Selling a car",
+    "service": "sell-my-car-manila",
+    "lang": "en-PH",
+    "sections": [
+      {
+        "heading": "Inventory what is still usable",
+        "paragraphs": [
+          "With the car stationary, identify which keys can lock, unlock and start the car using the normal controls described in the manual. If your model has an emergency insert and one is missing, record it separately. Keep key codes and detailed images of cut surfaces out of public listings."
+        ]
+      },
+      {
+        "heading": "Ask who takes responsibility for replacing it",
+        "paragraphs": [
+          "If you are offered a preliminary figure, have the buyer confirm whether a replacement is a condition of that figure. A replacement quote can include the part, any cutting and any programming needed on the exact vehicle. Ask who will keep each key before and after the handover."
+        ]
+      },
+      {
+        "heading": "Can DT Car value the car as it is?",
+        "paragraphs": [
+          "Send the model, year, mileage and a plain-language key inventory. Ask for an appraisal appointment and have the proposed offer record what keys are included."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Service information",
+        "href": "/products-services/sell-your-car/"
+      }
+    ],
+    "related": [
+      "selling-a-car-when-the-spare-tyre-or-repair-kit-is-missing",
+      "selling-a-used-car-after-settling-the-last-instalment",
+      "selling-a-car-when-a-relative-attends-the-viewing"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Hello DT Car, I'd like to ask about this guide: Selling a used car when the spare key is incomplete."
+  },
+  {
+    "slug": "lannong-philippines-chon-tau-co-cho-nghi-tren-bo",
+    "title": "Tour lặn ống thở Philippines có điểm nghỉ trên bờ giữa buổi",
+    "description": "Hỏi lịch có điểm lên bờ và cho biết ai trong nhóm muốn dừng hoạt động trước người khác.",
+    "summary": "Hỏi lịch có điểm lên bờ và cho biết ai trong nhóm muốn dừng hoạt động trước người khác. Thống nhất nơi và giờ gặp lại với đội tour trước khi nhóm xuống nước.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "lang": "vi",
+    "sections": [
+      {
+        "heading": "Xem cụ thể nơi sẽ nghỉ",
+        "paragraphs": [
+          "Hỏi ở đó có chỗ ngồi, bóng mát và nước uống hay không. Nếu phải ở lại trên tàu, xác nhận có nhân viên đi cùng và có thể lên tàu vào thời điểm nào. Không đặt kế hoạch dựa vào việc bơi về bờ."
+        ]
+      },
+      {
+        "heading": "Giữ phần tham quan phù hợp cho cả đoàn",
+        "paragraphs": [
+          "Hỏi điểm ngắm mặt nước hoặc chụp cảnh dành cho người đã kết thúc buổi lặn. Xác nhận điều kiện thời tiết nào khiến bên tour thay đổi điểm, người hướng dẫn nào chịu trách nhiệm và giờ xe đón khi đoàn quay về."
+        ]
+      },
+      {
+        "heading": "Hỏi DT Tour cần nêu những thông tin gì?",
+        "paragraphs": [
+          "Gửi số khách muốn xuống nước, số người chỉ ngắm cảnh, nơi lưu trú và nhu cầu nghỉ giữa buổi. Yêu cầu lịch nêu rõ điểm nghỉ và khung giờ."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Thông tin dịch vụ",
+        "href": "/products-services/tour-philippines/"
+      }
+    ],
+    "related": [
+      "tour-philippines-cho-gia-dinh-co-phong-ba-nguoi",
+      "so-gia-tour-philippines-khi-mot-ben-chua-gom-hanh-ly",
+      "tour-cho-khach-viet-da-o-philippines-va-khach-bay-tu-viet-nam"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Chào DT Car, mình muốn hỏi thêm về bài «Tour lặn ống thở Philippines có điểm nghỉ trên bờ giữa buổi»."
+  },
+  {
+    "slug": "du-lich-philippines-bua-trua-giua-chuyen-thuyen-rieng",
+    "title": "Đặt bữa trưa trên tour thuyền riêng ở Philippines",
+    "description": "Hỏi bữa trưa diễn ra trên tàu hay trên bờ, ai chuẩn bị và đồ uống nào nằm trong giá.",
+    "summary": "Hỏi bữa trưa diễn ra trên tàu hay trên bờ, ai chuẩn bị và đồ uống nào nằm trong giá. Gửi số người ăn và yêu cầu riêng trước khi chọn lịch.",
+    "category": "DU LỊCH PHILIPPINES",
+    "service": "travel",
+    "lang": "vi",
+    "sections": [
+      {
+        "heading": "Ghi rõ ai cần thay món",
+        "paragraphs": [
+          "Phân biệt món không ăn theo sở thích với dị ứng hoặc yêu cầu chế biến riêng. Với dị ứng, báo trực tiếp người tổ chức và hỏi họ có thể đáp ứng cụ thể tới mức nào. Xin họ mô tả phần ăn thay thế khi nguyên liệu dự kiến không có."
+        ]
+      },
+      {
+        "heading": "Giữ được giờ nghỉ khi lịch tàu thay đổi",
+        "paragraphs": [
+          "Hỏi giờ ăn và điểm ăn dự phòng nếu tàu đổi bến hoặc dời hoạt động. Nếu đoàn tự đem theo đồ ăn, kiểm tra quy định lên tàu và cách bảo quản. Thống nhất người chịu trách nhiệm xác nhận bữa cuối cùng trước ngày đi."
+        ]
+      },
+      {
+        "heading": "Xin báo giá DT Tour theo cách nào?",
+        "paragraphs": [
+          "Gửi ngày đi, số khách và mong muốn dùng bữa trên tàu hay trên bờ. Đề nghị ghi thực đơn, đồ uống, khoản phát sinh và phương án thay đổi trong cùng báo giá."
+        ]
+      }
+    ],
+    "checklist": [],
+    "references": [
+      {
+        "label": "DT Car · Thông tin dịch vụ",
+        "href": "/products-services/tour-philippines/"
+      }
+    ],
+    "related": [
+      "tour-bohol-cho-nhom-co-tre-ngu-trua-dat-lich-rieng-the-nao",
+      "di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi",
+      "tour-philippines-tu-viet-nam-bao-gia-nhom-rieng"
+    ],
+    "date": "2026-11-27",
+    "enquiry": "Chào DT Car, mình muốn hỏi thêm về bài «Đặt bữa trưa trên tour thuyền riêng ở Philippines»."
+  },
+  {
     "slug": "vf3-daylight-vs-covered-parking-test",
     "title": "VinFast VF 3 test drive: compare visibility in daylight and covered parking",
     "description": "Try the same low-speed parking task in daylight and under cover before choosing a VF 3.",
