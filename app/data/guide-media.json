@@ -1159,11 +1159,13 @@
     "kind": "illustration"
   },
   "hoc-lai-lai-o-philippines-sau-nhieu-nam-nghi-lai": {
-    "src": "/images/editorial/hoc-lai-lai-o-philippines-sau-nhieu-nam-nghi-lai-cover.webp",
-    "alt": "Giáo viên ngồi bên cạnh học viên tập lái trở lại.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
+    "src": "/images/editorial/facebook-refresh/hoc-lai-lai-o-philippines-sau-nhieu-nam-nghi-lai-photo.webp",
+    "alt": "Góc chụp trong cabin cho thấy hai tay trên vô-lăng và tầm nhìn qua kính trước.",
+    "width": 1142,
+    "height": 1400,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo.php?fbid=122196362984332853",
+    "credit": "Lisa Dong · Facebook"
   },
   "hoc-lai-xe-o-manila-cho-nguoi-lam-ca-xoay": {
     "src": "/images/editorial/hoc-lai-xe-o-manila-cho-nguoi-lam-ca-xoay-cover.webp",
@@ -2714,11 +2716,11 @@
     }
   },
   "hoc-lai-manila-chinh-ghe-va-guong-truoc-buoi-dau": {
-    "src": "/images/editorial/market-expansion/hoc-lai-manila-chinh-ghe-va-guong-truoc-buoi-dau-cover.webp",
-    "alt": "Ảnh minh họa học viên và giáo viên kiểm tra tư thế ngồi trong xe đỗ.",
-    "width": 764,
-    "height": 508,
-    "kind": "illustration",
+    "src": "/images/editorial/facebook-refresh/hoc-lai-manila-chinh-ghe-va-guong-truoc-buoi-dau-photo.webp",
+    "alt": "Ảnh nhìn từ bên cạnh ghế lái, thấy tư thế ngồi và khoảng cách từ vai đến vô-lăng.",
+    "width": 1079,
+    "height": 1287,
+    "kind": "photo",
     "inlinePhoto": {
       "src": "/images/editorial/market-expansion/hoc-lai-manila-chinh-ghe-va-guong-truoc-buoi-dau-detail.webp",
       "alt": "Ảnh minh họa ghi chú chuẩn bị cho bài học chỉnh gương.",
@@ -2726,7 +2728,9 @@
       "height": 508,
       "source": "/editorial-policy/",
       "credit": "Ảnh minh họa tạo bằng AI · DT Car"
-    }
+    },
+    "source": "https://www.facebook.com/photo.php?fbid=122196362996332853",
+    "credit": "Lisa Dong · Facebook"
   },
   "bang-lai-philippines-lich-khoa-hoc-va-lich-nop-ho-so": {
     "src": "/images/editorial/market-expansion/bang-lai-philippines-lich-khoa-hoc-va-lich-nop-ho-so-cover.webp",
