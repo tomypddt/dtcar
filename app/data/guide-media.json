@@ -918,11 +918,13 @@
     "kind": "illustration"
   },
   "used-car-with-a-sunroof-in-manila-request-a-weather-seal-inspection": {
-    "src": "/images/editorial/used-car-with-a-sunroof-in-manila-request-a-weather-seal-inspection-cover.webp",
-    "alt": "Close detail of a rubber sunroof seal and water droplets on the glass roof of a parked car, inspection flashlight at frame edge, no lettering.",
-    "width": 1200,
-    "height": 800,
-    "kind": "illustration"
+    "src": "/images/editorial/facebook-refresh/used-car-with-a-sunroof-in-manila-request-a-weather-seal-inspection-cover.webp",
+    "alt": "Open sunroof viewed from inside the cabin, illustrating the area to inspect.",
+    "width": 960,
+    "height": 1280,
+    "kind": "photo",
+    "source": "https://www.facebook.com/photo.php?fbid=122377260758008877",
+    "credit": "DT Car - Quality Car Manila · Facebook"
   },
   "used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy": {
     "src": "/images/editorial/used-cars-for-tall-drivers-in-manila-test-seat-travel-before-you-buy-cover.webp",
@@ -1114,7 +1116,15 @@
     "height": 1200,
     "source": "https://www.facebook.com/photo.php?fbid=122193230024790161",
     "kind": "photo",
-    "credit": "DT Tour · Facebook"
+    "credit": "DT Tour · Facebook",
+    "inlinePhoto": {
+      "src": "/images/editorial/facebook-refresh/di-philippines-cung-hai-gia-dinh-bao-gia-tour-rieng-va-chia-chi-phi-inline.webp",
+      "alt": "Khách đứng trên boong trong tư liệu công khai của DT Tour về chọn lịch Philippines theo số ngày.",
+      "width": 1200,
+      "height": 900,
+      "source": "https://www.facebook.com/photo.php?fbid=122211032156790161",
+      "credit": "Du Lịch Philippines - DT Tour · Facebook"
+    }
   },
   "don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho": {
     "src": "/images/editorial/don-khach-viet-o-manila-co-dung-cu-the-thao-qua-kho-cover.webp",
@@ -3065,5 +3075,59 @@
     "kind": "photo",
     "width": 930,
     "height": 1400
+  },
+  "seven-seater-owner-photos-prep-field-guide": {
+    "src": "/images/editorial/facebook-refresh/seven-seater-owner-photos-prep-field-guide-cover.webp",
+    "alt": "Daylight front three-quarter photo of a white SUV as an example for appraisal photos.",
+    "width": 960,
+    "height": 1280,
+    "source": "https://www.facebook.com/photo.php?fbid=122104563651548166",
+    "credit": "DT Car - We Buy Cars · Facebook",
+    "kind": "photo"
+  },
+  "family-sedan-owner-photos-prep-field-guide": {
+    "src": "/images/editorial/facebook-refresh/family-sedan-owner-photos-prep-field-guide-cover.webp",
+    "alt": "Rear exterior view of a used sedan illustrating one angle to include for appraisal.",
+    "width": 960,
+    "height": 1280,
+    "source": "https://www.facebook.com/photo.php?fbid=122148655275059737",
+    "credit": "DT Car 필리핀 명차 · Facebook",
+    "kind": "photo"
+  },
+  "family-sedan-paint-repair-disclosure-field-guide": {
+    "src": "/images/editorial/facebook-refresh/family-sedan-paint-repair-disclosure-field-guide-cover.webp",
+    "alt": "Front-on daylight photograph of a used sedan illustrating how to record exterior condition.",
+    "width": 960,
+    "height": 1280,
+    "source": "https://www.facebook.com/photo.php?fbid=122294121344080883",
+    "credit": "DT Car 菲信二手车 · Facebook",
+    "kind": "photo"
+  },
+  "vf-3-entry-height-field-guide": {
+    "src": "/images/editorial/facebook-refresh/vf-3-entry-height-field-guide-cover.webp",
+    "alt": "Pink VinFast VF 3 from a real showroom visit, showing overall front and side proportions.",
+    "width": 1064,
+    "height": 1400,
+    "source": "https://www.facebook.com/photo.php?fbid=122197124228953146",
+    "credit": "Dong Huyen · Facebook",
+    "kind": "photo"
+  },
+  "vf-3-order-handover-acceptance-field-guide": {
+    "src": "/images/editorial/facebook-refresh/vf-3-order-handover-acceptance-field-guide-cover.webp",
+    "alt": "VinFast VF 3 cars in several colours lined up in a vehicle yard.",
+    "width": 1200,
+    "height": 802,
+    "source": "https://www.facebook.com/photo.php?fbid=122174663138747133",
+    "credit": "Lisa Dong - DT Car · Facebook",
+    "kind": "photo"
+  },
+  "compact-hatch-parking-aid-display-field-guide": {
+    "src": "/images/editorial/facebook-refresh/compact-hatch-parking-aid-display-field-guide-cover.webp",
+    "alt": "Rear three-quarter view of a compact hatchback parked within a marked bay.",
+    "width": 1200,
+    "height": 1053,
+    "source": "https://www.facebook.com/photo.php?fbid=122185163372953146",
+    "credit": "Dong Huyen · Facebook",
+    "kind": "photo"
   }
 }
